@@ -1,11 +1,12 @@
 .header {
   background: #2196f3;
   display: flex;
-  line-height: 3vh;
+  line-height: 2em;
 }
 .header a {
   color: white;
   text-decoration: none;
+  line-height: 2em;
 }
 .header__menu {
   padding: 0;
@@ -16,6 +17,13 @@
   padding: 0;
   display: inline-block;
   margin-right: 0.5em;
+  @media (max-width:480px){
+    &:before{
+      content: "• ";
+      color: white;
+      opacity: 0.8;
+    }
+  }
 }
 h1.header__main {
   font-size: 1em;
