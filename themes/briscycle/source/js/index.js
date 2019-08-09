@@ -8,7 +8,6 @@ var connectionType = connection.effectiveType || "4g";
 var isMobile = window.innerWidth <= 414;
 
 document.addEventListener("lazybeforeunveil", function(e) {
-  console.log("running", e.target);
   var bg = e.target.dataset.background;
   var bg2x = e.target.dataset.background2x;
 
