@@ -12,7 +12,7 @@ const related = pages.filter(other => {
     <li class="card">
       <a class="card__link" href="/<%= item.path %>">
         <div class="card__thumbnail lazyload"<% if(item.thumb) { %> data-background="<%= item.thumb.image %>-mobile.jpg" data-background2x="<%= item.thumb.image %>-desktop.jpg"<% } %>>
-          <% if(item.icon) { %><img class="card__icon" src="<%= item.icon %>" alt=" "><% } %>
+          <% if(item.icon) { %><img class="card__icon" src="<%= item.icon %>" alt=" " role="presentation"><% } %>
         </div>
         <div class="card__content">
           <div class="card__title h2"><%= item.title %></div>
