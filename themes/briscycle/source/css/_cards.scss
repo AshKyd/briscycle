@@ -8,11 +8,13 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  .card {
-    width: 50%;
+  @media (min-width: 480px) {
+    .card {
+      width: 50%;
 
-    @media (min-width: 768px) {
-      width: calc(100% / 3);
+      @media (min-width: 768px) {
+        width: calc(100% / 3);
+      }
     }
   }
 }
