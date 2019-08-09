@@ -1,0 +1,24 @@
+<%
+const thisPath = page.path.replace('index.html', '');
+const root = thisPath.replace(/\/.*/, '');
+const pages = site.pages.map(({title, description, path, icon, thumb}) => ({ title, description, path: path.replace('index.html', ''), icon, thumb }));
+const related = pages.filter(other => {
+  if(!root) return other.path.split('/').length == 2;
+  return thisPath !== other.path && other.path.indexOf(root) === 0;
+});
+%>
+<ul class="cards">
+  <% related.forEach(item => { %>
+    <li class="card">
+      <a class="card__link" href="/<%= item.path %>">
+        <div class="card__thumbnail lazyload"<% if(item.thumb) { %> data-background="<%= item.thumb.image %>-mobile.jpg" data-background2x="<%= item.thumb.image %>-desktop.jpg"<% } %>>
+          <% if(item.icon) { %><img class="card__icon" src="<%= item.icon %>" alt=" "><% } %>
+        </div>
+        <div class="card__content">
+          <div class="card__title h2"><%= item.title %></div>
+          <p class="hide-on-mobile"><%= item.description %></p>
+        </div>
+      </a>
+    </li>
+  <% }) %>
+</ul>

@@ -1,0 +1,20 @@
+<article id="<%= post.layout %>-<%= post.slug %>" class="hentry article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <%- partial('_partial/hero') %>
+  <% if(page.showHeader !== false) { %>
+    <header class="article-header<%= post.layout === 'page' ? ' container' : '' %>">
+      <h1 class="entry-title">
+          <%= post.title %>
+      </h1>
+    </header>
+  <% } %>
+  <div class="article-entry entry-content<%= post.layout === 'page' ? ' container' : '' %>" itemprop="articleBody">
+    <%- post.content %>
+    <% if(post.content.length > 500) { %><%- partial(`_partial/ad-article`) %><% } %>
+  </div>
+  <%- partial('_partial/map') %>
+</article>
+
+<section class="container article__you-might-like">
+  <h2>You might also like…</h2>
+  <%- partial(`_partial/related-items`) %>
+</section>
