@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "hexo serve",
-    "build": "hexo generate"
+    "build": "hexo generate && cp source/_redirects public/"
   },
   "dependencies": {
     "hexo": "^3.8.0",
