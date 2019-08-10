@@ -68,6 +68,7 @@ body{
 }
 .home-hero__image{
   width:100%;
+  max-width: 1000px;
   position:absolute;
   right:0;
   bottom:0;
