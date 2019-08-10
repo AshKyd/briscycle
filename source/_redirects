@@ -24,3 +24,4 @@
 /bikes-on-public-transport/	/bicycle-regulation/bikes-on-public-transport/
 /kurilpa-bridge/	/brisbane-city/kurilpa-bridge/
 /sandgate-shorncliffe-cycleway/	/moreton-bay/sandgate-shorncliffe/
+/*.html /:splat
