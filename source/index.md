@@ -1,6 +1,7 @@
 ---
 title: Cycling in Brisbane
 layout: custom
+description: Briscycle is your number one destination for bike paths, maps, and cycling in Brisbane and surrounding areas.
 showHeader: false
 ---
 
@@ -8,7 +9,7 @@ showHeader: false
   <div class="home-hero__content">
     <div class="container">
       <h1 class="home-hero__line1">Cycling<br> in Brisbane</h1>
-      <p class="home-hero__line2">Visiting Brisbane, or just looking for a day trip on the bike? Briscycle is your #1 resource for riding around Brisbane by bike.</p>
+      <p class="home-hero__line2">Visiting Brisbane, or just looking for a day trip on the bike? Briscycle is your #1 resource for maps, bike paths and riding around Brisbane by bike.</p>
       <button
         class="btn btn-primary"
         onclick="javascript: document.querySelector('[name=content]').scrollIntoView({ behavior: 'smooth' })">Find out more</button>
