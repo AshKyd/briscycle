@@ -2,6 +2,9 @@
 title: Brisbane City Cycling
 shortTitle: The City
 description: There are a number of inner-city roads with cycle lanes as well as key arterial cycle links to get from the suburbs into the city. These include the Bicentennial Bikeway, the South East Freeway Bikeway, and the Normanby Cycleway Link.
+thumb: {
+  "image": "/brisbane-city/thumb"
+}
 ---
 
 There are a number of inner-city roads with cycle lanes as well as key arterial cycle links to get from the suburbs into the city. These include the Bicentennial Bikeway, the South East Freeway Bikeway, and the Normanby Cycleway Link.

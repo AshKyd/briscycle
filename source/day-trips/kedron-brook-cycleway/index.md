@@ -7,9 +7,9 @@ fbComments: http://briscycle.com/kedron-brook-cycleway/
 thumb: {
   "image": "/day-trips/kedron-brook-cycleway/thumb",
   "attribution": {
-    "name": "Benicio Murray",
-    "title": "Kedron Brook Aerial",
-    "url": "https://www.flickr.com/photos/beniciomurray/38741194400/"
+  "name": "Benicio Murray",
+  "title": "Kedron Brook Aerial",
+  "url": "https://www.flickr.com/photos/beniciomurray/38741194400/"
   }
 }
 ---
