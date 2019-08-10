@@ -75,6 +75,9 @@ body{
 }
 
 @media (max-width: 415px){
+  .home-hero__line1{
+    font-size: 2em;
+  }
   .home-hero__line1,
   .home-hero__line2{
     width:auto;
