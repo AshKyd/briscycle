@@ -37,7 +37,7 @@ body{
   display:none;
 }
 .home-hero{
-  height:90vh;
+  min-height:70vh;
   width:100%;
   position:relative;
   background: white;

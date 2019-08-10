@@ -9,12 +9,12 @@
   <% } %>
   <div class="article-entry entry-content<%= post.layout === 'page' ? ' container' : '' %>" itemprop="articleBody">
     <%- post.content %>
-    <% if(post.content.length > 500) { %><%- partial(`_partial/ad-article`) %><% } %>
+    <% if(post.content.length > 500 && post.layout !== 'custom') { %><%- partial(`_partial/ad-article`) %><% } %>
   </div>
   <%- partial('_partial/map') %>
 </article>
 
 <section class="container article__you-might-like">
-  <h2>You might also like…</h2>
+  <% if(post.layout !== 'custom') { %><h2>You might also like…</h2><% } %>
   <%- partial(`_partial/related-items`) %>
 </section>
