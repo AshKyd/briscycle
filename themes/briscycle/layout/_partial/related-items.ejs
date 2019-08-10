@@ -2,9 +2,13 @@
 const thisPath = page.path.replace('index.html', '');
 const root = thisPath.replace(/\/.*/, '');
 const pages = site.pages.map(({title, description, path, icon, thumb}) => ({ title, description, path: path.replace('index.html', ''), icon, thumb }));
-const related = pages.filter(other => {
+let related = pages.filter(other => {
   if(!root) return other.path.split('/').length == 2;
   return thisPath !== other.path && other.path.indexOf(root) === 0;
+});
+
+if(!related.length) related = pages.filter(other => {
+  return other.path.split('/').filter(Boolean).length == 1;
 });
 %>
 <ul class="cards">
@@ -22,3 +26,5 @@ const related = pages.filter(other => {
     </li>
   <% }) %>
 </ul>
+
+<%- partial('_partial/ad-card', {post: page, index: false}) %>
