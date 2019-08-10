@@ -1,6 +1,6 @@
 ---
 title: Redcliffe Cycleway
-description: The Moreton Bay Cycleway traces the waterfront most of the way from <em>Clontarf</em> to <em>Scarborough</em> via <em>Redcliffe</em>. That said, the cycleway isn't completed and bad signage in some cases makes it easy to get lost.
+description: The Moreton Bay Cycleway traces the waterfront most of the way from Clontarf to Scarborough via Redcliffe. That said, the cycleway isn't completed and bad signage in some cases makes it easy to get lost.
 geo: {"lat":"-27.228","lng":"153.1","zoom":"12"}
 fbComments: http://briscycle.com/redcliffe-cycleway/
 ---

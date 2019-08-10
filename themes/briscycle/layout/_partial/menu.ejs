@@ -4,7 +4,7 @@ const menu = pages.filter(other => {
   return other.path.split('/').filter(Boolean).length == 1;
 });
 %>
-<header class="header">
+<header class="header inverse-links">
   <h1 class="header__main"><a href="/">Briscycle</a></h1>
   <ol class="header__menu">
     <% menu.forEach(({title, path}) => {%>

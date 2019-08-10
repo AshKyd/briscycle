@@ -1,6 +1,6 @@
 ---
 title: Gateway Bridge Cycleway
-description: The Gateway Bridge (Sir Leo Hielscher Bridge) forms a significant part of the new <em>Moreton Bay Cycleway</em>.
+description: The Gateway Bridge (Sir Leo Hielscher Bridge) forms a significant part of the Moreton Bay Cycleway.
 geo: {"lat":"-27.445","lng":"153.1","zoom":"13"}
 fbComments: http://briscycle.com/gateway-bridge-cycleway/
 ---

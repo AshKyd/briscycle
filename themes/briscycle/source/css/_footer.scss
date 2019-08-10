@@ -1,0 +1,26 @@
+.footer{
+  background: #2196f3;
+  color:white;
+  &__flex{
+    display: flex;
+  }
+  &__left{
+    flex:1.5;
+    padding:1em 1em 1em 0;
+    
+    a {
+      color: white;
+      text-decoration: underline;
+      &:hover,
+      &:focus{
+        opacity: 0.8;
+      }
+    }
+  }
+  &__right{
+    flex:0;
+    min-width: 300px;
+    margin:1em 0;
+  }
+
+}
