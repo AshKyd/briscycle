@@ -21,7 +21,7 @@
         }
         %>
         <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-
+        <script type="text/javascript">if(String(window.location).match(/index\.html$/)) window.location = window.location.pathname = window.location.pathname.replace(/index\.html$/,'')</script>
         <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
         <%- page.geo ? `<meta name="ICBM" content="${[page.geo.lat, page.geo.lng].join()}" />` : '' %>
         <link rel="preconnect" href="https://googleads.g.doubleclick.net">
