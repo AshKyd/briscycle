@@ -22,4 +22,4 @@ There's a few items that you are required by law to have, and you may be booked 
 <li>A flashing or steady front headlight.</li>
 <li>A flashing or steady red tail light.</li>
 </ul><h3>Road Rules for Cyclists</h3>
-Road rules for cyclists are much the same as they are for cars, although there are some exceptions. You can check out a comprehensive list of <a href="http://www.transport.qld.gov.au/Home/General_information/Cycling/Bike_user_guide/Road_rules_for_cyclists/">rules and regulations on the Queensland Government site</a>.
+Road rules for cyclists are much the same as they are for cars, although there are some exceptions. You can check out a comprehensive list of <a href="https://www.qld.gov.au/transport/safety/rules/wheeled-devices/bicycle">rules and regulations on the Queensland Government site</a>.
