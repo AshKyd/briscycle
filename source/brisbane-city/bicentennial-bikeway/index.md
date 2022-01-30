@@ -5,35 +5,47 @@ geojson: [{"type":"FeatureCollection","features":[{"type":"Feature","properties"
 ---
 The Bicentennial Bikeway is a popular Brisbane cycleway running past the Brisbane CBD and helping connect Toowong and the western suburbs.
 
-The bikeway has a number of entrances from the <a href="../goodwill-bridge/">Goodwill Bridge</a> to Toowong, and is a great way to explore the city.
+The bikeway has entrances from the <a href="../goodwill-bridge/">Goodwill Bridge</a> to Toowong, and is a great way to explore the city.
 
-<h4>Getting to and from the city by bike</h4>
-The bikeway starts at the foot of the <a href="../goodwill-bridge/">Goodwill Bridge</a>, where you have access to South Bank and the Botanic Gardens. Further along you have access to Queen Street, Ann Street, and Herschel Street.
+## Getting to and from the city by bike
+The bikeway starts at the foot of the <a href="../goodwill-bridge/">Goodwill Bridge</a>, where you have access to South Bank and the Botanic Gardens.
 
-There is an onramp leading to Queen Street at the landing of the Victoria Bridge which is the main access to the Queen Street Mall, and bike parking is available in the square by the library.
+As you travel along the river through the Queens Wharf development there's plenty of sightseeing and relaxation spots. Stop for a walk or sit on Mangrove Walk riverwalk, or play some table tennis under the freeway at Waterline Park.
 
-The ramp leading to Herschel street leads to a set of lights to get you across the road, and you can continue around the block to get to the Kurilpa Bridge.
+## Getting to Queen Street
 
-While there is a ramp leading to Turbot and Ann Street, it leads to a very busy road with little in the way of pedestrian or cycle infrastructure. If you're heading to the city it's probably better to take the Queen or Herschel Street exits instead.
+From the bikeway, you have elevator, stair, and ramp access to Queen Street. At the landing of the victoria bridge
 
-<h4>Cycling Along Coronation Drive</h4>
-You can use the Go Between Bridge to get access to South Bank and beyond. If you're looking for a bridge adventure you can cross this bridge and loop back around to get to the Kurilpa Bridge.
+* On the right take the elevator or stairs
+* On the left is a fairly steep ramp. It's more fun to go down than up (but take care!)
+
+Cross at the lights and bike parking is in Reddacliffe Place, by the library.
+
+## Other city access
+To get to the Kurilpa Bridge, Roma Street Station, Roma Street Parklands or the Northern Bikeway, take the ramp leading to Turbot or Herschel streets.
+
+This isn't super well connected at the time of writing, but you can take the footpath across past the Supreme Court, or travel around the block to get the Kurilpa Bridge bikeway.
+
+## Cycling Along Coronation Drive
+You can use the Go Between Bridge to get access to South Bank and beyond. If you're looking for a bridge adventure you can cross this bridge and loop back around to the Kurilpa Bridge.
 
 Other exits include:
 
-<ol><li>Cribb Street/Little Cribb Street: Two exits, one ramp to Coronation drive, and one underpass that takes you around the back away from the traffic.</li>
-<li>Graham Street/Park Road: A ramp that takes you to the intersection of Graham Street and Coronation drive. There are pedestrian lights to help you cross, and Park Road is a short ride from away.</li>
-<li>Lang Parade: A ramp leading to the intersection of Lang Parade and coronation drive which will take you through to Auchenflower train station.</li>
-<li>Land Street/Western Suburbs: If you're heading to the Western Suburbs, taken the Land Street underpass, and then follow Sylvan Road until you reach the the Western Freeway Bikeway.</li>
-</ol><h4>Riding to and from Toowong</h4>
+
+* Cribb Street/Little Cribb Street: Two exits, one ramp to Coronation drive, and one underpass that takes you around the back away from the traffic.
+* Graham Street/Park Road: A ramp that takes you to the intersection of Graham Street and Coronation drive. There are pedestrian lights to help you cross, and Park Road is a short ride from away.
+* Lang Parade: A ramp leading to the intersection of Lang Parade and coronation drive which will take you through to Auchenflower train station.
+* Land Street/Western Suburbs: If you're heading to the Western Suburbs, taken the Land Street underpass, and then follow Sylvan Road until you reach the the Western Freeway Bikeway.
+
+## Riding to and from Toowong
 At the Toowong end of the Bicentennial Bikeway, the path merges with the footpath and travels alongside Coronation Drive. From here you have bike access to Sylvan Road, as well as Toowong Village including the retail and dining nearby.
 
-After Toowong, there is bike infrastructure and routes that lead to St Lucia and the University of Queensland, as well as through to Taringa.
+After Toowong, there is a bike route to St Lucia and the University of Queensland, as well as through to Taringa.
 
-<h3>Riding to the western suburbs</h3>
+## Riding to the western suburbs
 If you're interested in heading further south or west, check out the <a href="../western-freeway-bikeway/">Western Freeway</a> page for maps and information.
 
-<h3>Things to Do</h3>
-There's a few <a href="../bike-hire-in-brisbane/">CityCycle stations</a> in the area, so this bikeway is a great way of sightseeing around the city. Take a day trip along the river, and see all the sights by pedal power.
+## Things to Do
+With plenty of ebikes around, this bikeway is a great way of sightseeing around the city. Take a day trip along the river, and see all the sights by pedal power.
 
-If you're looking for restaurants, stop off at Park Road road in Milton or there are several food options in Toowong.
+If you're looking for restaurants, stop off at Park Road road in Milton, check out Toowong, or explore South Bank.

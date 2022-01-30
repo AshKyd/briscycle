@@ -3,23 +3,19 @@ title: Bike Hire in Brisbane
 description: One of the better ways to explore a new city is by bike, because you can take as much time as you like to stop wherever something catches your eye.
 fbComments: http://briscycle.com/bike-hire-in-brisbane/
 ---
-One of the better ways to explore a new city is by bike, because you can take as much time as you like to stop wherever something catches your eye.
+One of the better ways to explore a new city is by bike, because you can take as much time as you like, stop wherever something catches your eye, and get a real perspective of life in Brisbane.
 
-Brisbane is a great city for cycling because the city centre is ringed with bike paths, and the CityCycle bike hire scheme is pretty good for visitors too.
+Brisbane is a great city for cycling because the city centre is ringed with bike paths, and there are two dockless bike share schemes in the city.
 
-<h3>CityCycle Bike Hire Day Pass</h3>
-A day pass on the local cycle hire scheme, <a href="http://www.citycycle.com.au/">CityCycle</a> costs $2.00 and is available online. The system is automated so you check out a bike using the terminal beside each station, and like many European cities the first 30 minutes of hire is free.
+## Bike share (and scooters too!)
 
-If you’d prefer not to pay usage fees, there is no penalty for checking a bike back in before the 30 minutes has expired and then check it out again straight away. This means you can hire a bike effectively for the whole day for $2.00, as long as you remember to check it back in periodically.
+Before heading out, you should download and sign up to both [Neuron](https://www.rideneuron.com/) and [Beam](https://www.ridebeam.com/).
 
-The online subscription requires a credit card, and sends an email with an account number you can use to check out a bike. This website is not optimised for mobile, so it's recommended that you do this before leaving home. You will additionally need to register for each person in your party as a subscription can only hire out one bike at a time.
+Subscription is free, and you can see a map of all the hire bikes and scooters in your area.
 
-<h3>CityCycle Stations</h3>
-The CityCycle network starts at Newstead and follows the river to St Lucia, covering areas such as New Farm, the CBD and West End.
+## Wear a helmet
+Australian law requires you wear a helmet at all times while you ride a bicycle. This is strictly enforced and the fines are quite steep, so don't risk it.
 
-Many of the inner train stations have CityCycle stations nearby, including the Roma Street, Central Station and South Bank. If you’re staying close to the city then chances are there are CityCyle stations nearby, but if you're a little further out you can catch the train to most stations near in the CBD.
+There are usually helmets provided on the bikes, although occasionally it may be damaged or missing.
 
-The <a href="../map/">Briscycle Map</a> shows all the operational CityCycle stations and is accessible on mobile when you're on the go. Bookmark it before you head out.
-
-<h3>Limitations</h3>
-Australian law requires you wear a helmet at all times while you ride a bicycle. There are occasionally public helmets provided at CityCycle stations, although the availability can vary so you may be caught out without one. You can buy a cheap helmet for under $20 from department stores in an emergency, otherwise you may have to walk.
+There will usually be another bike nearby with a helmet, so check around. You can also buy a cheap helmet for under $20 from department stores in an emergency.
