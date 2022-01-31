@@ -27,17 +27,8 @@
       type="application/atom+xml"
     />
     <link rel="icon" href="<%- theme.favicon %>" />
-    <% if(env.env === 'development') { %>
-    <script defer src="http://localhost:1234/init.js"></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="http://localhost:1234/init.css"
-    />
-    <% } else { %>
     <script defer src="/bundle/init.js"></script>
     <link rel="stylesheet" type="text/css" href="/bundle/init.css" />
-    <% } %>
   </head>
   <body>
     <%- body %> <%- partial('_partial/footer', {post: page, index: false}) %>

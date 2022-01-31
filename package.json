@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "hexo serve",
-    "build": "npm run build-client && hexo generate && cp source/_redirects public/",
+    "build": "npm run build-client && NODE_ENV=production hexo generate && cp source/_redirects public/",
     "start-client": "parcel bundle/init.js",
     "build-client": "parcel build bundle/init.js --dist-dir public/bundle --public-url /bundle/ --no-source-maps"
   },
