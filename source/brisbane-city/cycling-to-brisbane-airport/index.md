@@ -4,28 +4,24 @@ description: While the Jim Soorley bikeway takes you around the outskirts of the
 geo: {"lat":"-27.413","lng":"153.09","zoom":"15"}
 fbComments: http://briscycle.com/cycling-to-brisbane-airport/
 ---
-While the Jim Soorley bikeway takes you around the outskirts of the airport, you'll have to take Airport Drive to get to the international and domestic airport terminals by bik.
 
-There are two routes to the airport for cyclists; Airport Drive from the west and Lomandra Drive from the south.
+## Riding to DFO
+You can get to DFO, the Woolworths and Airport Village by bike very comfortably. 
 
-<h3>Airport Drive</h3>
-Airport Drive is the main road to the airport and is accessible from Nudgee Road, Sandgate Road and the Kedron Brook bikeway.
+A dedicated cycleway runs from Nudgee Road at Schulz canal (near the Jim Soorley bikeway), then connects to the overpass over Airport Drive.
 
-There is no real cyclist infrastructure leading on to Airport Drive, particularly intersecting Southern Cross Way and Nudgee Road. There are traffic lights to direct traffic but you will still need to be confident around motor traffic to take this route.
+## Riding to the Brisbane Airport
+If you want to ride a bike to Brisbane Airport you'll need to be confident with on-road cycling. The official route is different depending on whether you're inbound or outbound.
 
-When heading to the airport, once you get past Southern Cross Way it's advisable to take the first left turn and follow the overpass to Lakeside Drive to avoid heavy traffic.
+Heading toward the airport, you'll need to take a more circuitous route along Qantas Drive to avoid several dangerous crossings. Heading outbound you can just take Airport Drive most of the way.
 
-<h3>Lomandra Drive</h3>
-Lomandra Drive is an alternative route to the airport, accessible from the south off Kingsford Smith Drive. If you're coming over the Gateway Bridge, this is the quicker route.
+The following map from Brisbane Airport shows the recommended routes:
 
-You will need to be reasonably confident around motor traffic to take this route, as there are few road shoulders and the road is somewhat narrow. Heading to the airport you should turn right onto Qantas Drive as you reach the elevated railway.
+<img src="airport-map.svg" alt="Map of the airport showing a confusing cycleway route">
 
-<h3>Riding to DFO</h3>
-DFO is accessible by bike via both Airport Drive and Lomandra Drive.
+Bike parking and showers are available at both terminals.
 
-There are no dedicated bikeways to DFO, so you'll need to be reasonably confident to take this trip.
+* International terminal bike racks are on level 5 of the parking garage, beside the lift.
+* Domestic termainal bike racks are on level 1 of the P1 car park, near the lifts.
 
-<ul>
-<li>Coming from Airport Drive to the west, take the first left after Southern Cross Way and follow the overpass around.</li>
-<li>From the south, you can take Lomandra Drive and then turn left onto Lakeside Drive.</li>
-</ul>
+For the most up to date information on getting to the Brisbane Airport, check the [The BAC Website](https://www.bne.com.au/passenger/to-and-from/transport-options).

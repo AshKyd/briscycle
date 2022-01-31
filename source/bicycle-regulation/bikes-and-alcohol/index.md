@@ -26,4 +26,6 @@ The only difference is that you can ride a bicycle without a car license. Consul
 <td>0.05</td>
 </tr></tbody></table>
 
-As a general rule, drinking and riding can increase the risk of accidents so it's a good idea to avoid riding to the pub. Please also double check with the <a href="http://www.transport.qld.gov.au/Home/Safety/Road/Driver_guide/Alcohol_and_drugs/Rs_driver_guide_anti_drink_driving#blood_alcohol">Queensland Government driver guide</a>, because the above figures might not reflect the latest changes.
+As a general rule, drinking and riding can increase the risk of accidents so it's a good idea to avoid riding to the pub.
+
+Please also double check with the <a href="http://www.transport.qld.gov.au/Home/Safety/Road/Driver_guide/Alcohol_and_drugs/Rs_driver_guide_anti_drink_driving#blood_alcohol">Queensland Government driver guide</a>, because the above figures might not reflect the latest changes.

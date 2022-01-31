@@ -18,4 +18,4 @@ Do you know the rules of the road? Check out this resource for tips and links to
 
 Please note that this is not legal advice, and while I've listed sources for the information, it may not be correct or applicable in your case.
 
-If you have questions that aren't answered here, shoot an email to briscycle@kyd.com.au and I'll attempt to hunt down the answer for you.
+If you have questions that aren't answered here, shoot an email to briscycle@kyd.com.au and I'll try to hunt down the answer for you.

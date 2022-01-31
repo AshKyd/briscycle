@@ -9,18 +9,17 @@ The bridge was built in 2001 and was the first of a succession of non-motor brid
 
 Like the Kurilpa Bridge, the Goodwill Bridge includes several seating bays, which provide a great spot to stop and admire the view. The Goodwill Bridge has the added benefit of having the Cafe on the Bridge, a coffee cart which serves coffee, tea and desserts all week round.
 
-<h3>Getting to the Goodwill Bridge</h3>
-The Goodwill Bridge is easily accessible from all sides and is a great way to get to and from the city. The bikeway follows the river on both sides so it's pretty difficult to miss it.
+### Getting to the Goodwill Bridge
+The Goodwill Bridge is accessible from all sides and is a great way to get to and from the city. The bikeway follows the river on both sides so it's pretty difficult to miss it.
 
-The northern landing takes you to Gardens Point where you can continue on to the QUT Gardens Point campus, turn right through the Botanic Gardens and on to the Riverwalk, or left onto the Bicentennial Bikeway to Toowong.
+The northern landing takes you to Gardens Point where you can continue on to the QUT Gardens Point campus, turn right through the Botanic Gardens and on to the [Riverwalk](/brisbane-city/riverwalk), or left onto the [Bicentennial Bikeway](/brisbane-city/bicentennial-bikeway) to Toowong.
 
-The southern end lands at South Bank where you can stop at the pub, or continue left or right along the river. To get to the Southeast Bikeway and southern suburbs, turn left and follow the water until you see the M1 Motorway overhead.
+The southern end lands at South Bank where you can stop at the pub, or continue left or right along the river. To get to the [Southeast Bikeway](/brisbane-city/southeast-freeway-bikeway) and southern suburbs, turn left and follow the water until you see the M1 Motorway overhead.
 
-<h3>Interesting Things Nearby</h3>
-<p class="right cc"><a href="https://secure.flickr.com/photos/mikecogh/7261924920/">By Mike Cochlan</a>
+### Interesting Things Nearby
 
 There's plenty of dining nearby, including the Ship Inn pub at the southern end, and South Bank beyond. Alternatively you might want to stop at the top and grab a coffee while you admire the view.
 
-The Queensland Maritime Museum is also at the southern foot of the bridge, with a show of models, vessels and paraphernalia including the Diamantina, a World War 2 navy frigate which you can explore top to bottom.
+The Queensland Maritime Museum is also at the southern foot of the bridge. The museum has a show of models and vessels including the Diamantina, a World War 2 navy frigate which you can explore top to bottom.
 
 Or if you're feeling like a picnic or barbecue lunch, there are plenty of spots around South Bank and the Kangaroo Point Cliffs.

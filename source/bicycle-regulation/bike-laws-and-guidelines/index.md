@@ -21,5 +21,7 @@ There's a few items that you are required by law to have, and you may be booked 
 <ul><li>At least one red reflector on the rear (may be fixed to the bike, or on your backpack).</li>
 <li>A flashing or steady front headlight.</li>
 <li>A flashing or steady red tail light.</li>
-</ul><h3>Road Rules for Cyclists</h3>
+</ul>
+
+<h3>Road Rules for Cyclists</h3>
 Road rules for cyclists are much the same as they are for cars, although there are some exceptions. You can check out a comprehensive list of <a href="https://www.qld.gov.au/transport/safety/rules/wheeled-devices/bicycle">rules and regulations on the Queensland Government site</a>.

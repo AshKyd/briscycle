@@ -19,3 +19,5 @@ Australian law requires you wear a helmet at all times while you ride a bicycle.
 There are usually helmets provided on the bikes, although occasionally it may be damaged or missing.
 
 There will usually be another bike nearby with a helmet, so check around. You can also buy a cheap helmet for under $20 from department stores in an emergency.
+
+Check out more [rules on riding bikes](/bicycle-regulation).
