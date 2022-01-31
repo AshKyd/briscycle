@@ -4,6 +4,5 @@ db.json
 *.log
 node_modules/
 .deploy*/
-bundle
 dist
 .parcel-cache

@@ -7,7 +7,7 @@
     "start-client": "npx parcel ui95/init.js",
     "build": "npm run build-site && npm run build-client",
     "build-site": "NODE_ENV=production npx @11ty/eleventy",
-    "build-client": "npx parcel build bundle/init.js --dist-dir dist/bundle --public-url /ui95/ --no-source-maps"
+    "build-client": "npx parcel build bundle/init.js --dist-dir dist/bundle --public-url /bundle/ --no-source-maps"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
