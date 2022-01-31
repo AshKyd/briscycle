@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <%
-        var title = page.title;
-
-        if (is_archive()){
-          title = 'Archives';
-
-          if (is_month()){
-            title += ': ' + page.year + '/' + page.month;
-          } else if (is_year()){
-            title += ': ' + page.year;
-          }
-        } else if (is_category()){
-          title = 'Category: ' + page.category;
-        } else if (is_tag()){
-          title = 'Tag: ' + page.tag;
-        }
-        %>
-        <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-        <script type="text/javascript">if(String(window.location).match(/index\.html$/)) window.location = window.location.pathname = window.location.pathname.replace(/index\.html$/,'')</script>
-        <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
-        <%- page.geo ? `<meta name="ICBM" content="${[page.geo.lat, page.geo.lng].join()}" />` : '' %>
-        <link rel="preconnect" href="https://googleads.g.doubleclick.net">
-        <link rel="preconnect" href="https://adservice.google.com">
-        <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
-        <link rel="icon" href="<%- theme.favicon %>">
-        <link rel="stylesheet" type="text/css" href="/css/index.css">
-        <script src="/js/index.js" defer></script>
-
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <% var title = page.title; if (is_archive()){ title = 'Archives'; if
+    (is_month()){ title += ': ' + page.year + '/' + page.month; } else if
+    (is_year()){ title += ': ' + page.year; } } else if (is_category()){ title =
+    'Category: ' + page.category; } else if (is_tag()){ title = 'Tag: ' +
+    page.tag; } %>
+    <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+    <script type="text/javascript">
+      if (String(window.location).match(/index\.html$/))
+        window.location = window.location.pathname =
+          window.location.pathname.replace(/index\.html$/, "");
+    </script>
+    <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus,
+    fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %> <%- page.geo ? `
+    <meta name="ICBM" content="${[page.geo.lat, page.geo.lng].join()}" />
+    ` : '' %>
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net" />
+    <link rel="preconnect" href="https://adservice.google.com" />
+    <link
+      rel="alternative"
+      href="<%- theme.rss %>"
+      title="<%= config.title %>"
+      type="application/atom+xml"
+    />
+    <link rel="icon" href="<%- theme.favicon %>" />
+    <% if(env.env === 'development') { %>
+    <script defer src="http://localhost:1234/init.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://localhost:1234/init.css"
+    />
+    <% } else { %>
+    <script defer src="/bundle/init.js"></script>
+    <link rel="stylesheet" type="text/css" href="/bundle/init.css" />
+    <% } %>
+  </head>
   <body>
-    <%- body %>
-    <%- partial('_partial/footer', {post: page, index: false}) %>
-
+    <%- body %> <%- partial('_partial/footer', {post: page, index: false}) %>
   </body>
 </html>

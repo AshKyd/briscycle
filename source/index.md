@@ -16,16 +16,16 @@ showHeader: false
     </div>
   </div>
   <picture>
-      <source data-srcset="/images/bne-828.jpg"
+      <source srcset="/images/bne-828.jpg"
               media="(max-width: 414px)">
-      <source data-srcset="/images/bne-1024.jpg"
+      <source srcset="/images/bne-1024.jpg"
               media="(max-width: 768px)">
-      <source data-srcset="/images/bne-1920.jpg"
+      <source srcset="/images/bne-1920.jpg"
               media="(max-width: 1920px)">
-      <source data-srcset="/images/bne-max.webp"
+      <source srcset="/images/bne-max.webp"
         type="image/webp"
         media="(min-width: 1920px)">
-      <img class="home-hero__image lazyload" data-src="/images/bne-max.jpg" alt="" />
+      <img class="home-hero__image" src="/images/bne-max.jpg" alt="" loading="lazy"/>
   </picture>
 </div>
 <a name="content"></a>

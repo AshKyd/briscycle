@@ -1,7 +1,15 @@
 <% if(page.hero) { %>
 <picture class="hero-default-image">
-    <source data-srcset="<%= page.hero.image %>-mobile.jpg"
-            media="(max-width: 1024px)">
-    <img class="hero-default-image__image lazyload" data-src="<%= page.hero.image %>-desktop.jpg" alt=" " role="presentation" />
+  <source
+    data-srcset="<%= page.hero.image %>-mobile.jpg"
+    media="(max-width: 1024px)"
+  />
+  <img
+    class="hero-default-image__image"
+    src="<%= page.hero.image %>-desktop.jpg"
+    alt=" "
+    role="presentation"
+    loading="lazy"
+  />
 </picture>
 <% } %>
