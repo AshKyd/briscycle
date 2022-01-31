@@ -1,0 +1,30 @@
+
+{% if(related) %}
+<ul class="cards">
+    {% for item in collections[related] %}
+    <li class="card">
+        <a class="card__link" href="{{item.data.page.url}}">
+        <div
+            class="card__thumbnail"
+            {% if(item.data.thumb.image) %}
+            style="background-image: url('{{item.data.thumb.image}}-desktop.jpg')"
+            {% endif %}
+        >
+            {% if(item.data.icon) %}
+            <img
+            class="card__icon"
+            src="{{item.data.icon}}"
+            alt=" "
+            role="presentation"
+            />
+            {% endif %}
+        </div>
+        <div class="card__content">
+            <div class="card__title h2">{{item.data.title}}</div>
+            <p>{{item.data.description}}</p>
+        </div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

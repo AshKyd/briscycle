@@ -1,0 +1,41 @@
+{% if(hero) %}
+<picture class="hero-default-image">
+  <source
+    data-srcset="{{hero.image}}-mobile.jpg"
+    media="(max-width: 1024px)"
+  />
+  <img
+    class="hero-default-image__image"
+    src="{{hero.image}}-desktop.jpg"
+    alt=" "
+    role="presentation"
+    loading="lazy"
+  />
+</picture>
+{% endif %}
+
+<article class="article article-type-{{layout}}" itemscope itemprop="blogPost">
+  <div class="article-content">
+    <div class="article-inner">
+        <header class="article-header container">
+            <h1 itemprop="name">
+                {{title}}
+            </h1>
+        </header>
+      <div class="article-entry container" itemprop="articleBody">
+        {{ content|safe }}
+      </div>
+    </div>
+  </div>
+</article>
+
+{% if geo or geojson %}
+<div id="map" class="inline-map"></div>
+<template id="map-config">
+{{page | pageData | dump}}
+</template>
+{% endif %}
+
+{% include "partials/related.njk" %}
+
+{% include "partials/ad-card.njk" %}

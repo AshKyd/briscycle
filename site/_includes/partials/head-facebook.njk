@@ -1,0 +1,10 @@
+<meta property="og:site_name" content="{{site.title}}">
+<meta property="og:title" content="{{title | default(site.title)}}">
+<meta property="og:description" content="{{description | default(site.description)}}">
+<meta property="og:url" content="{{page.permalink}}">
+{% if(image) %}
+  <meta property="og:image" content="{{image}}">
+{% endif %}
+{% if(image) %}
+  <meta property="og:image:alt" content="{{imageAlt}}">
+{% endif %}
