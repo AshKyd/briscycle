@@ -1,0 +1,13 @@
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{site.twitter}}">
+<meta name="twitter:title" content="{{title | default(site.title)}}">
+<meta name="twitter:description" content="{{description | default(site.description)}}">
+{% if(authors[author].twitter) %}
+  <meta name="twitter:creator" content="@{{authors[author].twitter}}">
+{% endif %}
+{% if(image) %}
+  <meta name="twitter:image" content="{{image}}">
+{% endif %}
+{% if(imageAlt) %}
+  <meta name="twitter:image:alt" content="{{imageAlt}}">
+{% endif %}
