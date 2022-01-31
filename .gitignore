@@ -3,9 +3,7 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-public/
 .deploy*/
-dist
 bundle
 dist
 .parcel-cache
