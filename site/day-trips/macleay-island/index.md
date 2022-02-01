@@ -1,13 +1,75 @@
 ---
 title: Cycling on Macleay Island
 description: Macleay Island is a small island off the coast of Redland Bay.
-geo: { "lat": "-27.604", "lng": "153.358", "zoom": "12" }
+geo: { "lat": "-27.604", "lng": "153.358", "zoom": "8" }
+mapTitle: Macleay Island travel map
 fbComments: http://briscycle.com/macleay-island/
 layout: page
 related: day-trips
 tags:
   - home
   - day-trips
+geojson:
+  {
+    "type": "FeatureCollection",
+    "features":
+      [
+        {
+          "type": "Feature",
+          "properties": { "title": "Blue Vista Foreshore" },
+          "geometry":
+            {
+              "type": "Point",
+              "coordinates": [153.36827158927917, -27.60689727947797],
+            },
+        },
+        {
+          "type": "Feature",
+          "properties": { "title": "Corroboree Park" },
+          "geometry":
+            {
+              "type": "Point",
+              "coordinates": [153.37471961975095, -27.619313154677798],
+            },
+        },
+        {
+          "type": "Feature",
+          "properties": { "title": "Ferry" },
+          "geometry":
+            {
+              "type": "Point",
+              "coordinates": [153.36541771888733, -27.631642075681796],
+            },
+        },
+        {
+          "type": "Feature",
+          "properties": { "title": "Dalpura Beach" },
+          "geometry":
+            {
+              "type": "Point",
+              "coordinates": [153.3566415309906, -27.589573546893305],
+            },
+        },
+        {
+          "type": "Feature",
+          "properties": { "title": "Pats Park" },
+          "geometry":
+            {
+              "type": "Point",
+              "coordinates": [153.36155533790588, -27.581747494541446],
+            },
+        },
+        {
+          "type": "Feature",
+          "properties": { "title": "Campbell's Wharf Lookout" },
+          "geometry":
+            {
+              "type": "Point",
+              "coordinates": [153.3496356010437, -27.602076954868217],
+            },
+        },
+      ],
+  }
 ---
 
 Macleay Island is a small island off the coast of Redland Bay.

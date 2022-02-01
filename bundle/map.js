@@ -39,7 +39,6 @@ function initMap() {
   ]);
 
   ready.then(() => {
-    console.log({ config });
     // load map
     mapboxgl.accessToken =
       "pk.eyJ1IjoiYXNoa3lkIiwiYSI6ImNsajB0NWMifQ.A8PtczW284fnWFD6dy3xLQ";
@@ -47,7 +46,7 @@ function initMap() {
       container: "map", // container ID
       style: "mapbox://styles/ashkyd/ckz2deirj000314qu6dhxh112", // style URL
       center: config.geo || [153, -27.5], // starting position [lng, lat]
-      zoom: config.zoom || 8, // starting zoom
+      zoom: config.geo.zoom || 8, // starting zoom
     });
     map.scrollZoom.disable();
     map.addControl(new mapboxgl.NavigationControl());
@@ -81,8 +80,12 @@ function initMap() {
 
       // Fit bounds
       const coordinates = geojson.features.reduce((features, feature) => {
-        return [...features, ...feature.geometry.coordinates];
+        const newCoords = Array.isArray(feature.geometry.coordinates[0])
+          ? feature.geometry.coordinates
+          : [feature.geometry.coordinates];
+        return [...features, ...newCoords];
       }, []);
+      console.log(coordinates);
       const bounds = new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]);
       for (const coord of coordinates) {
         bounds.extend(coord);
