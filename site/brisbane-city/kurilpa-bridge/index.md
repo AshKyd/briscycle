@@ -5,6 +5,8 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+hero: { "type": "defaultImage", "image": "/brisbane-city/kurilpa-bridge/hero" }
+thumb: { "image": "/brisbane-city/kurilpa-bridge/kurilpa" }
 geojson:
   {
     "type": "FeatureCollection",
