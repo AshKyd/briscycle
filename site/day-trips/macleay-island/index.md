@@ -9,6 +9,12 @@ related: day-trips
 tags:
   - home
   - day-trips
+hero:
+  {
+    "type": "defaultImage",
+    "image": "/day-trips/macleay-island/macleay-island-hero",
+  }
+thumb: { "image": "/day-trips/macleay-island/macleay-island" }
 geojson:
   {
     "type": "FeatureCollection",

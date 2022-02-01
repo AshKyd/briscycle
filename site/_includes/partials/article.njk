@@ -1,4 +1,5 @@
 {% if(hero) %}
+<div class="hero-default-image-container">
 <picture class="hero-default-image">
   <source
     data-srcset="{{hero.image}}-mobile.jpg"
@@ -12,6 +13,15 @@
     loading="lazy"
   />
 </picture>
+
+{% if hero.attribution %}
+<a 
+    href="{{hero.attribution.url}}"
+    title="'{{hero.attribution.title}}' by {{hero.attribution.name}} is licensed under a Creative Commons license {{hero.attribution.license}}">
+    <img alt="'{{hero.attribution.title}}' by {{hero.attribution.name}} is licensed under a Creative Commons license" src="/images/cc-by.svg" class="card__thumbnail-attribution"/>
+</a>
+{% endif %}
+</div>
 {% endif %}
 
 <article class="article article-type-{{layout}}" itemscope itemprop="blogPost">

@@ -24,6 +24,13 @@
             <p>{{item.data.description}}</p>
         </div>
         </a>
+        {% if item.data.thumb.attribution %}
+        <a 
+            href="{{item.data.thumb.attribution.url}}"
+            title="'{{item.data.thumb.attribution.title}}' by {{item.data.thumb.attribution.name}} is licensed under a Creative Commons license {{item.data.thumb.attribution.license}}">
+            <img alt="'{{item.data.thumb.attribution.title}}' by {{item.data.thumb.attribution.name}} is licensed under a Creative Commons license" src="/images/cc-by.svg" class="card__thumbnail-attribution"/>
+        </a>
+        {% endif %}
     </li>
     {% endfor %}
 </ul>

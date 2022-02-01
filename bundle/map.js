@@ -22,8 +22,6 @@ function initMap() {
   if (!configEl) return;
   const config = JSON.parse(configEl.content.textContent);
 
-  console.log({ config });
-
   const ready = Promise.all([
     onload(
       crelInHead("script", {
@@ -46,7 +44,7 @@ function initMap() {
       container: "map", // container ID
       style: "mapbox://styles/ashkyd/ckz2deirj000314qu6dhxh112", // style URL
       center: config.geo || [153, -27.5], // starting position [lng, lat]
-      zoom: config.geo.zoom || 8, // starting zoom
+      zoom: config.geo?.zoom || 8, // starting zoom
     });
     map.scrollZoom.disable();
     map.addControl(new mapboxgl.NavigationControl());
@@ -79,13 +77,14 @@ function initMap() {
       });
 
       // Fit bounds
-      const coordinates = geojson.features.reduce((features, feature) => {
-        const newCoords = Array.isArray(feature.geometry.coordinates[0])
-          ? feature.geometry.coordinates
-          : [feature.geometry.coordinates];
-        return [...features, ...newCoords];
-      }, []);
-      console.log(coordinates);
+      const coordinates = geojson.features
+        .reduce((features, feature) => {
+          const newCoords = Array.isArray(feature.geometry.coordinates[0])
+            ? feature.geometry.coordinates
+            : [feature.geometry.coordinates];
+          return [...features, ...newCoords];
+        }, [])
+        .filter((coord) => coord[0]);
       const bounds = new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]);
       for (const coord of coordinates) {
         bounds.extend(coord);

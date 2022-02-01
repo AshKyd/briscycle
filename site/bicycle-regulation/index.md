@@ -12,6 +12,7 @@ hero:
         "name": "Tony Hisgett",
         "title": "Police Bikes 2",
         "url": "https://www.flickr.com/photos/hisgett/30738809600/",
+        "license": "https://creativecommons.org/licenses/by/2.0/",
       },
   }
 icon: /bicycle-regulation/police.svg
