@@ -5,6 +5,12 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+hero:
+  {
+    "type": "defaultImage",
+    "image": "/brisbane-city/goodwill-bridge/goodwill-bridge-hero",
+  }
+thumb: { "image": "/brisbane-city/goodwill-bridge/goodwill-bridge" }
 geojson:
   [
     {
