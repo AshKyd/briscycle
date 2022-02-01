@@ -46,7 +46,7 @@ function initMap() {
       container: "map", // container ID
       style: "mapbox://styles/ashkyd/ckz2deirj000314qu6dhxh112", // style URL
       center: config.geo || [153, -27.5], // starting position [lng, lat]
-      zoom: config.zoom || 8, // starting zoom
+      zoom: config.geo.zoom || 8, // starting zoom
     });
     map.scrollZoom.disable();
     map.addControl(new mapboxgl.NavigationControl());
@@ -54,10 +54,13 @@ function initMap() {
     // add geojson
     if (!config.geojson) return;
     map.on("load", () => {
+      const geojson = Array.isArray(config.geojson)
+        ? config.geojson[0]
+        : config.geojson;
       const id = "briscycleCustomRoute";
       map.addSource(id, {
         type: "geojson",
-        data: config.geojson[0],
+        data: geojson,
       });
 
       map.addLayer({
@@ -76,18 +79,19 @@ function initMap() {
       });
 
       // Fit bounds
-      const coordinates = config.geojson[0].features.reduce(
-        (features, feature) => {
-          return [...features, ...feature.geometry.coordinates];
-        },
-        []
-      );
+      const coordinates = geojson.features.reduce((features, feature) => {
+        const newCoords = Array.isArray(feature.geometry.coordinates[0])
+          ? feature.geometry.coordinates
+          : [feature.geometry.coordinates];
+        return [...features, ...newCoords];
+      }, []);
+      console.log(coordinates);
       const bounds = new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]);
       for (const coord of coordinates) {
         bounds.extend(coord);
       }
       map.fitBounds(bounds, {
-        padding: 20,
+        padding: 40,
       });
     });
   });

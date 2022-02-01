@@ -30,6 +30,7 @@
 </article>
 
 {% if geo or geojson %}
+<h2 class="container">{% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}</h2>
 <div id="map" class="inline-map"></div>
 <template id="map-config">
 {{page | pageData | dump}}
