@@ -11,6 +11,7 @@ thumb:
         "name": "Brisbane City Council",
         "title": "Native Ergrets on the mudflats of Boondall Wetlands",
         "url": "https://www.flickr.com/photos/brisbanecitycouncil/6968550146",
+        "license": "https://creativecommons.org/licenses/by/2.0/",
       },
   }
 hero:
@@ -21,6 +22,7 @@ hero:
         "name": "Brisbane City Council",
         "title": "Native Ergrets on the mudflats of Boondall Wetlands",
         "url": "https://www.flickr.com/photos/brisbanecitycouncil/6968550146",
+        "license": "https://creativecommons.org/licenses/by/2.0/",
       },
   }
 layout: page

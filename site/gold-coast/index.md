@@ -11,6 +11,7 @@ thumb:
         "name": "Andrea Lai",
         "title": "Gold Coast, Brisbane, Australia",
         "url": "https://www.flickr.com/photos/atlai/9156923523/",
+        "license": "https://creativecommons.org/licenses/by/2.0/",
       },
   }
 layout: page
