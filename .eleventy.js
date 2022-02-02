@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/**/*.ico");
   eleventyConfig.addPassthroughCopy("site/**/*.svg");
   eleventyConfig.addPassthroughCopy("site/**/*.webm");
+  eleventyConfig.addPassthroughCopy("site/**/*.txt");
 
   eleventyConfig.addNunjucksFilter("pageData", function () {
     const { geo, geojson } = this.ctx;
