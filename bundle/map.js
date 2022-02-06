@@ -1,5 +1,5 @@
 import { crelInHead, onload } from "./util";
-export function initMap() {
+export default function initMap() {
   const configEl = document.querySelector("#map-config");
   if (!configEl) return;
   const config = JSON.parse(configEl.content.textContent);
