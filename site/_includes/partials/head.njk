@@ -8,8 +8,8 @@
     <script defer src="http://localhost:1234/init.js?{% cachebust %}"></script>
     <link rel="stylesheet" type="text/css" href="http://localhost:1234/init.css?{% cachebust %}" />
     {% else %}
-    <script defer src="/bundle/init.js?{{ cachebust }}"></script>
-    <link rel="stylesheet" type="text/css" href="/bundle/init.css?{{ cachebust }}" />
+    <script defer src="/bundle/init.js?{% cachebust %}"></script>
+    <link rel="stylesheet" type="text/css" href="/bundle/init.css?{% cachebust %}" />
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="feed" type="text/html" title="{{site.title}}" href="/feed.xml" />
