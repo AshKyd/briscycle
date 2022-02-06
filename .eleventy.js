@@ -28,6 +28,10 @@ crossorigin="anonymous"></script>
 </aside>`;
   });
 
+  eleventyConfig.addShortcode("cachebust", function () {
+    return Date.now().toString();
+  });
+
   return {
     dir: {
       input: "site",
