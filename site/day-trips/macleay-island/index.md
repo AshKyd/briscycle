@@ -88,18 +88,22 @@ There is a rather steep hill to climb to get out of the ferry terminal, but don'
 
 The island is highly cycle friendly, and most destinations have racks or space to lock up your bike. Drinking water is available at parks around the island, but definitely make sure to bring a water bottle.
 
-There's a number of supermarkets including Foodworks and Spar.
+There's a Spar supermarket near the ferry terminal to pick up essentials, and a couple of shops dotted about the island along High Central Road.
 
-### Dining on Macleay Island
-
-There are plenty of places to eat at Macleay Island. Stop by at the pub near the fery terminal, or grab fish & chips on the way north. Stop in at the
+If you're looking for a meal, there are plenty of places to eat about the island. Stop by at the pub near the fery terminal, grab fish & chips on the way north, or enjoy the air conditioning at the Blue Parrot Cafe.
 
 ## Getting to Macleay Island
 
-Ferries to the island generally run every half hour from Redland Bay Marina, and there's also a car ferry if you're planning on taking your vehicle.
+Ferries to the island generally run every half hour from Redland Bay Marina (200m south of the vehicle ferry, see it here on [Google Maps](https://www.google.com/maps/place/Redland+Bay+Marina/@-27.6173227,153.3107938,17z)). A return passenger ticket costs just shy of $15.00.
 
-A return passenger ticket will cost just shy of $15.00.
+If you're coming from Brisbane, you can ride from Cleveland Train Station. The most direct route is a 13.5 km trek along Cleaveland Redland Bay Road, but it's mostly without cycle lanes, and in some places without footpaths.
+
+Redland Bay Council recommends riding the [Moreton Bay Cycleway](/moreton-bay) from the train station, which runs a much longer and more scenic route along the coast. Either way, this much cycling you might want to make it a weekend trip.
 
 ## Check out the video
 
+If you want to see the full train to cleveland, bike to the ferry, and ride around the island, check out the video below: (don't forget to like and subscribe!)
+
+<div class="video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oL04V1PMEUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
