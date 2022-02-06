@@ -6,9 +6,6 @@
         <a class="card__link" href="{{item.data.page.url}}">
         <div
             class="card__thumbnail"
-            {% if(item.data.thumb.image) %}
-            style="background-image: url('{{item.data.thumb.image}}-desktop.jpg')"
-            {% endif %}
         >
             {% if(item.data.icon) %}
             <img
@@ -17,6 +14,22 @@
             alt=" "
             role="presentation"
             />
+            {% endif %}
+
+            {% if(item.data.thumb.image) %}
+            <picture>
+                <source
+                    data-srcset="{{item.data.thumb.image}}-mobile.jpg"
+                    media="(max-width: 1024px)"
+                />
+                <img
+                    class="card__thumbnail-image"
+                    src="{{item.data.thumb.image}}-desktop.jpg"
+                    alt=" "
+                    role="presentation"
+                    loading="lazy"
+                />
+            </picture>
             {% endif %}
         </div>
         <div class="card__content">

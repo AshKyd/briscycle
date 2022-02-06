@@ -17,16 +17,13 @@ related: home
     </div>
   </div>
   <picture>
-      <source srcset="/images/bne-828.jpg"
-              media="(max-width: 414px)">
-      <source srcset="/images/bne-1024.jpg"
-              media="(max-width: 768px)">
-      <source srcset="/images/bne-1920.jpg"
-              media="(max-width: 1920px)">
+      <source srcset="/images/bne-828.jpg" media="(max-width: 414px)">
+      <source srcset="/images/bne-1024.jpg" media="(max-width: 768px)">
+      <source srcset="/images/bne-1920.jpg" media="(max-width: 1920px)">
       <source srcset="/images/bne-max.webp"
         type="image/webp"
         media="(min-width: 1920px)">
-      <img class="home-hero__image" src="/images/bne-max.jpg" alt="" loading="lazy"/>
+      <img class="home-hero__image" src="/images/bne-max.jpg" alt="" />
   </picture>
 </div>
 <a name="content"></a>

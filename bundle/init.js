@@ -1,10 +1,6 @@
 import "./css/index.scss";
 import "./map";
+import initMap from "./map";
 
-var connection =
-  navigator.connection ||
-  navigator.mozConnection ||
-  navigator.webkitConnection ||
-  {};
-var connectionType = connection.effectiveType || "4g";
-var isMobile = window.innerWidth <= 414;
+// init the map once the user starts scrolling
+window.addEventListener("scroll", initMap, { once: true, passive: true });

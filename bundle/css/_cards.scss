@@ -57,6 +57,13 @@
     background-size: cover;
   }
 
+  &__thumbnail-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
   &__thumbnail-attribution {
     position: absolute;
     top: 20px;

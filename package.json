@@ -14,5 +14,8 @@
     "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.2.1"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "domready": "^1.0.8"
+  }
 }

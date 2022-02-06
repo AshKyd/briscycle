@@ -1,23 +1,5 @@
-function crel(tag, attrs) {
-  const el = document.createElement(tag);
-  Object.entries(attrs).forEach((attr) => (el[attr[0]] = attr[1]));
-  return el;
-}
-
-function crelInHead(tag, attrs) {
-  const el = crel(tag, attrs);
-  document.head.appendChild(el);
-  return el;
-}
-
-function onload(el) {
-  return new Promise((resolve, reject) => {
-    el.addEventListener("load", resolve);
-    el.addEventListener("error", reject);
-  });
-}
-
-function initMap() {
+import { crelInHead, onload } from "./util";
+export function initMap() {
   const configEl = document.querySelector("#map-config");
   if (!configEl) return;
   const config = JSON.parse(configEl.content.textContent);
@@ -95,5 +77,3 @@ function initMap() {
     });
   });
 }
-
-initMap();
