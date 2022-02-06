@@ -5,6 +5,13 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+mapTitle: Map of the Brisbane Riverloop + half riverloop
+hero:
+  {
+    "type": "defaultImage",
+    "image": "/brisbane-city/river-loop/river-loop-hero",
+  }
+thumb: { "image": "/brisbane-city/river-loop/river-loop" }
 geojson:
   [
     {
@@ -408,19 +415,28 @@ geojson:
 
 The Brisbane River Loop is popular recreational cycle route that follows the Brisbane River from South Bank to Indooroopilly and back again.
 
-This route is popular on weekends with cyclists of all stripes heading out to get some fresh air and exercise. The majority of the route is on residential back streets, although there are some more busy stretches further out of the city. There is a good mix of flat and hill cycling, and you can also choose the Mini Brisbane River Loop should the full loop prove too challenging.
+This route is popular on weekends with riders of all stripes heading out to get some fresh air and exercise.
 
-The full loop is <span>35-40 km, whereas the mini loop is slightly under 20 km. Jump <a href="#mapContainer">bottom of the page for the map</a>.</span>
+{% ad %}
 
-<h3>Mini Brisbane River Loop</h3>
-The Mini Brisbane River Loop cuts out the Indooroopilly/Tennyson/Fairfield sections of the loop by heading across the Eleanor Schonell Bridge. This short-cut effectively cuts the loop in half, and provides a good "training" loop for those who aren't as experienced.
+The majority of the route is on residential back streets, although there are some more busy stretches further out of the city.
 
-Those less confident with road cycling can turn along Sandford Street at Toowong and take the back streets along the river rather than taking Sir Fred Schonell Drive.
+There is a good mix of flat and hill cycling, but you can also choose the Mini Brisbane River Loop if the full loop is too challenging.
 
-<h3>Other Variants</h3>
-The River Loop is loosely defined, so many people have their own variants. Some popular ones include:
+The full loop is 35-40 km, whereas the mini loop is slightly under 20 km. Jump <a href="#mapContainer">bottom of the page for the map</a>.
 
-<ul><li>Continue down Gladstone Road rather than turning left onto Dornoch Terrace, in order to cut straight back to the Goodwill Bridge.</li>
-<li>Take Annerley Road instead of Gladstone Road to get to the Goodwill Bridge without having to climb any more hills.</li>
-<li>Take Grey Street instead of the Clem Jones Promenade along the water at South Bank to avoid the busy weekend pedestrian traffic. (Always remember to go slow and give way to pedestrians.)</li>
-</ul>
+## Mini Brisbane River Loop
+
+The Mini Brisbane River Loop cuts out the Indooroopilly/Tennyson/Fairfield sections of the loop by heading across the Eleanor Schonell Bridge.
+
+This short-cut effectively cuts the loop in half, and provides a good "training" loop if you're not as experienced or confident.
+
+{% ad %}
+
+## Take a different route
+
+The River Loop is pretty loosely defined and everyone has their own take on it. Some popular alternatives include:
+
+- Continue down Gladstone Road rather than turning left onto Dornoch Terrace, to cut straight back to the Goodwill Bridge.
+- Take Annerley Road instead of Gladstone Road to get to the Goodwill Bridge without having to climb any more hills
+- Take Grey Street instead of the Clem Jones Promenade along the water at South Bank to avoid the busy weekend pedestrian traffic. (Always remember to go slow and give way to pedestrians.)

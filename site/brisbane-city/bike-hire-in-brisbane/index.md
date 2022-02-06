@@ -6,6 +6,12 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+hero:
+  {
+    "type": "defaultImage",
+    "image": "/brisbane-city/bike-hire-in-brisbane/bike-hire-hero",
+  }
+thumb: { "image": "/brisbane-city/bike-hire-in-brisbane/beam-bike" }
 ---
 
 One of the better ways to explore a new city is by bike, because you can take as much time as you like, stop wherever something catches your eye, and get a real perspective of life in Brisbane.

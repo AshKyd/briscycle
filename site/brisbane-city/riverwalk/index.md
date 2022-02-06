@@ -5,6 +5,9 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+hero:
+  { "type": "defaultImage", "image": "/brisbane-city/riverwalk/riverwalk-hero" }
+thumb: { "image": "/brisbane-city/riverwalk/riverwalk" }
 geojson:
   {
     "type": "FeatureCollection",
@@ -49,6 +52,8 @@ The Riverwalk is a great way to get from New Farm to the city as it follows alon
 
 The Riverwalk includes shaded rest and viewing areas similar to other bikeways in the area.
 
+{% ad %}
+
 ## The old Riverwalk
 
 After being washed away in 2011, the Riverwalk was in limbo for three years until the new structure was completed in September 2014.
@@ -75,4 +80,8 @@ He said:
 >
 > It was an iconic feature of the city, and the completion of these works will help bring it back bigger and better than ever.
 
-The main focuses of the reconstruction project were cost and sturdiness, with the previous floating walkway costing $650,000 annually to maintain. The new construction is a fixed walkway constructed 3.4 metres above the mean sea level and follow a similar route to the previous structure which will also have a significantly lower maintenance cost, and is expected to be able to survive a one-in-2000 year flood.
+{% ad %}
+
+The main focuses of the reconstruction project were cost and sturdiness, with the previous floating walkway costing $650,000 annually to maintain.
+
+The new construction is a fixed walkway constructed 3.4 metres above the mean sea level and follow a similar route to the previous structure which will also have a significantly lower maintenance cost, and is expected to be able to survive a one-in-2000 year flood.

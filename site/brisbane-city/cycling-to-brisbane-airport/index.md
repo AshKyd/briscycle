@@ -1,12 +1,35 @@
 ---
 title: Cycling to Brisbane Airport
-description: While the Jim Soorley bikeway takes you around the outskirts of the airport, you'll have to take Airport Drive to get to the international and domestic airport terminals by bik.
+description: If you want to ride to Brisbane Airport you'll need to be confident with on-road cycling. The official route is different depending on whether you're inbound or outbound.
 geo: { "lat": "-27.413", "lng": "153.09", "zoom": "15" }
 fbComments: http://briscycle.com/cycling-to-brisbane-airport/
 layout: page
 related: brisbane
 tags:
   - brisbane
+hero:
+  {
+    "type": "defaultImage",
+    "image": "/brisbane-city/cycling-to-brisbane-airport/brisbane-airport-hero",
+    "attribution":
+      {
+        "name": "NellCR",
+        "title": "Brisbane Airport",
+        "url": "https://www.flickr.com/photos/nellcr/7687587582/",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      },
+  }
+thumb:
+  {
+    "image": "/brisbane-city/cycling-to-brisbane-airport/brisbane-airport",
+    "attribution":
+      {
+        "name": "NellCR",
+        "title": "Brisbane Airport",
+        "url": "https://www.flickr.com/photos/nellcr/7687587582/",
+        "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      },
+  }
 ---
 
 ## Riding to DFO

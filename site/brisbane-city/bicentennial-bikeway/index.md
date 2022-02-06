@@ -5,6 +5,12 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+hero:
+  {
+    "type": "defaultImage",
+    "image": "/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero",
+  }
+thumb: { "image": "/brisbane-city/bicentennial-bikeway/bicentennial-bikeway" }
 geojson:
   [
     {
