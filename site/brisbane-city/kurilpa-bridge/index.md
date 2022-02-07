@@ -5,7 +5,12 @@ layout: page
 related: brisbane
 tags:
   - brisbane
-hero: { "type": "defaultImage", "image": "/brisbane-city/kurilpa-bridge/hero" }
+hero:
+  {
+    "type": "defaultImage",
+    "alt": "Kurilpa Bridge at night, the cantilevers lit in red. GOMA is illuminated blue in the background. The footpath is brightly lit in warm light.",
+    "image": "/brisbane-city/kurilpa-bridge/hero",
+  }
 thumb: { "image": "/brisbane-city/kurilpa-bridge/kurilpa" }
 geojson:
   {

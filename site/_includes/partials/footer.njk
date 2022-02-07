@@ -1,8 +1,16 @@
-<footer>
+<footer class="container">
     <p class="navbar" bgcolor="#0000ff">
-        Copyright &copy; {{site.copyrightYear}} Ash Kyd
+        Copyright &copy; {{site.copyrightYear}} <a href="https://ash.ms/">Ash Kyd</a>
         •
         <a href="/">Home</a>
+        {% if page.url %}
+        •
+        <a 
+            rel="nofollow" 
+            href="https://github.com/AshKyd/briscycle/tree/master/site{{page.url}}index.md">
+            Edit on Github
+        </a>
+        {% endif %}
     </p>
 </footer>
 </body>

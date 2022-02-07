@@ -6,7 +6,11 @@ related: brisbane
 tags:
   - brisbane
 hero:
-  { "type": "defaultImage", "image": "/brisbane-city/riverwalk/riverwalk-hero" }
+  {
+    "type": "defaultImage",
+    "alt": "The riverwalk, well lit at night. The Story Bridge and Brisbane skyline are visible out over the water.",
+    "image": "/brisbane-city/riverwalk/riverwalk-hero",
+  }
 thumb: { "image": "/brisbane-city/riverwalk/riverwalk" }
 geojson:
   {

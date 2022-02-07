@@ -9,6 +9,7 @@ mapTitle: Map of the Brisbane Riverloop + half riverloop
 hero:
   {
     "type": "defaultImage",
+    "alt": "A glimpse of the Eleanor Schonell Bridge, looking through Trees from the riverbank at UQ",
     "image": "/brisbane-city/river-loop/river-loop-hero",
   }
 thumb: { "image": "/brisbane-city/river-loop/river-loop" }

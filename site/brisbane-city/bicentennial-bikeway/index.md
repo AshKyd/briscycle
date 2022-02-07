@@ -8,6 +8,7 @@ tags:
 hero:
   {
     "type": "defaultImage",
+    "alt": "Sunny day, pedestrians and cyclists on separated paths by the Brisbane River. An overpass pylon decorated with abstract street art and a big fluffy dog on a leash.",
     "image": "/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero",
   }
 thumb: { "image": "/brisbane-city/bicentennial-bikeway/bicentennial-bikeway" }

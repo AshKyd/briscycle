@@ -7,6 +7,7 @@ hero:
   {
     "type": "defaultImage",
     "image": "/bicycle-regulation/hero",
+    "alt": "Police on bikes outside the Gardens Point botanical gardens",
     "attribution":
       {
         "name": "Tony Hisgett",

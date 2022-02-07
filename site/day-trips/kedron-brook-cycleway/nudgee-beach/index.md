@@ -17,6 +17,7 @@ thumb:
 hero:
   {
     "image": "/day-trips/kedron-brook-cycleway/nudgee-beach/hero",
+    "alt": "Native Ergrets on the mudflats of Boondall Wetlands",
     "attribution":
       {
         "name": "Brisbane City Council",

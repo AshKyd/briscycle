@@ -10,6 +10,7 @@ thumb:
   }
 hero:
   {
+    "alt": "People riding past a grassy field along the Jim Soorley Bikeway and off into the distance past some trees.",
     "image": "/day-trips/kedron-brook-cycleway/jim-soorley-bikeway/hero",
     "attribution": null,
   }

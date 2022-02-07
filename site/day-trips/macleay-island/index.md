@@ -13,6 +13,7 @@ hero:
   {
     "type": "defaultImage",
     "image": "/day-trips/macleay-island/macleay-island-hero",
+    "alt": "Coondooroopa Beach - waves lap at a sandy beach at low tide, there are beach shacks on the shore and trees stretching in the distance. Nobody is around.",
   }
 thumb: { "image": "/day-trips/macleay-island/macleay-island" }
 geojson:

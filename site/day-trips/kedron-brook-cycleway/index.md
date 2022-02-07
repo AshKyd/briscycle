@@ -11,6 +11,7 @@ hero:
   {
     "type": "defaultImage",
     "image": "/day-trips/kedron-brook-cycleway/kedron-brook-hero",
+    "alt": "People picnicking in Kalinga Park, along the Kedron Brook bikeway.",
     "attribution":
       {
         "name": "Brisbane City Council",

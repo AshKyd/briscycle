@@ -8,6 +8,7 @@ tags:
 hero:
   {
     "type": "defaultImage",
+    "alt": "The Goodwill Bridge from afar on a sunny day, the Captain Cook Bridge and Kangaroo Point in the background.",
     "image": "/brisbane-city/goodwill-bridge/goodwill-bridge-hero",
   }
 thumb: { "image": "/brisbane-city/goodwill-bridge/goodwill-bridge" }

@@ -11,6 +11,7 @@ hero:
   {
     "type": "defaultImage",
     "image": "/brisbane-city/cycling-to-brisbane-airport/brisbane-airport-hero",
+    "alt": "Brisbane International Airport parking garage and service roads",
     "attribution":
       {
         "name": "NellCR",
