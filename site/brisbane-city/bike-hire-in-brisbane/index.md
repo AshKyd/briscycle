@@ -9,7 +9,7 @@ tags:
 hero:
   {
     "type": "defaultImage",
-    "alt": "Close up of a Neuron hire bike on the street",
+    "alt": "Three Beam bikes on the street outside of Orleigh Park",
     "image": "/brisbane-city/bike-hire-in-brisbane/bike-hire-hero",
   }
 thumb: { "image": "/brisbane-city/bike-hire-in-brisbane/beam-bike" }
