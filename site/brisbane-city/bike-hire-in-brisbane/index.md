@@ -25,6 +25,19 @@ Before heading out, you should download and sign up to both [Neuron](https://www
 
 Subscription is free, and you can see a map of all the hire bikes and scooters in your area.
 
+<div class="card">
+    <div class="card__link" href="{{item.data.page.url}}">
+    <div class="card__content">
+        <div class="card__title h2">Free trips</div>
+        <p>Use my signup code to get free credit on hire bikes.</p>
+        <ul>
+          <li>Neuron: <code>9FMZ25GQ</code> - free 10 minute ride</li>
+          <li>Beam: <code>mR5gVvs</code> - $5 free credit</li>
+        </ul>
+    </div>
+    </div>
+</div>
+
 ## Wear a helmet
 
 Australian law requires you wear a helmet at all times while you ride a bicycle. This is strictly enforced and the fines are quite steep, so don't risk it.
