@@ -1,8 +1,6 @@
 <footer class="container">
-    <p class="navbar" bgcolor="#0000ff">
+    <p class="navbar">
         Copyright &copy; {{site.copyrightYear}} <a href="https://ash.ms/">Ash Kyd</a>
-        •
-        <a href="/">Home</a>
         {% if page.url %}
         •
         <a 
@@ -11,6 +9,19 @@
             Edit on Github
         </a>
         {% endif %}
+    </p>
+    <p class="navbar">
+        <a href="/">Home</a>
+
+        {% for post in collections.legal %}
+            • <a href="{{post.url}}">
+            {% if post.data.shortTitle %}
+                {{post.data.shortTitle}}
+            {% else %}
+                {{post.data.title}}
+            {% endif %}
+            </a>
+        {% endfor %}
     </p>
 </footer>
 </body>

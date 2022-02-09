@@ -8,11 +8,17 @@ html {
   max-width: 1024px;
   margin: 0 auto;
 }
-
-.article-header{
-  padding-top:2em;
+.wide-container {
+  width: 130vw;
+  max-width: 1366px;
+  margin: 0 auto;
+  position: relative;
 }
 
-.article__ad{
-  margin:2em 0;
+.article-header {
+  padding-top: 2em;
+}
+
+.article__ad {
+  margin: 2em 0;
 }

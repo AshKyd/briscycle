@@ -16,6 +16,10 @@ module.exports = function (eleventyConfig) {
     return { geo, geojson };
   });
 
+  eleventyConfig.addNunjucksFilter("keys", function (val) {
+    return Object.keys(val);
+  });
+
   eleventyConfig.addShortcode("ad", function () {
     return `<aside style="min-height: 200px">
 

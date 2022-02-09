@@ -29,12 +29,14 @@
   </head>
   <body>
   <header class="header inverse-links">
-  <h1 class="header__main"><a href="/">Briscycle</a></h1>
-  <ol class="header__menu">
-    {% for item in collections.menu %}
-        <li class="header__item">
-        <a href="{{item.data.page.url}}">{{item.data.shortTitle}}</a>
-        </li>
-    {% endfor %}
-  </ol>
+  <div class="wide-container">
+    <h1 class="header__main"><a href="/">Briscycle</a></h1>
+    <ol class="header__menu">
+      {% for item in collections.menu %}
+          <li class="header__item">
+          <a href="{{item.data.page.url}}">{{item.data.shortTitle}}</a>
+          </li>
+      {% endfor %}
+    </ol>
+  </div>
 </header>

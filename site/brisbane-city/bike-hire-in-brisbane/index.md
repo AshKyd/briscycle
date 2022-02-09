@@ -19,23 +19,51 @@ One of the better ways to explore a new city is by bike, because you can take as
 
 Brisbane is a great city for cycling because the city centre is ringed with bike paths, and there are two dockless bike share schemes in the city.
 
+{% ad %}
+
 ## Bike share (and scooters too!)
 
 Before heading out, you should download and sign up to both [Neuron](https://www.rideneuron.com/) and [Beam](https://www.ridebeam.com/).
 
 Subscription is free, and you can see a map of all the hire bikes and scooters in your area.
 
+## Free trips
+
+Use my signup code to get free credit on hire bikes.
+
 <div class="card">
-    <div class="card__link" href="{{item.data.page.url}}">
-    <div class="card__content">
-        <div class="card__title h2">Free trips</div>
-        <p>Use my signup code to get free credit on hire bikes.</p>
-        <ul>
-          <li>Neuron: <code>9FMZ25GQ</code> - free 10 minute ride</li>
-          <li>Beam: <code>mR5gVvs</code> - $5 free credit</li>
-        </ul>
-    </div>
-    </div>
+<div class="card__link">
+<div class="card__content">
+<div class="sidebyside">
+<div>
+<h3>Neuron</h3>
+
+<p>Grab a free 10 minute ride with this code:</p>
+
+<aside class="copy-code">
+  <code id="neuron-code" class="copy-code__text">9FMZ25GQ</code>
+  <button class="copy-code__button" data-clipboard-target="#neuron-code">
+  Copy code
+  </button>
+</aside>
+
+</div>
+
+<div>
+<h3>Beam</h3>
+
+<p>Get $5 free credit using this code:</p>
+
+<aside class="copy-code">
+  <code id="beam-code" class="copy-code__text">mR5gVvs</code>
+  <button class="copy-code__button" data-clipboard-target="#beam-code">
+  Copy code
+  </button>
+</aside>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 ## Wear a helmet

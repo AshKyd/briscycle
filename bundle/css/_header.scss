@@ -1,17 +1,20 @@
 .header {
   background: #2196f3;
-  display: flex;
   line-height: 2em;
-  a{
+
+  .wide-container {
+    display: flex;
+  }
+  a {
     line-height: 2em;
     color: white;
     text-decoration: none;
     &:hover,
-    &:focus{
+    &:focus {
       text-decoration: underline;
     }
   }
-  
+
   &__menu {
     padding: 0;
   }
@@ -21,8 +24,8 @@
     padding: 0;
     display: inline-block;
     margin-right: 0.5em;
-    @media (max-width:480px){
-      &:before{
+    @media (max-width: 480px) {
+      &:before {
         content: "• ";
         color: white;
         opacity: 0.8;

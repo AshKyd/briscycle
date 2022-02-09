@@ -23,7 +23,7 @@ related: home
       <source srcset="/images/bne-max.webp"
         type="image/webp"
         media="(min-width: 1920px)">
-      <img class="home-hero__image" src="/images/bne-max.jpg" alt="" />
+      <img class="home-hero__image" src="/images/bne-max.jpg" alt="The beach at South Bank. Looks like a nice day out." />
   </picture>
 </div>
 <a name="content"></a>
@@ -36,7 +36,7 @@ body{
   display:none;
 }
 .home-hero{
-  min-height:70vh;
+  min-height:57vh;
   width:100%;
   position:relative;
   background: white;

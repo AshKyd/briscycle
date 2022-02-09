@@ -1,5 +1,6 @@
 
 {% if(related) %}
+<div class="wide-container">
 <ul class="cards">
     {% for item in collections[related] %}
     <li class="card">
@@ -47,4 +48,5 @@
     </li>
     {% endfor %}
 </ul>
+</div>
 {% endif %}
