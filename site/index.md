@@ -48,7 +48,7 @@ body{
   text-align:left;
   font-size:3.5em;
   margin-bottom:-0.5em;
-  color: #2196f3;
+  color: #075697;
 }
 .home-hero__line2{
   width: 45%;
