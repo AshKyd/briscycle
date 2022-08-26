@@ -36,7 +36,7 @@ Use my signup code to get free credit on hire bikes.
 <div class="card__content">
 <div class="sidebyside">
 <div>
-<h3>Neuron</h3>
+<h3>Neuron signup code</h3>
 
 <p>Grab a free 10 minute ride with this code:</p>
 
@@ -50,9 +50,9 @@ Use my signup code to get free credit on hire bikes.
 </div>
 
 <div>
-<h3>Beam</h3>
+<h3>Beam signup code</h3>
 
-<p>Get $5 free credit using this code:</p>
+<p>Get $3 free credit using this code:</p>
 
 <aside class="copy-code">
   <code id="beam-code" data-owner="ash" class="copy-code__text">mR5gVvs</code>
