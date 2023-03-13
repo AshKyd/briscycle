@@ -24,7 +24,7 @@
 }
 
 .card-ad {
-  max-height: 300px;
+  height: 300px;
   margin: 10px 0;
 }
 @media (max-width: 479px) {
@@ -38,6 +38,7 @@
     display: flex;
     text-align: center;
     position: relative;
+    height: auto;
     &__wrapski {
       position: absolute;
       left: 10px;
