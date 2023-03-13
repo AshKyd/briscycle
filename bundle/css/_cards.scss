@@ -54,6 +54,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
+  }
+
+  &__ad-wrapper {
+    min-width: 50%;
   }
 
   &__thumbnail {
