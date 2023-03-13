@@ -20,12 +20,12 @@
             {% if(item.data.thumb.image) %}
             <picture>
                 <source
-                    srcset="{{item.data.thumb.image}}-mobile.jpg"
+                    srcset="{{item.data.thumb.image}}-mobile.{{item.data.thumb.format | default('jpg')}}"
                     media="(max-width: 1024px)"
                 />
                 <img
                     class="card__thumbnail-image"
-                    src="{{item.data.thumb.image}}-desktop.jpg"
+                    src="{{item.data.thumb.image}}-desktop.{{item.data.thumb.format | default('jpg')}}"
                     alt=" "
                     role="presentation"
                     loading="lazy"

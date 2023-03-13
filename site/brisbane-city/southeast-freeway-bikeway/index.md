@@ -1,10 +1,22 @@
 ---
 title: Southeast Freeway Bikeway
-description: The Southeast Freeway bikeway runs parallell to the Southeast Freeway from South Brisbane to Eight Mile Planes.
 layout: page
+description: The Southeast Freeway bikeway runs parallell to the Southeast Freeway from South Brisbane to Eight Mile Plains & is the main route from Brisbane to the Gold Coast
 related: brisbane
 tags:
   - brisbane
+thumb:
+  {
+    "image": "/brisbane-city/southeast-freeway-bikeway/thumb",
+    "format": "webp",
+  }
+hero:
+  {
+    "type": "defaultImage",
+    "alt": "The bikeway is a prominent piece of infrastructure, stretching off towards Brisbane City in the distance.",
+    "image": "/brisbane-city/southeast-freeway-bikeway/hero",
+    "format": "webp",
+  }
 geojson:
   [
     {
@@ -235,8 +247,8 @@ geojson:
   ]
 ---
 
-The Southeast Freeway bikeway runs parallel to the Southeast Freeway from South Brisbane to Eight Mile Planes.
+The Southeast Freeway bikeway runs parallel to the Southeast Freeway (M1) from South Brisbane to Eight Mile Plains.
 
-This bikeway is a busy commuter route servicing the southern suburbs, linking up with all the back-streets truncated by the motorway itself, and connecting to the CBD via the <a href="../goodwill-bridge/">Goodwill Bridge</a>. It's also a part of the V1 veloway linking Brisbane to the <a href="../gold-coast/">Gold Coast</a>.
+This bikeway is a busy commuter route servicing the southern suburbs, linking up with all the back-streets truncated by the motorway itself. It connects to the CBD via the <a href="../goodwill-bridge/">Goodwill Bridge</a>. It's also a part of the V1 veloway linking Brisbane to the <a href="../gold-coast/">Gold Coast</a>.
 
 Being off-road, the bikeway is good for all experience levels so it's a great little weekend tour or an excellent commute to work. The climb outbound from the river at the city end is the steepest section along the route.

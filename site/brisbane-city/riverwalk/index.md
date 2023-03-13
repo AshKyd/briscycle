@@ -1,6 +1,6 @@
 ---
 title: Riverwalk Floating Walkway
-description: The Brisbane Riverwalk connects the Bicentennial Bikeway to New Farm and Merthyr, following the north side of the Brisbane River.
+description: The Brisbane Riverwalk connects Brisbane to New Farm via Howard Smith Wharves, along the north side of the Brisbane River.
 layout: page
 related: brisbane
 tags:
@@ -8,10 +8,15 @@ tags:
 hero:
   {
     "type": "defaultImage",
-    "alt": "The riverwalk, well lit at night. The Story Bridge and Brisbane skyline are visible out over the water.",
+    "alt": "The Riverwalk winds through Howard Smith Wharves, and out into the Brisbane River",
     "image": "/brisbane-city/riverwalk/riverwalk-hero",
+    format: webp,
   }
-thumb: { "image": "/brisbane-city/riverwalk/riverwalk" }
+thumb:
+  {
+    "image": "/brisbane-city/riverwalk/howard-smith-wharves-riverwalk",
+    format: "webp",
+  }
 geojson:
   {
     "type": "FeatureCollection",
@@ -48,11 +53,13 @@ geojson:
   }
 ---
 
-The Brisbane Riverwalk connects the [Bicentennial Bikeway](../bicentennial-bikeway/) to New Farm and Merthyr, following the north side of the Brisbane River.
+The Brisbane Riverwalk connects Brisbane to New Farm via Howard Smith Wharves, along the north side of the Brisbane River.
 
-## The new Riverwalk
+The Riverwalk connects to the City Reach Boardwalk taking you right into the Brisbane CBD. It continues on to the [Bicentennial Bikeway](../bicentennial-bikeway/) which continues to Toowong, as well as the [V1 Bikeway](../southeast-freeway-bikeway/) via the [Goodwill Bridge](../goodwill-bridge/).
 
-The Riverwalk is a great way to get from New Farm to the city as it follows along the river rather than winding through the steep hills approaching Fortitude Valley. The Riverwalk has segregated pedestrian and cycle infrastructure, so you're free to ride or walk at whichever pace you choose.
+## The Riverwalk
+
+The Riverwalk is a great way to get from New Farm to the city as it follows along the river rather than winding through the steep hills approaching Fortitude Valley. The Riverwalk has segregated pedestrian and cycle lanes, so you're free to ride or walk at whichever pace you choose.
 
 The Riverwalk includes shaded rest and viewing areas similar to other bikeways in the area.
 
@@ -64,9 +71,7 @@ After being washed away in 2011, the Riverwalk was in limbo for three years unti
 
 The floating walkway was a unique, floating structure completely detached from the riverbank which took people out into the middle of the river to admire Brisbane City from a unique vantage point.
 
-The floating walkway started at Merthyr Road and finished just before the Story Bridge. This stretch of bikeway still goes through the historic Howard Smith Wharves which are amongst the last of the undeveloped Brisbane riverfront real estate.
-
-The bikeway connected to the bicentennial bikeway which continues to Toowong.
+The floating walkway started at Merthyr Road and finished just before the Story Bridge. This stretch of bikeway still goes through the historic Howard Smith Wharves.
 
 ### Demolition
 

@@ -2,12 +2,12 @@
 <div class="hero-default-image-container">
 <picture class="hero-default-image">
   <source
-    srcset="{{hero.image}}-mobile.jpg"
-    media="(max-width: 1024px)"
+    srcset="{{hero.image}}-mobile.{{hero.format | default('jpg')}}"
+    media="(max-width: 767px)"
   />
   <img
     class="hero-default-image__image"
-    src="{{hero.image}}-desktop.jpg"
+    src="{{hero.image}}-desktop.{{hero.format | default('jpg')}}"
     alt="{{ hero.alt }} "
   />
 </picture>
