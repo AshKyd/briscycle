@@ -48,6 +48,14 @@
     }
   }
 
+  &--ad &__link {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   &__thumbnail {
     position: relative;
     padding-bottom: 56.25%;
