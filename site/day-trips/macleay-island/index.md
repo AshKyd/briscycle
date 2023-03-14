@@ -84,6 +84,8 @@ Macleay Island is a small island off the coast of Redland Bay.
 
 There are no major tourist attractions, although it's a fantastic area to take a day trip and explore. Most of the roads are cycle friendly, and there is an off-road cycleway that runs most of the length of the island, so it's a great place to get around by bike.
 
+{% ad %}
+
 There is a rather steep hill to climb to get out of the ferry terminal, but don't let that discourage you, most of the island is flat and quite easy to cycle.
 
 ### Facilities
@@ -99,6 +101,8 @@ If you're looking for a meal, there are plenty of places to eat about the island
 Ferries to the island generally run every half hour from Redland Bay Marina (200m south of the vehicle ferry, see it here on [Google Maps](https://www.google.com/maps/place/Redland+Bay+Marina/@-27.6173227,153.3107938,17z)). A return passenger ticket costs just shy of $15.00.
 
 If you're coming from Brisbane, you can ride from Cleveland Train Station. The most direct route is a 13.5 km trek along Cleaveland Redland Bay Road, but it's mostly without cycle lanes, and in some places without footpaths.
+
+{% ad %}
 
 Redland Bay Council recommends riding the [Moreton Bay Cycleway](/moreton-bay) from the train station, which runs a much longer and more scenic route along the coast. Either way, this much cycling you might want to make it a weekend trip.
 

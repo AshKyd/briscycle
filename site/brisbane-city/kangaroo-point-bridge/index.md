@@ -58,6 +58,8 @@ The bridge will be shaded by solar panels along the entire length, and have inte
 
 The bridge has at most a gentle 1:20 grade, for even novice cyclists to power up.
 
+{% ad %}
+
 ## Kangaroo Point bridge construction
 
 <picture>
@@ -78,6 +80,8 @@ The bridge includes a number of best-practice sustainable features including sol
 ## Interesting Things Nearby
 
 There are plenty of dining options nearby. The bridge includes an integrated restaurant and coffee options. The Eagle Street precinct on the CBD side has plenty of dining including the famous The Bavarian. The Kangaroo Point end is close to the Baildon Street precinct, home of the Story Bridge Hotel.
+
+{% ad %}
 
 What about free things to do in Brisbane? The Botanical Gardens, or Kangaroo Point Cliffs are always good for a stroll or a picnic. Captain Burke Park and The Cliffs have free barbecues and picnic shelters.
 

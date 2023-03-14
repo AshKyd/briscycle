@@ -74,7 +74,8 @@ It's a pleasant trip to the lake, although as you might expect the journey invol
 
 The final leg of the journey requires some road cycling although this mainly involves residential back-streets aside for a 150 metre stretch along Forgan Road to get to Bullocky Rest.
 
-<h3>Bullocky Rest</h3>
+## Bullocky Rest
+
 Bullocky Rest is a large picnic area on the eastern bank of Lake Samsonvale. It's a great place to have lunch or spend an evening, with picnic shelters, barbecue areas, playgrounds and other amenities.
 
 The picnic area has the usual facilities including picnic tables, electric barbecues, toilets and fresh drinking water, although you will need to bring your own food as there are no shops within cycling distance.
