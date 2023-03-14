@@ -91,6 +91,24 @@ p,
   box-sizing: border-box;
 }
 
+.article-entry {
+  img {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .alignright {
+      float: right;
+      margin: 0 0 10px 10px;
+      max-width: 45%;
+    }
+    .alignleft {
+      float: left;
+      margin: 0 10px 10px 0;
+      max-width: 45%;
+    }
+  }
+}
+
 .copy-code {
   background-color: rgba(0, 0, 0, 0.01);
   border-radius: 1em;
