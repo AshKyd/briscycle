@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bikes & Public Transport
-description: Bikes are permitted on some forms of public transport in Brisbane. Find out when, where and the details about bikes on buses, trains, and ferries.
+description: Bikes and scooters are permitted on most forms of public transport in Brisbane. Find out when, where and the details about bikes on buses, trains, and ferries.
 icon: /bicycle-regulation/bikes-on-public-transport/aiga-rail-transportation.svg
 tags:
   - rules
@@ -10,7 +10,7 @@ related: rules
 
 Bikes are permitted on most forms of public transport in Brisbane.
 
-## Bike & scooters on trains
+## 🚂 Bike & scooters on trains
 
 You're allowed to travel freely on weekends, public holidays, and off-peak (including in the opposite direction of peak traffic). Although if the carriage fills up you may be asked to get off to make room for passengers.
 
@@ -31,7 +31,7 @@ Peak times are:
 - 7am - 9:30am towards the CBD
 - 3pm - 6:30pm outwards from the CBD
 
-## Commuting by bike on public transport
+## 👔 Commuting by bike on public transport
 
 Most stations have parking rails, and some have bicycle lockers you can rent, although these are often in high demand.
 
@@ -41,7 +41,7 @@ Scooters can be taken on any service as long as they're folded up. If you're tra
 
 For more info see the Translink <a href="https://translink.com.au/travel-with-us/cycling-and-walking">bike locker info.</a>
 
-## Bikes on ferries
+## ⛴️ Bikes on ferries
 
 Bikes are allowed any time on CityCats, but this is dependent on capacity.
 
@@ -51,7 +51,7 @@ Bikes can be carried onto all vehicle barges to the Southern Moreton Bay Islands
 
 {% ad %}
 
-## Bikes on buses
+## 🚌 Bikes on buses
 
 Brisbane city does not provide any bicycle facilities on buses, so unless you have a foldable bike you can't take it on the bus.
 
