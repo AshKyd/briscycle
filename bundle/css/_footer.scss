@@ -26,4 +26,20 @@
       margin: 1em 0;
     }
   }
+
+  &__menu .card__link {
+    margin: 0;
+  }
+  &__menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  &__menu-item a {
+    display: block;
+    padding: 10px 20px;
+    border-top: 1px solid #eee;
+  }
+  &__menu-header {
+    padding: 20px 20px 0;
+  }
 }

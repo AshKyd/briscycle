@@ -6,6 +6,13 @@ icon: /bicycle-regulation/bikes-on-public-transport/aiga-rail-transportation.svg
 tags:
   - rules
 related: rules
+hero:
+  {
+	"type": "defaultImage",
+	"image": "/bicycle-regulation/bikes-on-public-transport/hero",
+	"alt": "A blue bike in a mostly empty train carriage",
+	format: webp,
+  }
 ---
 
 Bikes are permitted on most forms of public transport in Brisbane.

@@ -1,4 +1,18 @@
 <footer class="container">
+
+    <nav class="footer__menu card">
+    <div class="card__link">
+    <h2 class="footer__menu-header">Find out more</h2>
+        <ol class="footer__menu-list">
+          {% for item in collections.menu %}
+              <li class="footer__menu-item">
+              <a href="{{item.data.page.url}}">{{item.data.shortTitle}}</a>
+              </li>
+          {% endfor %}
+        </ol>
+        </div>
+    </nav>
+
     <p class="navbar">
         Copyright &copy; {{site.copyrightYear}} <a href="https://ash.ms/">Ash Kyd</a>
         {% if page.url %}

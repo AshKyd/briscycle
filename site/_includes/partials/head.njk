@@ -30,14 +30,28 @@
   </head>
   <body>
   <header class="header inverse-links">
-  <div class="wide-container">
-    <h1 class="header__main"><a href="/">Briscycle</a></h1>
-    <ol class="header__menu">
+  <div class="header__flex">
+    <h1 class="header__main"><a href="/">
+      <img class="header__logo" src="/images/header-logo.webp" alt="" role="presentation" />
+      Briscycle
+    </a></h1>
+    <ol class="header__menu ">
       {% for item in collections.menu %}
-          <li class="header__item">
+          <li class="header__item header__item--desktop">
           <a href="{{item.data.page.url}}">{{item.data.shortTitle}}</a>
           </li>
       {% endfor %}
+      <li class="header__item header__item--mobile">
+        
+        <a href="#nav" class="header__button">
+          <svg viewBox="0 0 100 80" width="40" height="40" class="header__burger">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+          </svg>
+          Menu
+          </a>
+      </li>
     </ol>
   </div>
 </header>

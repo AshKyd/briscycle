@@ -2,13 +2,21 @@
   background: #075697;
   line-height: 2em;
 
-  .wide-container {
+  &__flex {
     display: flex;
+  }
+
+  &__logo {
+    height: 48px;
+    margin-right: 10px;
   }
   a {
     line-height: 2em;
     color: white;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+
     &:hover,
     &:focus {
       text-decoration: underline;
@@ -24,20 +32,53 @@
     padding: 0;
     display: inline-block;
     margin-right: 0.5em;
-    @media (max-width: 480px) {
-      &:before {
-        content: "• ";
-        color: white;
-        opacity: 0.8;
-      }
-    }
   }
-  h1.header__main {
+  &__main {
+    font-weight: bold;
     font-size: 1em;
-    margin: 0 1em;
+    margin: 0 2em 0 1em;
     padding: 0;
     line-height: 1;
     display: flex;
     align-items: center;
+  }
+
+  &__burger {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    fill: white;
+    margin-right: 5px;
+  }
+
+  &__button {
+    color: white;
+    background: #2196f3;
+    border-radius: 6px;
+    padding: 5px 10px;
+    text-decoration: none !important;
+    &:hover:not(:active),
+    &:focus:not(:active) {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 0 #00000020;
+    }
+    &:active {
+      background: #1b90ec;
+    }
+  }
+
+  &__item--mobile {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    &__flex {
+      justify-content: space-between;
+    }
+    &__item--mobile {
+      display: inline-block;
+    }
+    &__item--desktop {
+      display: none !important;
+    }
   }
 }
