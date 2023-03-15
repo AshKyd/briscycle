@@ -812,12 +812,14 @@ geojson:
 
 The Gold Coast is a great place to cycle as a commuter, and even better as a sightseer. The local council has placed an emphasis on bicycle infrastructure, so you'll find plenty of bike paths linking the coast and inland areas of the Gold Coast.
 
-<h3>Cycling The Esplanade</h3>
+## Cycling The Esplanade
+
 The Esplanade is a dedicated on-and off-road cycleway that runs the full length of the Gold Coast from top to bottom.
 
 The northern sections of this bikeway are mostly off-road, though some areas further south are on-road with cycle lanes. The off-road sections consist of shared pedestrian-bike path and can sometimes get crowded, so if you're in a hurry you may prefer to ride on the road anyway.
 
-<h3>Veloway 1 (V1 Cycleway)</h3>
+## Veloway 1 (V1 Cycleway)
+
 The V1 bikeway links Brisbane and the Gold Coast, allowing you to cycle nearly the entire distance between the two cities on dedicated infrastructure.
 
 The project to deliver the V1 cycleway is ongoing, with some sections in the Logan City area reverting to plain roadway, however the project is ongoing with the final stage due to start construction in 2015, subject to funding.
