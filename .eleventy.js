@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/**/*.webm");
   eleventyConfig.addPassthroughCopy("site/**/*.webp");
   eleventyConfig.addPassthroughCopy("site/**/*.txt");
+  eleventyConfig.addPassthroughCopy("site/**/*.json");
 
   eleventyConfig.addNunjucksFilter("pageData", function () {
     const { geo, geojson } = this.ctx;
