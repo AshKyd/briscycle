@@ -31,41 +31,44 @@ Subscription is free, and you can see a map of all the bikes and scooters availa
 
 Use my signup code to get free credit on hire bikes.
 
-<div class="card">
-<div class="card__link">
-<div class="card__content">
-<div class="sidebyside">
-<div>
-<h3>Neuron signup code</h3>
-
-<p>Grab a free 10 minute ride with this code:</p>
-
-<aside class="copy-code">
-  <code id="neuron-code" class="copy-code__text">9FMZ25GQ</code>
-  <button class="copy-code__button" data-clipboard-target="#neuron-code">
-  Copy code
-  </button>
-</aside>
-
+<div class="cards">
+  <div class="card__link" >
+    <div class="card__content" style="display:flex;">
+      <div style="margin-right:10px;">
+        <img src="neuron.webp" role="presentation" width=32 height=32 />
+      </div>
+      <div>
+        <h3> Neuron signup code</h3>
+        <p>Grab a free 10 minute ride with this code:</p>
+        <aside class="copy-code">
+          <code id="neuron-code" class="copy-code__text">9FMZ25GQ</code>
+          <button class="copy-code__button" data-clipboard-target="#neuron-code">
+          Copy code
+          </button>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div class="card__link">
+    <div class="card__content" style="display:flex">
+      <div style="margin-right:10px;"><img src="beam.webp" role="presentation" width=32 height=32 />
+      </div>
+      <div>
+        <h3>Beam signup code</h3>
+        <p>Get $3 free credit using this code:</p>
+        <aside class="copy-code">
+          <code id="beam-code" data-owner="ash" class="copy-code__text">mR5gVvs</code>
+          <!-- code id="beam-code" data-owner="tae" class="copy-code__text">Az3rHAN</code -->
+          <button class="copy-code__button" data-clipboard-target="#beam-code">
+          Copy code
+          </button>
+        </aside>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div>
-<h3>Beam signup code</h3>
-
-<p>Get $3 free credit using this code:</p>
-
-<aside class="copy-code">
-  <code id="beam-code" data-owner="ash" class="copy-code__text">mR5gVvs</code>
-  <!-- code id="beam-code" data-owner="tae" class="copy-code__text">Az3rHAN</code -->
-  <button class="copy-code__button" data-clipboard-target="#beam-code">
-  Copy code
-  </button>
-</aside>
-</div>
-</div>
-</div>
-</div>
-</div>
+{% ad %}
 
 ## 🤑 Life hack: get a day pass
 

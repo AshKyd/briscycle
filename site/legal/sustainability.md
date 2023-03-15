@@ -14,6 +14,7 @@ Last Updated: <strong>{{page.date}}</strong>
 
 ## Sustainability principles
 
+- This server is hosted with 100% renewable energy, as best the grid in Southeast Queensland can provide.
 - Providers & technologies are chosen based sustainability first.
 - Development is done with 100% renewable energy on premise
 - JAMStack/Static site generation with [Eleventy](https://www.11ty.dev/) means this site uses shared server resources and requires almost no cloud compute to maintain. This reduces energy consumption in the short term and results in less ewaste in the long term
@@ -22,5 +23,4 @@ Last Updated: <strong>{{page.date}}</strong>
 ## Third party services
 
 - Code hosting on Github has been [carbon neutral since 2019 and aims to be 100% renewable by 2025](https://github.blog/2021-04-22-environmental-sustainability-github/)
-- Web hosting on Cloudflare Pages runs on [100% renewable energy](https://www.cloudflare.com/en-au/press-releases/2021/cloudflare-creates-new-blueprint-for-zero-emissions-internet/)
 - Google Adsense provides ads for this site, but does not have an official sustainability policy. A portion of the advertising proceeds is donated to [Rainforest Rescue](https://www.rainforestrescue.org.au/) to preserve and reforest the Daintree in North Queensland.

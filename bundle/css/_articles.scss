@@ -1,0 +1,40 @@
+.article-entry {
+  & > h1,
+  & > h2,
+  & > h3 {
+    margin-top: 40px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 1366px) {
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+
+  margin-bottom: 40px;
+  & > img {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .alignright {
+      float: right;
+      margin: 0 0 10px 10px;
+      max-width: 45%;
+    }
+    .alignleft {
+      float: left;
+      margin: 0 10px 10px 0;
+      max-width: 45%;
+    }
+  }
+}

@@ -53,6 +53,8 @@ h3,
   margin: 0;
 }
 
+@import "articles";
+
 p,
 .p {
   font-weight: 400;
@@ -93,25 +95,6 @@ p,
   height: 100%;
   border: none;
   box-sizing: border-box;
-}
-
-.article-entry {
-  margin-bottom: 40px;
-  img {
-    width: 100%;
-  }
-  @media (min-width: 768px) {
-    .alignright {
-      float: right;
-      margin: 0 0 10px 10px;
-      max-width: 45%;
-    }
-    .alignleft {
-      float: left;
-      margin: 0 10px 10px 0;
-      max-width: 45%;
-    }
-  }
 }
 
 .copy-code {
@@ -167,5 +150,15 @@ p,
     & > * {
       width: 50%;
     }
+  }
+}
+
+.development {
+  .ad-wide-container,
+  .card-ad,
+  .article__ad,
+  .article__ad2,
+  .eleventyad {
+    background: aqua;
   }
 }
