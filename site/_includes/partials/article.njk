@@ -38,10 +38,13 @@
 </article>
 
 {% if geo or geojson %}
-<div class="wide-container">
+<div class="wide-container map__wrap">
   <div class="container">
     <h2>{% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}</h2>
-    <p>Tip: zoom in to see bike paths.</p>
+    <aside class="legend__wrap">
+    <div>Tip: zoom in to see bike paths.</div>
+    <div class="map__legend"></div>
+    </aside>
   </div>
   <div id="map" class="inline-map"></div>
   <template id="map-config">

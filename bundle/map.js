@@ -6,7 +6,7 @@ import { crelInHead, onload } from "./util";
 function filterProps(geojson, fn) {
   const output = JSON.parse(JSON.stringify(geojson));
   output.features = output.features.filter((feature) => {
-    return fn(feature.properties, feature);
+    return fn(feature.properties || {}, feature);
   });
   return output;
 }
@@ -90,30 +90,30 @@ export default async function initMap() {
     });
 
     const greenTypes = ["path", "cycleway", "track"];
+    const primaryColour = config.geo?.colour || "#00ff00";
+    const secondaryColour = "#00aa88";
+
+    // a geojson with the points stripped out
+    const lines = filterProps(
+      geojson,
+      (props, feature) => feature.geometry.type === "LineString"
+    );
 
     // all other line types, including highway=residential/road/whatever
-    addLayer(
-      map,
-      filterProps(geojson, ({ highway }) => !greenTypes.includes(highway)),
-      lineStyle({ color: "#00aa88" })
+    const otherLines = filterProps(
+      lines,
+      ({ highway }) => highway && !greenTypes.includes(highway)
     );
+    addLayer(map, otherLines, lineStyle({ color: secondaryColour }));
 
     // default lines + highway=path
     addLayer(
       map,
       filterProps(
-        geojson,
+        lines,
         ({ highway }) => !highway || greenTypes.includes(highway)
       ),
-      lineStyle({ color: config.geo?.colour || "#00ff00" })
-    );
-
-    console.log(
-      filterProps(
-        geojson,
-        ({ highway }, feature) =>
-          feature.geometry.type !== "Point" && !greenTypes.includes(highway)
-      )
+      lineStyle({ color: primaryColour })
     );
 
     // Fit bounds
@@ -132,5 +132,22 @@ export default async function initMap() {
     map.fitBounds(bounds, {
       padding: 40,
     });
+
+    const legend = `
+    <ul class="map__legend-list">
+      <li class="map__legend-item"><div  class="map__legend-line" style="background: ${primaryColour}"></div> ${
+      otherLines.features.length ? "bike path/footpath/trail" : "Route"
+    }</li>
+      ${
+        otherLines.features.length
+          ? `
+        <li class="map__legend-item"><div class="map__legend-line" style="background: ${secondaryColour}"></div> Road riding</li>
+      `
+          : ""
+      }
+    </ul>
+    `;
+
+    document.querySelector(".map__legend").innerHTML = legend;
   });
 }
