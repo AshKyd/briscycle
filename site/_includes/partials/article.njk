@@ -39,7 +39,7 @@
 <article class="article article-type-{{layout}}" itemscope itemprop="blogPost">
   <div class="article-content">
     <div class="article-inner">
-        <header class="article-header container">
+        <header class="article-header container type-serif">
             <h1 itemprop="name">
                 {{title}}
             </h1>
@@ -54,7 +54,7 @@
 {% if geo or geojson %}
 <div class="wide-container map__wrap">
   <div class="container">
-    <h2>{% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}</h2>
+    <h2 class="type-serif">{% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}</h2>
     <aside class="legend__wrap">
     <div>Tip: zoom in to see bike paths.</div>
     <div class="map__legend"></div>

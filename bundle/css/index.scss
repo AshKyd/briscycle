@@ -28,6 +28,23 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
+.type-serif {
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+    Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.article-content {
+  h1,
+  .h1,
+  h2,
+  .h2 {
+    font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+      Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol;
+  }
+}
+
 h1,
 .h1,
 h2,
@@ -43,7 +60,7 @@ h3,
 
 h2,
 .h2 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h3,

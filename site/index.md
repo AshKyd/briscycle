@@ -7,24 +7,15 @@ related: home
 ---
 
 <div class="home-hero">
-  <div class="home-hero__content">
-    <div class="container">
-      <h1 class="home-hero__line1">Cycling<br> in Brisbane</h1>
+  <div class="container">
+    <div class="home-hero__text-container">
+      <h1 class="home-hero__line1 type-serif">Cycling<br> in Brisbane</h1>
       <p class="home-hero__line2">Visiting Brisbane, or just looking for a day trip on the bike? Briscycle is your #1 resource for maps, bike paths and riding around Brisbane by bike.</p>
       <button
         class="btn btn-primary"
         onclick="javascript: document.querySelector('[name=content]').scrollIntoView({ behavior: 'smooth' })">Find out more</button>
     </div>
   </div>
-  <picture>
-      <source srcset="/images/bne-828.jpg" media="(max-width: 414px)">
-      <source srcset="/images/bne-1024.jpg" media="(max-width: 768px)">
-      <source srcset="/images/bne-1920.jpg" media="(max-width: 1920px)">
-      <source srcset="/images/bne-max.webp"
-        type="image/webp"
-        media="(min-width: 1920px)">
-      <img class="home-hero__image" src="/images/bne-max.jpg" alt="The beach at South Bank. Looks like a nice day out." />
-  </picture>
 </div>
 <a name="content"></a>
 
@@ -39,47 +30,69 @@ body{
   min-height:57vh;
   width:100%;
   position:relative;
-  background: white;
   overflow:hidden;
+  display:flex;
+  align-items: flex-end;
+}
+.home-hero .container{
+  display:flex;
+  align-items: center;
+  justify-content: flex-end
+}
+.home-hero__text-container{
+  color:black;
+  padding:30px;
+  border-radius:10px;
+  width:50%;
+  background:#fff;
+  margin-bottom:50px;
 }
 .home-hero__line1 {
   font-weight: bold;
-  text-shadow: 3px 3px 0 white;
   text-align:left;
-  font-size:3.5em;
-  margin-bottom:-0.5em;
-  color: #075697;
+  font-size:2em;
+  margin:0 0 0.25em 0;
+  line-height:1;
 }
-.home-hero__line2{
-  width: 45%;
-  font-weight: normal;
-  text-shadow: 1px 1px 0 white;
-  text-align:left;
+
+
+.home-hero{
+  background: #075697 url('/images/homepage/desktop-1366.webp') no-repeat center;
+  background-size: cover;
 }
-.home-hero__content{
-  position:absolute;
-  left:0;
-  top:0;
-  width:100%;
-  height:100%;
-  z-index:2;
+
+@media(min-width: 1367px){
+  .home-hero{
+    background-image: url('/images/homepage/desktop-1920.webp')
+  }
 }
-.home-hero__image{
-  width:100%;
-  max-width: 1000px;
-  position:absolute;
-  right:0;
-  bottom:0;
-  z-index:1;
+
+@media(min-width: 1921px){
+  .home-hero{
+    background-image: url('/images/homepage/desktop-3840.webp')
+  }
+}
+
+@media (max-width:767px){
+  .home-hero{
+    background-image: url('/images/homepage/mobile-1440.webp')
+  }
+  .home-hero__text-container{
+    width:70%;
+  }
 }
 
 @media (max-width: 415px){
+  .home-hero{
+    background-image: url('/images/homepage/mobile-750.webp');
+  }
   .home-hero__line1{
-    font-size: 2em;
+    font-size: 1.5em;
   }
-  .home-hero__line1,
-  .home-hero__line2{
-    width:auto;
+  .home-hero__text-container{
+    width:80%;
+    font-size:0.8em;
   }
+  
 }
 </style>

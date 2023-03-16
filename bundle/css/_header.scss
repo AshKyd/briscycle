@@ -1,6 +1,5 @@
 .header {
   background: #075697;
-  line-height: 2em;
 
   &__flex {
     display: flex;
@@ -25,6 +24,9 @@
 
   &__menu {
     padding: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
   }
   &__item {
     list-style: none;
@@ -32,6 +34,12 @@
     padding: 0;
     display: inline-block;
     margin-right: 0.5em;
+  }
+  &__item-search {
+    svg {
+      width: 24px;
+      height: 24px;
+    }
   }
   &__main {
     font-weight: bold;
@@ -43,7 +51,7 @@
     align-items: center;
   }
 
-  &__burger {
+  &__icon {
     display: inline-block;
     height: 24px;
     width: 24px;
@@ -65,6 +73,11 @@
     &:active {
       background: #1b90ec;
     }
+  }
+
+  &__search {
+    flex: 1;
+    text-align: right;
   }
 
   &__item--mobile {
