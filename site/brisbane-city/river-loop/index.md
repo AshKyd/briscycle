@@ -424,7 +424,7 @@ The majority of the route is on residential back streets, although there are som
 
 There is a good mix of flat and hill cycling, but you can also choose the Mini Brisbane River Loop if the full loop is too challenging.
 
-The full loop is 35-40 km, whereas the mini loop is slightly under 20 km. Jump <a href="#mapContainer">bottom of the page for the map</a>.
+The full loop is 35-40 km, whereas the mini loop is slightly under 20 km. Jump <a href="#map">bottom of the page for the map</a>.
 
 ## Mini Brisbane River Loop
 
