@@ -7,6 +7,16 @@ layout: page
 related: moreton-bay
 tags:
   - moreton-bay
+hero:
+  "type": "defaultImage"
+  "alt": "A boardwalk alongside water, pine trees and a bright blue sky"
+  variations:
+    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
+    - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=624 />'
+    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=300 />'
+thumb:
+  "image": "/moreton-bay/redland-city/thumb"
+  format: webp
 ---
 
 The shire of Redland City provides a surprisingly comprehensive cycling network for both recreation and commuting.
