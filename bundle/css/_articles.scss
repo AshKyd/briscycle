@@ -22,7 +22,8 @@
   }
 
   margin-bottom: 40px;
-  & > img {
+  & > img,
+  & > picture > img {
     width: 100%;
   }
   @media (min-width: 768px) {

@@ -6,19 +6,20 @@ related: brisbane
 tags:
   - brisbane
 hero:
-  {
-    "type": "defaultImage",
-    "alt": "The Kangaroo Point Green Bridge is still under construction, a barge and scaffolding sit in the Brisbane River",
-    "image": "/brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-hero",
-    format: webp,
-    "attribution":
-      {
-        "name": "Brisbane City Council",
-        "title": "Day aerial view of the Kangaroo Point Green Bridge – Artist impression only",
-        "url": "https://www.flickr.com/photos/brisbanecitycouncil/51275677686/in/album-72157719520829730",
-        "license": "https://creativecommons.org/licenses/by/2.0/",
-      },
-  }
+  "type": "defaultImage"
+  "alt": "A concept render of a single-mast cable stayed bridge, spanning across a glittering Brisbane River"
+  format: webp
+  variations:
+    - '<source srcset="kangaroo-point-bridge-hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
+    - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
+    - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
+  "attribution":
+    {
+      "name": "Brisbane City Council",
+      "title": "Day aerial view of the Kangaroo Point Green Bridge – Artist impression only",
+      "url": "https://www.flickr.com/photos/brisbanecitycouncil/albums/72157719520829730/with/51275677686/",
+      "license": "https://creativecommons.org/licenses/by/2.0/",
+    }
 thumb:
   {
     "image": "/brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb",
