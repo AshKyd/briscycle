@@ -10,13 +10,14 @@
     "build-client": "parcel build bundle/init.js --dist-dir dist/bundle --public-url /bundle/ --no-source-maps"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^2.0.0",
     "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.2.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "clipboard": "^2.0.10",
-    "domready": "^1.0.8"
+    "domready": "^1.0.8",
+    "lunr": "^2.3.9"
   }
 }
