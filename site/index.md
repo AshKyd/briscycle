@@ -51,7 +51,7 @@ body{
   font-weight: bold;
   text-align:left;
   font-size:2em;
-  margin:0 0 0.25em 0;
+  margin:0;
   line-height:1;
 }
 
