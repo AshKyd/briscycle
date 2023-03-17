@@ -36,7 +36,7 @@ The beach at Woorim is arguably the main attraction of Bribie Island. It's the c
 
 ## Bribie Island Attractions
 
-The scenic Bribie Island Seaside Museum overlooks the iconic Pumicestone Passage at Bongaree. It displays collections celebrating the rich and fascinating history of Bribie Island, including stories from First Nations elders. Free entry.
+The scenic [Bribie Island Seaside Museum](https://www.moretonbay.qld.gov.au/Galleries-Museums/Locations/Seaside-Museum) overlooks the iconic Pumicestone Passage at Bongaree. It displays collections celebrating the rich and fascinating history of Bribie Island, including stories from First Nations elders. Free entry.
 
 If arts is your thing, check out the [Community Arts Centre & Gallery](https://www.bribieartscentre.com.au/) for wood crafters, visual arts, and the famous gem club. Free entry.
 
