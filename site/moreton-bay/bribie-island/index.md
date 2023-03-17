@@ -18,19 +18,31 @@ Bribie Island serves as the northern-most endpoint for the <a href="../moreton-b
 
 ## Bikes on Bribie Island
 
-Bribie Island itself is a great cycle destination for the novice and expert alike. There's an extensive cycle network along the eastern side of the island, a comprehensive residential cycle network on the mainland between Sandstone Point and Ningi, and a cycle track most of the way between the bridge to the mainland and the suburb of Woorim on the eastern side of the island.
+Bribie Island itself is a great cycle destination for the novice and expert alike.
 
-There are also <em>bicycle hire</em> facilities available from the plaza area to the south of the bridge at Bongaree.
+There's an cycle network along the eastern side of the island, a comprehensive residential cycle network on the mainland between Sandstone Point and Ningi, and a cycle track most of the way between the bridge to the mainland and the beach at Woorim on the eastern side of the island.
 
-## Cycle Destinations on Bribie Island
+There are also bicycle hire facilities available from the plaza area to the south of the bridge at Bongaree.
 
-There's two main cycle destinations on Bribie Island; <em>Bongaree</em>, and <em>Woorim.</em>
+## What to do on Bribie Island
 
-Bongaree is on the western side of the island, about three kilometres south from the bridge. There main attraction is the park and dining culture. There's everything from take-away fish &amp; chips to cafes, to pub meals. It's a great place to have lunch and unwind after a ride.
+There's two main cycle destinations on Bribie Island; _Bongaree_ on the west, and _Woorim_ on the east.
+
+Bongaree sits on the bay side of the island and a great spot to eat and explore. There's everything from take-away fish & chips to cafes, to pub meals. It's a great place to have lunch and unwind after a ride.
 
 {% ad %}
 
-Woorim has the surf beach, and as such has more of a beach culture. There's a pub and a few take-away stores, but the main attraction is the water which is a great day trip destination.
+The beach at Woorim is arguably the main attraction of Bribie Island. It's the closest ocean beach to Brisbane and it's perfect if you're looking for waves and white sand. So bring your swimwear. There's a few shops for snacks on this side of the island, but the main attraction is the surf.
+
+## Bribie Island Attractions
+
+The scenic Bribie Island Seaside Museum overlooks the iconic Pumicestone Passage at Bongaree. It displays collections celebrating the rich and fascinating history of Bribie Island, including stories from First Nations elders. Free entry.
+
+If arts is your thing, check out the [Community Arts Centre & Gallery](https://www.bribieartscentre.com.au/) for wood crafters, visual arts, and the famous gem club. Free entry.
+
+If you're looking for a bikepacking tour there's a number of accommodation and campsites on Bribie Island, though many of the camps require a four-wheel-drive to get to. Check out the Queensland Government's [guide to camping on Bribie](https://parks.des.qld.gov.au/parks/bribie-island/camping).
+
+On your way home, consider stopping by the [Abbey Museum](https://abbeymuseum.com.au/), halfway between Bribie and Caboolture, or time your visit around the [Medieval Festival](https://www.abbeymedievalfestival.com/).
 
 ## Bribie Island Bridge
 
