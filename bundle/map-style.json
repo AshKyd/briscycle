@@ -15,7 +15,7 @@
       "url": "https://tiles.briscycle.com/seq.json"
     }
   },
-  "glyphs": "/maps-gl/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://tiles.briscycle.com/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
