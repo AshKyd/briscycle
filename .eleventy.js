@@ -9,6 +9,7 @@ async function imageShortcode(src, alt, className) {
   let metadata = await Image(src, {
     widths,
     formats: ["webp"],
+    sharpWebpOptions: { quality: 60, effort: 6 },
     urlPath: "/images/",
     outputDir: "./dist/images/",
     filenameFormat: function (id, src, width, format, options) {
