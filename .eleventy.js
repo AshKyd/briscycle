@@ -1,4 +1,36 @@
+const path = require("path");
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, className) {
+  const { sizes, widths } = className
+    ? { sizes: "50vw", widths: [1700, 1440, 960] }
+    : { sizes: "100vw", widths: [3353, 1920, 1440, 1024, 800] };
+
+  let metadata = await Image(src, {
+    widths,
+    formats: ["webp"],
+    urlPath: "/images/",
+    outputDir: "./dist/images/",
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      return `${name}-${width}.${format}`;
+    },
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+    class: className,
+  };
+
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addAsyncShortcode("image", imageShortcode);
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addFilter("limit", function (arr, limit) {
     return arr.slice(0, limit);
