@@ -1,24 +1,43 @@
 .btn {
-  padding: 6px 16px;
-  font-size: 0.875rem;
-  min-width: 64px;
-  box-sizing: border-box;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  line-height: 1.75;
-  font-weight: 500;
-  border-radius: 4px;
-  letter-spacing: 0.02857em;
+  --background: #2196f3;
+  --foreground: white;
+  --background-hover: #2196f3;
+  --foreground-hover: white;
+  --background-active: #1b90ec;
+  --foreground-active: white;
+  color: var(--foreground);
+  background: var(--background);
+  border-radius: 6px;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  font-size: 14px;
   text-transform: uppercase;
-  text-decoration: none;
-  border: none;
-  text-decoration: none;
-  cursor: pointer;
-}
-.btn-primary {
-  background-color: $blue;
-  color: #fff;
-  &:hover,
-  &:focus {
-    background-color: $blue-dark;
+  display: inline-flex;
+  align-items: center;
+
+  &:hover:not(:active),
+  &:focus:not(:active) {
+    box-shadow: 0 0 0 2px #1261a140;
+    color: var(--foreground-hover);
+    background: var(--background-hover);
   }
+  &:active {
+    color: var(--foreground-active);
+    background: var(--background-active);
+  }
+}
+
+.btn-secondary {
+  box-shadow: 0 0px 0 2px #00000020;
+  --background: white;
+  --foreground: #666;
+}
+
+.btn__icon {
+  height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+  fill: #fff;
+  margin-right: 5px;
+  display: inline-block;
 }

@@ -8,8 +8,9 @@ layout: page
 related: day-trips
 geo:
   {
-    colour: "#754d1d",
+    "colour": "#754d1d",
     "geojsonUrl": "/day-trips/brisbane-valley-rail-trail/bvrt.geo.json",
+    "googleMaps": "https://www.google.com/maps/dir/Ipswich,+Bell+St,+Ipswich+QLD+4305/-26.8440389,152.2757427/yarraman/@-27.2225371,152.0913838,10z/data=!3m1!4b1!4m15!4m14!1m5!1m1!1s0x6b96b4463e1862c7:0x1d02a35bea338e90!2m2!1d152.7603845!2d-27.612927!1m0!1m5!1m1!1s0x6b95c84dfaba9cb9:0x400eef17f20bfd0!2m2!1d151.98132!2d-26.8411601!3e1",
   }
 tags:
   - day-trips

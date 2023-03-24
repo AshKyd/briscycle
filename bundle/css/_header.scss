@@ -26,7 +26,6 @@
   &__menu {
     padding: 0;
     display: flex;
-    flex: 1;
     align-items: center;
   }
   &__item {
@@ -58,22 +57,6 @@
     width: 24px;
     fill: white;
     margin-right: 5px;
-  }
-
-  &__button {
-    color: white;
-    background: #2196f3;
-    border-radius: 6px;
-    padding: 5px 10px;
-    text-decoration: none !important;
-    &:hover:not(:active),
-    &:focus:not(:active) {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 0 #00000020;
-    }
-    &:active {
-      background: #1b90ec;
-    }
   }
 
   &__search {

@@ -218,20 +218,20 @@ export default async function initMap() {
     });
 
     const legend = `
-    <ul class="map__legend-list">
-      <li class="map__legend-item"><div  class="map__legend-line" style="background: ${primaryColour}"></div> ${
+    <ul class="map-meta__legend-list">
+      <li class="map-meta__legend-item"><div  class="map-meta__legend-line" style="background: ${primaryColour}"></div> ${
       otherLines.features.length ? "bike path/footpath/trail" : "Route"
     }</li>
       ${
         otherLines.features.length
           ? `
-        <li class="map__legend-item"><div class="map__legend-line" style="background: ${secondaryColour}"></div> Road riding</li>
+        <li class="map-meta__legend-item"><div class="map-meta__legend-line" style="background: ${secondaryColour}"></div> Road riding</li>
       `
           : ""
       }
     </ul>
     `;
 
-    document.querySelector(".map__legend").innerHTML = legend;
+    document.querySelector(".map-meta__legend").innerHTML = legend;
   });
 }

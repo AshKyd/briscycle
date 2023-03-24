@@ -5,18 +5,20 @@
   border-radius: 6px;
 }
 
-.map__legend-list {
+.map-meta {
+  margin-bottom: 10px;
+}
+.map-meta__legend-list {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 10px;
 }
 
-.map__legend-item {
+.map-meta__legend-item {
   margin-right: 20px;
 }
-.map__legend-line {
+.map-meta__legend-line {
   width: 16px;
   height: 6px;
   border-radius: 3px;
@@ -24,18 +26,19 @@
   margin: 7px 10px 0 0;
 }
 
+.map-meta__external {
+  flex: 1;
+  text-align: right;
+}
+
 .map__wrap {
   margin-bottom: 5em;
 }
 
-.legend__wrap > * {
-  margin-bottom: 10px;
-}
 @media (min-width: 768px) {
-  .legend__wrap {
+  .map-meta {
     display: flex;
-    & > * {
-      margin-right: 20px;
-    }
+    gap: 20px;
+    align-items: center;
   }
 }
