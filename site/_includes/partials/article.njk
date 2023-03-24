@@ -57,7 +57,7 @@
     <h2 class="type-serif">{% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}</h2>
     <aside class="map-meta">
       <div class="map-meta__legend"></div>
-      {% if geo.googleMaps %}<div class="map-meta__external"><a class="btn btn-secondary ev--map-meta-google" href="{{geo.googleMaps}}" target="_blank">
+      {% if geo.googleMaps %}<div class="map-meta__external"><a class="btn btn-secondary" href="{{geo.googleMaps}}" target="_blank" data-event="map-meta-google">
         <svg
            class="btn__icon"
            xmlns:dc="http://purl.org/dc/elements/1.1/"

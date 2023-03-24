@@ -6,7 +6,7 @@
     {% for item in collections[related] %}
     {% set counter = counter + 1 %}
     <li class="card">
-        <a class="card__link ev--card-link" href="{{item.data.page.url}}">
+        <a class="card__link" href="{{item.data.page.url}}" data-event="card-link">
         <div
             class="card__thumbnail"
         >

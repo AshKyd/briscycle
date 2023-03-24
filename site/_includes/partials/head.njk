@@ -38,7 +38,7 @@
     <ol class="header__menu ">
       {% for item in collections.menu %}
           <li class="header__item header__item--desktop">
-          <a href="{{item.data.page.url}}" class="ev--header-menu">{{item.data.shortTitle}}</a>
+          <a href="{{item.data.page.url}}" data-event="header-menu">{{item.data.shortTitle}}</a>
           </li>
       {% endfor %}
       <!-- <li class="header__item header__search">
@@ -51,7 +51,7 @@
         </a>
       </li> -->
       <li class="header__item header__item--mobile">
-        <a href="#nav" class="header__button btn ev--header-mobile-nav">
+        <a href="#nav" class="header__button btn" data-event="header-mobile-nav">
           <svg viewBox="0 0 100 80" width="40" height="40" class="header__icon">
             <rect width="100" height="20"></rect>
             <rect y="30" width="100" height="20"></rect>
