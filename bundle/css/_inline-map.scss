@@ -7,7 +7,12 @@
 
 .map-meta {
   margin-bottom: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
+
 .map-meta__legend-list {
   display: flex;
   list-style: none;
@@ -33,12 +38,4 @@
 
 .map__wrap {
   margin-bottom: 5em;
-}
-
-@media (min-width: 768px) {
-  .map-meta {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
 }
