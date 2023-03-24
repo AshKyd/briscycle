@@ -24,6 +24,8 @@ The trail follows the gentle grade of the old rail line through the Brisbane Val
 
 The trail was constructed in stages between 1996, and was finally finished in 2018.
 
+{% ad %}
+
 ## Brisbane Valley Rail Trail accommodation
 
 Even though the trail from start to finish is a multi-day affair, wild camping is not legal along the BVRT.
