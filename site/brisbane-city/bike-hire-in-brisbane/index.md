@@ -101,3 +101,5 @@ Check out more [rules on riding bikes](/bicycle-regulation).
 CityCycle was the old bike hire scheme, which opened in 2010 and was retired in 2021.
 
 If you're interested in a little look back through memory lane, check my [CityCycle history and eulogy](https://ash.ms/2022/01/30/brisbane-citycycle/) (off site).
+
+{% ad %}
