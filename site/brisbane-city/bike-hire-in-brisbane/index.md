@@ -80,6 +80,18 @@ Beam and Neuron aren't exactly cheap. If you're doing anything more than a quick
 
 While this sounds like a lot of money, a couple of trips can easily exceed the price of a daily pass so it often works out cheaper to just get one.
 
+## 🚲 The old CityCycles
+
+CityCycle was the old bike hire scheme, which opened in 2010 and was retired in 2021.
+
+If you're interested in a little look back through memory lane, check my [CityCycle history and eulogy](https://ash.ms/2022/01/30/brisbane-citycycle/) (off site).
+
+## Video: What's it like riding in Brisbane?
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/K8-k3Qt0sLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 ## 🪖 Wear a helmet
 
 Australian law requires you wear a helmet at all times while you ride a bicycle. This is strictly enforced and the fines are quite steep, so don't risk it.
@@ -89,9 +101,3 @@ There are usually helmets provided on the bikes, although occasionally it may be
 There will usually be another bike nearby with a helmet, so check around. You can also buy a cheap helmet for under $25 from department stores like Big W or Target in an emergency.
 
 Check out more [rules on riding bikes](/bicycle-regulation).
-
-## 🚲 The old CityCycles
-
-CityCycle was the old bike hire scheme, which opened in 2010 and was retired in 2021.
-
-If you're interested in a little look back through memory lane, check my [CityCycle history and eulogy](https://ash.ms/2022/01/30/brisbane-citycycle/) (off site).
