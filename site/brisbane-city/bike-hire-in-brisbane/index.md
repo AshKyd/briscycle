@@ -83,7 +83,7 @@ While this sounds like a lot of money, a couple of trips can easily exceed the p
 ## Video: What's it like riding in Brisbane?
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## 🪖 Wear a helmet

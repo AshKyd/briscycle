@@ -75,7 +75,7 @@ BESIX Watpac was awarded the contract to design and build the Green Bridge. Cons
 The bridge includes a number of best-practice sustainable features including solar panels on the shade cover to power the bridge’s lighting, rain gardens at C.T. White Park to slow stormwater run-off, and extensive use of native plants in new landscaping.
 
 <div class="video">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5CmfLEomvV8?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/5CmfLEomvV8?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Interesting Things Nearby
