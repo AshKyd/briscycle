@@ -16,10 +16,41 @@
     text-decoration: none;
     display: inline-flex;
     align-items: center;
+    position: relative;
+    &::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0px;
+      width: 0;
+      height: 4px;
+      border-radius: 2px;
+      background: white;
+      transition: all 0.2s;
+    }
+  }
 
-    &:hover,
-    &:focus {
-      text-decoration: underline;
+  a:hover,
+  a:focus {
+    &::after {
+      width: 100%;
+    }
+  }
+
+  .header__item--active a {
+    &::after {
+      width: 4px;
+      left: 2px;
+      background: #2196f3;
+    }
+    &:focus,
+    &:hover {
+      &::after {
+        left: 0;
+        width: 100%;
+        background: white;
+      }
     }
   }
 
@@ -33,7 +64,8 @@
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin-right: 0.5em;
+    margin-right: 1.5em;
+    position: relative;
   }
   &__item-search {
     svg {

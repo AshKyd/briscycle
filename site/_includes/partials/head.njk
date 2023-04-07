@@ -37,7 +37,7 @@
     </a></h1>
     <ol class="header__menu ">
       {% for item in collections.menu %}
-          <li class="header__item header__item--desktop">
+          <li class="header__item header__item--desktop {% if item.data.page.url in page.url %}header__item--active{% endif %}">
           <a href="{{item.data.page.url}}" data-event="header-menu">{{item.data.shortTitle}}</a>
           </li>
       {% endfor %}

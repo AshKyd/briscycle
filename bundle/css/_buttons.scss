@@ -7,6 +7,8 @@
   --foreground-active: white;
   color: var(--foreground);
   background: var(--background);
+  border: none;
+  cursor: pointer;
   border-radius: 6px;
   padding: 5px 10px;
   text-decoration: none !important;
