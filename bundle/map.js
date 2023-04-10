@@ -146,6 +146,13 @@ export default async function initMap() {
     center: config.geo?.lat ? config.geo : [153, -27.5], // starting position [lng, lat]
     zoom: config.geo?.zoom || 8, // starting zoom
   });
+  map.addControl(
+    new maplibregl.AttributionControl({
+      compact: false,
+      customAttribution:
+        '© <a target="_blank" rel="noopener" href="https://openstreetmap.org/">OSM contributors</a> ♥ <a target="_blank" rel="noopener" href="https://donate.openstreetmap.org" class="donate-attr">Donate</a> ♥ Powered by <a target="_blank" rel="noopener" href="https://maplibre.org/">MapLibre GL JS</a>.',
+    })
+  );
   map.scrollZoom.disable();
   map.addControl(new maplibregl.NavigationControl());
 
@@ -214,7 +221,7 @@ export default async function initMap() {
       bounds.extend(coord);
     }
     map.fitBounds(bounds, {
-      padding: 40,
+      padding: 60,
     });
 
     const legend = `
