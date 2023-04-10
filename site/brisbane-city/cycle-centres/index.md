@@ -61,7 +61,9 @@ geojson:
 
 If you're regularly riding to the city but your workplace doesn't have a shower or anywhere to park your bike, you should consider checking out one of the cycle centres.
 
-Brisbane City Council offers Cycle Centers which have secure bicycle parking as well as shower facilities and services such as washing.
+Brisbane City Council offers Cycle Centres which have secure bicycle parking as well as shower facilities and services such as towel laundering.
+
+{% ad %}
 
 Each cycle centre is leased out to a contractor to run, so each have their own pricing and perks. Generally you can subscribe for a yearly or monthly fee, or pay a little more for a single day's use of the facilities. It's convenient for commuters and recreational cyclists alike.
 
@@ -101,3 +103,5 @@ While not ideally located for CBD access, the RBWH cycle centre is open to hospi
 </div>
 
 Find out more at [Metro North Health](https://metronorth.health.qld.gov.au/rbwh/cycle-centre)
+
+{% ad %}
