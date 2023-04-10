@@ -71,12 +71,15 @@ The King George Square cycle centre — Cycle2City — was opened in May 2008 an
 
 You can get to the King George Square cycle centre from the Bicentennial Bikeway by getting off at the Turbot Street exit and following the cycleway until Roma Street.
 
-<div id="hcard-Cycle2City" class="vcard">
-<a class="url fn n organization" href="http://www.cycle2city.com.au/">Cycle2City </a> <a class="email" href="mailto:administration@cycle2city.com.au">administration@cycle2city.com.au</a>
-<div class="adr">
+<div id="hcard-Cycle2City" class="vcard cardify">
+<h3><a class="url fn n organization" href="http://www.cycle2city.com.au/">Cycle2City </a></h3>
+
+<a class="email" href="mailto:administration@cycle2city.com.au">administration@cycle2city.com.au</a>
+
+<p class="adr">
 <div class="street-address">87 Roma Street</div>
 <span class="locality">Brisbane</span>, <span class="region">Qld</span>, <span class="postal-code">4000</span> <span class="country-name">Australia</span>
-</div>
+</p>
 </div>
 
 Find out more at [cycle2city](https://cycle2city.com.au/).
@@ -87,12 +90,14 @@ The cycle centre at RBWH offers reasonably priced cycling facilities underneath 
 
 While not ideally located for CBD access, the RBWH cycle centre is open to hospital staff as well as the general public, and offers considerably lower prices than the central city facilities. You could also ride in from the northern bikeway and catch a bus in to the city.
 
-<div id="hcard-Cycle2City" class="vcard">
-<a class="url fn n organization" href="http://www.health.qld.gov.au/rbwh_cycle_centre/">RBWH Cycle Centre</a> <a class="email" href="mailto:RBWH-Cycle-Centre@health.qld.gov.au">RBWH-Cycle-Centre@health.qld.gov.au</a>
-<div class="adr">
+<div id="hcard-Cycle2City" class="vcard cardify">
+<h3><a class="url fn n organization" href="http://www.health.qld.gov.au/rbwh_cycle_centre/">RBWH Cycle Centre</a>
+</h3>
+<a class="email" href="mailto:RBWH-Cycle-Centre@health.qld.gov.au">RBWH-Cycle-Centre@health.qld.gov.au</a>
+<p class="adr">
 <div class="street-address">Butterfield Street</div>
 <span class="locality">Herston</span>, <span class="region">Qld</span>, <span class="postal-code">4029</span> <span class="country-name">Australia</span>
-</div>
+</p>
 </div>
 
 Find out more at [Metro North Health](https://metronorth.health.qld.gov.au/rbwh/cycle-centre)
