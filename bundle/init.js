@@ -9,9 +9,9 @@ import { get, set, unlink } from "./storage";
 window.addEventListener("scroll", initMap, { once: true, passive: true });
 
 domready(() => {
+  // Copy referral codes
   const buttons = document.querySelectorAll(".copy-code__button");
   const clipboard = new ClipboardJS(buttons);
-
   clipboard.on("success", (e) => {
     e.trigger.classList.add("clicked");
   });
@@ -31,7 +31,7 @@ domready(() => {
         return;
       }
       clearInterval(interval);
-      Promise.all(events.map((event) => umami(element.dataset.event)));
+      events.forEach((event) => umami(event));
       unlink("eventCache", "sessionStorage");
     }, 1000);
   }
@@ -40,8 +40,11 @@ domready(() => {
       const events = get("eventCache", [], "sessionStorage");
       events.push(element.dataset.event);
       set("eventCache", events, "sessionStorage");
-      // fire events now. Might work.
-      fireEvents();
+
+      setTimeout(() => {
+        // fire events now. Might work.
+        fireEvents();
+      }, 5000);
     });
   });
 
