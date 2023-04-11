@@ -184,6 +184,28 @@ export default async function initMap() {
     const primaryColour = config.geo?.colour || "#00ff00";
     const secondaryColour = "#00aa88";
 
+    // HTML popups
+    const points = filterProps(
+      geojson,
+      (props, feature) => feature.geometry.type === "Point"
+    );
+    points.features.forEach((point) => {
+      if (!point?.properties.html) {
+        return;
+      }
+      const popup = new maplibregl.Popup({
+        className: "my-class",
+        closeButton: true,
+      })
+        .setHTML(point.properties.html)
+        .setMaxWidth("300px");
+
+      const marker = new maplibregl.Marker()
+        .setLngLat(point.geometry.coordinates)
+        .addTo(map)
+        .setPopup(popup);
+    });
+
     // a geojson with the points stripped out
     const lines = filterProps(
       geojson,

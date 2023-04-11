@@ -14,10 +14,7 @@ geojson:
           "type": "Feature",
           "properties":
             {
-              "website": "http://www.cycle2city.com.au/",
-              "description": "Cycle2City is conveniently located by King George Square, and offers the regular facilities such as showers and bike storage.",
-              "name": "Cycle2City",
-              "amenity": "bicycle_parking",
+              "html": "Cycle2City is conveniently located by King George Square, and offers the regular facilities such as showers and bike storage. <a target=_blank href='http://www.cycle2city.com.au/' rel=noopener>Website</a>",
             },
           "geometry":
             {
@@ -29,30 +26,12 @@ geojson:
           "type": "Feature",
           "properties":
             {
-              "website": "http://www.health.qld.gov.au/rbwh_cycle_centre/",
-              "description": "The RBWH Cycle Centre is located underneath the RBWH bus stop, and offers the regular facilities such as showers and bike storage.",
-              "name": "RBWH Cycle Centre",
-              "amenity": "bicycle_parking",
+              "html": "The RBWH Cycle Centre is located at the end of the Northern Bikeway underneath the RBWH bus stop, and offers the regular facilities such as showers and bike storage. <a target=_blank href='http://www.health.qld.gov.au/rbwh_cycle_centre/' rel=noopener>Website</a>",
             },
           "geometry":
             {
               "type": "Point",
               "coordinates": [153.02908858340865, -27.447590546710995],
-            },
-        },
-        {
-          "type": "Feature",
-          "properties":
-            {
-              "website": "http://99bikes.com.au/",
-              "description": "The HQ Cycle Centre is located in the HQ building at Fortitude Valley, and offers the regular facilities such as showers and bike storage.",
-              "name": "HQ Cycle Centre",
-              "amenity": "bicycle_parking",
-            },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.0378958232506, -27.452697709916666],
             },
         },
       ],
