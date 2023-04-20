@@ -33,6 +33,10 @@ function addLayer(map, geojson, style) {
 function clone(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
+
+/**
+ * Make a style to render the OpenStreetMap data.
+ */
 function getStyle() {
   const style = require("./map-style.json");
   let casingInsertionIndex;
@@ -166,7 +170,7 @@ export default async function initMap() {
   map.on("load", () => {
     const id = "briscycleCustomRoute";
 
-    const lineStyle = ({ color, dashArray }) => ({
+    const lineStyle = ({ color, dashArray, width = 6 }) => ({
       type: "line",
       layout: {
         "line-join": "round",
@@ -174,7 +178,7 @@ export default async function initMap() {
       },
       paint: {
         "line-color": color,
-        "line-width": 6,
+        "line-width": width,
         ...(dashArray ? { "line-dasharray": dashArray } : {}),
       },
       filter: ["==", "$type", "LineString"],
@@ -182,7 +186,7 @@ export default async function initMap() {
 
     const greenTypes = ["path", "cycleway", "track"];
     const primaryColour = config.geo?.colour || "#00ff00";
-    const secondaryColour = "#00aa88";
+    const secondaryColour = "#666";
 
     // HTML popups
     const points = filterProps(
@@ -211,6 +215,9 @@ export default async function initMap() {
       geojson,
       (props, feature) => feature.geometry.type === "LineString"
     );
+
+    // underlay/stroke
+    addLayer(map, lines, lineStyle({ color: "#fff", width: 10 }));
 
     // all other line types, including highway=residential/road/whatever
     const otherLines = filterProps(
