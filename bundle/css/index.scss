@@ -11,6 +11,10 @@ $blue-dark: #1976d2;
 @import "table";
 @import "cardify";
 
+:root {
+  --text-grey: #444;
+}
+
 * {
   box-sizing: border-box;
 }

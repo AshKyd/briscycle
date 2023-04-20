@@ -9,6 +9,19 @@
     margin-bottom: 10px;
   }
 
+  figure {
+    position: relative;
+    figcaption {
+      display: block;
+      font-size: 0.8em;
+      color: var(--text-grey);
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
   @media (min-width: 1366px) {
     h1 {
       font-size: 3em;
