@@ -46,7 +46,7 @@ There are mountain bike trails in the area, including the [Wamuran Loop Trail](h
 
 ## Old Kilcoy rail line
 
-{% image "./site/day-trips/wamuran-rail-trail/wamuran-station-1967.jpg", "A steam train pulls up to a small wooden building at Wamuran station in 1967", "alignright" %}
+{% image "./site/day-trips/wamuran-rail-trail/wamuran-station-1967.jpg", "A steam train pulls up to a small wooden building at Wamuran station in 1967", "alignright", "A steam train pulls into Wamuran station in 1967" %}
 
 The old Kilcoy rail line opened from Caboolture to Woodford on 6 December 1909 and extended to Kilcoy in 1913.
 
@@ -55,7 +55,3 @@ The Wamuran to Kilcoy section closed on 30 June 1964, but the Wamuran section co
 The line sat abandoned for a number of years until Moreton Bay Regional Council refurbished it into the rail trail you see today.
 
 The [Australian Narrow Gauge Railway Museum Society](https://www.angrms.org.au/) has preserved a number of heritage trains from the region and runs a railway museum at the Woodford railway station, another 14 km down the road. The museum runs passenger services on the remaining section of railway on the first and third Sundays of each month.
-
-Pictured: a steam train pulls into Wamuran station in 1967
-
-<!-- <div class="video"><iframe src="https://player.vimeo.com/video/684071272?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div> -->

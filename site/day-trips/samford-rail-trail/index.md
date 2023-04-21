@@ -55,13 +55,7 @@ The ride back from Samford to Brisbane is largely downhill, and even if you're n
 
 After riding up the path to Clear Mountain, you'll probably be in the mood for food. There's plenty of options to choose from, whether you're after pizza, seafood, pub food, or a stop at a cafe.
 
-<figure class="alignright">
-<picture>
-    <source srcset="/day-trips/samford-rail-trail/heritage-museum-mobile.webp" media="(max-width: 480px)">
-    <img  src="/day-trips/samford-rail-trail/heritage-museum-desktop.webp" alt="A sign pointing to blacksmith shop, tool shed, stationary engines, toy memories & wartime memories" loading="lazy" width="828" height="552">
-</picture>
-<figcaption>Walk through old buildings and discover relics restored by the volunteers at Samford Historical Museum</figcaption>
-</figure>
+{% image "./site/day-trips/samford-rail-trail/heritage-museum-desktop.webp", "A sign pointing to blacksmith shop, tool shed, stationary engines, toy memories & wartime memories", "alignright", "Walk through old buildings and discover relics restored by the volunteers at Samford Historical Museum" %}
 
 Head down Main Street  from the roundabout and you'll find plenty of cafes and pubs. Or for a cheap option grab something from the IGA and use the free barbecues at the park.
 
@@ -77,13 +71,7 @@ So you won't be short of something to do. For more info, the Moreton Bay Council
 
 The cycle link was built in 2 stages from late 2015 to early 2018, at a total cost of $3.2 million.
 
-<figure class="alignright">
-<picture>
-    <source srcset="/day-trips/samford-rail-trail/samford-link-mobile.webp" media="(max-width: 480px)">
-    <img  src="/day-trips/samford-rail-trail/samford-link-desktop.webp" alt="A bike path with a small bridge weaves through a grassy rural area" loading="lazy" width="828" height="621">
-</picture>
-<figcaption>The bits of the Samford Link that follow the old rail route are smooth and delightful</figcaption>
-</figure>
+{% image "./site/day-trips/samford-rail-trail/samford-link-desktop.webp", "A bike path with a small bridge weaves through a grassy rural area", "alignright", "The bits of the Samford Link that follow the old rail route are smooth and delightful" %}
 
 At the Samford end of the link, the railway line was lost to private development so the route stops abruptly a short distance from Samford. When I did this trip I found it to be some of the most unexpectedly steep uphill-downhill stretches of on-road riding I've ever had the misfortune of pushing my single-speed bike up. Oops!
 
