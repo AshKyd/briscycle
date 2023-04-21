@@ -1,5 +1,3 @@
-$blue: #075697;
-$blue-dark: #1976d2;
 @import "layout";
 @import "links";
 @import "heros";
@@ -12,7 +10,65 @@ $blue-dark: #1976d2;
 @import "cardify";
 
 :root {
+  // homepage is blue
+  --body-bg-blue: linear-gradient(#fffb, #fffb),
+    url("/images/binding-dark.webp") #dff1ff;
+  // url(bubbles.png), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0))
+  --body-bg: linear-gradient(#fffb, #fffb),
+    url("/images/binding-dark.webp") white;
+  --body-fg: #1d1f21;
   --text-grey: #444;
+  --body-link: #075697;
+  --body-supplementary-bg: rgba(0, 0, 50, 0.05);
+
+  --blue-bg: #075697;
+  --blue-fg: #fff;
+  --blue-hover-bg: #1976d2;
+  --blue-accent-fg: #2196f3;
+
+  --separator: #eee;
+
+  --card-bg: #fff;
+  --card-fg: var(--body-fg);
+
+  --card-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+
+  --button-bg: #2196f3;
+  --button-fg: white;
+  --button-bg-hover: #2196f3;
+  --button-fg-hover: white;
+  --button-bg-active: #1b90ec;
+  --button-fg-active: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #0e1112 url("/images/binding-dark.webp");
+    --body-bg-blue: var(--body-bg);
+    --body-fg: #fff;
+    --text-grey: #ccc;
+    --body-link: #2196f3;
+    --body-supplementary-bg: #001e39;
+
+    --blue-bg: #000;
+    --blue-fg: #fff;
+    --blue-hover-bg: #1976d2;
+    --blue-accent-fg: #2196f3;
+
+    --separator: #184a4d;
+    --card-bg: url("/images/binding-dark.webp") #161c1d;
+    --card-fg: var(--body-fg);
+
+    --card-shadow: 0px 1px 1px 0px #88f0ff50, 0px 2px 1px -1px #ffff8820;
+
+    --button-bg: #1966a5;
+    --button-fg: white;
+    --button-bg-hover: #2196f3;
+    --button-fg-hover: white;
+    --button-bg-active: #1b90ec;
+    --button-fg-active: white;
+  }
 }
 
 * {
@@ -31,7 +87,8 @@ body,
 
 body {
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.87);
+  background: var(--body-bg);
+  color: var(--body-fg);
 }
 
 .type-serif {
@@ -44,7 +101,9 @@ body {
   h1,
   .h1,
   h2,
-  .h2 {
+  .h2,
+  h3,
+  .h3 {
     font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
       Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
       Segoe UI Emoji, Segoe UI Symbol;
@@ -121,7 +180,7 @@ p,
 }
 
 .copy-code {
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: var(--body-supplementary-bg);
   border-radius: 1em;
   border: 1px solid rgba(0, 0, 0, 0.05);
   display: inline-flex;
@@ -136,19 +195,19 @@ p,
     text-align: center;
     line-height: 2em;
     border-radius: 1em;
-    background: $blue;
+    background: var(--blue-bg);
     border: none;
-    color: white;
+    color: var(--blue-fg);
     padding: 0 0.5em;
     text-transform: uppercase;
     cursor: pointer;
     &:hover,
     &:focus {
-      background-color: $blue-dark;
+      background-color: var(--blue-hover-bg);
     }
 
     &.clicked {
-      background: $blue;
+      background: var(--blue-bg);
       opacity: 0.5;
     }
   }
@@ -180,7 +239,7 @@ p,
   .ad-wide-container,
   .card-ad,
   .article__ad,
-  .article__ad2,
+  .article__promo,
   .eleventyad {
     background: aqua;
   }

@@ -1,6 +1,6 @@
 .footer {
-  background: #075697;
-  color: white;
+  background: var(--blue-bg);
+  color: var(--blue-fg);
   &__left {
     padding: 1em;
     a {
@@ -37,7 +37,7 @@
   &__menu-item a {
     display: block;
     padding: 10px 20px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--separator);
   }
   &__menu-header {
     padding: 20px 20px 0;

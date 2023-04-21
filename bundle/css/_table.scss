@@ -1,17 +1,17 @@
 table {
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--card-shadow);
   flex: 1;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: var(--body-bg);
+  color: var(--body-fg);
   overflow: hidden;
   border-collapse: collapse;
   margin-bottom: 30px;
 }
 
 thead {
-  background: #075697;
-  color: white;
+  background: var(--blue-bg);
+  color: var(--blue-fg);
 }
 tbody {
   height: 300px;
@@ -24,12 +24,12 @@ th {
   text-transform: uppercase;
 }
 td {
-  padding: 0 20px;
+  padding: 5px 20px;
   text-align: left;
   vertical-align: middle;
 }
 tr {
-  background: rgba(0, 0, 50, 0.05);
+  background: var(--body-supplementary-bg);
   &:nth-child(2n + 1) {
     background: transparent;
   }
@@ -39,7 +39,7 @@ table caption {
   padding: 10px 15px;
   text-align: left;
   font-weight: bold;
-  color: #075697;
+  color: var(--body-link);
   &:before {
     content: "• ";
     display: block;

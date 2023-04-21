@@ -4,6 +4,7 @@ layout: custom
 description: Briscycle is your number one destination for bike paths, maps, and cycling in Brisbane and surrounding areas.
 showHeader: false
 related: home
+classNames: hero-menu
 ---
 
 <div class="home-hero">
@@ -21,7 +22,8 @@ related: home
 
 <style type="text/css">
 body{
-  background:#DFF1FF;
+  background:var(--body-bg-blue);
+  color: var(--body-fg);
 }
 .entry-content > p{
   display:none;
@@ -40,11 +42,11 @@ body{
   justify-content: flex-end
 }
 .home-hero__text-container{
-  color:black;
+  color:var(--card-fg);
   padding:30px;
   border-radius:10px;
   width:50%;
-  background:#fff;
+  background:var(--card-bg);
   margin-bottom:50px;
 }
 .home-hero__line1 {

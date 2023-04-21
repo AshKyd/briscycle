@@ -28,7 +28,7 @@
     </script>
     <meta name="theme-color" content="#075697">
   </head>
-  <body class="{%if env.environment == 'development' %}development{% endif %}">
+  <body class="{%if env.environment == 'development' %}development{% endif %} {{classNames}}" data-url="{{page.url}}">
   <header class="header inverse-links">
   <div class="header__flex">
     <h1 class="header__main"><a href="/">
@@ -58,7 +58,7 @@
             <rect y="60" width="100" height="20"></rect>
           </svg>
           Menu
-          </a>
+        </a>
       </li>
     </ol>
   </div>

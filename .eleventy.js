@@ -1,7 +1,7 @@
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, className) {
+async function imageShortcode(src, alt, className, caption) {
   const { sizes, widths } = className
     ? { sizes: "50vw", widths: [1700, 1440, 960] }
     : { sizes: "100vw", widths: [3353, 1920, 1440, 1024, 800] };
@@ -24,10 +24,16 @@ async function imageShortcode(src, alt, className) {
     sizes,
     loading: "lazy",
     decoding: "async",
-    class: className,
+    class: caption ? "" : className,
   };
 
-  return Image.generateHTML(metadata, imageAttributes);
+  const imageHtml = Image.generateHTML(metadata, imageAttributes);
+
+  if (caption) {
+    return `<figure class="${className}">${imageHtml}<figcaption>${caption}</figcaption></figure>`;
+  }
+
+  return imageHtml;
 }
 
 module.exports = function (eleventyConfig) {

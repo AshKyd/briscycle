@@ -3,6 +3,7 @@
   height: 60vh;
   background: radial-gradient(ellipse at center, #c5e8ff 0, #a0c3ff 100%);
   border-radius: 6px;
+  box-shadow: var(--card-shadow);
 }
 
 .map-meta {
@@ -37,5 +38,5 @@
 }
 
 .map__wrap {
-  margin-bottom: 5em;
+  margin-bottom: 10px;
 }

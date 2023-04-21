@@ -1,5 +1,15 @@
 .header {
-  background: #075697;
+  background: var(--blue-bg);
+  color: var(--blue-fg);
+
+  // position menu on top of the hero image
+  body.hero-menu & {
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(to bottom, #013b, #00f0);
+    width: 100%;
+    text-shadow: 1px 1px 2px black;
+  }
 
   &__flex {
     display: flex;
@@ -42,7 +52,7 @@
     &::after {
       width: 4px;
       left: 2px;
-      background: #2196f3;
+      background: var(--blue-accent-fg);
     }
     &:focus,
     &:hover {
@@ -109,5 +119,34 @@
     &__item--desktop {
       display: none !important;
     }
+  }
+}
+
+/* dark theme switch and style */
+.dark-toggle {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 25px;
+  height: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+  padding: 5px 0;
+
+  &:after,
+  &:before {
+    display: block;
+    content: "";
+  }
+  &:before {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #242f44;
+    -webkit-mask: radial-gradient(
+      circle at 0px 2px,
+      transparent 13px,
+      black 14px
+    );
   }
 }

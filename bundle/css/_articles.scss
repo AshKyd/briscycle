@@ -16,10 +16,6 @@
       font-size: 0.8em;
       color: var(--text-grey);
     }
-    img {
-      width: 100%;
-      height: auto;
-    }
   }
 
   @media (min-width: 1366px) {
@@ -36,9 +32,11 @@
 
   margin-bottom: 40px;
   & > img,
-  & > picture > img {
+  & > picture > img,
+  figure img {
     width: 100%;
     height: auto;
+    border-radius: 6px;
   }
   @media (min-width: 768px) {
     .alignright {

@@ -1,12 +1,6 @@
 .btn {
-  --background: #2196f3;
-  --foreground: white;
-  --background-hover: #2196f3;
-  --foreground-hover: white;
-  --background-active: #1b90ec;
-  --foreground-active: white;
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--button-fg);
+  background: var(--button-bg);
   border: none;
   cursor: pointer;
   border-radius: 6px;
@@ -21,19 +15,19 @@
   &:hover:not(:active),
   &:focus:not(:active) {
     box-shadow: 0 0 0 2px #1261a140;
-    color: var(--foreground-hover);
-    background: var(--background-hover);
+    color: var(--button-fg-hover);
+    background: var(--button-bg-hover);
   }
   &:active {
-    color: var(--foreground-active);
-    background: var(--background-active);
+    color: var(--button-fg-active);
+    background: var(--button-bg-active);
   }
 }
 
 .btn-secondary {
   box-shadow: 0 0px 0 2px #00000020;
-  --background: white;
-  --foreground: #666;
+  --button-bg: white;
+  --button-fg: #666;
 }
 
 .btn__icon {

@@ -42,8 +42,7 @@
 }
 @media (min-width: 480px) {
   .card-ad {
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--card-shadow);
     border-radius: 4px;
     background-color: #fff;
     display: flex;
@@ -64,12 +63,16 @@
   position: relative;
   display: flex;
 
+  a {
+    color: var(--card-fg);
+  }
+
   &__link {
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--card-shadow);
     flex: 1;
     border-radius: 4px;
-    background-color: #fff;
+    background: var(--card-bg);
+    color: var(--card-fg);
     display: block;
   }
   a.card__link {

@@ -1,12 +1,8 @@
 a {
-  color: #075697;
+  color: var(--body-link);
   text-decoration: none;
   &:hover,
   &:focus {
     text-decoration: underline;
   }
-}
-
-.card a {
-  color: black;
 }
