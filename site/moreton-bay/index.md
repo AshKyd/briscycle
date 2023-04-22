@@ -1,7 +1,7 @@
 ---
 title: Moreton Bay Cycleway (MBRC)
 shortTitle: Moreton Bay
-description: The Moreton Bay Regional Cycleway is a project to connect 150 kilometres of Brisbane coastline via cycle facilities.
+description: The Moreton Bay Regional Cycleway is loose route connecting 150 kilometres of Brisbane coastline via cycle facilities.
 thumb: { "image": "/moreton-bay/thumb" }
 layout: page
 related: moreton-bay
@@ -2227,14 +2227,16 @@ fbComments: http://briscycle.com/moreton-bay-cycleway/
 
 The Moreton Bay Regional Cycleway (MBRC) is collection of cycle paths and routes across 150 kilometres of the Brisbane coastline.
 
-The cycleway runs on and off from <a href="../bribie-island/">Bribie Island</a> to <a href="../redland-city/">Redland Bay</a> via the <a href="../gateway-bridge-cycleway/">Gateway Bridge bikeway</a>, and will become the longest cycleway on the Eastern coast of Australia.
+The cycleway spans three council areas, and while there's been programs to unify the signage for the entire length, there's still a number of areas where the signs are old or missing. If you're going to make a day trip of it, check the map of cycleways in Brisbane to find a good route.
 
-The cycleway spans three council areas, and while there's been programs to unify the signage for the entire length, there's still a number of areas where the signs are old or missing. If you're planning on making a day trip of it, consult the map of cycleways in Brisbane so that you can find an area that's suitably complete.
+The cycleway runs on and off from [Bribie Island](bribie-island) to [Redland Bay](redland-city) via the [Gateway Bridge bikeway](gateway-bridge-cycleway).
 
 ## Moreton Bay Cycleway Route
 
 Below is a suggested Moreton Bay Cycleway route.
 
 Not all sections are complete, some bits involve road or footpath connections, and most bits are “shared path” for both pedestrians and bikes.
+
+Some good sections include the picturesque [Redcliffe](redcliffe) peninsula, the remote [Boondall Wetlands](boondall-wetlands), or the waterfront around [Redland Bay](redland-city).
 
 For this reason, the cycleway is a leisurely ride, and you're unlikely to finish it in a day. We recommend picking a section close to home and making a day out of that. There are plenty of landmarks, little shops to grab lunch, and rail connections to get you back home.

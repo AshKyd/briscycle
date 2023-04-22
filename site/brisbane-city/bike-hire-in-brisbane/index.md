@@ -1,6 +1,6 @@
 ---
 title: Bike Hire in Brisbane
-description: Rent a bike and explore Brissie. Free signup codes + daily, weekly or monthly passes.
+description: Rent a bike (or scooter) and explore Brissie on your own time. Free signup codes + daily, weekly or monthly passes.
 fbComments: http://briscycle.com/bike-hire-in-brisbane/
 layout: page
 related: brisbane
