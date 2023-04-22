@@ -83,6 +83,26 @@ data-ad-slot="5298906050"></ins>
     return Date.now().toString();
   });
 
+  eleventyConfig.addShortcode(
+    "youtube",
+    function (src, title = "YouTube video player") {
+      const url = new URL(src);
+
+      const id = url.searchParams.get("v");
+      const start = (url.searchParams.get("t") || "0s").replace("s", "");
+      const list = url.searchParams.get("list") || "";
+      const index = url.searchParams.get("index") || 0;
+
+      const playlist = list ? `&list=${list}&index=${index}&loop=1` : "";
+
+      const iframeUrl = `https://www.youtube.com/embed/${id}?rel=0&widget_referrer=briscycle.com&start=${start}${playlist}`;
+
+      return `<div class="video">
+    <iframe loading="lazy" width="560" height="315" src="${iframeUrl}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>`;
+    }
+  );
+
   return {
     dir: {
       input: "site",

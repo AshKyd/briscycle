@@ -82,9 +82,7 @@ While this sounds like a lot of money, a couple of trips can easily exceed the p
 
 ## Video: What's it like riding in Brisbane?
 
-<div class="video">
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+{% youtube "https://www.youtube.com/watch?v=K8-k3Qt0sLw&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=1", "Riding around Brisbane, South Bank, Kangaroo Point and the Story Bridge" %}
 
 ## 🪖 Wear a helmet
 

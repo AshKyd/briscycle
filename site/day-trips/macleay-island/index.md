@@ -110,6 +110,4 @@ Redland Bay Council recommends riding the [Moreton Bay Cycleway](/moreton-bay) f
 
 If you want to see the full train to cleveland, bike to the ferry, and ride around the island, check out the video below: (don't forget to like and subscribe!)
 
-<div class="video">
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/oL04V1PMEUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% youtube "https://www.youtube.com/watch?v=oL04V1PMEUo&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=2&t=412s", "Visiting Macleay Island by bike vlog" %}

@@ -39,7 +39,7 @@ Once in Samford there's plenty of options for food, water taps, and a bike repai
 
 While the rail trail slopes upward to Samford, the trip back is a treat, as it's largely downhill. Check out the video:
 
-<div class="video"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/RO_mI6p4jSE" title="YouTube video of the Samford Rail Trail" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+{% youtube "https://www.youtube.com/watch?v=RO_mI6p4jSE&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=3", "The Samford rail trail" %}
 
 ## Riding from Brisbane to Samford
 
