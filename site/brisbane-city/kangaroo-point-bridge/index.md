@@ -10,7 +10,7 @@ hero:
   "alt": "A concept render of a single-mast cable stayed bridge, spanning across a glittering Brisbane River"
   format: webp
   variations:
-    - '<source srcset="kangaroo-point-bridge-hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
+    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
     - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
     - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
   "attribution":
