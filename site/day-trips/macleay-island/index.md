@@ -90,11 +90,15 @@ There is a rather steep hill to climb to get out of the ferry terminal, but don'
 
 ### Facilities
 
+{% image "./site/day-trips/macleay-island/pats-park.jpg", "Shady trees on the shoreline in front of a beach with a protective net.", "alignright", "Cool off at the protected beach at Pats Park" "alignright" %}
+
 The island is highly cycle friendly, and most destinations have racks or space to lock up your bike. Drinking water is available at parks around the island, but definitely make sure to bring a water bottle.
 
 There's a Spar supermarket near the ferry terminal to pick up essentials, and a couple of shops dotted about the island along High Central Road.
 
 If you're looking for a meal, there are plenty of places to eat about the island. Stop by at the pub near the fery terminal, grab fish & chips on the way north, or enjoy the air conditioning at the Blue Parrot Cafe.
+
+There's a protected beach at the north end of the island at Pats Park where you can take a dip without worrying about bull sharks, as well as
 
 ## Getting to Macleay Island
 
