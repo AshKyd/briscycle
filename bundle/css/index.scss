@@ -164,10 +164,14 @@ p,
   height: 0;
   overflow: hidden;
   padding-top: 56.25%;
-  background: white;
+  background: black;
   position: relative;
   box-sizing: border-box;
   margin-bottom: 1em;
+  border-radius: 6px;
+  iframe {
+    border-radius: 6px;
+  }
 }
 .video > * {
   position: absolute;
