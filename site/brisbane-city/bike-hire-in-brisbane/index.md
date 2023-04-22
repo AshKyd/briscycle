@@ -1,6 +1,6 @@
 ---
 title: Bike Hire in Brisbane
-description: One of the better ways to explore a new city is by bike, because you can take as much time as you like to stop wherever something catches your eye.
+description: Rent a bike and explore Brissie. Free signup codes + daily, weekly or monthly passes.
 fbComments: http://briscycle.com/bike-hire-in-brisbane/
 layout: page
 related: brisbane
