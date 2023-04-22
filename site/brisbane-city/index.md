@@ -8,7 +8,8 @@ related: brisbane
 mapTitle: Map of Brisbane Bike Paths
 geo: { "lat": "-27.47", "lng": "153.02", "zoom": "13" }
 tags:
-  - menu  - home
+  - menu
+  - home
 ---
 
 Brisbane is a fantastic place to explore by bike. With plenty of bikeways, paths and bike lanes, cycling in Brisbane is the best way to see the sights and get some exercise along the way.
