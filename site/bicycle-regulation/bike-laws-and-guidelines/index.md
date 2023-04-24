@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Queensland Bicycle Laws & Guidelines
+shortTitle: Laws & Guidelines
 description: In Queensland you may ride on either the road or the footpath. Find out all the specifics of what you can and can't do.
 icon: /bicycle-regulation/bike-laws-and-guidelines/scales-of-justice.svg
 tags:

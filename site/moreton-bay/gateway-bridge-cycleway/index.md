@@ -1,5 +1,6 @@
 ---
 title: Sir Leo Hielscher (Gateway Bridges)
+shortTitle: Gateway Bridges
 description: All you need to know about walking, riding, and scooting across the gateway bridge
 fbComments: http://briscycle.com/gateway-bridge-cycleway/
 layout: page

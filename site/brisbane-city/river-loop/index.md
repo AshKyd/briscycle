@@ -1,5 +1,6 @@
 ---
 title: Brisbane River Loop
+shortTitle: The river loop
 description: The Brisbane River Loop is popular recreational cycle route that follows the Brisbane River from South Bank to Indooroopilly and back again.
 layout: page
 related: brisbane

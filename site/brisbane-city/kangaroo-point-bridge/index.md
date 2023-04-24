@@ -1,5 +1,6 @@
 ---
 title: Kangaroo Point Green Bridge
+shortTitle: Kangaroo Point Bridge
 description: The KP green bridge will connect Kangaroo Point with the CBD, linking to the Cliffs precinct and onward to the eastern suburbs.
 layout: page
 related: brisbane

@@ -1,5 +1,6 @@
 ---
 title: Ferny Grove to Samford Rail Trail
+shortTitle: Samford Link
 description: Get out of the city and ride to Samford along the Samford Link Rail Trail.
 fbComments: http://briscycle.com/day-trips/brisbane-valley-rail-trail
 thumb: { "image": "/day-trips/samford-rail-trail/thumb", "format": webp }

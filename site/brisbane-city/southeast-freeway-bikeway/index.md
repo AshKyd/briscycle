@@ -1,5 +1,6 @@
 ---
 title: Southeast Freeway Bikeway
+shortTitle: Southeast Freeway
 layout: page
 description: The Southeast Freeway bikeway runs parallell to the Southeast Freeway from South Brisbane to Eight Mile Plains & is the main route from Brisbane to the Gold Coast
 related: brisbane

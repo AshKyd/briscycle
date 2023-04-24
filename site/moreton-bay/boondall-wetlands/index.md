@@ -1,5 +1,6 @@
 ---
 title: Boondall Wetlands Cycleway
+shortTitle: Boondall Wetlands
 description: The Moreton Bay Cycleway runs through the Boondall Wetlands between the Entertainment Centre and Nudgee Road.
 geo: { "lat": "-27.35", "lng": "153.083", "zoom": "14" }
 fbComments: http://briscycle.com/boondall-wetlands-cycleway/

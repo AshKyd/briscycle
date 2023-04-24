@@ -1,42 +1,75 @@
-<footer class="container">
-
-    <nav class="footer__menu card">
-    <div class="card__link">
-    <h2 class="footer__menu-header">Find out more</h2>
-        <ol class="footer__menu-list">
-          {% for item in collections.menu %}
-              <li class="footer__menu-item">
-              <a href="{{item.data.page.url}}">{{item.data.shortTitle}}</a>
-              </li>
-          {% endfor %}
-        </ol>
+<footer class="footer wide-container">
+    <div class="footer__logo">
+        <div class="footer-branding">
+            <img class="footer-branding__logo" src="/images/header-logo.webp" alt="" role="presentation" />
+            <h2 class="footer-branding__text">Briscycle</h2>
         </div>
-    </nav>
-
-    <p class="navbar">
-        Copyright &copy; {{site.copyrightYear}} <a href="https://ash.ms/">Ash Kyd</a>
-        {% if page.url %}
-        •
-        <a 
-            rel="nofollow" 
-            href="https://github.com/AshKyd/briscycle/tree/master/site{{page.url}}index.md">
-            Edit on Github
-        </a>
-        {% endif %}
-    </p>
-    <p class="navbar">
-        <a href="/">Home</a>
-
-        {% for post in collections.legal %}
-            • <a href="{{post.url}}">
-            {% if post.data.shortTitle %}
-                {{post.data.shortTitle}}
-            {% else %}
-                {{post.data.title}}
+    </div>
+    <div class="footer__a">
+        <p class="footer__paragraph">
+            Briscycle is a best-effort side project by <a href="https://ash.ms/">Ash</a>. For feedback, corrections, or suggestions <a href="mailto:briscycle@kyd.com.au">shoot me an email</a>.
+        
+            {% if page.url %}
+                Or <a 
+                    rel="nofollow" 
+                    href="https://github.com/AshKyd/briscycle/tree/master/site{{page.url}}index.md">
+                    Edit this page on Github
+                </a>.
             {% endif %}
-            </a>
+        </p>
+        
+        <p class="footer__paragraph">
+            The Jagera people and the Turrbal people are traditional custodians of the place we now call Brisbane. {{country}} We pay respects their elders, past and present.
+        </p>
+    
+    </div>
+    <div class="footer__b">
+        <ul class="nested-list">
+            <li>
+                <h3 class="nested-list__heading"><a href="/brisbane-city/">The City</a></h3>
+                <ul>
+                    {% for post in collections.brisbane %}
+                        <li><a href="{{post.url}}">{{post.data|shortName}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <h3 class="nested-list__heading"><a href="/day-trips/">Day Trips</a></h3>
+                <ul>
+                    {% for post in collections["day-trips"] %}
+                        <li><a href="{{post.url}}">{{post.data|shortName}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <h3 class="nested-list__heading"><a href="/moreton-bay/">Moreton Bay</a></h3>
+                <ul>
+                    {% for post in collections["moreton-bay"] %}
+                        <li><a href="{{post.url}}">{{post.data|shortName}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <h3 class="nested-list__heading"><a href="/bicycle-regulation/">The Law</a></h3>
+                <ul>
+                    {% for post in collections.rules %}
+                        <li><a href="{{post.url}}">{{post.data|shortName}}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__c">
+        Copyright &copy; {{site.copyrightYear}} <a href="https://ash.ms/">Ash Kyd</a>.
+    </div>
+    <div class="footer__d">
+        <ul class="inline-list footer__flexend">
+        
+        {% for post in collections.legal %}
+            <li><a href="{{post.url}}">{{post.data|shortName}}</a></li>
         {% endfor %}
-    </p>
+        </ul>
+    </div>
 </footer>
 </body>
 </html>

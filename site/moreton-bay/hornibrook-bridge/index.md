@@ -1,5 +1,6 @@
 ---
 title: Ted Smout (Hornibrook) Bridge Cycleway
+shortTitle: Hornibrook Bridge
 description: The Moreton Bay Cycleway currently crosses the vast Bramble Bay via the Hornibrook Bridge, between Brighton and Clontarf.
 geo: { "lat": "-27.267", "lng": "153.074", "zoom": "13" }
 fbComments: http://briscycle.com/hornibrook-bridge-cycleway/

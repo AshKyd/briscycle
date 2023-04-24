@@ -83,6 +83,10 @@ data-ad-slot="5298906050"></ins>
     return Date.now().toString();
   });
 
+  eleventyConfig.addNunjucksFilter("shortName", function (post) {
+    return post.shortTitle || post.title;
+  });
+
   eleventyConfig.addShortcode(
     "youtube",
     function (src, title = "YouTube video player") {

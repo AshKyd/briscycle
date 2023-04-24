@@ -1,5 +1,6 @@
 ---
 title: Western Freeway Bikeway
+shortTitle: Western Freeway
 description: The Western Freeway Bikeway is a cycleway that runs parallel to the Western Freeway from the west of Toowong all the way south through to Richlands.
 layout: page
 related: brisbane

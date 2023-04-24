@@ -1,6 +1,7 @@
 ---
 title: Redcliffe Cycleway
 description: The Moreton Bay Cycleway traces the waterfront most of the way from Clontarf to Scarborough via Redcliffe. That said, the cycleway isn't completed and bad signage in some cases makes it easy to get lost.
+country: The Gubbi Gubbi and the Ningy Ningy people are teh traditional custodians of the area we now call Redcliffe.
 geo: { "lat": "-27.228", "lng": "153.1", "zoom": "12" }
 fbComments: http://briscycle.com/redcliffe-cycleway/
 layout: page

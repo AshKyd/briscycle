@@ -1,5 +1,6 @@
 ---
 title: Riverwalk Floating Walkway
+shortTitle: The Riverwalk
 description: The Brisbane Riverwalk connects Brisbane to New Farm via Howard Smith Wharves, along the north side of the Brisbane River.
 layout: page
 related: brisbane

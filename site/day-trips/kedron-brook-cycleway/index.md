@@ -1,5 +1,6 @@
 ---
 title: Kedron Brook Cycleway
+shortTitle: Kedron Brook
 description: The Kedron Brook bikeway is a scenic corridor along the Kedron Brook. A relatively short ride, but connects to the Moreton Bay Cycleway for a longer adventure.
 geo: { "lat": "-27.417", "lng": "153.028", "zoom": "14" }
 fbComments: http://briscycle.com/kedron-brook-cycleway/

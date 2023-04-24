@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Bikes & Public Transport
+shortTitle: Public transport
 description: Bikes and scooters are permitted on most forms of public transport in Brisbane. Find out when, where and the details about bikes on buses, trains, and ferries.
 icon: /bicycle-regulation/bikes-on-public-transport/aiga-rail-transportation.svg
 tags:

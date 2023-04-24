@@ -1,5 +1,6 @@
 ---
 title: Cycling to Brisbane Airport
+shortTitle: Getting to the Airport
 description: If you want to ride to Brisbane Airport you'll need to be confident with on-road cycling. The official route is different depending on whether you're inbound or outbound.
 geo: { "lat": "-27.413", "lng": "153.09", "zoom": "15" }
 fbComments: http://briscycle.com/cycling-to-brisbane-airport/

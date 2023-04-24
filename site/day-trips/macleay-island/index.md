@@ -1,11 +1,13 @@
 ---
 title: Cycling on Macleay Island
+shortTitle: Macleay Island
 description: Macleay Island is a small island off the coast of Redland Bay.
 geo: { "lat": "-27.604", "lng": "153.358", "zoom": "8" }
 mapTitle: Macleay Island travel map
 fbComments: http://briscycle.com/macleay-island/
 layout: page
 related: day-trips
+country: The Quandamooka people are the traditional custodians of the islands of we now call Moreton Bay.
 tags:
   - home
   - day-trips
