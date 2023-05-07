@@ -21,15 +21,17 @@ thumb:
   format: webp
 ---
 
-The Gateway Bridge (Sir Leo Hielscher Bridge) forms a significant part of the new [Moreton Bay Cycleway](/moreton-bay/).
+The Gateway Bridge (Sir Leo Hielscher Bridges) forms a significant part of the new [Moreton Bay Cycleway](/moreton-bay/).
 
 The eastern bridge has a 4.5 metre wide pedestrian and cycle lane that takes you from Eagle Farm to Murrarie.
 
 The bridge is currently a tollway but you can scoot, ride, or walk across the bridge for free. Only motorists need to pay the toll.
 
+{% image "./site/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943.jpg", "The Sir Leo Hielscher Bridges from the air", "alignright", "The cycleway is visible on the eastern bridge (pictured on the left)" "alignright" %}
+
 ## Opening of the Gateway Bridge
 
-There was an open day for the new bridge on the 16th of May 2010, which gave pedestrians a chance to walk the bridge for the first time.
+There was an open day for the second bridge on the 16th of May 2010, which gave pedestrians a chance to walk the bridge for the first time.
 
 The bridge was initially open only to motor vehicles, but has since been opened to pedestrians and cyclists alike.
 
@@ -40,3 +42,9 @@ On the north side there is an off-road bikeway spanning that takes you take you 
 Kingsford Smith Drive is an industrial zone so there are a lot of trucks. Nevertheless there is green paint on the road so you can cycle on-road all the way to the Portside precinct where you can join up with the off-road cycleway along the remanider of Kingsford Smith Drive.
 
 On the south side of the bridge is a downhill chicane that takes you to Murrarie Recreation Hub where you can enjoy the river, do some fishing, or grab a beer at the pub if that's more your style. You can also get through to Murrarie Station on-road with painted bike lanes.
+
+## Sir Leo Hielscher
+
+The name of the Gateway Bridge was changed to the Sir Leo Hielscher Bridges when the second bridge opened in 2010.
+
+Sir Leo Arthur Hielscher is a prominent Queensland figure. Now retired, he had more than fifty years' experience in government, the banking and finance industry, domestic and global financial markets, superannuation industry, and as an independent Company Director. He is acclaimed as one of the key figures responsible for transforming Queensland's economy in the late 20th century and early 21st century.
