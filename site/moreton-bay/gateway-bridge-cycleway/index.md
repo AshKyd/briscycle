@@ -23,13 +23,11 @@ thumb:
 
 The Gateway Bridge (Sir Leo Hielscher Bridges) forms a significant part of the new [Moreton Bay Cycleway](/moreton-bay/).
 
-The eastern bridge has a 4.5 metre wide pedestrian and cycle lane that takes you from Eagle Farm to Murrarie.
+The eastern bridge has a 2.8 km long, 4.5 metre wide pedestrian and cycle lane that takes you from Eagle Farm to Murrarie. The bridge has a grade of around 5.3% on both sides and a peak elevation level of around 64.52m.
 
-The bridge is currently a tollway but you can scoot, ride, or walk across the bridge for free. Only motorists need to pay the toll.
+The two bridges are currently a tollway for motorists but you can scoot, ride, or walk across for free.
 
 {% image "./site/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943.jpg", "The Sir Leo Hielscher Bridges from the air", "alignright", "The cycleway is visible on the eastern bridge (pictured on the left)" "alignright" %}
-
-The bridge has a grade of around 5.3% on both sides and a vertical curve of 2457m radius at the crest. The bridge has a peak elevation level of around 64.52m.
 
 ## Getting to the Gateway Bridge
 
