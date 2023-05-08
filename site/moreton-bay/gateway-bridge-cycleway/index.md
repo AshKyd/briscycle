@@ -29,11 +29,7 @@ The bridge is currently a tollway but you can scoot, ride, or walk across the br
 
 {% image "./site/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943.jpg", "The Sir Leo Hielscher Bridges from the air", "alignright", "The cycleway is visible on the eastern bridge (pictured on the left)" "alignright" %}
 
-## Opening of the Gateway Bridge
-
-There was an open day for the second bridge on the 16th of May 2010, which gave pedestrians a chance to walk the bridge for the first time.
-
-The bridge was initially open only to motor vehicles, but has since been opened to pedestrians and cyclists alike.
+The bridge has a grade of around 5.3% on both sides and a vertical curve of 2457m radius at the crest. The bridge has a peak elevation level of around 64.52m.
 
 ## Getting to the Gateway Bridge
 
@@ -48,3 +44,9 @@ On the south side of the bridge is a downhill chicane that takes you to Murrarie
 The name of the Gateway Bridge was changed to the Sir Leo Hielscher Bridges when the second bridge opened in 2010.
 
 Sir Leo Arthur Hielscher is a prominent Queensland figure. Now retired, he had more than fifty years' experience in government, the banking and finance industry, domestic and global financial markets, superannuation industry, and as an independent Company Director. He is acclaimed as one of the key figures responsible for transforming Queensland's economy in the late 20th century and early 21st century.
+
+## Fun facts about the bridges
+
+There was an open day for the second bridge on the 16th of May 2010, which gave pedestrians a chance to walk the bridge for the first time. The bridge was initially open only to cars and trucks, but was later opened to pedestrians and cyclists.
+
+Despite being purpose-designed, the bridge encroaches on the Obstacle Limitation Surface (OLS) of the nearby Brisbane Airport by about 19.9m at the top of the light poles. If you're a plane spotter this is about as close as you'll get.
