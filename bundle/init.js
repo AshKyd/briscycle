@@ -5,9 +5,6 @@ import ClipboardJS from "clipboard";
 import domready from "domready";
 import { get, set, unlink } from "./storage";
 
-// init the map once the user starts scrolling
-window.addEventListener("scroll", initMap, { once: true, passive: true });
-
 domready(() => {
   // Copy referral codes
   const buttons = document.querySelectorAll(".copy-code__button");
@@ -50,4 +47,6 @@ domready(() => {
 
   // fire any remaining events on page load.
   fireEvents();
+
+  initMap();
 });

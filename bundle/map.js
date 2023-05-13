@@ -144,8 +144,12 @@ export default async function initMap() {
   // load map
   maplibregl.accessToken =
     "pk.eyJ1IjoiYXNoa3lkIiwiYSI6ImNsajB0NWMifQ.A8PtczW284fnWFD6dy3xLQ";
+  const container = document.querySelector("#map");
+  if (config.geo?.height) {
+    container.style.height = config.geo?.height;
+  }
   const map = new maplibregl.Map({
-    container: "map", // container ID
+    container: container,
     style: getStyle(), // style URL
     center: config.geo?.lat ? config.geo : [153, -27.5], // starting position [lng, lat]
     zoom: config.geo?.zoom || 8, // starting zoom
