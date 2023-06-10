@@ -1,6 +1,6 @@
 import "./css/index.scss";
 import "./map";
-import initMap from "./map";
+import { initMaps } from "./map";
 import ClipboardJS from "clipboard";
 import domready from "domready";
 import { get, set, unlink } from "./storage";
@@ -48,5 +48,5 @@ domready(() => {
   // fire any remaining events on page load.
   fireEvents();
 
-  initMap();
+  initMaps();
 });
