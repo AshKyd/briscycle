@@ -69,7 +69,7 @@ The bridge has at most a gentle 1:20 grade, for even novice cyclists to power up
     <img class="alignright"  src="/brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb-desktop.webp" alt=" " loading="lazy">
 </picture>
 
-The bridge is a 460 metre long single-mast [cable-stayed](https://en.wikipedia.org/wiki/Cable-stayed_bridge) pedestrian bridge, similar to the Neville Bonner bridge. It's one of the longest cable-stayed pedestrian bridges of its kind in the world. The mast towers 83 metres above the bridge deck.
+The bridge is a 460 metre long single-mast [cable-stayed](https://en.wikipedia.org/wiki/Cable-stayed_bridge) pedestrian bridge, similar to [the Neville Bonner bridge](/brisbane-city/neville-bonner-bridge/). It's one of the longest cable-stayed pedestrian bridges of its kind in the world. The mast towers 83 metres above the bridge deck.
 
 BESIX Watpac was awarded the contract to design and build the Green Bridge. Construction started in 2021 and will finish later in 2023.
 
