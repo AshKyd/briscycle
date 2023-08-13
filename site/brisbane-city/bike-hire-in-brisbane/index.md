@@ -75,8 +75,8 @@ Use my signup code to get free credit on hire bikes.
 
 Beam and Neuron aren't exactly cheap. If you're doing anything more than a quick scoot, a daily or weekly pass is much better value.
 
-- **BEAM**: A _Universal Pass_ on Beam will set you back $15 for a day, or $33 for a week. This includes free unlocks and 120 minutes per day. There is no monthly option, and you may only use the pass [in the city where you bought it](https://support.ridebeam.com/en/articles/6795893-am-i-able-to-use-my-pass-in-other-cities).
 - **Neuron**: The _Neuron Pass_ costs $15 for a day, $33 for a week, or $99 for 30 days. This includes free unlocks, and 90 minutes of rides per day. As an extra benefit you can use this pass in any other Australian city too.
+- **BEAM**: A _Universal Pass_ on Beam will set you back $15 for a day. This includes free unlocks and 120 minutes per day. You can also get a three-day or a weekly pass, but check the conditions carefully because they've recently changed the number of minutes available. You may only use the pass [in the city where you bought it](https://support.ridebeam.com/en/articles/6795893-am-i-able-to-use-my-pass-in-other-cities).
 
 While this sounds like a lot of money, a couple of trips can easily exceed the price of a daily pass so it often works out cheaper to just get one.
 
@@ -84,13 +84,19 @@ While this sounds like a lot of money, a couple of trips can easily exceed the p
 
 {% youtube "https://www.youtube.com/watch?v=K8-k3Qt0sLw&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=1", "Riding around Brisbane, South Bank, Kangaroo Point and the Story Bridge" %}
 
+## Longer bike rentals
+
+If you're in the city for a week you can [hire a bike from Riverlife for $199](https://riverlife.com.au/project/brisbane-bike-hire/). They're located at the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge/) cliffs, and is accessible fromm the CBD or South Bank by ferry. Riverlife also offer kayaks and rollerblades if you want an adventure.
+
+If you want something higher end, [Epic Cycles is a reputable brand that offers road bikes, foldables, ebikes and cargo bikes](https://www.epiccycles.com.au/service/bike-hire/) to get you around. City bikes start at $360/week, and you can score yourself an ebike from $650/week. Epic Cycles isn't too far from Milton train station, or it's a 15 minute walk from the ferry.
+
 ## 🪖 Wear a helmet
 
 Australian law requires you wear a helmet at all times while you ride a bicycle. This is strictly enforced and the fines are quite steep, so don't risk it.
 
 There are usually helmets provided on the bikes, although occasionally it may be damaged or missing.
 
-There will usually be another bike nearby with a helmet, so check around. You can also buy a cheap helmet for under $25 from department stores like Big W or Target in an emergency.
+There will usually be another bike nearby with a helmet (or occasionally left in a tree or garden), so check around. You can also buy a cheap helmet for under $25 from department stores like Big W or Target if you'd prefer to use your own.
 
 Check out more [rules on riding bikes](/bicycle-regulation).
 
