@@ -86,7 +86,7 @@ While this sounds like a lot of money, a couple of trips can easily exceed the p
 
 ## Longer bike rentals
 
-If you're in the city for a week you can [hire a bike from Riverlife for $199](https://riverlife.com.au/project/brisbane-bike-hire/). They're located at the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge/) cliffs, and is accessible fromm the CBD or South Bank by ferry. Riverlife also offer kayaks and rollerblades if you want an adventure.
+If you're in the city for a week you can [hire a bike from Riverlife for $199](https://riverlife.com.au/project/brisbane-bike-hire/). They're located at the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge/) cliffs, a short ferry ride or bike from the CBD. Riverlife also offer kayaks and rollerblades if you want a different kind of adventure.
 
 If you want something higher end, [Epic Cycles is a reputable brand that offers road bikes, foldables, ebikes and cargo bikes](https://www.epiccycles.com.au/service/bike-hire/) to get you around. City bikes start at $360/week, and you can score yourself an ebike from $650/week. Epic Cycles isn't too far from Milton train station, or it's a 15 minute walk from the ferry.
 
