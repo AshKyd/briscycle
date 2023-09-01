@@ -48,7 +48,7 @@ Heading toward the airport, you'll need to take a more circuitous route along Qa
 
 The following map from Brisbane Airport shows the recommended routes:
 
-<img src="airport-map.svg" alt="Map of the airport showing a confusing cycleway route">
+<img src="airport-map.svg" alt="Map of the airport showing a confusing cycleway route" style="background:white">
 
 Bike parking and showers are available at both terminals.
 
