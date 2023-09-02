@@ -39,7 +39,7 @@ geojson:
   }
 ---
 
-The Neville Bonner Bridge is an under-construction pedestrian-only bridge between the South Bank Cultural Forecourt and the Queens Wharf casino. It will be finished in 2024.
+The Neville Bonner Bridge is an under-construction pedestrian-only bridge between the South Bank Cultural Forecourt and the Queens Wharf casino. The bridge is finished construction, but won't be open until April 2024 when the Star casino is completed.
 
 **You can't ride on it, and it doesn't really go anywhere. If you're heading to Queen's Wharf you can only do it on foot.**
 
