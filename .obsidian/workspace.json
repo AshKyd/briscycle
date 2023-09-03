@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "64a6fc653fd45169",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7b09e2d462f9fd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79612ef408579591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "site/brisbane-city/neville-bonner-bridge/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f3cb9ade4b1985a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e1fdfb60b25823c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57b37d7ddbe7c967",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "096eafe3701dfeb9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d2057659f267d75a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "42dcfadb8fd9ef41",
+    "type": "split",
+    "children": [
+      {
+        "id": "276a665dbc57e53b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "460762cea96d16ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "site/brisbane-city/neville-bonner-bridge/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d26566577c18a829",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "site/brisbane-city/neville-bonner-bridge/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac37f305ea9267d7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5d78bbab784355d8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "site/brisbane-city/neville-bonner-bridge/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "79612ef408579591",
+  "lastOpenFiles": [
+    "README.md",
+    "site/brisbane-city/neville-bonner-bridge/index.md"
+  ]
+}
