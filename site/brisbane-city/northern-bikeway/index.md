@@ -7,7 +7,6 @@ tags:
   - brisbane
 geo:
   {
-    "colour": "#754d1d",
     "geojsonUrl": "/brisbane-city/northern-bikeway/northern-bikeway.geo.json",
     "googleMaps": "https://www.google.com/maps/dir/-27.4662278,153.0219514/-27.41683,153.0441/@-27.4414371,153.0194818,13.81z/data=!4m2!4m1!3e1?entry=ttu",
   }
