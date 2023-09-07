@@ -6,48 +6,40 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+  - green-bridge
+  - bridge
 hero:
-  "type": "defaultImage"
-  "alt": "A concept render of a single-mast cable stayed bridge, spanning across a glittering Brisbane River"
+  type: defaultImage
+  alt: A concept render of a single-mast cable stayed bridge, spanning across a glittering Brisbane River
   format: webp
   variations:
     - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
     - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
     - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
-  "attribution":
-    {
-      "name": "Brisbane City Council",
-      "title": "Day aerial view of the Kangaroo Point Green Bridge – Artist impression only",
-      "url": "https://www.flickr.com/photos/brisbanecitycouncil/albums/72157719520829730/with/51275677686/",
-      "license": "https://creativecommons.org/licenses/by/2.0/",
-    }
+  attribution:
+    name: Brisbane City Council
+    title: Day aerial view of the Kangaroo Point Green Bridge – Artist impression only
+    url: https://www.flickr.com/photos/brisbanecitycouncil/albums/72157719520829730/with/51275677686/
+    license: https://creativecommons.org/licenses/by/2.0/
 thumb:
-  {
-    "image": "/brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb",
-    format: webp,
-  }
+  image: /brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb
+  format: webp
 geojson:
-  {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "features":
-      [
-        {
-          "type": "Feature",
-          "properties": null,
-          "geometry":
-            {
-              "type": "LineString",
-              "coordinates":
-                [
-                  [153.03075849, -27.47216224],
-                  [153.03511976, -27.47056780],
-                  [153.03536116, -27.47056780],
-                ],
-            },
-        },
-      ],
-  }
+  type: FeatureCollection
+  generator: JOSM
+  features:
+    - type: Feature
+      properties: 
+      geometry:
+        type: LineString
+        coordinates:
+          - - 153.03075849
+            - -27.47216224
+          - - 153.03511976
+            - -27.4705678
+          - - 153.03536116
+            - -27.4705678
+openDate: "2024"
 ---
 
 The KP green bridge will connect Kangaroo Point with the CBD at the north end of the city botanical gardens with dedicated cycle lanes. The bridge is closed to motor traffic, so it's a safe way to walk, scoot, and cycle around the city.

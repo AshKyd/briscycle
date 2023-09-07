@@ -2,13 +2,18 @@
 title: Bribie Island
 description: Bribie Island is a large sand island about twenty kilometres east of Caboolture, and is connected to the mainland via a vehicle and pedestrian bridge.
 country: The Kabi Kabi and Joondoburri people are the traditional custodians of the land we now call Bribie Island.
-geojson: [false]
-geo: { "lat": "-27.069", "lng": "153.148", "zoom": "13" }
+geojson:
+  - false
+geo:
+  lat: "-27.069"
+  lng: "153.148"
+  zoom: "13"
 fbComments: http://briscycle.com/bribie-island/
 layout: page
 related: moreton-bay
 tags:
   - moreton-bay
+  - nature
 ---
 
 Bribie Island is a large sand island about twenty kilometres east of Caboolture, and is connected to the mainland via a vehicle and pedestrian bridge.

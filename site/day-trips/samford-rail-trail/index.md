@@ -3,10 +3,12 @@ title: Ferny Grove to Samford Rail Trail
 shortTitle: Samford Link
 description: Get out of the city and ride to Samford along the Samford Link Rail Trail.
 fbComments: http://briscycle.com/day-trips/brisbane-valley-rail-trail
-thumb: { "image": "/day-trips/samford-rail-trail/thumb", "format": webp }
+thumb:
+  image: /day-trips/samford-rail-trail/thumb
+  format: webp
 hero:
-  "type": "defaultImage"
-  "alt": "A bike path stretches off into the Australian bushland"
+  type: defaultImage
+  alt: A bike path stretches off into the Australian bushland
   variations:
     - '<source srcset="hero-4k.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="1299" />'
     - '<source srcset="hero-mobile.webp" type="image/webp" media="(max-width: 414px)" width=828 height=466 />'
@@ -14,12 +16,12 @@ hero:
 layout: page
 related: day-trips
 geo:
-  {
-    "geojsonUrl": "/day-trips/samford-rail-trail/samford.geo.json",
-    "googleMaps": "https://www.google.com/maps/dir/-27.4009717,152.9341717/Samford+Village+QLD/@-27.3900902,152.8894016,14.07z/data=!4m14!4m13!1m5!3m4!1m2!1d152.8924926!2d-27.3851133!3s0x6b9155b6c0b4b30b:0xd04a1e06b1fe3b2d!1m5!1m1!1s0x6b9155bcd4331cc3:0x502a35af3de97c0!2m2!1d152.8865195!2d-27.3736793!3e1",
-  }
+  geojsonUrl: /day-trips/samford-rail-trail/samford.geo.json
+  googleMaps: https://www.google.com/maps/dir/-27.4009717,152.9341717/Samford+Village+QLD/@-27.3900902,152.8894016,14.07z/data=!4m14!4m13!1m5!3m4!1m2!1d152.8924926!2d-27.3851133!3s0x6b9155b6c0b4b30b:0xd04a1e06b1fe3b2d!1m5!1m1!1s0x6b9155bcd4331cc3:0x502a35af3de97c0!2m2!1d152.8865195!2d-27.3736793!3e1
 tags:
   - day-trips
+  - uphill
+  - nature
 ---
 
 Samford is a rural area nestled in the rolling hills northwest of Brisbane. The area has a vibrant cafe scene, a welcoming atmosphere and old fashioned country hospitality.

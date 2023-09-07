@@ -2,36 +2,32 @@
 title: Kedron Brook Cycleway
 shortTitle: Kedron Brook
 description: The Kedron Brook bikeway is a scenic corridor along the Kedron Brook. A relatively short ride, but connects to the Moreton Bay Cycleway for a longer adventure.
-geo: { "lat": "-27.417", "lng": "153.028", "zoom": "14" }
+geo:
+  lat: "-27.417"
+  lng: "153.028"
+  zoom: "14"
 fbComments: http://briscycle.com/kedron-brook-cycleway/
 layout: page
 related: day-trips
 tags:
   - day-trips
+  - separated
 hero:
-  {
-    "type": "defaultImage",
-    "image": "/day-trips/kedron-brook-cycleway/kedron-brook-hero",
-    "alt": "People picnicking in Kalinga Park, along the Kedron Brook bikeway.",
-    "attribution":
-      {
-        "name": "Brisbane City Council",
-        "title": "Kalinga Park, Kalinga",
-        "url": "https://www.flickr.com/photos/50553864@N06/10793131604",
-        "license": "https://creativecommons.org/licenses/by/2.0/",
-      },
-  }
+  type: defaultImage
+  image: /day-trips/kedron-brook-cycleway/kedron-brook-hero
+  alt: People picnicking in Kalinga Park, along the Kedron Brook bikeway.
+  attribution:
+    name: Brisbane City Council
+    title: Kalinga Park, Kalinga
+    url: https://www.flickr.com/photos/50553864@N06/10793131604
+    license: https://creativecommons.org/licenses/by/2.0/
 thumb:
-  {
-    "image": "/day-trips/kedron-brook-cycleway/kedron-brook",
-    "attribution":
-      {
-        "name": "Brisbane City Council",
-        "title": "Kalinga Park, Kalinga",
-        "url": "https://www.flickr.com/photos/50553864@N06/10793131604",
-        "license": "https://creativecommons.org/licenses/by/2.0/",
-      },
-  }
+  image: /day-trips/kedron-brook-cycleway/kedron-brook
+  attribution:
+    name: Brisbane City Council
+    title: Kalinga Park, Kalinga
+    url: https://www.flickr.com/photos/50553864@N06/10793131604
+    license: https://creativecommons.org/licenses/by/2.0/
 ---
 
 The <em>Kedron Brook</em> bikeway is a major cycleway that links a number of suburbs from Mitchelton to both Gympie and Sandgate Roads. The cycleway also connects to the <a href="../jim-soorley-bikeway/">Jim Soorley Bikeway</a>, and continues to the northern section of the <a href="../moreton-bay-cycleway/">Moreton Bay Cycleway</a>.

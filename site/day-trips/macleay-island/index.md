@@ -2,7 +2,10 @@
 title: Cycling on Macleay Island
 shortTitle: Macleay Island
 description: Macleay Island is a small island off the coast of Redland Bay.
-geo: { "lat": "-27.604", "lng": "153.358", "zoom": "8" }
+geo:
+  lat: "-27.604"
+  lng: "153.358"
+  zoom: "8"
 mapTitle: Macleay Island travel map
 fbComments: http://briscycle.com/macleay-island/
 layout: page
@@ -11,75 +14,66 @@ country: The Quandamooka people are the traditional custodians of the islands of
 tags:
   - home
   - day-trips
+  - nature
+  - flat
 hero:
-  {
-    "type": "defaultImage",
-    "image": "/day-trips/macleay-island/hero",
-    "alt": "Coondooroopa Beach - waves lap at a sandy beach at low tide, there are beach shacks on the shore and trees stretching in the distance. Nobody is around.",
-    format: webp,
-  }
-thumb: { "image": "/day-trips/macleay-island/macleay-island" }
+  type: defaultImage
+  image: /day-trips/macleay-island/hero
+  alt: Coondooroopa Beach - waves lap at a sandy beach at low tide, there are beach shacks on the shore and trees stretching in the distance. Nobody is around.
+  format: webp
+thumb:
+  image: /day-trips/macleay-island/macleay-island
 geojson:
-  {
-    "type": "FeatureCollection",
-    "features":
-      [
-        {
-          "type": "Feature",
-          "properties": { "title": "Blue Vista Foreshore" },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.36827158927917, -27.60689727947797],
-            },
-        },
-        {
-          "type": "Feature",
-          "properties": { "title": "Corroboree Park" },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.37471961975095, -27.619313154677798],
-            },
-        },
-        {
-          "type": "Feature",
-          "properties": { "title": "Ferry" },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.36541771888733, -27.631642075681796],
-            },
-        },
-        {
-          "type": "Feature",
-          "properties": { "title": "Dalpura Beach" },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.3566415309906, -27.589573546893305],
-            },
-        },
-        {
-          "type": "Feature",
-          "properties": { "title": "Pats Park" },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.36155533790588, -27.581747494541446],
-            },
-        },
-        {
-          "type": "Feature",
-          "properties": { "title": "Campbell's Wharf Lookout" },
-          "geometry":
-            {
-              "type": "Point",
-              "coordinates": [153.3496356010437, -27.602076954868217],
-            },
-        },
-      ],
-  }
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        title: Blue Vista Foreshore
+      geometry:
+        type: Point
+        coordinates:
+          - 153.36827158927917
+          - -27.60689727947797
+    - type: Feature
+      properties:
+        title: Corroboree Park
+      geometry:
+        type: Point
+        coordinates:
+          - 153.37471961975095
+          - -27.619313154677798
+    - type: Feature
+      properties:
+        title: Ferry
+      geometry:
+        type: Point
+        coordinates:
+          - 153.36541771888733
+          - -27.631642075681796
+    - type: Feature
+      properties:
+        title: Dalpura Beach
+      geometry:
+        type: Point
+        coordinates:
+          - 153.3566415309906
+          - -27.589573546893305
+    - type: Feature
+      properties:
+        title: Pats Park
+      geometry:
+        type: Point
+        coordinates:
+          - 153.36155533790588
+          - -27.581747494541446
+    - type: Feature
+      properties:
+        title: Campbell's Wharf Lookout
+      geometry:
+        type: Point
+        coordinates:
+          - 153.3496356010437
+          - -27.602076954868217
 ---
 
 Macleay Island is a small island off the coast of Redland Bay.

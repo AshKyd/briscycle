@@ -6,52 +6,59 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+  - green-bridge
+  - bridge
+  - flat
+  - separated
 hero:
-  {
-    "type": "defaultImage",
-    "alt": "The Riverwalk winds through Howard Smith Wharves, and out into the Brisbane River",
-    "image": "/brisbane-city/riverwalk/riverwalk-hero",
-    format: webp,
-  }
+  type: defaultImage
+  alt: The Riverwalk winds through Howard Smith Wharves, and out into the Brisbane River
+  image: /brisbane-city/riverwalk/riverwalk-hero
+  format: webp
 thumb:
-  {
-    "image": "/brisbane-city/riverwalk/howard-smith-wharves-riverwalk",
-    format: "webp",
-  }
+  image: /brisbane-city/riverwalk/howard-smith-wharves-riverwalk
+  format: webp
 geojson:
-  {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "features":
-      [
-        {
-          "type": "Feature",
-          "properties": { "highway": "path", "bicycle": "yes" },
-          "geometry":
-            {
-              "type": "LineString",
-              "coordinates":
-                [
-                  [153.04184960994272, -27.4715772063541],
-                  [153.04143192696102, -27.471959020498463],
-                  [153.04110284339967, -27.47089218354394],
-                  [153.0405206186373, -27.47101571256211],
-                  [153.03973588091407, -27.46708517591395],
-                  [153.03986245151458, -27.46662473244874],
-                  [153.03978650915428, -27.466411355556538],
-                  [153.0396219673736, -27.466007061364824],
-                  [153.03905239967125, -27.46560276569017],
-                  [153.03905239967125, -27.46528831247356],
-                  [153.03852080314908, -27.46470432554844],
-                  [153.03871065904988, -27.463760955518357],
-                  [153.03792592132666, -27.462806346674643],
-                  [153.0364956735408, -27.46219988499758],
-                  [153.0345338292328, -27.462323423757937],
-                ],
-            },
-        },
-      ],
-  }
+  type: FeatureCollection
+  generator: JOSM
+  features:
+    - type: Feature
+      properties:
+        highway: path
+        bicycle: yes
+      geometry:
+        type: LineString
+        coordinates:
+          - - 153.04184960994272
+            - -27.4715772063541
+          - - 153.04143192696102
+            - -27.471959020498463
+          - - 153.04110284339967
+            - -27.47089218354394
+          - - 153.0405206186373
+            - -27.47101571256211
+          - - 153.03973588091407
+            - -27.46708517591395
+          - - 153.03986245151458
+            - -27.46662473244874
+          - - 153.03978650915428
+            - -27.466411355556538
+          - - 153.0396219673736
+            - -27.466007061364824
+          - - 153.03905239967125
+            - -27.46560276569017
+          - - 153.03905239967125
+            - -27.46528831247356
+          - - 153.03852080314908
+            - -27.46470432554844
+          - - 153.03871065904988
+            - -27.463760955518357
+          - - 153.03792592132666
+            - -27.462806346674643
+          - - 153.0364956735408
+            - -27.46219988499758
+          - - 153.0345338292328
+            - -27.462323423757937
 ---
 
 The Brisbane Riverwalk connects Brisbane to New Farm via Howard Smith Wharves, along the north side of the Brisbane River.

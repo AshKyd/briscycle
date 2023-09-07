@@ -6,6 +6,9 @@ related: brisbane
 eleventyExcludeFromCollections: true
 tags:
   - brisbane
+  - no-cycling
+  - bridge
+  - green-bridge
 hero:
   type: defaultImage,
   alt: Neville Bonner Bridge under construction from South Bank. An inverted arch reaches across the river toward the casino under construction.
@@ -18,25 +21,18 @@ thumb:
   image: /brisbane-city/neville-bonner-bridge/thumb
   format: webp
 geojson:
-  {
-    "type": "FeatureCollection",
-    "features":
-      [
-        {
-          "type": "Feature",
-          "properties": null,
-          "geometry":
-            {
-              "type": "LineString",
-              "coordinates":
-                [
-                  [153.02127956271, -27.47518923988],
-                  [153.02466987491, -27.47431351249],
-                ],
-            },
-        },
-      ],
-  }
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties: 
+      geometry:
+        type: LineString
+        coordinates:
+          - - 153.02127956271
+            - -27.47518923988
+          - - 153.02466987491
+            - -27.47431351249
+openDate: "2024"
 ---
 
 The Neville Bonner Bridge is an under-construction pedestrian-only bridge between the South Bank Cultural Forecourt and the Queens Wharf casino. The bridge is finished construction, but won't be open until April 2024 when the Star casino is completed.

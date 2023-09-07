@@ -5,42 +5,46 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+  - bridge
+  - green-bridge
 hero:
-  {
-    "type": "defaultImage",
-    "alt": "Kurilpa Bridge at night, the cantilevers lit in red. GOMA is illuminated blue in the background. The footpath is brightly lit in warm light.",
-    "image": "/brisbane-city/kurilpa-bridge/hero",
-  }
-thumb: { "image": "/brisbane-city/kurilpa-bridge/kurilpa" }
+  type: defaultImage
+  alt: Kurilpa Bridge at night, the cantilevers lit in red. GOMA is illuminated blue in the background. The footpath is brightly lit in warm light.
+  image: /brisbane-city/kurilpa-bridge/hero
+thumb:
+  image: /brisbane-city/kurilpa-bridge/kurilpa
 geojson:
-  {
-    "type": "FeatureCollection",
-    "features":
-      [
-        {
-          "type": "Feature",
-          "properties": { "highway": "path", "bicycle": "yes" },
-          "geometry":
-            {
-              "type": "LineString",
-              "coordinates":
-                [
-                  [153.01986186363587, -27.46857094393052],
-                  [153.01926238907848, -27.469035908304562],
-                  [153.01690022112047, -27.469765053031914],
-                  [153.0167414199132, -27.4697580081784],
-                  [153.01661040891722, -27.469719261476026],
-                  [153.0165667385852, -27.46961711101357],
-                  [153.01661040891722, -27.469539617496125],
-                  [153.01675730003393, -27.469511438021726],
-                  [153.01691610124118, -27.46955018479717],
-                  [153.017043142207, -27.469634723169023],
-                  [153.01712651284078, -27.469772097884974],
-                ],
-            },
-        },
-      ],
-  }
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        highway: path
+        bicycle: yes
+      geometry:
+        type: LineString
+        coordinates:
+          - - 153.01986186363587
+            - -27.46857094393052
+          - - 153.01926238907848
+            - -27.469035908304562
+          - - 153.01690022112047
+            - -27.469765053031914
+          - - 153.0167414199132
+            - -27.4697580081784
+          - - 153.01661040891722
+            - -27.469719261476026
+          - - 153.0165667385852
+            - -27.46961711101357
+          - - 153.01661040891722
+            - -27.469539617496125
+          - - 153.01675730003393
+            - -27.469511438021726
+          - - 153.01691610124118
+            - -27.46955018479717
+          - - 153.017043142207
+            - -27.469634723169023
+          - - 153.01712651284078
+            - -27.469772097884974
 ---
 
 The Kurilpa Bridge is a pedestrian and cycle bridge which connects the northern end of the Brisbane CBD to South Bank.

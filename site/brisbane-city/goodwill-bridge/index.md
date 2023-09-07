@@ -5,44 +5,41 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+  - bridge
+  - green-bridge
 hero:
-  {
-    "type": "defaultImage",
-    "alt": "The Goodwill Bridge from afar on a sunny day, the Captain Cook Bridge and Kangaroo Point in the background.",
-    "image": "/brisbane-city/goodwill-bridge/goodwill-bridge-hero",
-  }
-thumb: { "image": "/brisbane-city/goodwill-bridge/goodwill-bridge" }
+  type: defaultImage
+  alt: The Goodwill Bridge from afar on a sunny day, the Captain Cook Bridge and Kangaroo Point in the background.
+  image: /brisbane-city/goodwill-bridge/goodwill-bridge-hero
+thumb:
+  image: /brisbane-city/goodwill-bridge/goodwill-bridge
 geojson:
-  [
-    {
-      "type": "FeatureCollection",
-      "features":
-        [
-          {
-            "type": "Feature",
-            "properties": { "highway": "path", "bicycle": "yes" },
-            "geometry": { "type": "LineString", "coordinates": [] },
-          },
-          {
-            "type": "Feature",
-            "properties": {},
-            "geometry":
-              {
-                "type": "LineString",
-                "coordinates":
-                  [
-                    [153.02875749048732, -27.47905004911708],
-                    [153.0272921136801, -27.480180740250752],
-                    [153.02655661804124, -27.481316400720154],
-                    [153.02636572604337, -27.481525600055875],
-                    [153.02589411051918, -27.48182445556056],
-                    [153.02528213323188, -27.482098405727534],
-                  ],
-              },
-          },
-        ],
-    },
-  ]
+  - type: FeatureCollection
+    features:
+      - type: Feature
+        properties:
+          highway: path
+          bicycle: yes
+        geometry:
+          type: LineString
+          coordinates: []
+      - type: Feature
+        properties: {}
+        geometry:
+          type: LineString
+          coordinates:
+            - - 153.02875749048732
+              - -27.47905004911708
+            - - 153.0272921136801
+              - -27.480180740250752
+            - - 153.02655661804124
+              - -27.481316400720154
+            - - 153.02636572604337
+              - -27.481525600055875
+            - - 153.02589411051918
+              - -27.48182445556056
+            - - 153.02528213323188
+              - -27.482098405727534
 ---
 
 The Goodwill bridge is a pedestrian and cycle structure connecting the QUT Gardens Point campus and the southernmost part of the CBD with South Bank and the South East Bikeway.

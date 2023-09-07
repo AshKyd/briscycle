@@ -52,3 +52,19 @@
     }
   }
 }
+
+.infobox {
+  float: right;
+  max-width: 20em;
+  margin: 0 0 1em 1em;
+
+  padding-left: 74px;
+
+  &__icon {
+    float: left;
+    margin-left: -74px;
+    width: 64px;
+    isolation: isolate;
+    position: relative;
+  }
+}

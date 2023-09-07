@@ -3,24 +3,25 @@ title: Wamuran Rail Trail
 description: The Wamuran Rail Trail 10 km off-road bike trail leaving from Caboolture and following the route of the old Woodford rail line.
 country: The Caboolture area is the traditional home of the Kabi Kabi people.
 hero:
-  "type": "defaultImage"
-  "alt": "The Wamuran end of the Wamuran Rail Trail. The path goes past a park into the distance while the old rails terminate at a footpath."
+  type: defaultImage
+  alt: The Wamuran end of the Wamuran Rail Trail. The path goes past a park into the distance while the old rails terminate at a footpath.
   format: webp
   variations:
     - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
     - '<source srcset=hero-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
     - '<source srcset="hero-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
-thumb: { "image": "/day-trips/wamuran-rail-trail/thumb", "format": "webp" }
+thumb:
+  image: /day-trips/wamuran-rail-trail/thumb
+  format: webp
 layout: page
 related: day-trips
 geo:
-  {
-    "geojsonUrl": "/day-trips/wamuran-rail-trail/wamuran-rail-trail.geo.json",
-    "googleMaps": "https://www.google.com/maps/dir/Caboolture+to+Wamuran+Rail+Trail+Caboolture+Entry,+Caboolture+QLD/Railtrail+Wamuran,+D'Aguilar+Highway,+Wamuran+QLD/@-27.0592972,152.8725676,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x6b93f3b75a2026e9:0x5f3fd53755b17003!2m2!1d152.9513797!2d-27.0794607!1m5!1m1!1s0x6b93f516c27bdc95:0xa0010d4136d33cc5!2m2!1d152.8639716!2d-27.0392661!3e1",
-  }
+  geojsonUrl: /day-trips/wamuran-rail-trail/wamuran-rail-trail.geo.json
+  googleMaps: https://www.google.com/maps/dir/Caboolture+to+Wamuran+Rail+Trail+Caboolture+Entry,+Caboolture+QLD/Railtrail+Wamuran,+D'Aguilar+Highway,+Wamuran+QLD/@-27.0592972,152.8725676,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x6b93f3b75a2026e9:0x5f3fd53755b17003!2m2!1d152.9513797!2d-27.0794607!1m5!1m1!1s0x6b93f516c27bdc95:0xa0010d4136d33cc5!2m2!1d152.8639716!2d-27.0392661!3e1
 tags:
   - day-trips
   - rail-trails
+  - flat
 ---
 
 The Wamuran Rail Trail 10 km off-road bike trail leaving from Caboolture and following the route of the old Kilcoy rail line.

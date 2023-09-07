@@ -2,48 +2,51 @@
 title: Ted Smout (Hornibrook) Bridge Cycleway
 shortTitle: Hornibrook Bridge
 description: The Moreton Bay Cycleway currently crosses the vast Bramble Bay via the Hornibrook Bridge, between Brighton and Clontarf.
-geo: { "lat": "-27.267", "lng": "153.074", "zoom": "13" }
+geo:
+  lat: "-27.267"
+  lng: "153.074"
+  zoom: "13"
 fbComments: http://briscycle.com/hornibrook-bridge-cycleway/
 layout: page
 related: moreton-bay
 tags:
   - moreton-bay
+  - bridge
+  - separated
 geojson:
-  {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "features":
-      [
-        {
-          "type": "Feature",
-          "properties": null,
-          "geometry":
-            {
-              "type": "LineString",
-              "coordinates":
-                [
-                  [153.06452750087, -27.28435467426],
-                  [153.06443094134, -27.28448816659],
-                  [153.06424855113, -27.28451677206],
-                  [153.06409834743, -27.28447863143],
-                  [153.06404470325, -27.28437374460],
-                  [153.06410907626, -27.28414490028],
-                  [153.08049199820, -27.26273632712],
-                  [153.08072803259, -27.26185891718],
-                ],
-            },
-        },
-      ],
-  }
+  type: FeatureCollection
+  generator: JOSM
+  features:
+    - type: Feature
+      properties: 
+      geometry:
+        type: LineString
+        coordinates:
+          - - 153.06452750087
+            - -27.28435467426
+          - - 153.06443094134
+            - -27.28448816659
+          - - 153.06424855113
+            - -27.28451677206
+          - - 153.06409834743
+            - -27.28447863143
+          - - 153.06404470325
+            - -27.2843737446
+          - - 153.06410907626
+            - -27.28414490028
+          - - 153.0804919982
+            - -27.26273632712
+          - - 153.08072803259
+            - -27.26185891718
 hero:
-  "type": "defaultImage"
-  "alt": "A featureless concrete bridge spanning over a vast bay, a green painted bike lane disappearing into the distance"
+  type: defaultImage
+  alt: A featureless concrete bridge spanning over a vast bay, a green painted bike lane disappearing into the distance
   variations:
     - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
     - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=400 height=300 />'
     - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=400 height=300 />'
 thumb:
-  "image": "/moreton-bay/hornibrook-bridge/thumb"
+  image: /moreton-bay/hornibrook-bridge/thumb
   format: webp
 ---
 

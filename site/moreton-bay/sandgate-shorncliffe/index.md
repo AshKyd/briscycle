@@ -2,12 +2,16 @@
 title: Sandgate/Shorncliffe Cycleway
 shortTitle: Sandgate
 description: The Moreton Bay Cycleway through Deagon is on-road, but through a very quiet part of town.
-geo: { "lat": "-27.324", "lng": "153.077", "zoom": "15" }
+geo:
+  lat: "-27.324"
+  lng: "153.077"
+  zoom: "15"
 fbComments: http://briscycle.com/sandgate-shorncliffe-cycleway/
 layout: page
 related: moreton-bay
 tags:
   - moreton-bay
+  - onroad
 ---
 
 The Moreton Bay Cycleway through Deagon is on-road, but through a very quiet part of town.

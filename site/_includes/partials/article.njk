@@ -43,7 +43,7 @@
         <h1 itemprop="name">{{title}}</h1>
       </header>
       <div class="article-entry container" itemprop="articleBody">
-        {{ content|safe }}
+        {% include "partials/infobox.njk" %} {{ content|safe }}
       </div>
     </div>
   </div>

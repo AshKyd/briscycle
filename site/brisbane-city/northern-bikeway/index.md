@@ -5,11 +5,11 @@ layout: page
 related: brisbane
 tags:
   - brisbane
+  - separated
+  - uphill
 geo:
-  {
-    "geojsonUrl": "/brisbane-city/northern-bikeway/northern-bikeway.geo.json",
-    "googleMaps": "https://www.google.com/maps/dir/-27.4662278,153.0219514/-27.41683,153.0441/@-27.4414371,153.0194818,13.81z/data=!4m2!4m1!3e1?entry=ttu",
-  }
+  geojsonUrl: /brisbane-city/northern-bikeway/northern-bikeway.geo.json
+  googleMaps: https://www.google.com/maps/dir/-27.4662278,153.0219514/-27.41683,153.0441/@-27.4414371,153.0194818,13.81z/data=!4m2!4m1!3e1?entry=ttu
 ---
 
 Getting into Brisbane from the north side is getting a lot safer with the northern bikeway. Constructed in 2021, the route starts in Wooloowin and connects to the Roma Street Parklands via the Ekka on a mix of separated bike lanes and shared footpaths.

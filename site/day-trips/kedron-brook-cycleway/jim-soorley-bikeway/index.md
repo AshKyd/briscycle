@@ -2,26 +2,22 @@
 title: Jim Soorley Bikeway
 description: The Jim Soorley Bikeway currently connects the Moreton Bay Cycleway to the Kedron Brook Cycleway through the wetlands between theGateway Motorwayand Brisbane Airport.
 geo:
-  {
-    "geojsonUrl": "/day-trips/kedron-brook-cycleway/jim-soorley-bikeway/jim-soorley-bikeway.geo.json",
-    "googleMaps": "https://www.google.com/maps/dir/-27.410679,153.0635941/-27.3712718,153.1006151/@-27.3887377,153.0644922,13.87z/data=!4m2!4m1!3e1",
-  }
+  geojsonUrl: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/jim-soorley-bikeway.geo.json
+  googleMaps: https://www.google.com/maps/dir/-27.410679,153.0635941/-27.3712718,153.1006151/@-27.3887377,153.0644922,13.87z/data=!4m2!4m1!3e1
 fbComments: http://briscycle.com/jim-soorley-bikeway/
 thumb:
-  {
-    "image": "/day-trips/kedron-brook-cycleway/jim-soorley-bikeway/thumb",
-    "attribution": null,
-  }
+  image: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/thumb
+  attribution: 
 hero:
-  {
-    "alt": "People riding past a grassy field along the Jim Soorley Bikeway and off into the distance past some trees.",
-    "image": "/day-trips/kedron-brook-cycleway/jim-soorley-bikeway/hero",
-    "attribution": null,
-  }
+  alt: People riding past a grassy field along the Jim Soorley Bikeway and off into the distance past some trees.
+  image: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/hero
+  attribution: 
 layout: page
 related: day-trips
 tags:
   - day-trips
+  - separated
+  - nature
 ---
 
 The Jim Soorley Bikeway currently connects the <a href="../moreton-bay-cycleway/">Moreton Bay Cycleway</a> to the <a href="../kedron-brook-cycleway/">Kedron Brook Cycleway</a> through the wetlands between the <a href="../gateway-bridge-cycleway/">Gateway Motorway</a> and Brisbane Airport.

@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a7b09e2d462f9fd3",
+        "id": "c5ced7292206c729",
         "type": "tabs",
         "children": [
           {
-            "id": "79612ef408579591",
+            "id": "1587e43f176345e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "site/brisbane-city/kingsford-smith-drive/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e60beeda898dfbac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c723e2202c34abbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "site/brisbane-city/neville-bonner-bridge/index.md",
+                "file": "site/brisbane-city/river-loop/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:green",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "site/brisbane-city/kingsford-smith-drive/index.md",
+                "file": "site/brisbane-city/river-loop/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "site/brisbane-city/kingsford-smith-drive/index.md",
+                "file": "site/brisbane-city/river-loop/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "site/brisbane-city/kingsford-smith-drive/index.md"
+                "file": "site/brisbane-city/river-loop/index.md"
               }
             }
           }
@@ -164,15 +146,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79612ef408579591",
+  "active": "1587e43f176345e0",
   "lastOpenFiles": [
-    "site/brisbane-city/northern-bikeway/northern-bikeway.geo.json",
-    "northern-bikeway.geo.json",
-    "site/brisbane-city/northern-bikeway/index.md",
-    "site/brisbane-city/kingsford-smith-drive/index.md",
-    "site/brisbane-city/kingsford-smith-drive",
+    "site/brisbane-city/kurilpa-bridge/index.md",
+    "dist/images/noun-icons/noun-up-right-2032287.svg",
+    "images/noun-icons/noun-up-right-2032287.svg",
+    "site/_includes/partials/infobox-item.njk",
+    "site/_includes/partials/infobox-item.nkj",
+    "site/_includes/partials/untitled file",
+    "dist/images/noun-icons/noun-road-776605.svg",
+    "dist/images/noun-icons/noun-path-1561502.svg",
+    "dist/images/noun-icons/noun-nature-6069484.svg",
+    "dist/images/noun-icons/noun-green-1733744.svg",
+    "images/noun-icons/noun-road-776605.svg",
+    "images/noun-icons/noun-path-1561502.svg",
+    "images/noun-icons/noun-nature-6069484.svg",
+    "images/noun-icons/noun-green-1733744.svg",
+    "dist/images/noun-icons",
+    "images/noun-icons",
+    "dist/images/untitled folder",
+    "images/untitled folder",
     "site/brisbane-city/neville-bonner-bridge/index.md",
-    "site/brisbane-city/northern-bikeway",
-    "README.md"
+    "site/moreton-bay/redland-city/index.md",
+    "site/_includes/partials/infobox.njk",
+    "infobox.njk",
+    "ad-article.njk",
+    "site/moreton-bay/sandgate-shorncliffe/index.md",
+    "site/moreton-bay/redcliffe/index.md",
+    "site/moreton-bay/hornibrook-bridge/index.md",
+    "site/moreton-bay/gateway-bridge-cycleway/index.md",
+    "site/moreton-bay/bribie-island/index.md",
+    "site/moreton-bay/boondall-wetlands/index.md",
+    "site/brisbane-city/index.md",
+    "site/brisbane-city/western-freeway-bikeway/index.md",
+    "site/brisbane-city/southeast-freeway-bikeway/index.md",
+    "site/brisbane-city/riverwalk/index.md",
+    "site/brisbane-city/river-loop/index.md",
+    "site/brisbane-city/northern-bikeway/index.md",
+    "site/brisbane-city/kangaroo-point-bridge/index.md",
+    "site/brisbane-city/goodwill-bridge/index.md",
+    "site/brisbane-city/cycling-to-brisbane-airport/index.md",
+    "site/brisbane-city/bicentennial-bikeway/index.md",
+    "site/gold-coast/index.md",
+    "site/day-trips/wamuran-rail-trail/index.md",
+    "site/day-trips/macleay-island/index.md",
+    "site/day-trips/samford-rail-trail/index.md",
+    "site/day-trips/lake-samsonvale/index.md",
+    "site/day-trips/brisbane-valley-rail-trail/index.md"
   ]
 }
