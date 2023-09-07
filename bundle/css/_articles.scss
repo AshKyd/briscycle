@@ -60,11 +60,19 @@
 
   padding-left: 74px;
 
-  &__icon {
+  &__icon svg {
     float: left;
     margin-left: -74px;
-    width: 64px;
-    isolation: isolate;
-    position: relative;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 10px;
+    max-with: 15em;
+    padding-left: 42px;
+
+    &__icon svg {
+      width: 32px;
+      margin-left: -42px;
+    }
   }
 }

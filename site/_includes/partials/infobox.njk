@@ -1,4 +1,4 @@
-{% macro infobox(colour,icon,title,content) %}
+{% macro infobox(colour,icon,title) %}
 <div class="infobox__item">
   <div class="infobox__icon">
     <svg
@@ -14,37 +14,57 @@
   </div>
   <div class="infobox__item-content">
     <strong class="infobox__heading">{{title}}</strong>
-    <p class="infobox__body">{{content}}</p>
+    <p class="infobox__body">{{caller()}}</p>
   </div>
 </div>
 {% endmacro %}
 
 {% if tags %}
 <aside class="infobox">
+  
+  {% if openDate %}
+  {% call infobox('#faf47f', '/images/noun-icons/noun-construction-1651220.svg', 'Under construction') %}
+  This route should open sometime in {{openDate}}
+  {% endcall %}
+  {% endif %}
+  
+  
+  
   {% if 'green-bridge' in tags %}
-  {{ infobox('#81c784', '/images/noun-icons/noun-green-1733744.svg', 'Green Bridge', "Brisbane's green bridges allow walking, cycling and scooting around the city, and don't allow cars."
-  ) }}
+  {% call infobox('#81c784', '/images/noun-icons/noun-green-1733744.svg', 'Green Bridge'
+  ) %}
+  Brisbane's green bridges let you walk, ride and scoot around the city.
+  {% endcall %}
   {% endif %}
   
   {% if 'separated' in tags %}
-  {{ infobox('#64b5f6', '/images/noun-icons/noun-path-1561502.svg', 'Separated path', "This route is separated from traffic for a more fun and safe ride."
-  ) }}
+  {% call infobox('#64b5f6', '/images/noun-icons/noun-path-1561502.svg', 'Separated path'
+  ) %}
+  This route is separated from traffic for a more relaxed and safe ride.
+  {% endcall %}
   {% endif %}
   
   {% if 'uphill' in tags %}
-  {{ infobox('#f06292', '/images/noun-icons/noun-up-right-2032287.svg', 'Some hills', "There might be a bit of uphill riding on this route"
-  ) }}
+  {% call infobox('#f06292', '/images/noun-icons/noun-up-right-2032287.svg', 'Some hills'
+  ) %}
+  There might be a bit of uphill riding on this route.
+  {% endcall %}
   {% endif %}
   
   {% if 'onroad' in tags %}
-  {{ infobox('#7986cb', '/images/noun-icons/noun-road-776605.svg', 'On-road', "You'll need to ride on the road for some of this route"
-  ) }}
+  {% call infobox('#7986cb', '/images/noun-icons/noun-road-776605.svg', 'On-road'
+  ) %}
+  You'll need to ride on the road for some of this route
+  {% endcall %}
   {% endif %}
   
   {% if 'nature' in tags %}
-  {{ infobox('#81c784', '/images/noun-icons/noun-nature-6069484.svg', 'Scenic route', "This is a good route to enjoy nature."
-  ) }}
+  {% call infobox('#81c784', '/images/noun-icons/noun-nature-6069484.svg', 'Scenic route'
+  ) %}
+  This is a good route to enjoy nature.
+  {% endcall %}
   {% endif %}
+  
   
 </aside>
 {% endif %}
