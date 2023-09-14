@@ -59,20 +59,43 @@
   margin: 0 0 1em 1em;
 
   padding-left: 74px;
+  &__floater {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
+    position: absolute;
+    background: white;
+    color: black;
+    border: 2px solid #faf47f;
+    font-size: 0.8em;
+    max-width: 18em;
+    border-radius: 2px;
+    padding: 5px 10px;
+    z-index: 10;
+    margin-left: -20px;
+  }
 
   &__icon svg {
     float: left;
     margin-left: -74px;
+    &:hover + .infobox__floater {
+      opacity: 1;
+    }
   }
 
-  @media (max-width: 800px) {
-    font-size: 10px;
-    max-with: 15em;
-    padding-left: 42px;
+  &__body {
+    opacity: 0.6;
+  }
 
+  @media (max-width: 719px) {
+    float: none;
+    margin: 0 0 1em;
+    padding-left: 80px;
     &__icon svg {
-      width: 32px;
-      margin-left: -42px;
+      margin-left: -80px;
+    }
+    &__item {
+      margin-bottom: 1.5em;
     }
   }
 }

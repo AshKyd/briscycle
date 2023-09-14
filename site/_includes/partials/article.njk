@@ -50,7 +50,7 @@
 </article>
 
 {% if geo or geojson %}
-<div class="wide-container map__wrap">
+<div id="map" class="wide-container map__wrap">
   <div class="container">
     <h2 class="type-serif">
       {% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}

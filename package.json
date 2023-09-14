@@ -10,7 +10,7 @@
     "build-client": "parcel build bundle/init.js --dist-dir dist/bundle --public-url /bundle/ --no-source-maps"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^2.0.1",
     "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.2.1"
   },

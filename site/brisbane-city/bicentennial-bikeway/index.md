@@ -234,6 +234,8 @@ The Bicentennial Bikeway is a popular Brisbane cycleway running past the Brisban
 
 The bikeway has entrances from the <a href="../goodwill-bridge/">Goodwill Bridge</a> to Toowong, and is a great way to explore the city.
 
+{% ad %}
+
 ## Getting to and from the city by bike
 
 The bikeway starts at the foot of the <a href="../goodwill-bridge/">Goodwill Bridge</a>, where you have access to South Bank and the Botanic Gardens.

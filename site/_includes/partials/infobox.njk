@@ -1,4 +1,4 @@
-{% macro infobox(colour,icon,title) %}
+{% macro infobox(colour,icon,title,iconName,contributor) %}
 <div class="infobox__item">
   <div class="infobox__icon">
     <svg
@@ -11,6 +11,7 @@
       <circle fill="{{colour}}" cx="50" cy="50" r="50"></circle>
       <image href="{{icon}}" width="80" x="10" y="10" />
     </svg>
+    <p class="infobox__floater" aria-hidden="true">“{{iconName}}” icon by {{contributor}}, from thenounproject.com CC BY 3.0</p>
   </div>
   <div class="infobox__item-content">
     <strong class="infobox__heading">{{title}}</strong>
@@ -23,43 +24,41 @@
 <aside class="infobox">
   
   {% if openDate %}
-  {% call infobox('#faf47f', '/images/noun-icons/noun-construction-1651220.svg', 'Under construction') %}
+  {% call infobox('#faf47f', '/images/noun-icons/noun-construction-1651220.svg', 'Under construction', 'Construction icon', 'Adrien Coquet') %}
   This route should open sometime in {{openDate}}
   {% endcall %}
   {% endif %}
   
-  
-  
   {% if 'green-bridge' in tags %}
-  {% call infobox('#81c784', '/images/noun-icons/noun-green-1733744.svg', 'Green Bridge'
+  {% call infobox('#81c784', '/images/noun-icons/noun-green-1733744.svg', 'Green bridge', 'Green icon', "Ker'is"
   ) %}
   Brisbane's green bridges let you walk, ride and scoot around the city.
   {% endcall %}
   {% endif %}
   
   {% if 'separated' in tags %}
-  {% call infobox('#64b5f6', '/images/noun-icons/noun-path-1561502.svg', 'Separated path'
+  {% call infobox('#64b5f6', '/images/noun-icons/noun-path-1561502.svg', 'Separated path', 'Path', "shashank singh"
   ) %}
   This route is separated from traffic for a more relaxed and safe ride.
   {% endcall %}
   {% endif %}
   
   {% if 'uphill' in tags %}
-  {% call infobox('#f06292', '/images/noun-icons/noun-up-right-2032287.svg', 'Some hills'
+  {% call infobox('#f06292', '/images/noun-icons/noun-up-right-2032287.svg', 'Uphill', 'Up right', "Markus"
   ) %}
   There might be a bit of uphill riding on this route.
   {% endcall %}
   {% endif %}
   
   {% if 'onroad' in tags %}
-  {% call infobox('#7986cb', '/images/noun-icons/noun-road-776605.svg', 'On-road'
+  {% call infobox('#7986cb', '/images/noun-icons/noun-road-776605.svg', 'On-road', 'Road icon', "Gregor Cresnar"
   ) %}
   You'll need to ride on the road for some of this route
   {% endcall %}
   {% endif %}
   
   {% if 'nature' in tags %}
-  {% call infobox('#81c784', '/images/noun-icons/noun-nature-6069484.svg', 'Scenic route'
+  {% call infobox('#81c784', '/images/noun-icons/noun-nature-6069484.svg', 'Scenic route', 'Nature', 'I Putu Kharismayadi'
   ) %}
   This is a good route to enjoy nature.
   {% endcall %}

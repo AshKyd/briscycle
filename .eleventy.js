@@ -1,5 +1,6 @@
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 async function imageShortcode(src, alt, className, caption) {
   const { sizes, widths } = className
@@ -37,6 +38,7 @@ async function imageShortcode(src, alt, className, caption) {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addFilter("limit", function (arr, limit) {
