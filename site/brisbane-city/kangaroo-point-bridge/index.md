@@ -29,7 +29,7 @@ geojson:
   generator: JOSM
   features:
     - type: Feature
-      properties: 
+      properties:
       geometry:
         type: LineString
         coordinates:
@@ -56,16 +56,21 @@ The bridge has at most a gentle 1:20 grade, for even novice cyclists to power up
 
 ## Kangaroo Point bridge construction
 
-<picture>
-    <source srcset="/brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb-mobile.webp" media="(max-width: 480px)">
-    <img class="alignright"  src="/brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb-desktop.webp" alt=" " loading="lazy">
-</picture>
+{% image "./site/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396.jpg", "The kangaroo Point Bridge heads out from the city shore, but doesn't cross the whole river yet", "alignright", "The bridge is under construction and doesn't yet cross the river (Sep 2023)" "alignright" %}
 
 The bridge is a 460 metre long single-mast [cable-stayed](https://en.wikipedia.org/wiki/Cable-stayed_bridge) pedestrian bridge, similar to [the Neville Bonner bridge](/brisbane-city/neville-bonner-bridge/). It's one of the longest cable-stayed pedestrian bridges of its kind in the world. The mast towers 83 metres above the bridge deck.
 
 BESIX Watpac was awarded the contract to design and build the Green Bridge. Construction started in 2021 and will finish later in 2023.
 
 The bridge includes a number of best-practice sustainable features including solar panels on the shade cover to power the bridge’s lighting, rain gardens at C.T. White Park to slow stormwater run-off, and extensive use of native plants in new landscaping.
+
+## September 2023 status
+
+As of September 2023 the bridge is still under construction.
+
+The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and you can see where it will connect to the tunnel (also under construction) at Main Street.
+
+On the city end the bikeway is closed at the Botanic Gardens while construction continues, but the bridge and one of the viewing platforms is visibly progressing.
 
 {% youtube "https://www.youtube.com/?v=5CmfLEomvV8?start=3", "The Kangaroo Point green bridge" %}
 
