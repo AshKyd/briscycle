@@ -6,3 +6,4 @@ node_modules/
 .deploy*/
 dist
 .parcel-cache
+.obsidian
