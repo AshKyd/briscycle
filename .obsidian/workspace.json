@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c5ced7292206c729",
+        "id": "74b03003284e2c9c",
         "type": "tabs",
         "children": [
           {
-            "id": "1587e43f176345e0",
+            "id": "797bd09d58124a6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "site/brisbane-city/river-loop/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "site/brisbane-city/river-loop/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "site/brisbane-city/river-loop/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "site/brisbane-city/river-loop/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1587e43f176345e0",
+  "active": "797bd09d58124a6b",
   "lastOpenFiles": [
+    "site/brisbane-city/river-loop/index.md",
     "dist/images/noun-icons/noun-construction-1651220.svg",
     "images/noun-icons/noun-construction-1651220.svg",
     "site/brisbane-city/kurilpa-bridge/index.md",
@@ -162,7 +155,6 @@
     "dist/images/noun-icons/noun-green-1733744.svg",
     "images/noun-icons/noun-road-776605.svg",
     "images/noun-icons/noun-path-1561502.svg",
-    "images/noun-icons/noun-nature-6069484.svg",
     "dist/images/noun-icons",
     "images/noun-icons",
     "dist/images/untitled folder",
@@ -182,7 +174,6 @@
     "site/brisbane-city/western-freeway-bikeway/index.md",
     "site/brisbane-city/southeast-freeway-bikeway/index.md",
     "site/brisbane-city/riverwalk/index.md",
-    "site/brisbane-city/river-loop/index.md",
     "site/brisbane-city/northern-bikeway/index.md",
     "site/brisbane-city/kangaroo-point-bridge/index.md",
     "site/brisbane-city/goodwill-bridge/index.md",
