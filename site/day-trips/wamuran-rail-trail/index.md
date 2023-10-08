@@ -30,15 +30,17 @@ The rail trail opened in 2020 and follows the route of the old rail line, a ston
 
 There is free parking at both ends, or you can [take your bike on the train](/bicycle-regulation/bikes-on-public-transport) to start the trip from Caboolture Station.
 
-{% ad %}
-
-{% image "./site/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area.webp", "The Wamuran end of the trail has seating, water, and a bike repair station" %}
+{% youtube "https://www.youtube.com/watch?v=XMLOk_1Mmlg&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=4", "Riding the Wamuran Rail Trail" %}
 
 There are also bike maintenance stations at either end if you need to pump up your tyres, or tighten any bolts. Both end also have water taps, seating and historical panels showing the history of the railway.
+
+{% ad %}
 
 ## What to do in Wamuran
 
 Located 50 km north-west of Brisbane, Wamuran is a small rural town and locality in the fruit-growing district nestled below Mount Mee in the D'Aguilar Range. The town is [named after a local Aboriginal leader Menvil Wanmaurn](https://www.moretonbay.qld.gov.au/libraries/Discover/History-and-Heritage/Moreton-Bay-History/Caboolture-District-History/Caboolture-Regions/Wamuran-History), also known as Jackie Delaney. Delaney's Creek is a nearby district to this day.
+
+{% image "./site/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area.webp", "The Wamuran end of the trail has seating, water, and a bike repair station" %}
 
 The town itself doesn't have any notable tourist attractions. There is a nice park at the end of the trail which the kids will appreciate, and the trail itself has been enhanced with historical information, signage, and artwork. There is an IGA at the end of the trail, and a number of shops and restaurants in the area to have breakfast or lunch.
 
