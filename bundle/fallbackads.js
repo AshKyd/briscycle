@@ -23,9 +23,18 @@ const ads = [
   {
     title: "BCC compost rebate program",
     description:
-      "Did you know you can cut your greenhouse emissions and get a $70 rebate from Brisbane council when you buy a compost system or worm farm?",
+      "Did you know you can cut your greenhouse emissions and get a $70 rebate from Brisbane Council when you buy a compost system or worm farm?",
     cta: "More info",
     link: "https://www.brisbane.qld.gov.au/clean-and-green/green-home-and-community/sustainable-gardening/compost-and-food-waste-recycling/compost-rebate-program",
+  },
+  {
+    title: "Switch to Aussie Broadband and save $50",
+    description:
+      "Since you blocked ads, I thought I'd paste my Aussie Broadband referral code :P If you sign up for a broadband plan with code '3829918' you'll get $50 off.",
+    cta: "See plans",
+    link: "https://www.aussiebroadband.com.au/internet/nbn-plans/",
+    style:
+      "--eleventyad-button-background:#01711b;--eleventyad-button-color:rgb(253 250 170)",
   },
 ];
 
@@ -98,7 +107,6 @@ export async function initFallbackAds() {
   }
 
   // Safari blocks ads later
-
   observeProps(firstAside, () => {
     const computedStyle = getComputedStyle(firstAside);
     if (computedStyle.height === "0px") {
