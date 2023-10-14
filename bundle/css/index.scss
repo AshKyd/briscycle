@@ -240,16 +240,55 @@ p,
   }
 }
 
-.development {
-  .ad-wide-container,
-  .card-ad,
-  .article__ad,
-  .article__promo,
-  .eleventyad {
-    background: aqua;
-  }
-}
-
 .eleventyad {
   clear: both;
+  position: relative;
+}
+
+.eleventyad-fallback {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--body-fg);
+  background: var(--body-bg-blue);
+  border-radius: 5px;
+  border: 2px solid transparent;
+
+  &__left,
+  &__right {
+    padding: 20px;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button {
+    background: var(--eleventyad-button-background, black);
+    color: var(--eleventyad-button-color, white);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: all 0.1s;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    border: 2px solid var(--body-fg);
+    .eleventyad-fallback__button {
+      transform: scale(1.1);
+    }
+  }
+
+  @media (min-width: 800px) {
+    flex-direction: row;
+    font-size: 1.2em;
+    &__right {
+      white-space: nowrap;
+    }
+  }
 }

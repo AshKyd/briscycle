@@ -4,6 +4,7 @@ import { initMaps } from "./map";
 import ClipboardJS from "clipboard";
 import domready from "domready";
 import { get, set, unlink } from "./storage";
+import { initFallbackAds } from "./fallbackads.js";
 
 domready(() => {
   // Copy referral codes
@@ -49,4 +50,6 @@ domready(() => {
   fireEvents();
 
   initMaps();
+
+  initFallbackAds();
 });
