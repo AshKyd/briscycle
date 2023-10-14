@@ -79,6 +79,11 @@ function isPixelBlocked() {
   });
 }
 
+function observeProps(element, callback) {
+  const observer = new MutationObserver(callback);
+  observer.observe(element, { attributes: true });
+}
+
 export async function initFallbackAds() {
   const adBlocks = document.querySelectorAll(".eleventyad");
   const firstAside = adBlocks[0].querySelector("aside");
@@ -93,13 +98,11 @@ export async function initFallbackAds() {
   }
 
   // Safari blocks ads later
-  const callback = (mutationList, observer) => {
+
+  observeProps(firstAside, () => {
     const computedStyle = getComputedStyle(firstAside);
-    console.log("comoputer", computedStyle.height);
     if (computedStyle.height === "0px") {
       runFallbacks(adBlocks);
     }
-  };
-  const observer = new MutationObserver(callback);
-  observer.observe(getComputedStyle(firstAside), { attributes: true });
+  });
 }
