@@ -11,15 +11,19 @@ related: rules
 Bikes are permitted on some forms of public transport in Brisbane.
 
 <h3>Bike on Trains</h3>
-Bikes are not permitted on trains during peak times (although you may take your bike in the opposite direction of peak traffic.)
+<strike>Bikes are not permitted on trains during peak times</strike>
+Apparently they revised the rules over COVID?
+You can take your bike on Brisbane trains at any time.
 
-You're allowed to travel on weekends & public holidays and early mornings on the train, although if the carriage becomes full you may be asked to get off to make room for passengers.
-
-Translink states the following times are no-go times times:
+When travelling with a bike or e-scooter during peak times, you need to:
 
 <ul>
-	<li>7am - 9:30am towards the CBD</li>
-	<li>3pm - 6:30pm outwards from the CBD</li>
+<li>board using the first or last carriages of six-car trains only</li>
+<li>ensure only two people with bikes or e-scooters are in the first or last carriage at any time, or wait for another train</li>
+<li>keep clear of access to priority seating</li>
+<li>keep your bike or e-scooter clear of aisles and doorways</li>
+<li>stay with your bike or e-scooter at all times.</li>
+<li>If there is not enough space available, you may be asked to catch another service. Please follow the direction of staff.</li>
 </ul>
 
 <h3>Commuting by bike on public transport</h3>
