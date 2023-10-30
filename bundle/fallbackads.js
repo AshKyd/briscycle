@@ -1,5 +1,6 @@
 import { crel } from "./util.js";
 import { get, set } from "./storage.js";
+import { fireEvent } from "./events.js";
 
 const ads = [
   {
@@ -83,13 +84,13 @@ function runFallbacks(adBlocks) {
         }</div></div>
 			</a>
 		  `;
+    const anchor = adElement?.querySelector("a");
+    anchor.addEventListener("click", () => {
+      fireEvent("fallback-ads__" + ad.id);
+    });
   });
-
   set("fallbackRotation", adIndex, "sessionStorage");
-  umami("fallback-ads");
-  adElement.querySelector("a").addEventListener("click", () => {
-    umami("fallback-ads__" + ad.id);
-  });
+  fireEvent("fallback-ads");
 }
 
 function isPixelBlocked() {
