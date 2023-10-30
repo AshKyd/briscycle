@@ -100,7 +100,7 @@ There's a protected beach at the north end of the island at Pats Park where you 
 
 Ferries to the island generally run every half hour from Redland Bay Marina (200m south of the vehicle ferry, see it here on [Google Maps](https://www.google.com/maps/place/Redland+Bay+Marina/@-27.6173227,153.3107938,17z)). A return passenger ticket costs just shy of $15.00.
 
-If you're coming from Brisbane, you can ride from Cleveland Train Station. The most direct route is a 13.5 km trek along Cleaveland Redland Bay Road, but it's mostly without cycle lanes, and in some places without footpaths.
+If you're coming from Brisbane, you can ride from Cleveland Train Station. The most direct route is a 13.5 km trek along Cleveland Redland Bay Road, but it's mostly without cycle lanes, and in some places without footpaths.
 
 {% ad %}
 
@@ -108,6 +108,6 @@ Redland Bay Council recommends riding the [Moreton Bay Cycleway](/moreton-bay) f
 
 ## Check out the video
 
-If you want to see the full train to cleveland, bike to the ferry, and ride around the island, check out the video below: (don't forget to like and subscribe!)
+If you want to see the full train to Cleveland, bike to the ferry, and ride around the island, check out the video below: (don't forget to like and subscribe!)
 
 {% youtube "https://www.youtube.com/watch?v=oL04V1PMEUo&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=2&t=412s", "Visiting Macleay Island by bike vlog" %}
