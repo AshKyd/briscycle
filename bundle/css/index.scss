@@ -252,7 +252,7 @@ p,
   color: var(--body-fg);
   background: var(--body-bg-blue);
   border-radius: 5px;
-  border: 2px solid transparent;
+  border: 2px solid var(--body-fg);
 
   &__left,
   &__right {
@@ -278,7 +278,6 @@ p,
   &:hover,
   &:focus {
     text-decoration: none;
-    border: 2px solid var(--body-fg);
     .eleventyad-fallback__button {
       transform: scale(1.1);
     }

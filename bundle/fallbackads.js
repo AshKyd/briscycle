@@ -3,6 +3,7 @@ import { get, set } from "./storage.js";
 
 const ads = [
   {
+    id: "youtube",
     title: "Follow me on Youtube",
     description:
       "Hey, I also have a Youtube channel. Join me as I travel around Queensland, Australia, the world!",
@@ -12,6 +13,7 @@ const ads = [
       "--eleventyad-button-background:#c60000;--eleventyad-button-color:white",
   },
   {
+    id: "foodbank",
     title: "One dollar donated is two meals created",
     description:
       "More than 2 million households ran out of food in the last year. Since you blocked ads, would you consider giving to Foodbank?",
@@ -21,13 +23,17 @@ const ads = [
       "--eleventyad-button-background:#671e75;--eleventyad-button-color:#fff",
   },
   {
+    id: "bcc-compost",
     title: "BCC compost rebate program",
     description:
       "Did you know you can cut your greenhouse emissions and get a $70 rebate from Brisbane Council when you buy a compost system or worm farm?",
-    cta: "More info",
+    cta: "Rebate info",
     link: "https://www.brisbane.qld.gov.au/clean-and-green/green-home-and-community/sustainable-gardening/compost-and-food-waste-recycling/compost-rebate-program",
+    style:
+      "--eleventyad-button-background:#006bb7;--eleventyad-button-color:white",
   },
   {
+    id: "aussiebb",
     title: "Switch to Aussie Broadband and save $50",
     description:
       "Since you blocked ads, I thought I'd paste my Aussie Broadband referral code :P If you sign up for a broadband plan with code '3829918' you'll get $50 off.",
@@ -36,15 +42,25 @@ const ads = [
     style:
       "--eleventyad-button-background:#01711b;--eleventyad-button-color:rgb(253 250 170)",
   },
+  {
+    id: "bnesocial",
+    title: "Join the Brisbane Mastodon",
+    description:
+      "Like Twitter but without ads. Share your rides, get the latest news, and hang out with other locals on bne.social #CyclingBrisbane",
+    cta: "Check it out",
+    link: "https://bne.social/",
+    style:
+      "--eleventyad-button-background:#6364ff;--eleventyad-button-color:white",
+  },
 ];
 
 function runFallbacks(adBlocks) {
   let adIndex = Number(get("fallbackRotation", 0, "sessionStorage"));
 
   adBlocks.forEach((block, i) => {
-    if (i < adBlocks.length - 1) {
-      block.style.display = "none";
-    }
+    // if (i < adBlocks.length - 1) {
+    //   block.style.display = "none";
+    // }
 
     const ad = ads[adIndex++];
     if (adIndex > ads.length - 1) {
@@ -53,7 +69,9 @@ function runFallbacks(adBlocks) {
 
     const adElement = block.querySelector("aside");
     adElement.innerHTML = `
-			<a href="${ad.link}" rel="noopener" class="eleventyad-fallback" style="${
+			<a href="${
+        ad.link
+      }" target="_blank" rel="noopener" class="eleventyad-fallback" style="${
       ad.style || ""
     }">
 				<div class="eleventyad-fallback__left">
@@ -69,6 +87,9 @@ function runFallbacks(adBlocks) {
 
   set("fallbackRotation", adIndex, "sessionStorage");
   umami("fallback-ads");
+  adElement.querySelector("a").addEventListener("click", () => {
+    umami("fallback-ads__" + ad.id);
+  });
 }
 
 function isPixelBlocked() {
