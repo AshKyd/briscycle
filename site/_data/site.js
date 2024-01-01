@@ -9,5 +9,5 @@ module.exports = {
   },
   twitter: "briscycle",
   supportEmail: "briscycle@kyd.com.au",
-  copyrightYear: 2023,
+  copyrightYear: 2024,
 };

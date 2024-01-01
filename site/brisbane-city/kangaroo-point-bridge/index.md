@@ -60,13 +60,13 @@ The bridge has at most a gentle 1:20 grade, for even novice cyclists to power up
 
 The bridge is a 460 metre long single-mast [cable-stayed](https://en.wikipedia.org/wiki/Cable-stayed_bridge) pedestrian bridge, similar to [the Neville Bonner bridge](/brisbane-city/neville-bonner-bridge/). It's one of the longest cable-stayed pedestrian bridges of its kind in the world. The mast towers 83 metres above the bridge deck.
 
-BESIX Watpac was awarded the contract to design and build the Green Bridge. Construction started in 2021 and will finish later in 2023.
+BESIX Watpac was awarded the contract to design and build the Green Bridge. Construction started in 2021 and will finish later in 2024.
 
 The bridge includes a number of best-practice sustainable features including solar panels on the shade cover to power the bridge’s lighting, rain gardens at C.T. White Park to slow stormwater run-off, and extensive use of native plants in new landscaping.
 
-## September 2023 status
+## January 2024 status
 
-As of September 2023 the bridge is still under construction.
+As of September 2024 the bridge is still under construction.
 
 The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and you can see where it will connect to the tunnel (also under construction) at Main Street.
 
