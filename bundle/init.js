@@ -5,7 +5,8 @@ import ClipboardJS from "clipboard";
 import domready from "domready";
 import { initFallbackAds } from "./fallbackads.js";
 import { initEvents } from "./events.js";
-import mediumZoom from 'medium-zoom'
+import mediumZoom from 'medium-zoom';
+import {fireEvent} from './events.js'
 
 domready(() => {
   // Copy referral codes
@@ -21,5 +22,8 @@ domready(() => {
 
   initFallbackAds();
 
-  mediumZoom('[data-zoom-src]');
+  const zoom = mediumZoom('[data-zoom-src]');
+  zoom.on('open', event => {
+    fireEvent('Zoom image')
+  })
 });
