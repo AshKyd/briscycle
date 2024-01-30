@@ -5,6 +5,7 @@ import ClipboardJS from "clipboard";
 import domready from "domready";
 import { initFallbackAds } from "./fallbackads.js";
 import { initEvents } from "./events.js";
+import mediumZoom from 'medium-zoom'
 
 domready(() => {
   // Copy referral codes
@@ -19,4 +20,6 @@ domready(() => {
   initMaps();
 
   initFallbackAds();
+
+  mediumZoom('[data-zoom-src]');
 });
