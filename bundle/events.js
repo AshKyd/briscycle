@@ -18,14 +18,14 @@ function fireEvents() {
       return;
     }
     clearInterval(interval);
-    events.forEach((event) => umami(event));
+    events.forEach((event) => umami.track(event));
     unlink("eventCache", "sessionStorage");
   }, 1000);
 }
 
 export function fireEvent(eventName) {
   if (window.umami) {
-    umami(eventName);
+    umami.track(eventName);
     return;
   }
   const events = get("eventCache", [], "sessionStorage");
