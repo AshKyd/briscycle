@@ -10,6 +10,19 @@ tags:
 geo:
   geojsonUrl: /brisbane-city/northern-bikeway/northern-bikeway.geo.json
   googleMaps: https://www.google.com/maps/dir/-27.4662278,153.0219514/-27.41683,153.0441/@-27.4414371,153.0194818,13.81z/data=!4m2!4m1!3e1?entry=ttu
+hero:
+  type: defaultImage
+  alt: A bikeway extends into the distance as the sun sets over the autumn leaves.
+  format: webp
+  variations:
+    - '<source srcset="northern-bikeway-3840-hq.avif" type="image/avif" media="(min-width: 3840px), (min-resolution: 192dpi) and (min-width:1280px)" width="3840" height="1224" />'
+    - '<source srcset="northern-bikeway-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1224" />'
+    - '<source srcset="northern-bikeway-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
+    - '<source srcset="northern-bikeway-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
+thumb:
+  image: /brisbane-city/northern-bikeway/northern-bikeway-thumb
+  format: webp
+notes: Hero images have been edited pretty heavily with Luminar Neo. Source image is PXL_20230813_072325132.PHOTOSPHERE.jpg.
 ---
 
 Getting into Brisbane from the north side is getting a lot safer with the northern bikeway. Constructed in 2021, the route starts in Wooloowin and connects to the Roma Street Parklands via the Ekka on a mix of separated bike lanes and shared footpaths.
