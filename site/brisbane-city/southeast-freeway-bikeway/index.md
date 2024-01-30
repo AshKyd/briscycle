@@ -330,6 +330,6 @@ The velobridge is expected to open in early 2024, although this has already been
 {% image "./site/brisbane-city/southeast-freeway-bikeway/se-freeway-detour.jpg", "A sign shows a closed bikeway ahead with a detour.", "alignright", "The detour starts just before the ramp to O'Keefe Street (Jan 2024)" "" %}
 
 <figure style="max-width:353px;">
-<img data-zoom-src="veloway1-okeefe-street-velobridge-map_v4.webp" src="veloway1-okeefe-street-velobridge-map_v4.webp" alt="The bikeway will link the existing two sections on opposite sides of the M1 via a looping bridge running underneath">
+<img loading="lazy" data-zoom-src="veloway1-okeefe-street-velobridge-map_v4.webp" src="veloway1-okeefe-street-velobridge-map_v4.webp" alt="The bikeway will link the existing two sections on opposite sides of the M1 via a looping bridge running underneath" width="706" height="706">
 <figcaption>Diagram via the Department of Transport and Main Roads, see <a href="https://www.tmr.qld.gov.au/projects/veloway-1-v1-cycleway-okeefe-street-construct-bridge-approaches">the project page</a> for more info.</figcaption>
 </figure>
