@@ -14,8 +14,13 @@ thumb:
 hero:
   type: defaultImage
   alt: The bikeway is a prominent piece of infrastructure, stretching off towards Brisbane City in the distance.
-  image: /brisbane-city/southeast-freeway-bikeway/hero
   format: webp
+  variations:
+    - '<source srcset="se-freeway-3840-hq.avif" type="image/avif" media="(min-width: 3840px), (min-resolution: 192dpi) and (min-width:1280px)" width="3840" height="1224" />'
+    - '<source srcset="se-freeway-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1224" />'
+    - '<source srcset="se-freeway-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
+    - '<source srcset="se-freeway-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
+openDate: "2024"
 geojson:
   - type: FeatureCollection
     generator: JOSM
@@ -313,3 +318,18 @@ The Southeast Freeway bikeway runs parallel to the Southeast Freeway (M1) from S
 This bikeway is a busy commuter route servicing the southern suburbs, linking up with all the back-streets truncated by the motorway itself. It connects to the CBD via the <a href="../goodwill-bridge/">Goodwill Bridge</a>. It's also a part of the V1 veloway linking Brisbane to the <a href="../gold-coast/">Gold Coast</a>.
 
 Being off-road, the bikeway is good for all experience levels so it's a great little weekend tour or an excellent commute to work. The climb outbound from the river at the city end is the steepest section along the route.
+
+## O'Keefe Street Velobridge construction
+
+A Velobridge is being built across O'Keefe Street to bypass the combo of traffic lights and unsignalled intersections at this junction. When it's built you'll be able to stay on the dedicated path and skip the stops at Carl Street and O'Keefe Street lights.
+
+In the meantime the detour adds approx 430 metres to the trip. Most riders I've seen take Morrisey and Agnes streets to avoid the hill, but use your best judgement.
+
+The velobridge is expected to open in early 2024, although this has already been pushed back due to weather and supply chain issues.
+
+{% image "./site/brisbane-city/southeast-freeway-bikeway/se-freeway-detour.jpg", "A sign shows a closed bikeway ahead with a detour.", "alignright", "The detour starts just before the ramp to O'Keefe Street (Jan 2024)" "" %}
+
+<figure style="max-width:353px;">
+<img data-zoom-src="veloway1-okeefe-street-velobridge-map_v4.webp" src="veloway1-okeefe-street-velobridge-map_v4.webp" alt="The bikeway will link the existing two sections on opposite sides of the M1 via a looping bridge running underneath">
+<figcaption>Diagram via the Department of Transport and Main Roads, see <a href="https://www.tmr.qld.gov.au/projects/veloway-1-v1-cycleway-okeefe-street-construct-bridge-approaches">the project page</a> for more info.</figcaption>
+</figure>

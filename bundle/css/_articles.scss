@@ -11,7 +11,7 @@
 
   figure {
     position: relative;
-    margin: 0;
+    margin: 0 0 20px;
     figcaption {
       display: block;
       font-size: 0.8em;
@@ -43,13 +43,13 @@
     .alignright {
       clear:both;
       float: right;
-      margin: 0 0 10px 10px;
+      margin: 0 0 10px 20px;
       max-width: 45%;
     }
     .alignleft {
       clear:both;
       float: left;
-      margin: 0 10px 10px 0;
+      margin: 0 10px 20px 0;
       max-width: 45%;
     }
   }
