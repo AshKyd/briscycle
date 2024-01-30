@@ -58,9 +58,6 @@ notes: Hero images have been edited pretty heavily with Luminar Neo to replace t
 ---
 The Lytton Road bikeway runs most of the way from Kangaroo Point to Norman Park completely offroad.
 
-
-
-
 ## Getting to the East Brisbane Bikeway
 As of early 2024 there isn't a direct way to get to the bikeway form the CBD. You must either cross at the Goodwill Bridge and double back to Kangaroo Point, or cross the Story Bridge.
 
@@ -69,6 +66,8 @@ From Kangaroo Point the bikeway begins at the southern end of Deakin Street, fol
 Once you're on the bikeway it's an easy breezy route with plenty of space, and only a few traffic lights.
 
 At the far end of the bikeway you can continue on road or footpath to the eastern suburbs including Hawthorne, Balmoral, Bulimba, Morningside etc.
+
+{% ad %}
 
 ## Construction status
 

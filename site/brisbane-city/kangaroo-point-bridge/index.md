@@ -46,11 +46,11 @@ The KP green bridge will connect Kangaroo Point with the CBD at the north end of
 
 When it's completed, you can get from the CBD, Eagle Street/Riverside precinct, and botanical gardens directly across to the Kangaroo Point Cliffs and Captain Burke Park.
 
-A new tunnel under the Story Bridge will also link up with the Shafston Avenue/Wynnum Road bikeway for communters in East Brisbane and beyond. It's going to be great.
+A new tunnel under the Story Bridge will also link up with the [East Brisbane bikeway](/brisbane-city/east-brisbane-bikeway) along Shafston Avenue/Lytton Road for communters in East Brisbane and beyond. It's going to be great.
 
 The bridge will be shaded by solar panels along the entire length, and have integrated vegetation to help keep things cool in the hot subtropical climate. The bridge will have a restaurant over the water, and the public viewing platforms will be a great spot to pause and enjoy the river views or snap some photos.
 
-The bridge has at most a gentle 1:20 grade, for even novice cyclists to power up.
+The bridge has at most a gentle 1:20 grade for even novice cyclists to power up.
 
 {% ad %}
 
@@ -66,7 +66,9 @@ The bridge includes a number of best-practice sustainable features including sol
 
 ## January 2024 status
 
-As of September 2024 the bridge is still under construction.
+{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel.jpg", "A tunnel and bikeway connection under construction underneath the Story Bridge", "alignright", "A tunnel will connect to the East Brisbane bikeway (Jan 2024)" "alignright" %}
+
+As of January 2024 the bridge is still under construction.
 
 The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and you can see where it will connect to the tunnel (also under construction) at Main Street.
 
