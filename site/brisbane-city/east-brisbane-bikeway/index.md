@@ -1,5 +1,6 @@
 ---
-title: Easy Brisbane Bikeway (Lytton Road to Norman Park)
+title: East Brisbane Bikeway (Lytton Road to Norman Park)
+shortTitle: East Brisbane Bikeway
 description: The Lytton Road bikeway takes you most of the way from Kangaroo Point to Norman Park, eventually connecting up to the CBD via the KP Bridge.
 layout: page
 related: brisbane
@@ -7,8 +8,13 @@ tags:
   - brisbane
 hero:
   type: defaultImage
-  alt: The Goodwill Bridge from afar on a sunny day, the Captain Cook Bridge and Kangaroo Point in the background.
-  image: /brisbane-city/goodwill-bridge/goodwill-bridge-hero
+  alt: The bikeway runs alongside Lytton road. There's lots of plants and greenery, and a pedestrian crossing coming up ahead.
+  format: webp
+  variations:
+    - '<source srcset="lytton-road-bikeway-fullsize.avif" type="image/avif" media="(min-width: 3840px)" width="4080" height="1332" />'
+    - '<source srcset="lytton-road-bikeway-4k.avif" type="image/avif" media="(min-width: 1024px)" width="3840" height="1254" />'
+    - '<source srcset="lytton-road-bikeway-1440.webp" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
+    - '<source srcset="lytton-road-bikeway-mobile.webp" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
 thumb:
   image: /brisbane-city/goodwill-bridge/goodwill-bridge
 geojson:
@@ -45,13 +51,13 @@ The bikeway was planned to be built in stages. It currently runs as far east as 
 
 When the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge) is finished, you will be able to ride straight from the CBD to Norman Park via a tunnel under the Story Bridge.
 
-### Getting to the East Brisbane Bikeway
+## Getting to the East Brisbane Bikeway
 As of early 2024 there isn't a direct way to get to the bikeway form the CBD. You must either cross at the Goodwill Bridge and double back to Kangaroo Point, or cross the Story Bridge.
 
 From Kangaroo Point the bikeway begins at the southern end of Deakin Street, following alongside Shafston Avenue and Lytton Road. The Shafston Avenue segment has a pretty steep hill outbound (I couldn't make it up on my single speed bike), so you'll often see people riding the back roads along Lambert Street.
 
 Once you're on the bikeway it's an easy breezy route with plenty of space, and only a few traffic lights.
-### Interesting Things Nearby
+## Interesting Things Nearby
 
 The bikeway runs right past Mowbray Park which is a a good spot for a bbq. You can also take your bike on the ferry to or from Mowbray Park Terminal to get across the New Farm Park and beyond.
 
