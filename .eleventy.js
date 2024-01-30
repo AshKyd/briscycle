@@ -4,13 +4,13 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 async function imageShortcode(src, alt, className, caption) {
   const { sizes, widths } = className
-    ? { sizes: "50vw", widths: [1700, 1440, 960] }
+    ? { sizes: "50vw", widths: [3353, 1920, 1440, 960] }
     : { sizes: "100vw", widths: [3353, 1920, 1440, 1024, 800] };
 
   let metadata = await Image(src, {
     widths,
     formats: ["avif"],
-    sharpAvifOptions: { quality: 50, effort: 7 },
+    sharpAvifOptions: { quality: 50, effort: 7,chromaSubsampling:'4:2:0' },
     urlPath: "/images/",
     outputDir: "./dist/images/",
     filenameFormat: function (id, src, width, format, options) {
