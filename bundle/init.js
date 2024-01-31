@@ -24,6 +24,6 @@ domready(() => {
 
   const zoom = mediumZoom('[data-zoom-src]');
   zoom.on('open', event => {
-    fireEvent('Zoom image')
+    fireEvent('image-zoom')
   })
 });
