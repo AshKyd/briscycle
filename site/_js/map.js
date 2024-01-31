@@ -1,4 +1,3 @@
-import { crelInHead, onload } from "./util";
 
 /**
  * Shorthand to filter a geojson object down to matching properties
@@ -38,7 +37,7 @@ function clone(obj) {
  * Make a style to render the OpenStreetMap data.
  */
 function getStyle() {
-  const style = require("./map-style.json");
+  const style = MAP_STYLE;
 
   let casingInsertionIndex;
   const casings = [];
@@ -120,7 +119,7 @@ function getStyle() {
   return style;
 }
 
-export function initMaps() {
+ function initMaps() {
   document.querySelectorAll(".map-config").forEach((configEl) => {
     if (!configEl) return;
     const config = JSON.parse(configEl.content.textContent);
@@ -130,7 +129,7 @@ export function initMaps() {
   });
 }
 
-export async function initMap({ config, configEl }) {
+ async function initMap({ config, configEl }) {
   // put all the things in the page
   const root = document.createElement("div");
   root.classList.add("map");
@@ -246,10 +245,17 @@ export async function initMap({ config, configEl }) {
   configEl.parentNode.insertBefore(root, configEl);
   configEl.parentNode.removeChild(configEl);
 
-  const [maplibregl, style, loadedJson] = await Promise.all([
-    import("maplibre-gl/dist/maplibre-gl.js"),
-    import("maplibre-gl/dist/maplibre-gl.css"),
+  const [, , loadedJson] = await Promise.all([
+    onloadPromise(crelInHead('script', {
+      type: 'text/javascript',
+      src: 'https://www.unpkg.com/maplibre-gl@3.0.1/dist/maplibre-gl.js'
+    })),
 
+    onloadPromise(crelInHead('link', {
+      rel: 'stylesheet',
+      type: 'text/css',
+      href: 'https://www.unpkg.com/maplibre-gl@3.0.1/dist/maplibre-gl.css'
+    })),
     config.geo?.geojsonUrl &&
       fetch(config.geo.geojsonUrl).then((res) => res.json()),
   ]);
@@ -388,3 +394,6 @@ export async function initMap({ config, configEl }) {
     root.querySelector(".map-meta__legend").innerHTML = legend;
   });
 }
+
+console.log('initting maps',);
+initMaps();

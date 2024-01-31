@@ -13,26 +13,30 @@ thead {
   background: var(--blue-bg);
   color: var(--blue-fg);
 }
+
 tbody {
   height: 300px;
   overflow-x: auto;
   margin-top: 0px;
 }
+
 th {
   padding: 20px 20px;
   text-align: left;
   text-transform: uppercase;
 }
+
 td {
   padding: 5px 20px;
   text-align: left;
   vertical-align: middle;
 }
+
 tr {
   background: var(--body-supplementary-bg);
-  &:nth-child(2n + 1) {
-    background: transparent;
-  }
+}
+tr:nth-child(2n+1) {
+  background: transparent;
 }
 
 table caption {
@@ -40,10 +44,10 @@ table caption {
   text-align: left;
   font-weight: bold;
   color: var(--body-link);
-  &:before {
-    content: "• ";
-    display: block;
-    float: left;
-    margin: 0 10px 10px 0;
-  }
+}
+table caption:before {
+  content: "• ";
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
 }

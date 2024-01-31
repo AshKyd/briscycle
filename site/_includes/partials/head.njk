@@ -4,14 +4,9 @@
     <meta charset="utf-8">
     <title>{% if title %}{{title}} - {% endif %}{{site.title}}</title>
     <!-- env: {{env.environment}} -->
-    {%if env.environment == 'development' %}
-    <script defer src="http://localhost:1234/init.js?{% cachebust %}"></script>
-    <link rel="stylesheet" type="text/css" href="http://localhost:1234/init.css?{% cachebust %}" />
-    {% else %}
-    <script defer src="/bundle/init.js?{% cachebust %}"></script>
-    <link rel="stylesheet" type="text/css" href="/bundle/init.css?{% cachebust %}" />
+    <script defer src="/index.js?{% cachebust %}"></script>
     <script async src="https://umami.kyd.au/script.js" data-website-id="2cb4db4b-f39a-41c9-af12-a57baaea774b"></script>
-    {% endif %}
+    <link rel="stylesheet" type="text/css" href="/bundle.css?{% cachebust %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="feed" type="text/html" title="{{site.title}}" href="/feed.xml" />
     <meta name="description" content="{{description | default(site.description)}}">

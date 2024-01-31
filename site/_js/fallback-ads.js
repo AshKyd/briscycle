@@ -1,7 +1,3 @@
-import { crel } from "./util.js";
-import { get, set } from "./storage.js";
-import { fireEvent } from "./events.js";
-
 const ads = [
   {
     id: "youtube",
@@ -115,7 +111,7 @@ function observeProps(element, callback) {
   observer.observe(element, { attributes: true });
 }
 
-export async function initFallbackAds() {
+async function initFallbackAds() {
   const adBlocks = document.querySelectorAll(".eleventyad");
   const firstAside = adBlocks[0].querySelector("aside");
   const isAdblocked =
@@ -136,3 +132,5 @@ export async function initFallbackAds() {
     }
   });
 }
+
+initFallbackAds();

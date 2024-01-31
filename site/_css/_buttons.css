@@ -11,17 +11,15 @@
   display: inline-flex;
   align-items: center;
   text-align: center;
-
-  &:hover:not(:active),
-  &:focus:not(:active) {
-    box-shadow: 0 0 0 2px #1261a140;
-    color: var(--button-fg-hover);
-    background: var(--button-bg-hover);
-  }
-  &:active {
-    color: var(--button-fg-active);
-    background: var(--button-bg-active);
-  }
+}
+.btn:hover:not(:active), .btn:focus:not(:active) {
+  box-shadow: 0 0 0 2px #1261a140;
+  color: var(--button-fg-hover);
+  background: var(--button-bg-hover);
+}
+.btn:active {
+  color: var(--button-fg-active);
+  background: var(--button-bg-active);
 }
 
 .btn-secondary {

@@ -4,22 +4,16 @@
   "private": true,
   "scripts": {
     "start": "NODE_ENV=development npx @11ty/eleventy --serve",
-    "start-client": "parcel bundle/init.js",
-    "build": "npm run build-site && npm run build-client",
-    "build-site": "NODE_ENV=production npx @11ty/eleventy",
-    "build-client": "parcel build bundle/init.js --dist-dir dist/bundle --public-url /bundle/ --no-source-maps"
+    "update-deps": "cp node_modules/clipboard/dist/clipboard.min.js node_modules/medium-zoom/dist/medium-zoom.min.js site/_js/",
+    "build": "NODE_ENV=production npx @11ty/eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@parcel/transformer-sass": "^2.2.1",
-    "parcel": "^2.2.1"
+    "@11ty/eleventy": "^2.0.1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
     "@11ty/eleventy-img": "^3.0.0",
     "clipboard": "^2.0.10",
-    "domready": "^1.0.8",
-    "lunr": "^2.3.9",
     "maplibre-gl": "^3.0.1",
     "medium-zoom": "^1.1.0"
   }
