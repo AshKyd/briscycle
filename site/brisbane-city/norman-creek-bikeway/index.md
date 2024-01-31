@@ -39,8 +39,16 @@ If you're up for a bit of footpath riding, you can get to it from the V1 at O'Ke
 {% ad %}
 
 ## Regeneration & rewilding Norman Creek
-The Norman Creek 2012-2031 Master Plan aims to rejuvenate the Norman Creek catchment. The project aims to replace the concrete drainage with a more resilient planted ecosystem, expanding bike connections, creating shaded sub-tropical habitats to hang out, and generally make it a nicer place to be.
+{% image "./site/brisbane-city/norman-creek-bikeway/PXL_20220913_062948842_upscale.jpg", "A concrete drain empties into a freshly planted creek system, with rocks, vegetation and grasslands", "alignright", "The freshly rejuvenated Norman Creek (2022)" "alignright" %}
+
+The Norman Creek 2012-2031 Master Plan aims to rejuvenate the Norman Creek catchment.
+
+The project aims to replace the concrete drainage with a more resilient planted ecosystem, expanding bike connections, creating shaded sub-tropical habitats to hang out, and generally make it a nicer place to be.
 
 The first phase has already been planted at Stones Corner where you can enjoy picnic and bbq areas, admire the stream, or play some basketball on the public court.
+
+The bikeway winds through this section, connecting the Buranda State School end with the sporting grounds to the south.
+
+If you're interested in the back story, this video explains the ecological benefits to projects like these:
 
 {% youtube "https://www.youtube.com/watch?v=Mcr6yTCc14Y", "Part of Norman Creek has been rejuvenated and ‘naturalised’, making it a great place to hang out and enjoy nature" %}
