@@ -5,15 +5,16 @@
     <title>{% if title %}{{title}} - {% endif %}{{site.title}}</title>
     <!-- env: {{env.environment}} -->
     <script defer src="/index.js?{% cachebust %}"></script>
+    {% if env.environment !== 'development' %}
     <script async src="https://umami.kyd.au/script.js" data-website-id="2cb4db4b-f39a-41c9-af12-a57baaea774b"></script>
+    {% else %}
+    <!-- No analytics in dev -->
+    {% endif %}
     <link rel="stylesheet" type="text/css" href="/bundle.css?{% cachebust %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="feed" type="text/html" title="{{site.title}}" href="/feed.xml" />
     <meta name="description" content="{{description | default(site.description)}}">
     {% include "partials/head-facebook.njk" %}
-    {% include "partials/head-analytics.njk" %}
     {% include "partials/head-pwa.njk" %}
-
     <link rel="manifest" href="/manifest.json">
     <link rel="apple-touch-icon" href="/wp-content/icons/icon-192.png">
     {% if(page.geo) %}<meta name="ICBM" content="{{page.geo.lat}},{{page.geo.lng}}" />{% endif %}

@@ -55,6 +55,7 @@
     <h2 class="type-serif">
       {% if mapTitle %}{{mapTitle}}{% else %}Map of {{title}}{% endif %}
     </h2>
+    {% if mapDescription %}<p class="map__description">{{mapDescription}}</p>{% endif %}
     <template class="map-config"> {{page | pageData | dump}} </template>
   </div>
 </div>

@@ -16,6 +16,12 @@
   font-size: 0.8em;
   color: var(--text-grey);
 }
+
+.gallery{columns:4;}
+.gallery figure {
+  break-inside:avoid;
+}
+
 @media (min-width: 1366px) {
   .article-entry h1 {
     font-size: 3em;
@@ -25,6 +31,9 @@
   }
   .article-entry h3 {
     font-size: 1.5em;
+  }
+  .gallery{
+    columns: 3;
   }
 }
 .article-entry > img, .article-entry > picture > img,
@@ -46,7 +55,18 @@
     margin: 0 10px 20px 0;
     max-width: 45%;
   }
+  .gallery{
+    columns:3;
+  }
 }
+
+@media (max-width:767px){
+  .gallery{
+    columns:2;
+  }
+}
+
+
 
 .infobox {
   float: right;
