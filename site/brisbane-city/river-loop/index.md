@@ -38,12 +38,6 @@ The majority of the route is on residential back streets, although there are som
 
 The full loop is 35-40 km, whereas the mini loop is slightly under 20 km. Jump <a href="#map">bottom of the page for the map</a>.
 
-<div class="gallery">
-{% image "./site/brisbane-city/river-loop/photos/PXL_20240217_065355415.jpg", "A lush shaded street with no footpath or shoulder, but it's very quiet", "", "A quiet back-street in Chelmer with no footpaths" %}
-{% image "./site/brisbane-city/river-loop/photos/PXL_20240217_071521980.jpg", "A street with no shoulder, a bit of traffic, and some footpaths either side", "", "The on-road section at Yeronga (feat. footpaths)" %}
-{% image "./site/brisbane-city/river-loop/photos/PXL_20240217_072214747.jpg", "A narrow off-road bikeway runs alongside the Brisbane Corso and river", "", "The bike path alongside Brisbane Corso" %}
-</div>
-
 ## Mini Brisbane River Loop
 
 The Mini Brisbane River Loop cuts out the Indooroopilly/Tennyson/Fairfield sections of the loop by heading across the Eleanor Schonell Bridge.
@@ -67,3 +61,43 @@ The River Loop is pretty loosely defined and everyone has their own take on it. 
 {% image "./site/brisbane-city/river-loop/photos/PXL_20240217_072122051.jpg", "A Riverloop sign shows directions to and from the city, next to an off-road bikeway", "", "The route is well signed if you get lost" %}
 {% image "./site/brisbane-city/river-loop/photos/PXL_20240217_073203296.jpg", "A park bench so you can admire the Eleanor Schonell Bridge", "", "Eleanor Schonell Bridge" %}
 </div>
+
+## St Lucia to Indooroopilly 
+The St Lucia peninsula runs around the University of Queensland and St Lucia Golf Links. Coming from Toowong there are a couple of small but notable hills, as well as alongside the golf course.
+
+If you decide you've had enough, you can circle around and take the Eleanor Schonell Green Bridge for the half river loop.
+
+After the golf course, you can also ride off-road through Robertson Park for a bit before hitting the road riding through to Indro.
+
+## Indooroopilly to Tennyson
+At the Indro end you you can refill your water bottle, stop for food, or check out the Indooroopilly river walk.
+
+The Jack Pesch green bridge will take you across the river. The section through Chelmer is mostly on-road riding. Some of these roads don't have shoulders or footpaths, but they are very quiet.
+
+Closer to Tennyson there are shared footpaths to get you off the road But these are pretty narrow and have lots of other people walking, so many riders prefer to ride on the road.
+
+<div class="gallery">
+{% image "./site/brisbane-city/river-loop/photos/PXL_20240217_065355415.jpg", "A lush shaded street with no footpath or shoulder, but it's very quiet", "", "A quiet back-street in Chelmer with no footpaths" %}
+{% image "./site/brisbane-city/river-loop/photos/PXL_20240217_071521980.jpg", "A street with no shoulder, a bit of traffic, and some footpaths either side", "", "The on-road section at Yeronga (feat. footpaths)" %}
+{% image "./site/brisbane-city/river-loop/photos/PXL_20240217_072214747.jpg", "A narrow off-road bikeway runs alongside the Brisbane Corso and river", "", "The bike path alongside Brisbane Corso" %}
+</div>
+
+## Tennyson to Dutton Park
+This route is largely through residential streets.
+
+There's a bit of a hill through Yeronga, as well as a very rewarding downhill section through the peninsula.
+
+This part of the route is fairly ill-defined, so you can choose whichever streets you like, but for the map I've checked out the most travelled route on Strava down the esplanade. Personally I like Orari road becauyse it's a long, slow roll downhill.
+
+There's a narrow shared path along the corso which is good for a slow roll, but more serious riders will just take the corso itself.
+
+At the Dutton Park end there's a number of routes, but the most common is following the road up to Gladstone Road. There is also a bikeway halfway up the hill that runs under the busway if you need to bail out early or want to head down Annerley Road.
+
+## Dutton Park to South Bank (via West End)
+{% image "./site/brisbane-city/river-loop/photos/PXL_20231030_070541216.jpg", "The bikeway curves downhill toward the Brisbane River", "alignright", "The top of Riverside Drive bikeway" %}
+
+Dutton Park to Highgate Hill is probably the busiest on-road route. There are bike lanes painted on some segments of the road, but I've been known to bail out and take the footpath in some places.
+
+Once you're at the top of Highgate Hill though, the fun starts! The downhill section along Dornoch Terrace and down to the Brisbane River is really fun, you'll barely need to pedal. Just be safe around parked cars, and stick to the speed limit.
+
+Once you hit Riverside Drive you're pretty much flat the rest of the way into South Bank.
