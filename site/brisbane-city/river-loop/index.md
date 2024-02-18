@@ -14,7 +14,11 @@ mapDescription: This map follows the most straightforward on-road route. If you'
 hero:
   type: defaultImage
   alt: A glimpse of the Eleanor Schonell Bridge, looking through Trees from the riverbank at UQ
-  image: /brisbane-city/river-loop/river-loop-hero
+  variations:
+    - '<source srcset="river-loop-3840-hq.avif" type="image/avif" media="(min-width: 3840px), (min-resolution: 192dpi) and (min-width:1280px)" width="3840" height="1069" />'
+    - '<source srcset="river-loop-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1069" />'
+    - '<source srcset="river-loop-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
+    - '<source srcset="river-loop-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
 thumb:
   image: /brisbane-city/river-loop/river-loop
 geo:
