@@ -101,3 +101,5 @@ Dutton Park to Highgate Hill is probably the busiest on-road route. There are bi
 Once you're at the top of Highgate Hill though, the fun starts! The downhill section along Dornoch Terrace and down to the Brisbane River is really fun, you'll barely need to pedal. Just be safe around parked cars, and stick to the speed limit.
 
 Once you hit Riverside Drive you're pretty much flat the rest of the way into South Bank.
+
+{% ad %}
