@@ -51,5 +51,7 @@ Disallow: /
 User-agent: omgili
 Disallow: /
 
+User-agent: Diffbot
+Disallow: /
 
 Sitemap: https://briscycle.com/sitemap.xml
