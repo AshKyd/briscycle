@@ -19,7 +19,7 @@ thumb: { "image": "/brisbane-city/bike-hire-in-brisbane/beam-bike" }
 
 One of the better ways to explore a new city is by bike, because you can take as much time as you like, stop wherever something catches your eye, and get a real perspective of life in Brisbane.
 
-Brisbane is a great city for cycling because the city centre is ringed with bike paths, and there are two dockless bike and scooter share schemes in the city.
+Brisbane is a great city for cycling because the city centre is ringed with bike paths, and there are two bike and scooter share schemes in the city.
 
 {% ad %}
 
@@ -29,9 +29,9 @@ Before heading out, you should download and sign up to both [Neuron](https://www
 
 Subscription is free, and you can see a map of all the bikes and scooters available to hire in your area.
 
-## 💰 Free trips
+## 💰 Free trips with Neuron and Beam
 
-Use my signup code to get free credit on hire bikes.
+Use my signup code to get free credit on hire bikes:
 
 <div class="cards">
   <div class="card__link" >
@@ -61,6 +61,32 @@ Use my signup code to get free credit on hire bikes.
         <aside class="copy-code">
           <code id="beam-code" data-owner="tae" class="copy-code__text">Az3rHAN</code>
           <button class="copy-code__button" data-clipboard-target="#beam-code">
+          Copy code
+          </button>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+## Lime discount code
+
+Currently these are purple Beam and orange Neuron bikes and scooters around town. But [after a recent tender process with Brisbane council](https://www.brisbanetimes.com.au/national/queensland/scooter-numbers-to-climb-as-lime-prepares-brisbane-return-20240408-p5fi6t.html), the Neuron fleet will be replaced on the 22nd of July with green bikes and scooters from [Lime](https://lime.bike/referral_signin/R7UVNJ3IU6E).
+
+If you want to sign up now, use this Lime referral code:
+
+<div class="cards">
+  <div class="card__link" >
+    <div class="card__content" style="display:flex;">
+      <div style="margin-right:10px;">
+        <img src="lime.webp" role="presentation" width=32 height=32 />
+      </div>
+      <div>
+        <h3>Lime signup code</h3>
+        <p>Get $4 off your first ride:</p>
+        <aside class="copy-code">
+          <code id="neuron-code" class="copy-code__text">R7UVNJ3IU6E</code>
+          <button class="copy-code__button" data-clipboard-target="#neuron-code">
           Copy code
           </button>
         </aside>
