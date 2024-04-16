@@ -126,7 +126,7 @@ There will usually be another bike nearby with a helmet (or occasionally left in
 
 Check out more [rules on riding bikes](/bicycle-regulation).
 
-## 🚲 The old CityCycles
+## 🚲 What happened to CityCycle
 
 CityCycle was the old bike hire scheme, which opened in 2010 and was retired in 2021.
 
