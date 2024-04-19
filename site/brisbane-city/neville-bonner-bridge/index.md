@@ -24,7 +24,7 @@ geojson:
   type: FeatureCollection
   features:
     - type: Feature
-      properties: 
+      properties:
       geometry:
         type: LineString
         coordinates:
@@ -57,4 +57,4 @@ From [the Brisbane Times](https://www.brisbanetimes.com.au/national/queensland/c
 
 > In a written response in May 2017 to a [petition from Space for Cycling](https://space4cyclingbne.com/2017/01/09/bicycle-access-at-queens-wharf/) to add cyclists to the Neville Bonner Bridge, Mr Bailey said changes to land the bridge at the Bicentennial Bikeway were "constrained by the Riverside Expressway".
 
-The bridge was a requirement for the developers to build the casino precinct. The ABC has reported that a key shareholder in the casino consortium “has a long history of association with organised crime figures and people blacklisted by gambling regulators around the world” - read more about [queens wharf corruption](https://www.abc.net.au/news/2022-08-22/star-brisbane-casino-chow-tai-fook-triad-links/101341862).
+The bridge was a requirement for the developers to build the casino precinct. The ABC has reported that a key shareholder in the casino consortium “has a long history of association with organised crime figures and people blacklisted by gambling regulators around the world” - read more about [queens wharf controversy](https://www.abc.net.au/news/2022-08-22/star-brisbane-casino-chow-tai-fook-triad-links/101341862).
