@@ -2,8 +2,8 @@
   display: grid;
   grid-gap: 20px 50px;
   grid-template-columns: 1fr;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .footer__logo {
   border-bottom: 2px solid var(--separator);
