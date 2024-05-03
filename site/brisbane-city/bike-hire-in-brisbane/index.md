@@ -101,8 +101,8 @@ If you want to sign up now, use this Lime referral code:
 
 Beam and Neuron aren't exactly cheap. If you're doing anything more than a quick scoot, a daily or weekly pass is much better value.
 
-- **Neuron**: The _Neuron Pass_ costs $15 for a day, $33 for a week, or $99 for 30 days. This includes free unlocks, and 90 minutes of rides per day. As an extra benefit you can use this pass in any other Australian city too.
-- **BEAM**: A _Universal Pass_ on Beam will set you back $15 for a day. This includes free unlocks and 120 minutes per day. You can also get a three-day or a weekly pass, but check the conditions carefully because they've recently changed the number of minutes available. You may only use the pass [in the city where you bought it](https://support.ridebeam.com/en/articles/6795893-am-i-able-to-use-my-pass-in-other-cities).
+- **Neuron**: The _Neuron Pass_ costs $15 for a day, or $25 for 3 days. This includes free unlocks, and 90 minutes of rides per day. As an extra benefit you can use this pass in any other Australian city too.
+- **BEAM**: A _Universal Pass_ on Beam will set you back $15 for a day. This includes free unlocks and 90 minutes per day. You can no longer get longer passes. You may only use the pass [in the city where you bought it](https://support.ridebeam.com/en/articles/6795893-am-i-able-to-use-my-pass-in-other-cities).
 
 While this sounds like a lot of money, a couple of trips can easily exceed the price of a daily pass so it often works out cheaper to just get one.
 
