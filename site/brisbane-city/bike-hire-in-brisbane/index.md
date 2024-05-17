@@ -59,7 +59,8 @@ Use my signup code to get free credit on hire bikes:
         <h3>Beam signup code</h3>
         <p>Get $3 free credit using this code:</p>
         <aside class="copy-code">
-          <code id="beam-code" data-owner="tae" class="copy-code__text">Az3rHAN</code>
+          <code id="beam-code" data-owner="tae" class="copy-code__text">nOJOQl</code>
+          <!-- Tae Az3rHAN -->
           <button class="copy-code__button" data-clipboard-target="#beam-code">
           Copy code
           </button>
