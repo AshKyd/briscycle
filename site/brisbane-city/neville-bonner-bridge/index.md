@@ -32,21 +32,14 @@ geojson:
             - -27.47518923988
           - - 153.02466987491
             - -27.47431351249
-openDate: "2024"
+openDate: "August 29th 2024"
 ---
 
-The Neville Bonner Bridge is an under-construction pedestrian-only bridge between the South Bank Cultural Forecourt and the Queens Wharf casino. The bridge is finished construction, but won't be open until 2024 when the first stage of the Star Casino precinct is completed.
+The Neville Bonner Bridge is an under-construction pedestrian-only bridge between the South Bank Cultural Forecourt and the Queens Wharf casino. The bridge is finished construction, and will open August 29th 2024 when the first stage of the Star Casino precinct is completed.
 
 **You can't ride on it, and it doesn't really go anywhere. If you're heading to Queen's Wharf you can only do it on foot.**
 
 The bridge was named in honour of the late [Senator Neville Bonner AO](https://www.naa.gov.au/explore-collection/first-australians/other-resources-about-first-australians/neville-bonner), the first Indigenous Australian to become a member of the Commonwealth Parliament and Australian of the Year.
-
-## Open date
-The open date for the bridge was originally August 2024, but the timeline appears to have slipped. The Star Casino FAQ page still says August, but their announcements page appears to be down. The original statement reads:
-
-> The first stage of The Star Brisbane is expected to open from August 2024. With a range of restaurants, bars, cafes, accommodation options, retail stores, entertainment experiences, public spaces and Brisbane’s only casino.  
->
-> The excitement will continue throughout 2024 and beyond, with the opening of even more venues and experiences.  
 
 ## Design
 
