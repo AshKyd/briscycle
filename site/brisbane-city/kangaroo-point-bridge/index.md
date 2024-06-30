@@ -64,13 +64,13 @@ BESIX Watpac was awarded the contract to design and build the Green Bridge. Cons
 
 The bridge includes a number of best-practice sustainable features including solar panels on the shade cover to power the bridge’s lighting, rain gardens at C.T. White Park to slow stormwater run-off, and extensive use of native plants in new landscaping.
 
-## January 2024 status
+## June 2024 status
 
-{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel.jpg", "A tunnel and bikeway connection under construction underneath the Story Bridge", "alignright", "A tunnel will connect to the East Brisbane bikeway (Jan 2024)" "alignright" %}
+{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete.jpg", "A tunnel and bikeway connection underneath the Story Bridge", "alignright", "The tunnel connects to the East Brisbane bikeway" "alignright" %}
 
-As of January 2024 the bridge is still under construction.
+As of January 2024 the bridge is still under construction but all the bridge segments are in place.
 
-The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and you can see where it will connect to the tunnel (also under construction) at Main Street.
+The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and the tunnel at Main Street is open to the public.
 
 On the city end the bikeway is closed at the Botanic Gardens while construction continues, but the bridge and one of the viewing platforms is visibly progressing.
 

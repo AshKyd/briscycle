@@ -34,31 +34,34 @@ geojson:
         properties: {}
         geometry:
           type: LineString
-          coordinates: [
-            [ 153.03594052255, -27.47085813366 ],
-            [ 153.03604244649, -27.47158634334 ],
-            [ 153.03595661581, -27.47212416832 ],
-            [ 153.03609609067, -27.47267626911 ],
-            [ 153.03637504041, -27.47328072111 ],
-            [ 153.03604781091, -27.47347109900 ],
-            [ 153.03607999742, -27.47386613209 ],
-            [ 153.03632139623, -27.47437538952 ],
-            [ 153.03731381357, -27.47528919134 ],
-            [ 153.04120838106, -27.47853978952 ],
-            [ 153.04159461915, -27.47873491755 ],
-            [ 153.04597734869, -27.47946307517 ],
-            [ 153.04666399419, -27.47928698521 ],
-            [ 153.04874002397, -27.47700254933 ],
-            [ 153.04933547437, -27.47658373095 ],
-            [ 153.05393010244, -27.47504408735 ],
-            [ 153.05461674795, -27.47471925951 ],
-            [ 153.05537849531, -27.47429686289 ]
-          ]
+          coordinates:
+            [
+              [153.03594052255, -27.47085813366],
+              [153.03604244649, -27.47158634334],
+              [153.03595661581, -27.47212416832],
+              [153.03609609067, -27.47267626911],
+              [153.03637504041, -27.47328072111],
+              [153.03604781091, -27.47347109900],
+              [153.03607999742, -27.47386613209],
+              [153.03632139623, -27.47437538952],
+              [153.03731381357, -27.47528919134],
+              [153.04120838106, -27.47853978952],
+              [153.04159461915, -27.47873491755],
+              [153.04597734869, -27.47946307517],
+              [153.04666399419, -27.47928698521],
+              [153.04874002397, -27.47700254933],
+              [153.04933547437, -27.47658373095],
+              [153.05393010244, -27.47504408735],
+              [153.05461674795, -27.47471925951],
+              [153.05537849531, -27.47429686289],
+            ]
 notes: Hero images have been edited pretty heavily with Luminar Neo to replace the grey skies and generally brighten them up. Source image is PXL_20240109_074058047.jpg.
 ---
+
 The Lytton Road bikeway runs most of the way from Kangaroo Point to Norman Park completely offroad.
 
 ## Getting to the East Brisbane Bikeway
+
 As of early 2024 there isn't a direct way to get to the bikeway form the CBD. You must either cross at the Goodwill Bridge and double back to Kangaroo Point, or cross the Story Bridge.
 
 From Kangaroo Point the bikeway begins at the southern end of Deakin Street, following alongside Shafston Avenue and Lytton Road. The Shafston Avenue segment has a pretty steep hill outbound (I couldn't make it up on my single speed bike), so you'll often see people riding the back roads along Lambert Street.
@@ -71,7 +74,7 @@ At the far end of the bikeway you can continue on road or footpath to the easter
 
 ## Construction status
 
-{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel.jpg", "A tunnel and bikeway connection under construction underneath the Story Bridge", "alignright", "A tunnel will connect to the Kangaroo Point Green Bridge (Jan 2024)" "alignright" %}
+{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete.jpg", "A tunnel and bikeway connection underneath the Story Bridge", "alignright", "The tunnel connects to the Kangaroo Point Green Bridge" "alignright" %}
 
 When the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge) is finished later in 2024, you will be able to ride straight from the CBD to Norman Park via a tunnel under the Story Bridge.
 
