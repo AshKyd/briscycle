@@ -23,8 +23,8 @@ thumb:
   format: webp
 ---
 
-The shire of Redland City provides a surprisingly comprehensive cycling network for both recreation and commuting.
+Redland City has a comprehensive cycling network for both recreation and commuting.
 
-It's possible to cycle from the top to the bottom with very few instances requiring cycling on the road, and while the Moreton Bay Cycleway is neither completed or well signed, a number of coastal cycleways exist to take you as fas south as Cleveland.
+It's possible to cycle from the top to the bottom with very few instances requiring cycling on the road. And while the Moreton Bay Cycleway is neither completed or well signed, a number of coastal cycleways exist to take you as fas south as Cleveland.
 
-In addition to mainland cycling, Redlands City also has attractive off-shore cycling routes, including a number of tourist facilities on the Bay Islands, as well as North Stradbroke Island. The islands are only accessible by ferry.
+In addition to mainland cycling, Redland City also has attractive off-shore cycling routes, including a number of tourist facilities on the Bay Islands and North Stradbroke Island. The islands are only accessible by ferry.
