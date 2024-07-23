@@ -25,32 +25,15 @@ Brisbane is a great city for cycling because the city centre is ringed with bike
 
 ## 🚲 Bike share (and scooters too!)
 
-Before heading out, you should download and sign up to both [Neuron](https://www.rideneuron.com/) and [Beam](https://www.ridebeam.com/).
+Before heading out, you should download and sign up to both [Lime](https://www.li.me/en-au/) and [Beam](https://www.ridebeam.com/).
 
 Subscription is free, and you can see a map of all the bikes and scooters available to hire in your area.
 
-## 💰 Free trips with Neuron and Beam
+## 💰 Free trips with Lime and Beam
 
 Use my signup code to get free credit on hire bikes:
 
 <div class="cards">
-  <div class="card__link" >
-    <div class="card__content" style="display:flex;">
-      <div style="margin-right:10px;">
-        <img src="neuron.webp" role="presentation" width=32 height=32 />
-      </div>
-      <div>
-        <h3> Neuron signup code</h3>
-        <p>Grab a free 10 minute ride with this code:</p>
-        <aside class="copy-code">
-          <code id="neuron-code" class="copy-code__text">9FMZ25GQ</code>
-          <button class="copy-code__button" data-clipboard-target="#neuron-code">
-          Copy code
-          </button>
-        </aside>
-      </div>
-    </div>
-  </div>
   <div class="card__link">
     <div class="card__content" style="display:flex">
       <div style="margin-right:10px;"><img src="beam.webp" role="presentation" width=32 height=32 />
@@ -68,15 +51,6 @@ Use my signup code to get free credit on hire bikes:
       </div>
     </div>
   </div>
-</div>
-
-## Lime discount code
-
-Currently these are purple Beam and orange Neuron bikes and scooters around town. But [after a recent tender process with Brisbane council](https://www.brisbanetimes.com.au/national/queensland/scooter-numbers-to-climb-as-lime-prepares-brisbane-return-20240408-p5fi6t.html), the Neuron fleet will be replaced on the 22nd of July with green bikes and scooters from [Lime](https://lime.bike/referral_signin/R7UVNJ3IU6E).
-
-If you want to sign up now, use this Lime referral code:
-
-<div class="cards">
   <div class="card__link" >
     <div class="card__content" style="display:flex;">
       <div style="margin-right:10px;">
@@ -100,10 +74,10 @@ If you want to sign up now, use this Lime referral code:
 
 ## 🤑 Life hack: get a day pass
 
-Beam and Neuron aren't exactly cheap. If you're doing anything more than a quick scoot, a daily or weekly pass is much better value.
+Beam and Lime aren't exactly cheap. If you're doing anything more than a quick scoot, a daily or weekly pass is much better value.
 
-- **Neuron**: The _Neuron Pass_ costs $15 for a day, or $25 for 3 days. This includes free unlocks, and 90 minutes of rides per day. As an extra benefit you can use this pass in any other Australian city too.
-- **BEAM**: A _Universal Pass_ on Beam will set you back $15 for a day. This includes free unlocks and 90 minutes per day. You can no longer get longer passes. You may only use the pass [in the city where you bought it](https://support.ridebeam.com/en/articles/6795893-am-i-able-to-use-my-pass-in-other-cities).
+- **BEAM**: 3 day pass on Beam costs $13 and gives you 60 minutes ride time. You may only use the pass [in the city where you bought it](https://support.ridebeam.com/en/articles/6795893-am-i-able-to-use-my-pass-in-other-cities).
+- **Lime**: Lime passes are more straightforward, you can buy 30, 60, 160, and 300 minute passes for use within various time periods, starting at $7.99 for 30 minutes.
 
 While this sounds like a lot of money, a couple of trips can easily exceed the price of a daily pass so it often works out cheaper to just get one.
 
