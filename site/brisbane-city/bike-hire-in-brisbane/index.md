@@ -25,7 +25,7 @@ Brisbane is a great city for cycling because the city centre is ringed with bike
 
 ## 🚲 Bike share (and scooters too!)
 
-Before heading out, you should download and sign up to both [Lime](https://www.li.me/en-au/) and [Beam](https://www.ridebeam.com/).
+Before heading out, you should download and sign up to both [Lime](https://www.li.me/en-au/) app.
 
 Subscription is free, and you can see a map of all the bikes and scooters available to hire in your area.
 
@@ -34,23 +34,6 @@ Subscription is free, and you can see a map of all the bikes and scooters availa
 Use my signup code to get free credit on hire bikes:
 
 <div class="cards">
-  <div class="card__link">
-    <div class="card__content" style="display:flex">
-      <div style="margin-right:10px;"><img src="beam.webp" role="presentation" width=32 height=32 />
-      </div>
-      <div>
-        <h3>Beam signup code</h3>
-        <p>Get $3 free credit using this code:</p>
-        <aside class="copy-code">
-          <code id="beam-code" data-owner="tae" class="copy-code__text">nOJOQl</code>
-          <!-- Tae Az3rHAN -->
-          <button class="copy-code__button" data-clipboard-target="#beam-code">
-          Copy code
-          </button>
-        </aside>
-      </div>
-    </div>
-  </div>
   <div class="card__link" >
     <div class="card__content" style="display:flex;">
       <div style="margin-right:10px;">
@@ -60,8 +43,8 @@ Use my signup code to get free credit on hire bikes:
         <h3>Lime signup code</h3>
         <p>Get $4 off your first ride:</p>
         <aside class="copy-code">
-          <code id="neuron-code" class="copy-code__text">R7UVNJ3IU6E</code>
-          <button class="copy-code__button" data-clipboard-target="#neuron-code">
+          <code id="lime-code" class="copy-code__text">R7UVNJ3IU6E</code>
+          <button class="copy-code__button" data-clipboard-target="#lime-code">
           Copy code
           </button>
         </aside>
