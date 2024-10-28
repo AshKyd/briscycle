@@ -1,13 +1,21 @@
 ---
 title: Western Freeway Bikeway
 shortTitle: Western Freeway
-description: The Western Freeway Bikeway is a cycleway that runs parallel to the Western Freeway from the west of Toowong all the way south through to Richlands.
+description: The Western Freeway Bikeway is a cycleway that runs parallel to the Western Freeway and Centenary Highway from the west of Toowong all the way south through to Richlands.
 layout: page
 related: brisbane
 tags:
   - brisbane
   - uphill
   - separated
+hero:
+  type: defaultImage,
+  alt: The Indooroopilly Green Bridge soars over Moggil Road
+  variations:
+    - '<source srcset="hero-desktop-4k.avif" type="image/avif" media="(orientation: landscape)" width="3990" height="1702" />'
+    - '<source srcset="hero-desktop-1920.avif" type="image/avif" media="(orientation: landscape)" width="1920" height="819" />'
+    - '<source srcset="hero-mobile-828.avif" type="image/avif" media="(max-width: 414px)" width=828 height=519 />'
+    - '<source srcset="hero-mobile-1440.avif" type="image/avif" media="(min-width: 415px)" width=1440 height=902 />'
 geojson:
   - type: FeatureCollection
     features:
@@ -423,20 +431,61 @@ geojson:
               - -27.621728535596112
 ---
 
-The Western Freeway Bikeway is a cycleway that runs parallel to the Western Freeway from the west of Toowong all the way south through to Richlands.
+The Western Freeway Bikeway is a cycleway that runs parallel to the Western Freeway & Centenary Highway from the west of Toowong all the way south through to Sumner.
 
-The bikeway is the best way to get to the western suburbs of Brisbane, and connects to the <a href="../bicentennial-bikeway/">Bicentennial Bikeway</a> via 1500 metres of on-road cycling.
+The bikeway is the best way to get to the western suburbs of Brisbane, and connects to the <a href="../bicentennial-bikeway/">Bicentennial Bikeway</a> via 1500 metres of on-road cycling through Toowong.
 
-<h3>Riding to work on the Western Freeway</h3>
-The Western Freeway is part dedicated cycleway, part shared path and part on-road cycling.
+## Hill climbing
 
-There are entrances onto the bikeway at regular intervals along the route, including access to Indooroopilly, Kenmore, Jindalee and Forest Lake to name a few.
+This bikeway has some of the best downhill sections in Brisbane, but obviously what goes down must come up again.
 
-The cycleway ends near Mount Coot-Tha Road at Toowong, so if travelling to the city you should turn onto Sylvan Road and follow it until you reach Land Street, and subsequently the underpass to the <a href="../bicentennial-bikeway/">Bicentennial Bikeway</a>.
+The outbound section from Toowong to Taringa must be one of the longest sustained inclines on a bikeway in Brisbane, and there are several other climbs and descents on this route.
 
-<h3>Things to do &amp; see</h3>
-This route tends to be more of a commuter route, but there are a few things to do along the way if you're up for an adventure.
+If you haven't done much cycling before you should take it easy and bring lots of water. And if you're planning to ride to work you'll almost certainly need to shower at an end of trip facility.
 
-There are a number of parks including Anzac Park, Moore Park, Clivedon Park and Rocks Riverside Park where you can enjoy a picnic or barbecue. There's also the Botanic Gardens, Sir Thomas Brisbane Planetarium and the Mount Coot-Tha lookout.
+## Things to do & see
 
-Unlike many Brisbane cycleways, the Western Freeway is somewhat hilly, so if you haven't done much cycling before you should take it easy and bring lots of water.
+This route tends to be more of a commuter route, but there are several parks and destinations that you might be interested in.
+
+At the Brisbane end the bikeway starts at Anzac Park which is great for picnics and barbecues. Or across the Canon Garland Overpass it's a short ride to the sprawling Mt Coot-tha Botanic Gardens which is is a destination in itself. Or if you're up for a climg, visit the peak of Mt Coot-tha.
+
+Cliveden Park in Fig Tree Pocket is a green space with exercise equipment, junior cycle training tracks, a playground and a drone training area.
+
+{% image "./site/brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP.jpg", "Paperbark trees line a lagoon full of lillypads. A path curves around and a bridge crosses the water", "alignright", "The Edenbrook bikeway in Sinnamon Park is a short, but lovely ride" "alignright" %}
+
+Further south across the Brisbane River you'll arrive at Jindalee Skate Park which is a short ride to DFO. And there's another generous riverside shared bike & pedestrian path all the way to the heritage Rocks Riverside Park & Oxley Wharf.
+
+A short detour from Rocks Riverside Park is the Edenbrook Bikeway, which is a shared path winding through the rainforest environment of Edenbrook Park, which links via back roads to Darra Station.
+
+## Riding to work on the Western Freeway
+
+The Western Freeway is a largely dedicated offroad cycleway.
+
+Heading outbound, the route from Toowong to Indooroopilly is fully off-road and bike-only. After this you'll hit the occasional road crossing where you must stop and give way to traffic. Once you cross the railway past Sumner the bikeway starts to fall apart into a mix of on road and footpaths.
+
+Heading inbound cycleway ends near Mount Coot-Tha Road at Toowong, so if travelling to the city you should turn onto Sylvan Road and follow it until you reach Land Street, and subsequently the underpass to the <a href="../bicentennial-bikeway/">Bicentennial Bikeway</a>.
+
+The bikeway stops at:
+
+- Anzac Park/Canon Garland Overpass to Mt Coot-tha
+- Equinox St playground, Taringa
+- Julie St, Indooroopilly
+- Indooroopilly Cricket Club, with an underpass connection to Carinya Street on the opposite side of the motorway.
+- Moggil Road
+- Witton Road
+- Market Street North & South, via an underpass connection
+- Fig Tree Pocket Road
+- Norman Street
+- Musgrave Street
+- Spinkbrae Street, north of the Brisbane River
+- Jindalee Skate Park, with connections to DFO, Rocks Riverside Park
+- Kooringal Drive, Jindalee
+- Sinnamon Road, Jindalee
+- Capitol Drive, Jindalee
+- Dandenong Road, Mount Ommaney
+- Mount Ommaney Shopping Centre, with an underpass to Glen Ross Road
+- Andaman Street, north end
+- Andaman Street, south end
+- Sumners Road, Jamboree Heights
+- Bullockhead Street, with a connection to Darra railway station
+- Cycleway ends at Ipswich road, though you can continue further south on-road
