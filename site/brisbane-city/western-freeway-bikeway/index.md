@@ -447,7 +447,7 @@ If you haven't done much cycling before you should take it easy and bring lots o
 
 This route tends to be more of a commuter route, but there are several parks and destinations that you might be interested in.
 
-At the Brisbane end the bikeway starts at Anzac Park which is great for picnics and barbecues. Or across the Canon Garland Overpass it's a short ride to the sprawling Mt Coot-tha Botanic Gardens which is is a destination in itself. Or if you're up for a climg, visit the peak of Mt Coot-tha.
+At the Brisbane end the bikeway starts at Anzac Park which is great for picnics and barbecues. Or across the Canon Garland Overpass it's a short ride to the sprawling Mt Coot-tha Botanic Gardens which is is a destination in itself. Or if you're up for a climb, visit the peak of Mt Coot-tha.
 
 Cliveden Park in Fig Tree Pocket is a green space with exercise equipment, junior cycle training tracks, a playground and a drone training area.
 
