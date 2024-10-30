@@ -1,0 +1,80 @@
+.metro,
+.metro * {
+  box-sizing: border-box;
+}
+.metro {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  --lineColor: var(--body-link);
+}
+.metro li::before {
+  content: "";
+  display: block;
+  width: 6px;
+  border-bottom: 6px solid var(--lineColor);
+  position: absolute;
+  margin-left: -12px;
+  top: 0.35em;
+}
+.metro li,
+.article-entry .metro li {
+  padding-left: 12px;
+  position: relative;
+  padding-bottom: 0.8em;
+  border-left: 6px solid var(--lineColor);
+  margin: 0;
+  max-width: 30em;
+}
+
+.metro li:first-child {
+}
+.metro li:first-child::before {
+  top: 0;
+}
+
+.metro li:last-child {
+  border-left: none;
+  padding-left: 18px;
+}
+.metro li:last-child::before {
+  top: 0;
+  width: 6px;
+  height: 0.35em;
+  border-left: 6px solid var(--lineColor);
+  margin-left: -18px;
+}
+.metro li.connection {
+  padding-bottom: calc(1.2em + 6px);
+}
+.metro li.connection div {
+  margin-top: 0.5em;
+  padding-left: 60px;
+}
+.metro li.connection::after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 32px;
+  border: 6px solid var(--lineColor);
+  border-style: none none solid solid;
+  border-radius: 0 0 0 24px;
+  position: absolute;
+  top: calc(-30px + 2em);
+  left: -6px;
+  clip-path: path(
+    "M 68.791663,68.791668 V 21.166667 H 66.14583 v 47.625 h -2.645833 l 0.500231,-47.65065 -3.146065,0.02565 V 68.791668 H 58.20833 V 21.166667 H 55.562497 V 68.791668 H 52.916663 V 21.166667 H 50.27083 V 68.791668 H 47.624997 V 21.166667 h -2.645834 v 47.625001 h -2.64583 V 21.166667 H 39.6875 V 68.791668 L 0,68.791669 0,0 l 74.083331,0 0,68.791669 z"
+  );
+}
+
+.metro {
+  font-weight: bold;
+}
+.metro span,
+.metro div {
+  font-weight: normal;
+}
+.metro span {
+  opacity: 0.6;
+  font-style: italic;
+}

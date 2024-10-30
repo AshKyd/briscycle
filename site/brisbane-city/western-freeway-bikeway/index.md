@@ -467,25 +467,39 @@ Heading inbound cycleway ends near Mount Coot-Tha Road at Toowong, so if travell
 
 The bikeway stops at:
 
-- Anzac Park/Canon Garland Overpass to Mt Coot-tha
-- Equinox St playground, Taringa
-- Julie St, Indooroopilly
-- Indooroopilly Cricket Club, with an underpass connection to Carinya Street on the opposite side of the motorway.
-- Moggil Road
-- Witton Road
-- Market Street North & South, via an underpass connection
-- Fig Tree Pocket Road
-- Norman Street
-- Musgrave Street
-- Spinkbrae Street, north of the Brisbane River
-- Jindalee Skate Park, with connections to DFO, Rocks Riverside Park
-- Kooringal Drive, Jindalee
-- Sinnamon Road, Jindalee
-- Capitol Drive, Jindalee
-- Dandenong Road, Mount Ommaney
-- Mount Ommaney Shopping Centre, with an underpass to Glen Ross Road
-- Andaman Street, north end
-- Andaman Street, south end
-- Sumners Road, Jamboree Heights
-- Bullockhead Street, with a connection to Darra railway station
-- Cycleway ends at Ipswich road, though you can continue further south on-road
+<ul class="metro">
+  <li>Anzac Park</li>
+  <li class="connection">Canon Garland Overpass <div>to Mt Coot-tha botanical gardens & on-road to Mt Coot-tha summit & loop</div>
+  </li>
+  <li>Equinox St playground <span>Taringa</span></li>
+  <li>Julie St <span>Indooroopilly</span></li>
+  <li class="connection">Indooroopilly Cricket Club <div>Carinya Street on the opposite side of the motorway via underpass connection</div>
+  </li>
+  <li>Moggil Road</li>
+  <li>Witton Road</li>
+  <li class="connection">Market Street North &amp; South
+    <div>via underpass connection</div>
+  </li>
+  <li>Fig Tree Pocket Road</li>
+  <li>Norman Street</li>
+  <li>Musgrave Street</li>
+  <li>Spinkbrae Street <span>north of the Brisbane River</span></li>
+  <li class="connection">Jindalee Skate Park
+    <div>connections to DFO, Rocks Riverside Park</div>
+  </li>
+  <li>Kooringal Drive <span>Jindalee</span></li>
+  <li>Sinnamon Road <span>Jindalee</span></li>
+  <li>Capitol Drive <span>Jindalee</span></li>
+  <li>Dandenong Road <span>Mount Ommaney</span></li>
+  <li class="connection">Mount Ommaney Shopping Centre
+    <div>underpass to Glen Ross Road</div>
+  </li>
+  <li>Andaman Street <span>north end</span></li>
+  <li>Andaman Street <span>south end</span></li>
+  <li>Sumners Road <span>Jamboree Heights</span></li>
+  <li class="connection">Bullockhead Street
+    <div>connection to Darra railway station</div>
+  </li>
+  <li>Cycleway ends at Ipswich road <div>though you can continue further south on-road</div>
+  </li>
+</ul>
