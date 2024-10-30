@@ -20,7 +20,6 @@ hero:
     - '<source srcset="se-freeway-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1224" />'
     - '<source srcset="se-freeway-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
     - '<source srcset="se-freeway-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
-openDate: "2024"
 geojson:
   - type: FeatureCollection
     generator: JOSM
@@ -317,19 +316,40 @@ The Southeast Freeway bikeway runs parallel to the Southeast Freeway (M1) from S
 
 This bikeway is a busy commuter route servicing the southern suburbs, linking up with all the back-streets truncated by the motorway itself. It connects to the CBD via the <a href="../goodwill-bridge/">Goodwill Bridge</a>. It's also a part of the V1 veloway linking Brisbane to the <a href="../gold-coast/">Gold Coast</a>.
 
-Being off-road, the bikeway is good for all experience levels so it's a great little weekend tour or an excellent commute to work. The climb outbound from the river at the city end is the steepest section along the route.
+Being off-road, the bikeway is good for all experience levels so it's a great little weekend tour or an excellent commute to work. The climb outbound from the river at the city end is the steepest section along the route, but there is also a fair climb around Mount Gravatt.
 
-## O'Keefe Street Velobridge construction
+## Riding to work from the south side
 
-A Velobridge is being built across O'Keefe Street to bypass the combo of traffic lights and unsignalled intersections at this junction. When it's built you'll be able to stay on the dedicated path and skip the stops at Carl Street and O'Keefe Street lights.
+The bikeway starts at South Bank and runs mostly offroad for 20 kilometres along the M1 motorway. Heading outbound the bikeway stops at:
 
-In the meantime the detour adds approx 430 metres to the trip. Most riders I've seen take Morrisey and Agnes streets to avoid the hill, but use your best judgement.
-
-The velobridge is expected to open in early 2024, although this has already been pushed back due to weather and supply chain issues.
-
-{% image "./site/brisbane-city/southeast-freeway-bikeway/se-freeway-detour.jpg", "A sign shows a closed bikeway ahead with a detour.", "alignright", "The detour starts just before the ramp to O'Keefe Street (Jan 2024)" "" %}
-
-<figure style="max-width:353px;">
-<img loading="lazy" data-zoom-src="veloway1-okeefe-street-velobridge-map_v4.webp" src="veloway1-okeefe-street-velobridge-map_v4.webp" alt="The bikeway will link the existing two sections on opposite sides of the M1 via a looping bridge running underneath" width="706" height="706">
-<figcaption>Diagram via the Department of Transport and Main Roads, see <a href="https://www.tmr.qld.gov.au/projects/veloway-1-v1-cycleway-okeefe-street-construct-bridge-approaches">the project page</a> for more info.</figcaption>
-</figure>
+<ul class="metro">
+<li>Lower River Terrace <div>With bike connections to South Bank, QUT and Kangaroo Point</div></li>
+<li>Allen St <span>South Brisbane</span></li>
+<li class="connection">Stanley Street <span>Wooloongabba</span> <div>With connections to Mater Hospital, Annerley Rd bikeway, The Gabba</div></li>
+<li>Lockhart Street <span>Wooloongabba</span> <div>with access to Peterson St</div></li>
+<li>Ross Street <span>Wooloongabba</span></li>
+<li>Abingdon Street <span>Wooloongabba</span></li>
+<li>Park Road <span>Wooloongabba</span> <div>a short on-road ride to Boogo Road Station</div></li>
+<li>Morrissey Street <span>Wooloongabba</span></li>
+<li class="connection">Harrogate Street <span>Wooloongabba</span> <div>Connection to Toohey Street via overpass</div></li>
+<li class="connection">O'Keefe Street <span>Wooloongabba</span> <div>Connections to Buranda Station &amp; Busway, short footpath ride to Hanlon Park</div></li>
+<li class="connection">Greenslopes station <span>Greenslopes</span> <div>Connections to <a href="/brisbane-city/norman-creek-bikeway/">Norman Creek Bikeway</a>, Annerley Football Club, &amp; suburbs</div></li>
+<li>Greenslopes Hospital <span>Greenslopes</span></li>
+<li>Birdwood Road <span>Holland Park</span> <div>switches to footpath underneath the motorway</div></li>
+<li>Peronne Road <span>Holland Park</span></li>
+<li>Gaza Road <span>Holland Park</span></li>
+<li>Griffith University Mount Gravatt Campus</li>
+<li>University Road <span>Mount Gravatt</span></li>
+<li>Worrell St <span>Upper Mounte Gravatt</span> <div>bikeway disappears for 500 metres</div></li>
+<li>Kessels Road <span>Macgregor</span> <div>Short footpath ride to Westfield Mount Gravatt</div></li>
+<li>Wadley Street <span>Macgregor</span></li>
+<li class="connection">Freesia Street <span>Macgregor</span> <div>Connection to Bulimba Creek Bikeway</div></li>
+<li>Logan Road <span>Eight Mile Planes</span></li>
+<li>Miles Platting Road <span>Eight Mile Planes</span></li>
+<li>Logan Road <span>at the Gateway Motorway interchange</span></li>
+<li>Underwood Road <span>Underwood</span></li>
+<li>Camelot Park <span>Underwood</span></li>
+<li>Gunalda Street  <span>Underwood</span> <div>Near Lowe Oval, Logan Leisure Centres &amp; Logan Library</div></li>
+<li>Springwood Road <span>Underwood</span></li>
+<li>Dedicated bikeway ends at Pacific Highway <div>Onward journey riding to IKEA or further to the Gold Coast involves significant on-road riding.</div></li>
+</ul>
