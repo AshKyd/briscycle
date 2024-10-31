@@ -39,7 +39,7 @@ geojson:
             - -27.4705678
           - - 153.03536116
             - -27.4705678
-openDate: "2024"
+openDate: "15 December 2024"
 ---
 
 The KP green bridge will connect Kangaroo Point with the CBD at the north end of the city botanical gardens with dedicated cycle lanes. The bridge is closed to motor traffic, so it's a safe way to walk, scoot, and cycle around the city.
