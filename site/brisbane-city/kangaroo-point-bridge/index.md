@@ -74,8 +74,6 @@ The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and the 
 
 On the city end the bikeway is closed at the Botanic Gardens while construction continues, but the bridge and one of the viewing platforms is visibly progressing.
 
-{% youtube "https://www.youtube.com/?v=5CmfLEomvV8?start=3", "The Kangaroo Point green bridge" %}
-
 ## Interesting Things Nearby
 
 There are plenty of dining options nearby. The bridge includes an integrated restaurant and coffee options. The Eagle Street precinct on the CBD side has plenty of dining including the famous The Bavarian. The Kangaroo Point end is close to the Baildon Street precinct, home of the Story Bridge Hotel.
