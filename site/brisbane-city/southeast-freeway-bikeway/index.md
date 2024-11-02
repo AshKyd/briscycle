@@ -351,5 +351,7 @@ The bikeway starts at South Bank and runs mostly offroad for 20 kilometres along
 <li>Camelot Park <span>Underwood</span></li>
 <li>Gunalda Street  <span>Underwood</span> <div>Near Lowe Oval, Logan Leisure Centres &amp; Logan Library</div></li>
 <li>Springwood Road <span>Underwood</span></li>
-<li>Dedicated bikeway ends at Pacific Highway <div>Onward journey riding to IKEA or further to the Gold Coast involves significant on-road riding.</div></li>
+<li>Dedicated bikeway ends at Pacific Highway</li>
 </ul>
+
+Past this point your onward journey to IKEA or the Gold Coast involves significant on-road riding, so plan accordingly and take care.

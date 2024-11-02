@@ -10,7 +10,7 @@ async function imageShortcode(src, alt, className, caption) {
   let metadata = await Image(src, {
     widths,
     formats: ["avif"],
-    sharpAvifOptions: { quality: 50, effort: 7,chromaSubsampling:'4:2:0' },
+    sharpAvifOptions: { quality: 50, effort: 7, chromaSubsampling: "4:2:0" },
     urlPath: "/images/",
     outputDir: "./dist/images/",
     filenameFormat: function (id, src, width, format, options) {
@@ -26,7 +26,7 @@ async function imageShortcode(src, alt, className, caption) {
     loading: "lazy",
     decoding: "async",
     class: caption ? "" : className,
-    'data-zoom-src': metadata.avif[metadata.avif.length-1].url
+    "data-zoom-src": metadata.avif[metadata.avif.length - 1].url,
   };
 
   // return`<pre>${JSON.stringify(metadata,null,2)}</pre>`
