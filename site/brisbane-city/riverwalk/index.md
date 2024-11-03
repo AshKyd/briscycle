@@ -14,7 +14,7 @@ hero:
   type: defaultImage
   alt: The Riverwalk winds through Howard Smith Wharves, and out into the Brisbane River
   image: /brisbane-city/riverwalk/riverwalk-hero
-  format: webp
+  format: avif
 thumb:
   image: /brisbane-city/riverwalk/howard-smith-wharves-riverwalk
   format: webp
@@ -67,27 +67,33 @@ The Riverwalk connects to the City Reach Boardwalk taking you right into the Bri
 
 ## The Riverwalk
 
-The Riverwalk is a great way to get from New Farm to the city as it follows along the river rather than winding through the steep hills approaching Fortitude Valley. The Riverwalk has segregated pedestrian and cycle lanes, so you're free to ride or walk at whichever pace you choose.
+The Riverwalk is a great way to get from New Farm to the city as it follows along the river rather than winding through the steep hills approaching Fortitude Valley. The Riverwalk has segregated pedestrian and cycle lanes for most of the way, so you're free to ride or walk at whichever pace you choose.
 
 The Riverwalk includes shaded rest and viewing areas similar to other bikeways in the area.
 
+<ul class="metro">
+<li>City Reach Boardwalk <div>Connects at the city end to QUT, South Bank and the CityLink Cycleway. Ivory Lane takes you on-road to the Story Bridge via one of Brisbane's steepest climbs.</div></li>
+<li>Howard Smith Wharves <div>Via a busy road with no shoulder. Take care.</div></li>
+<li>Main Lawn <div>Stairs & elevator connection to Bowen Terrace.</div>
+<li>Brisbane Riverwalk <div>Stop at one of the many lookouts to admire the river</div></li>
+<li>Merthyr Road <div>Cycleway ends. Continue 450 metres on-road to Sydney Street ferry terminal where bikeway connects through to New Farm Park, Brisbane Powerhouse and on to <a href="/brisbane-city/breakfast-creek-bridge/">Yowoggera Bridge</a> and&nbsp;beyond.</div></li>
+</ul>
+
 {% ad %}
 
-## The old Riverwalk
+## Howard Smith Wharves
 
-After being washed away in 2011, the Riverwalk was in limbo for three years until the new structure was completed in September 2014.
+{% image "./site/brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER.jpg", "Joggers and scooters dart around each other at the leafy cliffside Howard Smith Wharves", "alignright", "The path turns into a shared footpath" "alignright" %}
 
-The floating walkway was a unique, floating structure completely detached from the riverbank which took people out into the middle of the river to admire Brisbane City from a unique vantage point.
+Howard Smith Wharves is a historic precinct along the Brisbane Waterfront a great place for lunch, dinner or a drink within cycling distance of the CBD. Take the stairs (or free elevator) to the top of the cliffs for a great view of the Story Bridge and Brisbane skyline, or enjoy a beer at popular chains like Felons Brewing.
 
-The floating walkway started at Merthyr Road and finished just before the Story Bridge. This stretch of bikeway still goes through the historic Howard Smith Wharves.
+The precinct was redeveloped in 2018 and Brisbane City Council left the developers to do as they pleased with the dedicated cycleway. As such it's no longer a cycleway through the precinct, instead a combination of shared footpath and roads. Be very careful around the western end because the footpath ends abruptly in a busy street with no footpath. There are no alternative routes around this area.
 
-### Demolition
+## What happened to the old Riverwalk?
 
-During the 2011 floods, the floating riverwalk became submerged and at rist of breaking up. Considering the nature of the structure it was decided on January 12th to <a href="http://www.brisbanetimes.com.au/environment/weather/explosives-destroy-riverwalk-20110112-19nwp.html">demolish the riverwalk</a> to prevent any damage to property downstream.
+The original walkway was based on a floating design, but during the 2011 floods it became partially submerged and at risk of breaking up. While the flooding was ongoing the riverwalk was planned to be demolished to prevent any damage to property such as the [gateway bridge](/moreton-bay/gateway-bridge-cycleway) downstream. But before this could happen it broke up of its own accord, and was [escorted safely down the Brisbane River by a tug boat](http://www.brisbanetimes.com.au/environment/weather/explosives-destroy-riverwalk-20110112-19nwp.html).
 
-This never took place, instead the riverwalk broke up of its own accord later that night, and was escorted safely down the Brisbane River by a tug boat.
-
-### Rebuilding the Riverwalk
+## Rebuilding the Riverwalk
 
 Lord Mayor Graham Quirk announced in April 2013 that having secured funding from the federal and state governments, the iconic Riverwalk linking New Farm to Brisbane City would start construction and be completed in mid 2014.
 
@@ -99,6 +105,4 @@ He said:
 
 {% ad %}
 
-The main focuses of the reconstruction project were cost and sturdiness, with the previous floating walkway costing $650,000 annually to maintain.
-
-The new construction is a fixed walkway constructed 3.4 metres above the mean sea level and follow a similar route to the previous structure which will also have a significantly lower maintenance cost, and is expected to be able to survive a one-in-2000 year flood.
+The main focuses of the reconstruction project were cost and sturdiness. The new construction is a fixed walkway constructed 3.4 metres above the mean sea level and follows a similar route to the previous structure. But was designed to have a significantly lower maintenance cost, and is expected to be able to survive a one-in-2000 year flood.
