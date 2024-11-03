@@ -10,20 +10,15 @@ tags:
   - bridge
 hero:
   type: defaultImage
-  alt: A concept render of a single-mast cable stayed bridge, spanning across a glittering Brisbane River
-  format: webp
+  alt: The sails of the Kangaroo Point Green Bridge glisten in the afternoon sun
   variations:
-    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
-    - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
-    - '<source srcset="mobile/view-of-the-kangaroo-point-green-bridge-showing-elevated-restaurant-and-bar-opportunity---artist-impression-only_52149976774_o-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
-  attribution:
-    name: Brisbane City Council
-    title: Day aerial view of the Kangaroo Point Green Bridge – Artist impression only
-    url: https://www.flickr.com/photos/brisbanecitycouncil/albums/72157719520829730/with/51275677686/
-    license: https://creativecommons.org/licenses/by/2.0/
+    - '<source srcset="hero-desktop-4k.avif" type="image/avif" media="(orientation: landscape)" width="4000" height="1522" />'
+    - '<source srcset="hero-desktop-1920.avif" type="image/avif" media="(orientation: landscape)" width="1920" height="730" />'
+    - '<source srcset="hero-mobile-828.avif" type="image/avif" media="(max-width: 414px)" width=828 height=623 />'
+    - '<source srcset="hero-mobile-1440.avif" type="image/avif" media="(min-width: 415px)" width=1440 height=1084 />'
 thumb:
   image: /brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb
-  format: webp
+  format: avif
 geojson:
   type: FeatureCollection
   generator: JOSM
