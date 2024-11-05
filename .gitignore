@@ -4,7 +4,10 @@ db.json
 *.log
 node_modules/
 .deploy*/
-dist
 .parcel-cache
 .obsidian
 .obsidian
+dist/*
+!dist/images
+dist/images/*
+!dist/images/avif

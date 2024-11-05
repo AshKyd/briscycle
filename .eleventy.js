@@ -7,20 +7,34 @@ async function imageShortcode(src, alt, className, caption) {
     ? { sizes: "50vw", widths: [3353, 1920, 1440, 960] }
     : { sizes: "100vw", widths: [3353, 1920, 1440, 1024, 800] };
 
-  let metadata = await Image(src, {
+  const message = `generating images for ${src}`;
+  console.time(message);
+  const filenameFormat = function (id, src, width, format, options) {
+    const extension = path.extname(src);
+    const name = path.basename(src, extension);
+    return `${name}-${width}.${format}`;
+  };
+  const avifMetadata = await Image(src, {
     widths,
     formats: ["avif"],
-    sharpAvifOptions: { quality: 50, effort: 7, chromaSubsampling: "4:2:0" },
-    urlPath: "/images/",
-    outputDir: "./dist/images/",
-    filenameFormat: function (id, src, width, format, options) {
-      const extension = path.extname(src);
-      const name = path.basename(src, extension);
-      return `${name}-${width}.${format}`;
-    },
+    sharpAvifOptions: { quality: 50, effort: 0, chromaSubsampling: "4:2:0" },
+    urlPath: "/images/avif/",
+    outputDir: "./dist/images/avif/",
+    filenameFormat,
   });
+  const jpegMetadata = await Image(src, {
+    widths: [960],
+    formats: ["jpeg"],
+    sharpAvifOptions: { quality: 80 },
+    urlPath: "/images/avif/",
+    outputDir: "./dist/images/avif/",
+    filenameFormat,
+  });
+  console.timeEnd(message);
 
-  let imageAttributes = {
+  const metadata = { jpegMetadata, ...avifMetadata };
+
+  const imageAttributes = {
     alt,
     sizes,
     loading: "lazy",
@@ -29,8 +43,7 @@ async function imageShortcode(src, alt, className, caption) {
     "data-zoom-src": metadata.avif[metadata.avif.length - 1].url,
   };
 
-  // return`<pre>${JSON.stringify(metadata,null,2)}</pre>`
-
+  // return`<pre>${JSON.stringify(metadata,null,2)}</pre>`')
   const imageHtml = Image.generateHTML(metadata, imageAttributes);
 
   if (caption) {
