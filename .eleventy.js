@@ -17,7 +17,7 @@ async function imageShortcode(src, alt, className, caption) {
   const avifMetadata = await Image(src, {
     widths,
     formats: ["avif"],
-    sharpAvifOptions: { quality: 50, effort: 0, chromaSubsampling: "4:2:0" },
+    sharpAvifOptions: { quality: 60, effort: 9, chromaSubsampling: "4:2:0" },
     urlPath: "/images/avif/",
     outputDir: "./dist/images/avif/",
     filenameFormat,
@@ -25,7 +25,7 @@ async function imageShortcode(src, alt, className, caption) {
   const jpegMetadata = await Image(src, {
     widths: [960],
     formats: ["jpeg"],
-    sharpAvifOptions: { quality: 80 },
+    sharpJpegOptions: { quality: 75, mozjpeg: true },
     urlPath: "/images/avif/",
     outputDir: "./dist/images/avif/",
     filenameFormat,
