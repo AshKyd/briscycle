@@ -12,14 +12,10 @@ thumb:
   image: /brisbane-city/southeast-freeway-bikeway/thumb
   format: webp
 hero:
-  type: defaultImage
+  type: autoImage
   alt: The bikeway is a prominent piece of infrastructure, stretching off towards Brisbane City in the distance.
-  format: webp
-  variations:
-    - '<source srcset="se-freeway-3840-hq.avif" type="image/avif" media="(min-width: 3840px), (min-resolution: 192dpi) and (min-width:1280px)" width="3840" height="1224" />'
-    - '<source srcset="se-freeway-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1224" />'
-    - '<source srcset="se-freeway-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
-    - '<source srcset="se-freeway-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
+  desktop: /brisbane-city/southeast-freeway-bikeway/hero-desktop.png
+  mobile: /brisbane-city/southeast-freeway-bikeway/original.jpg
 geojson:
   - type: FeatureCollection
     generator: JOSM

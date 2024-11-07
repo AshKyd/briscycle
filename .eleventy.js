@@ -53,9 +53,45 @@ async function imageShortcode(src, alt, className, caption) {
   return imageHtml;
 }
 
+async function imageFilter(src, widths = [], format, quality = 60) {
+  const callback = arguments[arguments.length - 1];
+  console.log(src, widths);
+  if (!widths || !widths.length) {
+    console.log("nully widths", widths);
+    return callback(null, []);
+  }
+
+  const filenameFormat = function (id, src, width, format, options) {
+    const extension = path.extname(src);
+    const name = path.basename(src, extension);
+    return `${name}-${width}.${format}`;
+  };
+  const resolvedSrc = path.resolve(__dirname, "site", src.slice(1));
+  const imageMetadata = await Image(resolvedSrc, {
+    widths,
+    formats: [format],
+    sharpAvifOptions: { quality, effort: 9, chromaSubsampling: "4:2:0" },
+    sharpJpegOptions: { quality, mozjpeg: true },
+    urlPath: "/images/avif/",
+    outputDir: "./dist/images/avif/",
+    filenameFormat,
+  });
+
+  return callback(null, Object.values(imageMetadata)[0]);
+}
+
+function srcsetFilter(images) {
+  return images
+    .map(({ url, width }) => `${url} ${width}w`)
+    .reverse()
+    .join();
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addNunjucksAsyncFilter("image", imageFilter);
+  eleventyConfig.addNunjucksFilter("srcset", srcsetFilter);
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addFilter("limit", function (arr, limit) {
     return arr.slice(0, limit);

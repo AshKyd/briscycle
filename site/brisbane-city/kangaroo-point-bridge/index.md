@@ -9,13 +9,10 @@ tags:
   - green-bridge
   - bridge
 hero:
-  type: defaultImage
+  type: autoImage
   alt: The sails of the Kangaroo Point Green Bridge glisten in the afternoon sun
-  variations:
-    - '<source srcset="hero-desktop-4k.avif" type="image/avif" media="(orientation: landscape)" width="4000" height="1522" />'
-    - '<source srcset="hero-desktop-1920.avif" type="image/avif" media="(orientation: landscape)" width="1920" height="730" />'
-    - '<source srcset="hero-mobile-828.avif" type="image/avif" media="(max-width: 414px)" width=828 height=623 />'
-    - '<source srcset="hero-mobile-1440.avif" type="image/avif" media="(min-width: 415px)" width=1440 height=1084 />'
+  desktop: /brisbane-city/kangaroo-point-bridge/hero/desktop.jpg
+  mobile: /brisbane-city/kangaroo-point-bridge/hero/mobile.jpg
 thumb:
   image: /brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb
   format: avif
