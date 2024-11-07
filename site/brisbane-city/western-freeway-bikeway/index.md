@@ -9,8 +9,8 @@ tags:
   - uphill
   - separated
 hero:
-  type: autoImage
   alt: The Indooroopilly Green Bridge soars over Moggil Road
+  type: autoImage
   desktop: /brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop.jpg
   mobile: /brisbane-city/western-freeway-bikeway/PXL_20241027_032957541.jpg
 geojson:

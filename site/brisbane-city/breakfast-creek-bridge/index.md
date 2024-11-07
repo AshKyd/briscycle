@@ -9,13 +9,10 @@ tags:
   - bridge
   - green-bridge
 hero:
-  type: defaultImage,
   alt: Yowoggera Bridge at night
-  variations:
-    - '<source srcset="hero-desktop-4k.avif" type="image/avif" media="(orientation: landscape)" width="3990" height="1702" />'
-    - '<source srcset="hero-desktop-1920.avif" type="image/avif" media="(orientation: landscape)" width="1920" height="819" />'
-    - '<source srcset="hero-mobile-828.avif" type="image/avif" media="(max-width: 414px)" width=828 height=519 />'
-    - '<source srcset="hero-mobile-1440.avif" type="image/avif" media="(min-width: 415px)" width=1440 height=902 />'
+  type: autoImage
+  desktop: /brisbane-city/breakfast-creek-bridge/hero-desktop.png
+  mobile: /brisbane-city/breakfast-creek-bridge/hero-mobile.png
 thumb:
   image: /brisbane-city/breakfast-creek-bridge/thumb
   format: webp
