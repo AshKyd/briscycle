@@ -25,12 +25,15 @@ geojson:
       geometry:
         type: LineString
         coordinates:
-          - - 153.03075849
-            - -27.47216224
-          - - 153.03511976
-            - -27.4705678
-          - - 153.03536116
-            - -27.4705678
+          [
+            [153.03061616388, -27.47222742549],
+            [153.03129046388, -27.47239922549],
+            [153.03136396388, -27.47239492549],
+            [153.03142586388, -27.47236132549],
+            [153.03431416388, -27.47069712554],
+            [153.03439306388, -27.47066582554],
+            [153.03505396388, -27.47063692554],
+          ]
 openDate: "15 December 2024"
 ---
 
@@ -48,7 +51,7 @@ The bridge has at most a gentle 1:20 grade for even novice cyclists to power up.
 
 ## Kangaroo Point bridge construction
 
-{% image "./site/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396.jpg", "The kangaroo Point Bridge heads out from the city shore, but doesn't cross the whole river yet", "alignright", "The bridge is under construction and doesn't yet cross the river (Sep 2023)" "alignright" %}
+{% image "./site/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396.jpg", "In 2023, a photo of The Kangaroo Point Bridge heads out from the city shore, but doesn't cross the whole river yet", "alignright", "The bridge when it was under construction" "alignright" %}
 
 The bridge is a 460 metre long single-mast [cable-stayed](https://en.wikipedia.org/wiki/Cable-stayed_bridge) pedestrian bridge, similar to [the Neville Bonner bridge](/brisbane-city/neville-bonner-bridge/). It's one of the longest cable-stayed pedestrian bridges of its kind in the world. The mast towers 83 metres above the bridge deck.
 
@@ -56,15 +59,19 @@ BESIX Watpac was awarded the contract to design and build the Green Bridge. Cons
 
 The bridge includes a number of best-practice sustainable features including solar panels on the shade cover to power the bridge’s lighting, rain gardens at C.T. White Park to slow stormwater run-off, and extensive use of native plants in new landscaping.
 
-## June 2024 status
+## November 2024 status
 
-{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete.jpg", "A tunnel and bikeway connection underneath the Story Bridge", "alignright", "The tunnel connects to the East Brisbane bikeway" "alignright" %}
+As of January 2024 the bridge is still under construction but looks visibly complete.
 
-As of January 2024 the bridge is still under construction but all the bridge segments are in place.
+The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and the tunnel at Main Street is open to the public. On the city end the bikeway has reopened at the Botanic Gardens while construction continues.
 
-The Kangaroo Point end crosses the existing bikeway at Hamilton Street, and the tunnel at Main Street is open to the public.
+The bridge is scheduled to open in December.
 
-On the city end the bikeway is closed at the Botanic Gardens while construction continues, but the bridge and one of the viewing platforms is visibly progressing.
+<div class="gallery">
+{% image "./site/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920.jpg", "The bridge spans the river from the botanic gardens to Kangaroo Point", "" "The bridge spans the river from the botanic gardens to Kangaroo Point" %}
+{% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete.jpg", "A tunnel and bikeway connection underneath the Story Bridge", "" "The tunnel connects to the East Brisbane bikeway" %}
+{% image "./site/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322.jpg", "The Kangaroo Point end has clearly separated bike and pedestrian lanes", "" "The Kangaroo Point end has clearly separated bike and pedestrian lanes" %}
+</div>
 
 ## Interesting Things Nearby
 
