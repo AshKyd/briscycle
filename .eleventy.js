@@ -62,9 +62,10 @@ async function imageFilter(src, widths = [], format, quality = 60) {
   }
 
   const filenameFormat = function (id, src, width, format, options) {
+    const dirUpName = path.basename(path.dirname(src));
     const extension = path.extname(src);
     const name = path.basename(src, extension);
-    return `${name}-${width}.${format}`;
+    return `${dirUpName}-${name}-${width}.${format}`;
   };
   const resolvedSrc = path.resolve(__dirname, "site", src.slice(1));
   const imageMetadata = await Image(resolvedSrc, {
