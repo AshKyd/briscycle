@@ -8,12 +8,10 @@ related: brisbane
 tags:
   - brisbane
 hero:
-  "type": "defaultImage"
-  "alt": "Three Beam bikes on the street outside of Davies Park"
-  variations:
-    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
-    - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=1440 height=1084 />'
-    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
+  type: autoImage
+  alt: A green Lime bike sits next to the Brisbane River
+  desktop: /brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop.jpg
+  mobile: /brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647.jpg
 thumb: { "image": "/brisbane-city/bike-hire-in-brisbane/beam-bike" }
 ---
 
