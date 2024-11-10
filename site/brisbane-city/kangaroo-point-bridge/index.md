@@ -74,7 +74,7 @@ The bridge is scheduled to open in December.
 
 ## Interesting Things Nearby
 
-There are plenty of dining options nearby. The bridge includes an integrated restaurant and coffee options. The Eagle Street precinct on the CBD side has plenty of dining including the famous The Bavarian. The Kangaroo Point end is close to the Baildon Street precinct, home of the Story Bridge Hotel.
+There are plenty of dining options nearby. The bridge includes an integrated restaurant and coffee options. The Eagle Street precinct on the CBD side has plenty of dining and drinks options. The Kangaroo Point end is close to the Baildon Street precinct, home of the Story Bridge Hotel.
 
 {% ad %}
 
