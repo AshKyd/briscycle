@@ -17,12 +17,12 @@ tags:
   - nature
   - flat
 hero:
-  type: defaultImage
-  image: /day-trips/macleay-island/hero
+  type: autoImage
   alt: Coondooroopa Beach - waves lap at a sandy beach at low tide, there are beach shacks on the shore and trees stretching in the distance. Nobody is around.
-  format: webp
+  desktop: /day-trips/macleay-island/PXL_20211113_031204967.MP-desktop.png
+  mobile: /day-trips/macleay-island/PXL_20211113_031204967.MP.jpg
 thumb:
-  image: /day-trips/macleay-island/macleay-island
+  source: /day-trips/macleay-island/macleay-island-drone-pano.jpg
 geojson:
   type: FeatureCollection
   features:
