@@ -6,28 +6,29 @@ async function imageShortcode(src, alt, className, caption) {
   const { sizes, widths } = className
     ? { sizes: "50vw", widths: [3353, 1920, 1440, 960] }
     : { sizes: "100vw", widths: [3353, 1920, 1440, 1024, 800] };
+  const dirUpName = path.basename(path.dirname(src));
 
   const message = `generating images for ${src}`;
   console.time(message);
   const filenameFormat = function (id, src, width, format, options) {
     const extension = path.extname(src);
     const name = path.basename(src, extension);
-    return `${name}-${width}.${format}`;
+    return `inline-${name}-${width}.${format}`;
   };
   const avifMetadata = await Image(src, {
     widths,
     formats: ["avif"],
     sharpAvifOptions: { quality: 60, effort: 9, chromaSubsampling: "4:2:0" },
-    urlPath: "/images/avif/",
-    outputDir: "./dist/images/avif/",
+    urlPath: `/images/avif/${dirUpName}/`,
+    outputDir: `./dist/images/avif/${dirUpName}/`,
     filenameFormat,
   });
   const jpegMetadata = await Image(src, {
     widths: [960],
     formats: ["jpeg"],
     sharpJpegOptions: { quality: 75, mozjpeg: true },
-    urlPath: "/images/avif/",
-    outputDir: "./dist/images/avif/",
+    urlPath: `/images/avif/${dirUpName}/`,
+    outputDir: `./dist/images/avif/${dirUpName}/`,
     filenameFormat,
   });
   console.timeEnd(message);
@@ -53,19 +54,24 @@ async function imageShortcode(src, alt, className, caption) {
   return imageHtml;
 }
 
-async function imageFilter(src, widths = [], format, quality = 60) {
+async function imageFilter(src, widths = [], format, quality = 60, prefix) {
   const callback = arguments[arguments.length - 1];
-  console.log(src, widths);
   if (!widths || !widths.length) {
     console.log("nully widths", widths);
     return callback(null, []);
   }
 
+  const dirUpName = path.basename(path.dirname(src));
+
   const filenameFormat = function (id, src, width, format, options) {
-    const dirUpName = path.basename(path.dirname(src));
     const extension = path.extname(src);
     const name = path.basename(src, extension);
-    return `${dirUpName}-${name}-${width}.${format}`;
+    const filename = `${
+      typeof prefix === "string" ? prefix : dirUpName
+    }-${name}-${width}.${format}`;
+
+    console.log("---", filename);
+    return filename;
   };
   const resolvedSrc = path.resolve(__dirname, "site", src.slice(1));
   const imageMetadata = await Image(resolvedSrc, {
@@ -73,8 +79,8 @@ async function imageFilter(src, widths = [], format, quality = 60) {
     formats: [format],
     sharpAvifOptions: { quality, effort: 9, chromaSubsampling: "4:2:0" },
     sharpJpegOptions: { quality, mozjpeg: true },
-    urlPath: "/images/avif/",
-    outputDir: "./dist/images/avif/",
+    urlPath: `/images/avif/${dirUpName}/`,
+    outputDir: `./dist/images/avif/${dirUpName}/`,
     filenameFormat,
   });
 
@@ -82,10 +88,7 @@ async function imageFilter(src, widths = [], format, quality = 60) {
 }
 
 function srcsetFilter(images) {
-  return images
-    .map(({ url, width }) => `${url} ${width}w`)
-    .reverse()
-    .join();
+  return images.map(({ url, width }) => `${url} ${width}w`).join();
 }
 
 module.exports = function (eleventyConfig) {

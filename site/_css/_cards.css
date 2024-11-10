@@ -82,7 +82,8 @@
   text-decoration: none;
   transition: all 0.2s;
 }
-.card a.card__link:hover, .card a.card__link:focus {
+.card a.card__link:hover,
+.card a.card__link:focus {
   transform: scale(1.02);
 }
 .card a.card__link:active {
@@ -105,6 +106,8 @@
   left: 0;
   top: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .card__thumbnail-attribution {
   position: absolute;
@@ -122,15 +125,15 @@
   padding: 16px;
   font-size: 0.8em;
 }
-.card:nth-child(4n+1) .card__thumbnail {
+.card:nth-child(4n + 1) .card__thumbnail {
   background-color: #64b5f6;
 }
-.card:nth-child(4n+2) .card__thumbnail {
+.card:nth-child(4n + 2) .card__thumbnail {
   background-color: #81c784;
 }
-.card:nth-child(4n+3) .card__thumbnail {
+.card:nth-child(4n + 3) .card__thumbnail {
   background-color: #7986cb;
 }
-.card:nth-child(4n+4) .card__thumbnail {
+.card:nth-child(4n + 4) .card__thumbnail {
   background-color: #f06292;
 }

@@ -8,14 +8,13 @@ tags:
   - brisbane
   - uphill
   - separated
-thumb:
-  image: /brisbane-city/southeast-freeway-bikeway/thumb
-  format: webp
 hero:
   type: autoImage
   alt: The bikeway is a prominent piece of infrastructure, stretching off towards Brisbane City in the distance.
   desktop: /brisbane-city/southeast-freeway-bikeway/hero-desktop.png
   mobile: /brisbane-city/southeast-freeway-bikeway/original.jpg
+thumb:
+  source: /brisbane-city/southeast-freeway-bikeway/original.jpg
 geojson:
   - type: FeatureCollection
     generator: JOSM

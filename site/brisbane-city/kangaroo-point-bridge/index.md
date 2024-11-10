@@ -11,11 +11,10 @@ tags:
 hero:
   type: autoImage
   alt: The sails of the Kangaroo Point Green Bridge glisten in the afternoon sun
-  desktop: /brisbane-city/kangaroo-point-bridge/hero/desktop.jpg
-  mobile: /brisbane-city/kangaroo-point-bridge/hero/mobile.jpg
+  desktop: /brisbane-city/kangaroo-point-bridge/hero-desktop.jpg
+  mobile: /brisbane-city/kangaroo-point-bridge/hero-mobile.jpg
 thumb:
-  image: /brisbane-city/kangaroo-point-bridge/kangaroo-point-bridge-thumb
-  format: avif
+  source: /brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920.jpg
 geojson:
   type: FeatureCollection
   generator: JOSM

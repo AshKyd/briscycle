@@ -12,7 +12,7 @@
       <source srcset="{{avifImagesPortrait | srcset}}" media="(orientation: portrait)">
 
       {% set jpegImage = hero.desktop|image([750], 'jpeg', 75) %}
-      <source srcset="{{jpegImage | srcset}}">
+      <source srcset="{{jpegImage | srcset}}" width="{{jpegImage[0].width}}">
       {% set heroImage = avifImagesPortrait[0] %}
       <img
         class="hero-default-image__image"

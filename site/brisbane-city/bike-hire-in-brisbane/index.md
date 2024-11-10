@@ -12,7 +12,8 @@ hero:
   alt: A green Lime bike sits next to the Brisbane River
   desktop: /brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop.jpg
   mobile: /brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647.jpg
-thumb: { "image": "/brisbane-city/bike-hire-in-brisbane/beam-bike" }
+thumb:
+  source: /brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647.jpg
 ---
 
 One of the better ways to explore a new city is by bike, because you can take as much time as you like, stop wherever something catches your eye, and get a real perspective of life in Brisbane.

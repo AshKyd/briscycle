@@ -34,6 +34,25 @@
                 />
             </picture>
             {% endif %}
+
+            {% if(item.data.thumb.source) %}
+            <picture>
+                {% set avifImagesLandscape = item.data.thumb.source|image([1320, 1206, 1000, 750, 600, 480], 'avif', 35, 'thumb') %}
+                <source 
+                type="image/avif"
+                srcset="{{avifImagesLandscape | srcset}}" 
+                sizes="(width <= 480px) 100vw,(width <= 768px) 50vw,(width <= 1366px) 33vw, 25vw"
+                >
+                {% set thumbnailImage = item.data.thumb.source|image([480], 'jpeg', 75) %}
+                <img
+                    class="card__thumbnail-image"
+                    src="{{thumbnailImage[0].url}}"
+                    alt=""
+                    width="{{thumbnailImage[0].width}}"
+                    height="{{thumbnailImage[0].height}}"
+                />
+            </picture>
+            {% endif %}
         </div>
         <div class="card__content">
             <div class="card__title h2">{{item.data.title}}</div>

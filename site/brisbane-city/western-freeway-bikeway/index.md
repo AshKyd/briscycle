@@ -13,6 +13,8 @@ hero:
   type: autoImage
   desktop: /brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop.jpg
   mobile: /brisbane-city/western-freeway-bikeway/PXL_20241027_032957541.jpg
+thumb:
+  source: /brisbane-city/western-freeway-bikeway/PXL_20241027_032957541.jpg
 geojson:
   - type: FeatureCollection
     features:

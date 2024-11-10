@@ -14,8 +14,7 @@ hero:
   desktop: /brisbane-city/breakfast-creek-bridge/hero-desktop.png
   mobile: /brisbane-city/breakfast-creek-bridge/hero-mobile.png
 thumb:
-  image: /brisbane-city/breakfast-creek-bridge/thumb
-  format: webp
+  source: /brisbane-city/breakfast-creek-bridge/hero-mobile.png
 geojson:
   {
     "type": "FeatureCollection",
