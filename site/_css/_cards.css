@@ -66,6 +66,7 @@
 .card {
   position: relative;
   display: flex;
+  text-wrap: balance;
 }
 .card a {
   color: var(--card-fg);

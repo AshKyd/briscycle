@@ -8,8 +8,6 @@ async function imageShortcode(src, alt, className, caption) {
     : { sizes: "100vw", widths: [3353, 1920, 1440, 1024, 800] };
   const dirUpName = path.basename(path.dirname(src));
 
-  const message = `generating images for ${src}`;
-  console.time(message);
   const filenameFormat = function (id, src, width, format, options) {
     const extension = path.extname(src);
     const name = path.basename(src, extension);
@@ -31,7 +29,6 @@ async function imageShortcode(src, alt, className, caption) {
     outputDir: `./dist/images/avif/${dirUpName}/`,
     filenameFormat,
   });
-  console.timeEnd(message);
 
   const metadata = { jpegMetadata, ...avifMetadata };
 
@@ -70,7 +67,6 @@ async function imageFilter(src, widths = [], format, quality = 60, prefix) {
       typeof prefix === "string" ? prefix : dirUpName
     }-${name}-${width}.${format}`;
 
-    console.log("---", filename);
     return filename;
   };
   const resolvedSrc = path.resolve(__dirname, "site", src.slice(1));
@@ -114,6 +110,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksFilter("pageData", function () {
     const { geo, geojson } = this.ctx;
     return { geo, geojson };
+  });
+
+  eleventyConfig.addNunjucksFilter("headerClass", function (title) {
+    return title.split(" ").length > 3
+      ? "article-header--long"
+      : "article-header--short";
   });
 
   eleventyConfig.addNunjucksFilter("keys", function (val) {

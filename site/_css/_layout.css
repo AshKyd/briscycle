@@ -15,8 +15,13 @@ html {
 }
 
 .article-header {
-  padding-top: 2em;
+  padding-top: 1em;
   font-size: 2em;
+  margin-bottom: 2rem;
+  text-wrap: balance;
+}
+.article-header--long {
+  font-size: 1.5em;
 }
 
 .article__ad {
