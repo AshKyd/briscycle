@@ -43,7 +43,7 @@ const ads = [
     id: "bnesocial",
     title: "Join the Brisbane Mastodon",
     description:
-      "Like Twitter but without ads. Share your rides, get the latest news, and hang out with other locals on bne.social #CyclingBrisbane",
+      "Share your rides, get the latest news, and hang out with other peeps for free and without ads in the bne.social community #CyclingBrisbane",
     cta: "Check it out",
     link: "https://bne.social/",
     style:
