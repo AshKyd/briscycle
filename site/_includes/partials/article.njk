@@ -5,7 +5,7 @@
     | safe}} {% endfor %}
     <img class="hero-default-image__image" alt="{{ hero.alt }} " />
     {% elif hero.type === 'autoImage' %}
-      {% set avifImagesLandscape = hero.desktop|image([3840, 1920, 1366, 1080, 750], 'avif', 50) %}
+      {% set avifImagesLandscape = hero.desktop|image([3840, 3000, 1920, 1366, 1080, 750], 'avif', 50) %}
       <source srcset="{{avifImagesLandscape | srcset}}" media="(orientation: landscape)">
 
       {% set avifImagesPortrait = hero.mobile|image([1700, 1366, 1080, 750], 'avif', 50) %}
