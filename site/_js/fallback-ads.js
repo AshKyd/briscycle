@@ -113,6 +113,9 @@ function observeProps(element, callback) {
 
 async function initFallbackAds() {
   const adBlocks = document.querySelectorAll(".eleventyad");
+  if (!adBlocks.length) {
+    return;
+  }
   const firstAside = adBlocks[0].querySelector("aside");
   const isAdblocked =
     getComputedStyle(adBlocks[0].querySelector(".adsbygoogle")).display ===
