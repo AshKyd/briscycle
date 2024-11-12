@@ -8,11 +8,12 @@ tags:
   - bridge
   - green-bridge
 hero:
-  type: defaultImage
-  alt: The Goodwill Bridge from afar on a sunny day, the Captain Cook Bridge and Kangaroo Point in the background.
-  image: /brisbane-city/goodwill-bridge/goodwill-bridge-hero
+  type: autoImage
+  alt: Looking along the Goodwill Bridge on a sunny day as people walk by, QUT, the Captain Cook Bridge and Kangaroo Point in the background.
+  desktop: /brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop.jpg
+  mobile: /brisbane-city/goodwill-bridge/PXL_20241107_023728861.jpg
 thumb:
-  image: /brisbane-city/goodwill-bridge/goodwill-bridge
+  source: /brisbane-city/goodwill-bridge/PXL_20241107_023648510.jpg
 geojson:
   - type: FeatureCollection
     features:
