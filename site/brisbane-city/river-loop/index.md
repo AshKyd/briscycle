@@ -32,7 +32,7 @@ This route is popular on weekends with riders of all stripes heading out to get 
 
 There is a good mix of flat and hill cycling, but you can also choose the Mini Brisbane River Loop if the full loop is too challenging.
 
-The recommended direction for the loop is clockwise. This leaves you with a bit of a climb toward the end, but a very rewarding roll down either Dornoch Terrace or Annerley Road depending on your route.
+The recommended direction for the loop is counter-clockwise. This leaves you with a bit of a climb toward the end, but a very rewarding roll down either Dornoch Terrace or Annerley Road depending on your route.
 
 {% ad %}
 
