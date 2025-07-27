@@ -1,4 +1,3 @@
-
 /**
  * Shorthand to filter a geojson object down to matching properties
  */
@@ -119,7 +118,7 @@ function getStyle() {
   return style;
 }
 
- function initMaps() {
+function initMaps() {
   document.querySelectorAll(".map-config").forEach((configEl) => {
     if (!configEl) return;
     const config = JSON.parse(configEl.content.textContent);
@@ -129,7 +128,7 @@ function getStyle() {
   });
 }
 
- async function initMap({ config, configEl }) {
+async function initMap({ config, configEl }) {
   // put all the things in the page
   const root = document.createElement("div");
   root.classList.add("map");
@@ -246,16 +245,20 @@ function getStyle() {
   configEl.parentNode.removeChild(configEl);
 
   const [, , loadedJson] = await Promise.all([
-    onloadPromise(crelInHead('script', {
-      type: 'text/javascript',
-      src: 'https://www.unpkg.com/maplibre-gl@3.0.1/dist/maplibre-gl.js'
-    })),
+    onloadPromise(
+      crelInHead("script", {
+        type: "text/javascript",
+        src: "https://www.unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js",
+      })
+    ),
 
-    onloadPromise(crelInHead('link', {
-      rel: 'stylesheet',
-      type: 'text/css',
-      href: 'https://www.unpkg.com/maplibre-gl@3.0.1/dist/maplibre-gl.css'
-    })),
+    onloadPromise(
+      crelInHead("link", {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://www.unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css",
+      })
+    ),
     config.geo?.geojsonUrl &&
       fetch(config.geo.geojsonUrl).then((res) => res.json()),
   ]);
@@ -272,14 +275,12 @@ function getStyle() {
     style: getStyle(), // style URL
     center: config.geo?.lat ? config.geo : [153, -27.5], // starting position [lng, lat]
     zoom: config.geo?.zoom || 8, // starting zoom
-  });
-  map.addControl(
-    new maplibregl.AttributionControl({
-      compact: false,
+    customAttribution: {
+      compact: true,
       customAttribution:
-        '© <a target="_blank" rel="noopener" href="https://openstreetmap.org/">OSM contributors</a> ♥ <a target="_blank" rel="noopener" href="https://donate.openstreetmap.org" class="donate-attr">Donate</a> ♥ Powered by <a target="_blank" rel="noopener" href="https://maplibre.org/">MapLibre GL JS</a>.',
-    })
-  );
+        '© <a target="_blank" rel="noopener" href="https://openstreetmap.org/">OSM contributors</a> ♥ <a target="_blank" rel="noopener" href="https://donate.openstreetmap.org" class="donate-attr">Donate</a> ♥ Powered by <a target="_blank" rel="noopener" href="https://maplibre.org/">MapLibre</a>.',
+    },
+  });
   map.scrollZoom.disable();
   map.addControl(new maplibregl.NavigationControl());
 
@@ -395,5 +396,5 @@ function getStyle() {
   });
 }
 
-console.log('initting maps',);
+console.log("initting maps");
 initMaps();
