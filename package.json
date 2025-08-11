@@ -8,13 +8,13 @@
     "build": "NODE_ENV=production npx @11ty/eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^4.0.0-alpha.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
-    "@11ty/eleventy-img": "^3.0.0",
-    "clipboard": "^2.0.10",
-    "maplibre-gl": "^3.0.1",
+    "@11ty/eleventy-img": "^6.0.4",
+    "clipboard": "^2.0.11",
+    "maplibre-gl": "^5.6.2",
     "medium-zoom": "^1.1.0"
   }
 }
