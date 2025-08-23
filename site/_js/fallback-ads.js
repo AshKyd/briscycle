@@ -5,7 +5,7 @@ const ads = [
     description:
       "Hey, I also have a Youtube channel. Join me as I travel around Queensland, Australia, the world!",
     cta: "Follow me?",
-    link: "https://ash.ms/yt",
+    link: "https://ashk.au/yt",
     style:
       "--eleventyad-button-background:#c60000;--eleventyad-button-color:white",
   },
