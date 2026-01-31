@@ -72,6 +72,8 @@ export default function MapViewer({ config }) {
         },
       });
 
+      map.current.on('zoomend', () => console.log(map.current.getZoom()))
+
       map.current.addControl(new maplibregl.NavigationControl());
 
       map.current.on("load", () => {
@@ -162,7 +164,7 @@ export default function MapViewer({ config }) {
             </li>
             <li class="map-meta__legend-item">
               <div class="map-meta__legend-line" style="background: #ddc688ff"></div>
-              Shoulder/shared road/riding w cars
+              Shoulder/shared road
             </li>
             ${hasOtherLines && html`
               <li class="map-meta__legend-item">

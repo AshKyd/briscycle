@@ -63,25 +63,6 @@ export function getStyle() {
         casingInsertionIndex = i;
       }
 
-      // Road casings are grey outlines around white roads. They're pretty.
-      // Duplicate the style so we can add a regular casing to it.
-      (() => {
-        const duplicateStyle = clone(layer);
-        duplicateStyle.id = duplicateStyle.id + "_casing";
-        const paint = duplicateStyle.paint;
-        paint["line-color"] = COLOR_CASING_DEFAULT;
-
-        // cycleways should be green
-        if (layer.id.includes("cycle")) {
-          // Bike lanes get a green casing.
-          paint["line-color"] = getCyclewayColorExpression(COLOR_CYCLEWAY_MAIN);
-        }
-
-        // set gap-width so the casing is drawn as 2x 1px lines either side.
-        paint["line-gap-width"] = paint["line-width"];
-        paint["line-width"] = 1;
-        casings.push(duplicateStyle);
-      })();
 
       // cycle lanes then
       (() => {

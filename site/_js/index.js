@@ -1,11 +1,23 @@
 import ClipboardJS from "clipboard";
 import mediumZoom from "medium-zoom";
-import { initMaps } from "./map/map.js";
 import { initEvents, fireEvent } from "./events.js";
 import { initFallbackAds } from "./fallback-ads.js";
+import MapViewer from './map/MapViewer.js'
+import { render, h } from "preact";
 
-// Initialize Maps
-initMaps();
+document.querySelectorAll(".map-config").forEach((configEl) => {
+  if (!configEl) return;
+  const config = JSON.parse(configEl.content.textContent);
+  const root = document.createElement("div");
+  root.classList.add("map-root");
+  configEl.parentNode.insertBefore(root, configEl);
+  configEl.parentNode.removeChild(configEl);
+  
+  render(
+    h(MapViewer, { config }),
+    root
+  );
+});
 
 // Initialize Events
 initEvents();
