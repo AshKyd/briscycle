@@ -1,0 +1,102 @@
+{{KeyDescription
+|key=cycleway
+|image=File:Dsc01078 clip.jpg
+|description=Determines whether there are or what kind of cycle lanes or tracks provided within the carriageway or next to it.
+|group=cycleways
+|onNode=yes <!-- cycleway=asl -->
+|onWay=yes
+|onArea=no
+|onRelation=no
+|requires=
+
+- {{Key|highway}}
+  |implies=
+- {{Tag|bicycle|designated}}
+  | combination =
+- {{Key|cycleway:width}}
+  |status=de facto
+  }}
+
+The {{Key|cycleway}} tagging is used on {{IconWay}} linear features tagged with {{Key|highway}} to map '''cycling infrastructure that is an inherent part of the road'''. This specifically applies to:
+
+- '''cycle lanes''' which are part of the road without any physical separation from the other lanes except the painting on the road (''don't'' map them as separate ways),
+- '''cycle tracks''' that are running parallel and next to the road (''consider'' map them as separate ways with {{Tag|highway|cycleway}}, or {{Tag|highway|path}} + {{Tag|bicycle|designated}} in case of shared foot- and bicycle ways).
+
+If '''no cycling infrastructure''' is present, you should indicate this by using the value {{v|no}} (see below).
+
+{{Tag|cycleway|asl}} for '''advanced stop lines''' is the only case in which the key {{Key|cycleway}} is used on {{IconNode}} nodes instead of {{IconWay}} way features.
+
+For '''bicycle roads/cycle streets''' where the full carriageway may be used primarily by bicycles, see {{Tag|bicycle_road|yes}} and {{Tag|cyclestreet|yes}}.
+
+In addition, {{Key|cycleway}} is also used to specify the type of {{Tag|highway|cycleway}} similar to how {{Key|footway}} is used to describe {{Tag|highway|footway}} in detail. This makes it a [[homonymous key]] and data consumers should consider the different uses thereof.
+
+See also the '''[[Bicycle]]''' page for a number of illustrated '''examples''' on how to map specific cycling infrastructure situations.
+
+== Using side attributes ==
+{{main|Forward & backward, left & right}}
+It is advisable to use cycleway tags in combination with ''side attributes'', i.e. {{Key|cycleway:left}}, {{Key|cycleway:right}} or {{Key|cycleway:both}} (instead of a simple {{Key|cycleway}}). This clearly indicates which side of the road an infrastructure specification refers to. The terms "'''[[right]]'''" and "'''[[left]]'''" are relative to the direction in which the [[Glossary#W|way]] was drawn in the editor, and not necessarily the direction of real-world travel. (In the iD editor, for example, the direction is indicated by arrows at the mid-point of each segment of the way.)
+
+It is assumed that cycle traffic is allowed to flow in the customary direction for traffic on that side of the road (which, for {{Tag|oneway||yes}} roads, is the same on both sides and in agreement with the motorised traffic) – unless otherwise specified by {{Key|oneway}} tags (e.g. {{Tag|cycleway:right:oneway|no}} or {{Tag|cycleway:left:oneway|-1}}, see also the chapter on [[#Bicycle infrastructure in one-way roads]] below).
+
+== Common values ==
+
+{{Template:Map Features:cycleway}}
+
+== Bicycle infrastructure in one-way roads ==
+[[File:Cycle contraflow Caen c.jpg|thumb|right|Contraflow cycle lane in a one-way road:<br>{{Tag|oneway|yes}}<br>+ {{Tag|oneway:bicycle|no}}<br>+ {{Tag|cycleway:right|no}}<br>+ {{Tag|cycleway:left|lane}}<br>+ {{Tag|cycleway:left:oneway||-1}}]]
+Add '''{{Tag|oneway:bicycle|no}}''' on one-way roads that are open to bicycle traffic in the opposite direction.
+
+In addition, the cycleway tags are used as usual to specify the bicycle infrastructure on each side of the road, seen in direction of the OSM way element (e.g. {{Tag|cycleway:both|no}} or {{Tag|cycleway:left|lane}}). For cycle paths in one-way streets, it is especially recommended to provide cycleway tags with side information so that there is no confusion as to which side (and therefore in which direction of travel) a cycle path is available. Therefore, use {{Key|cycleway:right}}, {{Key|cycleway:left}} and {{Key|cycleway:both}} to ensure that this information is always provided.
+
+If a cycle path is a '''contraflow bicycle way''', i.e. runs in the opposite direction to the one-way street, it is necessary to '''explicitly specify a direction of travel''' for this cycle path that differs from the general direction of travel (e.g. {{Tag|cycleway:left:oneway|-1}}). This is necessary since otherwise it is generally assumed that cycle traffic is allowed to flow in the customary direction for traffic on the specified side of the road, which is the same on both sides for one-way roads. See {{Key|cycleway:oneway}} for details and examples on how to correctly use oneway tags for cycle lanes and tracks in one-way roads.
+
+== Per-lane ==
+{{See also|Key:cycleway:lanes|Key:bicycle:lanes}}
+
+In rare cases where {{Key|cycleway}} isn't sufficient even with a direction suffix (e.g. because the cycle lanes is located between two motor lanes), {{Tag|cycleway:lanes}} is used instead. Others go further and specify the access on a per-lane bases with {{Key|bicycle:lanes}} and {{Key|access:lanes}} (with or without {{Tag|cycleway:lanes}}).
+
+Some mappers also use this mapping in cases where {{Key|cycleway|subkey=left/both/right}} is sufficient.
+
+== Buffered and protected bicycle ways ==
+A '''buffered cycle lane''' is separated from the car lanes with extra space. This is still tagged as {{Tag|cycleway|lane}} but with {{Key|cycleway:buffer}} added. For more specific tagging, the {{Key|cycleway:left:buffer}}, {{Key|cycleway:right:buffer}}, or {{Key|cycleway:both:buffer}} variants can also be used.
+
+Cycle paths that are physically separated/protected from moving traffic (e.g. by bollards, flower pots or even a row of parked vehicles) are usually understood as cycle track. To indicate the type of physical separation, there is the proposed {{Key|cycleway:separation}} tagging.
+
+{| style="text-align: left;"
+| [[File:Buffered bicycle lane in Burlington VT.jpg|Buffered bicycle lane providing extra space between bicycle and motorized traffic (see {{Key|cycleway:buffer}}).|thumb|left|x210px]]
+| [[File:Protected Bike Lane Berlin separated by bollard (source Mapillary by carlheinz).jpg|Protected cycle track, additionally separated from the flow of traffic by bollards (see {{Key|cycleway:separation}}).|thumb|x210px]]
+|}
+
+== Supplementary details ==
+If tracks or lanes for bicycles are tagged on a highway, the prefix ''cycleway:'' can be used as a [[namespace]] for other tags. This has the meaning of limiting the details to just the cycleway. Additionally the namespace can be combined with :left, :right, :both suffixes in the usual way, resulting in {{Key|cycleway:both}}, {{Key|cycleway:left}}, {{Key|cycleway:right}} tags and their variants.
+
+Meaningful cycleway attributes, which could be added, are in particular:
+
+- cycleway '''width''', e.g. {{Tag|cycleway|:=right|::=width||3}} or {{Tag|cycleway|:=left|::=width||1.5}},
+- cycleway '''surface''', e.g. {{Tag|cycleway|:=both|::=surface|paving_stones}} or {{Tag|cycleway|:=right|::=surface||asphalt}} (especially for cycle ''tracks'', as it is assumed by default that cycle ''lanes'' have the same {{Key|surface}} as the {{Key|highway}} itself),
+  \*\* cycleway '''surface colour''', which can be used to distinguish more visible cycle lanes, can be tagged with e.g. {{Tag|cycleway|:=right|::=surface|:::=colour||green}}. Note that for querying purposes, different countries apply different meaning to surface colours.
+- cycleway '''smoothness''', e.g. {{Tag|cycleway|:=right||::=smoothness|good}},
+- cycleway '''traffic sign''' ({{Tag|cycleway|:=both|::=traffic_sign||}}),
+
+For cycle tracks, consider drawing them as separate geometry and capturing these attributes (without the cycleway prefix) on this separate {{IconWay}} way (e.g. {{Tag|highway|cycleway}} + {{Key|surface}} + {{Key|width}}), as the attributes there are used by more software/data consumers.
+
+==See also==
+
+- [[Bicycle]]
+- [[Forward & backward, left & right]]
+- {{Tag|highway|cycleway}}
+- {{Tag|bicycle_road|yes}}, {{Tag|cyclestreet|yes}}
+- [[Cycle routes]], [[United Kingdom National Cycle Network]], [[London Cycle Network]]
+- Bicycle data projects:
+  ** [[Bicycle tags map]]
+  ** [https://www.osm-verkehrswende.org/cqi/map Cycleway Quality Index]
+- [[Pedestrian lanes]]
+
+== External links ==
+
+- {{wikipedia|en|Cycling infrastructure|text=no}}
+- {{wikipedia|en|Bike lane|text=no}}
+- {{wikipedia|en|Bikeway safety|text=no}} – a measure of how protected a bike lane is from other traffic, could be a possible data value to inform planning
+
+[[Category:Way Direction Dependent]]
+{{Highways}}
