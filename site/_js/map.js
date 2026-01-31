@@ -40,6 +40,9 @@ function initMaps() {
 }
 
 async function initMap({ config, configEl }) {
+  const greenTypes = ["path", "cycleway", "track"];
+  const primaryColour = config.geo?.colour || "#00ff00";
+  const secondaryColour = "#666";
   // put all the things in the page
   const root = document.createElement("div");
   root.classList.add("map");
@@ -200,9 +203,9 @@ async function initMap({ config, configEl }) {
     loadedJson ||
     (Array.isArray(config.geojson) ? config.geojson?.[0] : config.geojson);
 
-  if (!geojson) return;
 
-  map.on("load", () => {
+  const hasOtherLines = await new Promise(resolve => map.on("load", () => {
+    if (!geojson) return resolve(false);
     const id = "briscycleCustomRoute";
 
     const lineStyle = ({ color, dashArray, width = 6 }) => ({
@@ -218,10 +221,6 @@ async function initMap({ config, configEl }) {
       },
       filter: ["==", "$type", "LineString"],
     });
-
-    const greenTypes = ["path", "cycleway", "track"];
-    const primaryColour = config.geo?.colour || "#00ff00";
-    const secondaryColour = "#666";
 
     // HTML popups
     const points = filterProps(
@@ -287,14 +286,19 @@ async function initMap({ config, configEl }) {
     map.fitBounds(bounds, {
       padding: 60,
     });
+    return resolve(!!otherLines.features.length)
+  }));
+
+
 
     const legend = `
     <ul class="map-meta__legend-list">
       <li class="map-meta__legend-item"><div  class="map-meta__legend-line" style="background: ${primaryColour}"></div> ${
-      otherLines.features.length ? "bike path/footpath/trail" : "Route"
+      hasOtherLines ? "bike path/footpath/trail" : "Route"
     }</li>
+    <li class="map-meta__legend-item"><div class="map-meta__legend-line" style="background: #ddc688ff"></div> Shoulder/shared road/riding w cars</li>
       ${
-        otherLines.features.length
+        hasOtherLines
           ? `
         <li class="map-meta__legend-item"><div class="map-meta__legend-line" style="background: ${secondaryColour}"></div> Road riding</li>
       `
@@ -304,7 +308,6 @@ async function initMap({ config, configEl }) {
     `;
 
     root.querySelector(".map-meta__legend").innerHTML = legend;
-  });
 }
 
 console.log("initting maps");
