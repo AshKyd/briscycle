@@ -531,7 +531,16 @@
       "filter": [
         "all",
         ["==", "$type", "LineString"],
-        ["in", "class", "track"]
+        [
+          "any",
+          ["in", "class", "track"],
+          [
+            "all",
+            ["==", "class", "path"],
+            ["==", "bicycle", "designated"],
+            ["==", "surface", "unpaved"]
+          ]
+        ]
       ],
       "layout": { "line-cap": "square", "line-join": "bevel" },
       "paint": {
@@ -539,7 +548,7 @@
         "line-width": {
           "base": 2,
           "stops": [
-            [4, 2],
+            [4, 4],
             [20, 10]
           ]
         }
@@ -553,11 +562,20 @@
       "filter": [
         "all",
         ["==", "$type", "LineString"],
-        ["in", "class", "track"],
+        [
+          "any",
+          ["in", "class", "track"],
+          [
+            "all",
+            ["==", "abandoned:railway", "rail"],
+            ["==", "bicycle", "designated"]
+          ]
+        ],
         [
           "in",
           "surface",
           "gravel",
+          "fine_gravel",
           "rock",
           "pebblestone",
           "ground",

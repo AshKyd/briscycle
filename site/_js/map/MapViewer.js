@@ -1,10 +1,10 @@
-import { h } from 'preact';
-import { useEffect, useRef, useState } from 'preact/hooks';
-import htm from 'htm';
-import maplibregl from 'maplibre-gl';
-import 'maplibre-gl/dist/maplibre-gl.css';
+import { h } from "preact";
+import { useEffect, useRef, useState } from "preact/hooks";
+import htm from "htm";
+import maplibregl from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
+import "./MapViewer.css";
 import { getStyle } from "./style.js";
-
 
 const html = htm.bind(h);
 
@@ -55,29 +55,75 @@ export default function MapViewer({ config }) {
 
     async function init() {
       const geojsonUrl = config.geo?.geojsonUrl;
-      const loadedJson = geojsonUrl ? await fetch(geojsonUrl).then((res) => res.json()) : null;
+      const loadedJson = geojsonUrl
+        ? await fetch(geojsonUrl).then((res) => res.json())
+        : null;
 
       map.current = new maplibregl.Map({
         container: mapContainer.current,
         style: getStyle(),
-        center: config.geo?.lat ? [Number(config.geo.lng), Number(config.geo.lat)] : [153.02, -27.47],
+        center: config.geo?.lat
+          ? [Number(config.geo.lng), Number(config.geo.lat)]
+          : [153.02, -27.47],
         zoom: Number(config.geo?.zoom) || 8,
         maxBounds: [151.853, -28.48, 154.366, -26.249],
         cooperativeGestures: !isBigMap,
         hash: isBigMap,
-        customAttribution: {
-          compact: true,
-          customAttribution:
-            '© <a target="_blank" rel="noopener" href="https://openstreetmap.org/">OSM contributors</a> ♥ <a target="_blank" rel="noopener" href="https://donate.openstreetmap.org" class="donate-attr">Donate</a> ♥ Powered by <a target="_blank" rel="noopener" href="https://maplibre.org/">MapLibre</a>.',
-        },
+        attributionControl: false,
       });
 
-      map.current.on('zoomend', () => console.log(map.current.getZoom()))
+      map.current.on("zoomend", () => console.log(map.current.getZoom()));
 
       map.current.addControl(new maplibregl.NavigationControl());
+      map.current.addControl(
+        new maplibregl.AttributionControl({
+          compact: true,
+          customAttribution: [
+            '© <a target="_blank" rel="noopener" href="https://openstreetmap.org/">OSM contributors</a>',
+            '<a target="_blank" rel="noopener" href="https://donate.openstreetmap.org" class="donate-attr">Donate</a>',
+            'Powered by <a target="_blank" rel="noopener" href="https://maplibre.org/">MapLibre</a>.',
+            "<br/>Please exercise caution in unfamiliar areas.",
+          ].join(" ♥ "),
+        }),
+      );
+
+      // debug: show props on click
+      // map.current.on("click", (e) => {
+      //   const features = map.current.queryRenderedFeatures(e.point);
+      //   if (features.length === 0) return;
+
+      //   const feature = features[0];
+      //   const props = feature.properties;
+      //   const html = `
+      //     <div style="background:white;color:black;color-scheme:light">
+      //       <div style="margin-bottom: 5px;"><strong>Layer:</strong> ${feature.layer.id}</div>
+      //       <table class="bespoke">
+      //         ${Object.entries(props)
+      //           .map(
+      //             ([key, val]) => `
+      //           <tr style="border-bottom: 1px solid #eee;">
+      //             <td style="padding: 2px; vertical-align: top;"><strong>${key}</strong></td>
+      //             <td style="padding: 2px;">${val}</td>
+      //           </tr>
+      //         `,
+      //           )
+      //           .join("")}
+      //       </table>
+      //     </div>
+      //   `;
+
+      //   new maplibregl.Popup({ maxWidth: "300px" })
+      //     .setLngLat(e.lngLat)
+      //     .setHTML(html)
+      //     .addTo(map.current);
+      // });
 
       map.current.on("load", () => {
-        const geojson = loadedJson || (Array.isArray(config.geojson) ? config.geojson?.[0] : config.geojson);
+        const geojson =
+          loadedJson ||
+          (Array.isArray(config.geojson)
+            ? config.geojson?.[0]
+            : config.geojson);
         if (!geojson) {
           setIsLoaded(true);
           return;
@@ -98,7 +144,10 @@ export default function MapViewer({ config }) {
         });
 
         // HTML popups
-        const points = filterProps(geojson, (props, feature) => feature.geometry.type === "Point");
+        const points = filterProps(
+          geojson,
+          (props, feature) => feature.geometry.type === "Point",
+        );
         points.features.forEach((point) => {
           if (!point?.properties.html) return;
           const popup = new maplibregl.Popup({
@@ -115,16 +164,29 @@ export default function MapViewer({ config }) {
         });
 
         // Lines
-        const lines = filterProps(geojson, (props, feature) => feature.geometry.type === "LineString");
+        const lines = filterProps(
+          geojson,
+          (props, feature) => feature.geometry.type === "LineString",
+        );
         addLayer(map.current, lines, lineStyle({ color: "#fff", width: 10 }));
 
-        const otherLines = filterProps(lines, ({ highway }) => highway && !greenTypes.includes(highway));
-        addLayer(map.current, otherLines, lineStyle({ color: secondaryColour }));
+        const otherLines = filterProps(
+          lines,
+          ({ highway }) => highway && !greenTypes.includes(highway),
+        );
+        addLayer(
+          map.current,
+          otherLines,
+          lineStyle({ color: secondaryColour }),
+        );
 
         addLayer(
           map.current,
-          filterProps(lines, ({ highway }) => !highway || greenTypes.includes(highway)),
-          lineStyle({ color: primaryColour })
+          filterProps(
+            lines,
+            ({ highway }) => !highway || greenTypes.includes(highway),
+          ),
+          lineStyle({ color: primaryColour }),
         );
 
         // Fit bounds
@@ -138,7 +200,10 @@ export default function MapViewer({ config }) {
           .filter((coord) => coord[0]);
 
         if (coordinates.length > 0) {
-          const bounds = new maplibregl.LngLatBounds(coordinates[0], coordinates[0]);
+          const bounds = new maplibregl.LngLatBounds(
+            coordinates[0],
+            coordinates[0],
+          );
           for (const coord of coordinates) {
             bounds.extend(coord);
           }
@@ -159,22 +224,33 @@ export default function MapViewer({ config }) {
         <div class="map-meta__legend">
           <ul class="map-meta__legend-list">
             <li class="map-meta__legend-item">
-              <div class="map-meta__legend-line" style="background: ${primaryColour}"></div>
+              <div
+                class="map-meta__legend-line"
+                style="background: ${primaryColour}"
+              ></div>
               ${hasOtherLines ? "bike path/footpath/trail" : "Route"}
             </li>
             <li class="map-meta__legend-item">
-              <div class="map-meta__legend-line" style="background: #ddc688ff"></div>
+              <div
+                class="map-meta__legend-line"
+                style="background: #ddc688ff"
+              ></div>
               Shoulder/shared road
             </li>
-            ${hasOtherLines && html`
+            ${hasOtherLines &&
+            html`
               <li class="map-meta__legend-item">
-                <div class="map-meta__legend-line" style="background: ${secondaryColour}"></div>
+                <div
+                  class="map-meta__legend-line"
+                  style="background: ${secondaryColour}"
+                ></div>
                 Road riding
               </li>
             `}
           </ul>
         </div>
-        ${config.geo?.googleMaps && html`
+        ${config.geo?.googleMaps &&
+        html`
           <div class="map-meta__external">
             <a
               class="btn btn-secondary"
@@ -182,12 +258,7 @@ export default function MapViewer({ config }) {
               target="_blank"
               data-event="map-meta-google"
             >
-              <svg
-                class="btn__icon"
-                width="20"
-                height="35"
-                viewBox="0 0 20 35"
-              >
+              <svg class="btn__icon" width="20" height="35" viewBox="0 0 20 35">
                 <path
                   d="M10,0 C4.477,0 0,4.477 0,10 C0,17.5 10,35 10,35 C10,35 20,17.5 20,10 C20,4.477 15.523,0 10,0 Z"
                   style="fill: #ff4646; stroke: #d73534; stroke-width: 1;"
@@ -199,10 +270,10 @@ export default function MapViewer({ config }) {
           </div>
         `}
       </aside>
-      <div 
-        ref=${mapContainer} 
-        class="inline-map" 
-        style=${{ height: config.geo?.height || '400px' }}
+      <div
+        ref=${mapContainer}
+        class="inline-map"
+        style=${{ height: config.geo?.height || "400px" }}
       ></div>
     </div>
   `;

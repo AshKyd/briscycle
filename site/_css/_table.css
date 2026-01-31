@@ -1,4 +1,4 @@
-table {
+table:not(.bespoke) {
   box-shadow: var(--card-shadow);
   flex: 1;
   border-radius: 4px;
@@ -7,47 +7,46 @@ table {
   overflow: hidden;
   border-collapse: collapse;
   margin-bottom: 30px;
-}
+  thead {
+    background: var(--blue-bg);
+    color: var(--blue-fg);
+  }
 
-thead {
-  background: var(--blue-bg);
-  color: var(--blue-fg);
-}
+  tbody {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+  }
 
-tbody {
-  height: 300px;
-  overflow-x: auto;
-  margin-top: 0px;
-}
+  th {
+    padding: 20px 20px;
+    text-align: left;
+    text-transform: uppercase;
+  }
 
-th {
-  padding: 20px 20px;
-  text-align: left;
-  text-transform: uppercase;
-}
+  td {
+    padding: 5px 20px;
+    text-align: left;
+    vertical-align: middle;
+  }
 
-td {
-  padding: 5px 20px;
-  text-align: left;
-  vertical-align: middle;
-}
+  tr {
+    background: var(--body-supplementary-bg);
+  }
+  tr:nth-child(2n + 1) {
+    background: transparent;
+  }
 
-tr {
-  background: var(--body-supplementary-bg);
-}
-tr:nth-child(2n+1) {
-  background: transparent;
-}
-
-table caption {
-  padding: 10px 15px;
-  text-align: left;
-  font-weight: bold;
-  color: var(--body-link);
-}
-table caption:before {
-  content: "• ";
-  display: block;
-  float: left;
-  margin: 0 10px 10px 0;
+  table caption {
+    padding: 10px 15px;
+    text-align: left;
+    font-weight: bold;
+    color: var(--body-link);
+  }
+  table caption:before {
+    content: "• ";
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+  }
 }
