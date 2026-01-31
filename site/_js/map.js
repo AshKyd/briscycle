@@ -1,3 +1,7 @@
+import maplibregl from "maplibre-gl";
+import { getStyle } from "./style.js";
+import { crelInHead, onloadPromise } from "./utils.js";
+
 /**
  * Shorthand to filter a geojson object down to matching properties
  */
@@ -29,7 +33,7 @@ function addLayer(map, geojson, style) {
   });
 }
 
-function initMaps() {
+export function initMaps() {
   document.querySelectorAll(".map-config").forEach((configEl) => {
     if (!configEl) return;
     const config = JSON.parse(configEl.content.textContent);
@@ -158,14 +162,7 @@ async function initMap({ config, configEl }) {
   configEl.parentNode.insertBefore(root, configEl);
   configEl.parentNode.removeChild(configEl);
 
-  const [, , loadedJson] = await Promise.all([
-    onloadPromise(
-      crelInHead("script", {
-        type: "text/javascript",
-        src: "https://www.unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js",
-      })
-    ),
-
+  const [, loadedJson] = await Promise.all([
     onloadPromise(
       crelInHead("link", {
         rel: "stylesheet",
@@ -206,7 +203,6 @@ async function initMap({ config, configEl }) {
 
   const hasOtherLines = await new Promise(resolve => map.on("load", () => {
     if (!geojson) return resolve(false);
-    const id = "briscycleCustomRoute";
 
     const lineStyle = ({ color, dashArray, width = 6 }) => ({
       type: "line",
@@ -238,7 +234,7 @@ async function initMap({ config, configEl }) {
         .setHTML(point.properties.html)
         .setMaxWidth("300px");
 
-      const marker = new maplibregl.Marker()
+      new maplibregl.Marker()
         .setLngLat(point.geometry.coordinates)
         .addTo(map)
         .setPopup(popup);
@@ -309,6 +305,3 @@ async function initMap({ config, configEl }) {
 
     root.querySelector(".map-meta__legend").innerHTML = legend;
 }
-
-console.log("initting maps");
-initMaps();

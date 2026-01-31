@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   title: "Briscycle - Brisbane Cycling",
   permalink: "https://briscycle.com",
   description:

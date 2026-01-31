@@ -1,10 +1,10 @@
-function set(key, value, type = "localStorage") {
+export function set(key, value, type = "localStorage") {
   try {
     window[type][key] = JSON.stringify(value);
   } catch (e) {}
 }
 
-function get(key, defaultValue, type = "localStorage") {
+export function get(key, defaultValue, type = "localStorage") {
   try {
     return JSON.parse(window[type][key]);
   } catch (e) {
@@ -12,6 +12,6 @@ function get(key, defaultValue, type = "localStorage") {
   }
 }
 
-function unlink(key, type = "localStorage") {
+export function unlink(key, type = "localStorage") {
   delete window[type][key];
 }

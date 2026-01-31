@@ -1,6 +1,7 @@
-const path = require("path");
-const Image = require("@11ty/eleventy-img");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+import path from "node:path";
+import Image from "@11ty/eleventy-img";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
+import * as esbuild from "esbuild";
 
 async function imageShortcode(src, alt, className, caption) {
   const { sizes, widths } = className
@@ -69,7 +70,7 @@ async function imageFilter(src, widths = [], format, quality = 60, prefix) {
 
     return filename;
   };
-  const resolvedSrc = path.resolve(__dirname, "site", src.slice(1));
+  const resolvedSrc = path.resolve(import.meta.dirname, "site", src.slice(1));
   const imageMetadata = await Image(resolvedSrc, {
     widths,
     formats: [format],
@@ -87,7 +88,7 @@ function srcsetFilter(images) {
   return images.map(({ url, width }) => `${url} ${width}w`).join();
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
   eleventyConfig.addNunjucksAsyncFilter("image", imageFilter);
@@ -106,6 +107,23 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("site/**/*.txt");
   eleventyConfig.addPassthroughCopy("site/**/*.json");
   eleventyConfig.addPassthroughCopy("site/**/*.avif");
+
+  // 1. Watch the JS source directory
+  eleventyConfig.addWatchTarget("./site/_js/**/*.js");
+
+  // 2. Run esbuild after Eleventy finishes building
+  eleventyConfig.on("eleventy.after", async ({ runMode }) => {
+    console.log(`[esbuild] Building JS in ${runMode} mode...`);
+    await esbuild.build({
+      entryPoints: ["site/_js/index.js"],
+      bundle: true,
+      outfile: "dist/index.js",
+      minify: runMode === "build",
+      sourcemap: runMode !== "build",
+      target: "es2020",
+      logLevel: "warning",
+    });
+  });
 
   eleventyConfig.addNunjucksFilter("pageData", function () {
     const { geo, geojson } = this.ctx;
@@ -174,4 +192,4 @@ data-ad-slot="5298906050"></ins>
       output: "dist",
     },
   };
-};
+}

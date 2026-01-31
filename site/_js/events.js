@@ -1,6 +1,7 @@
+import { get, set, unlink } from "./storage.js";
 
 // complicated logic to fire events and retry if the page reloaded in the interim
-function fireEvents() {
+export function fireEvents() {
   if (!window.umami) {
     return setTimeout(fireEvents, 1000);
   }
@@ -22,7 +23,7 @@ function fireEvents() {
   }, 1000);
 }
 
-function fireEvent(eventName) {
+export function fireEvent(eventName) {
   if (window.umami) {
     umami.track(eventName);
     return;
@@ -33,7 +34,7 @@ function fireEvent(eventName) {
   fireEvents();
 }
 
-function initEvents() {
+export function initEvents() {
   document.querySelectorAll("[data-event]").forEach((element) => {
     element.addEventListener("click", async (e) =>
       fireEvent(element.dataset.event)

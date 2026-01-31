@@ -1,3 +1,7 @@
+import { get, set } from "./storage.js";
+import { fireEvent } from "./events.js";
+import { crel } from "./utils.js";
+
 const ads = [
   {
     id: "youtube",
@@ -111,15 +115,15 @@ function observeProps(element, callback) {
   observer.observe(element, { attributes: true });
 }
 
-async function initFallbackAds() {
+export async function initFallbackAds() {
   const adBlocks = document.querySelectorAll(".eleventyad");
   if (!adBlocks.length) {
     return;
   }
   const firstAside = adBlocks[0].querySelector("aside");
+  const adsbygoogle = adBlocks[0].querySelector(".adsbygoogle");
   const isAdblocked =
-    getComputedStyle(adBlocks[0].querySelector(".adsbygoogle")).display ===
-      "none" ||
+    (adsbygoogle && getComputedStyle(adsbygoogle).display === "none") ||
     getComputedStyle(firstAside).height === "0px" ||
     (await isPixelBlocked());
 
@@ -135,5 +139,3 @@ async function initFallbackAds() {
     }
   });
 }
-
-initFallbackAds();

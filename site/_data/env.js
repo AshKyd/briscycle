@@ -1,5 +1,5 @@
-module.exports = function () {
+export default function () {
   return {
     environment: process.env.NODE_ENV,
   };
-};
+}

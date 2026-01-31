@@ -1,14 +1,15 @@
 {
   "name": "briscycle",
+  "type": "module",
   "version": "3.0.0",
   "private": true,
   "scripts": {
     "start": "NODE_ENV=development npx @11ty/eleventy --serve",
-    "update-deps": "cp node_modules/clipboard/dist/clipboard.min.js node_modules/medium-zoom/dist/medium-zoom.min.js site/_js/",
     "build": "NODE_ENV=production npx @11ty/eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^4.0.0-alpha.4"
+    "@11ty/eleventy": "^4.0.0-alpha.4",
+    "esbuild": "^0.27.2"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {

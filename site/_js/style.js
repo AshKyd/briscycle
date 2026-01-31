@@ -1,3 +1,5 @@
+import MAP_STYLE from "./map-style.json";
+
 const COLOR_CYCLEWAY_MAIN = "#28ab28";
 const COLOR_CYCLEWAY_LANE = "#88dd88";
 const COLOR_CYCLEWAY_OTHER = "#ddc688ff";
@@ -45,7 +47,7 @@ function getCyclewayColorExpression(defaultValue) {
 /**
  * Make a style to render the OpenStreetMap data.
  */
-function getStyle() {
+export function getStyle() {
   const style = MAP_STYLE;
 
   let casingInsertionIndex;
