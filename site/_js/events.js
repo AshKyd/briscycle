@@ -39,13 +39,6 @@ export function fireEvent(payload) {
 }
 
 export function initEvents() {
-  const website = document.querySelector(
-    'script[src="https://u.kyd.au/script.js"]',
-  )?.dataset.websiteId;
-  if (!website) {
-    return;
-  }
-
   document.querySelectorAll("[data-event]").forEach((element) => {
     element.addEventListener("click", async (e) =>
       fireEvent(element.dataset.event),
@@ -53,7 +46,7 @@ export function initEvents() {
   });
 
   // track initial page view without hash
-  fireEvent({ website, url: window.location.pathname, title: document.title });
+  fireEvent({ url: window.location.pathname, title: document.title });
 
   // fire any remaining events on page load.
   fireEvents();
