@@ -23,17 +23,13 @@ export function fireEvents() {
   }, 1000);
 }
 
-export function fireEvent(payload) {
+export function fireEvent(eventName) {
   if (window.umami) {
-    if (payload) {
-      umami.track(payload);
-    } else {
-      umami.track();
-    }
+    umami.track(eventName);
     return;
   }
   const events = get("eventCache", [], "sessionStorage");
-  events.push(payload);
+  events.push(eventName);
   set("eventCache", events, "sessionStorage");
   fireEvents();
 }
@@ -41,24 +37,10 @@ export function fireEvent(payload) {
 export function initEvents() {
   document.querySelectorAll("[data-event]").forEach((element) => {
     element.addEventListener("click", async (e) =>
-      fireEvent(element.dataset.event),
+      fireEvent(element.dataset.event)
     );
   });
 
-  // track initial page view without hash
-  fireEvent({ url: window.location.pathname, title: document.title });
-
   // fire any remaining events on page load.
   fireEvents();
-
-  const name = "outbound-link-click";
-  document.querySelectorAll("a").forEach((a) => {
-    if (
-      a.host !== window.location.host &&
-      !a.getAttribute("data-umami-event")
-    ) {
-      a.setAttribute("data-umami-event", name);
-      a.setAttribute("data-umami-event-url", a.href);
-    }
-  });
 }

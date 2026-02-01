@@ -5,7 +5,6 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./MapViewer.css";
 import { getStyle } from "./style.js";
-import { fireEvent } from "../events.js";
 
 const html = htm.bind(h);
 
@@ -73,7 +72,7 @@ export default function MapViewer({ config }) {
         attributionControl: false,
       });
 
-      map.current.on("moveend", () => fireEvent("mapMove"));
+      map.current.on("zoomend", () => console.log(map.current.getZoom()));
 
       map.current.addControl(new maplibregl.NavigationControl());
       map.current.addControl(
