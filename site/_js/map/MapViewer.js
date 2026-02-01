@@ -88,7 +88,7 @@ export default function MapViewer({ config }) {
         }),
       );
 
-      map.on("moveend", () => {
+      map.current.on("moveend", () => {
         fireEvent("mapMove", {
           loc: window.location.hash.slice(1),
         });
