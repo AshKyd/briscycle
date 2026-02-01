@@ -6,7 +6,7 @@
     <!-- env: {{env.environment}} -->
     <script defer src="/index.js?{% cachebust %}"></script>
     {% if env.environment !== 'development' %}
-    <script defer src="https://u.kyd.au/script.js" data-website-id="9b0db12e-7ec3-419b-bba3-6d041b162766"></script>
+    <script defer src="https://u.kyd.au/script.js" data-website-id="9b0db12e-7ec3-419b-bba3-6d041b162766" data-auto-track="false"></script>
     {% else %}
     <!-- No analytics in dev -->
     {% endif %}
