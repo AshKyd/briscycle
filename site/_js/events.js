@@ -35,12 +35,6 @@ export function fireEvent(eventName) {
 }
 
 export function initEvents() {
-  document.querySelectorAll("[data-event]").forEach((element) => {
-    element.addEventListener("click", async (e) =>
-      fireEvent(element.dataset.event)
-    );
-  });
-
   // fire any remaining events on page load.
   fireEvents();
 }

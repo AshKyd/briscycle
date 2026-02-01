@@ -5,6 +5,7 @@ import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import "./MapViewer.css";
 import { getStyle } from "./style.js";
+import { fireEvent } from "../events.js";
 
 const html = htm.bind(h);
 
@@ -86,6 +87,12 @@ export default function MapViewer({ config }) {
           ].join(" ♥ "),
         }),
       );
+
+      map.on("moveend", () => {
+        fireEvent("mapMove", {
+          loc: window.location.hash.slice(1),
+        });
+      });
 
       // debug: show props on click
       // map.current.on("click", (e) => {
