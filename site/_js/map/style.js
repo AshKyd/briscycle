@@ -11,38 +11,6 @@ function clone(obj) {
   return JSON.parse(JSON.stringify(obj));
 }
 
-/**
- * Returns a Mapbox GL JS expression to determine the color of a cycleway.
- *
- * @param {string} defaultValue
- */
-function getCyclewayColorExpression(defaultValue) {
-  const lesserValues = ["shoulder", "shared_lane", "advisory"];
-  return [
-    "case",
-    [
-      "any",
-      ["in", ["coalesce", ["get", "cycleway"], ""], ["literal", lesserValues]],
-      [
-        "in",
-        ["coalesce", ["get", "cycleway_left"], ""],
-        ["literal", lesserValues],
-      ],
-      [
-        "in",
-        ["coalesce", ["get", "cycleway_right"], ""],
-        ["literal", lesserValues],
-      ],
-      [
-        "in",
-        ["coalesce", ["get", "cycleway_both"], ""],
-        ["literal", lesserValues],
-      ],
-    ],
-    COLOR_CYCLEWAY_OTHER,
-    defaultValue,
-  ];
-}
 
 /**
  * Make a style to render the OpenStreetMap data.
@@ -68,28 +36,15 @@ export function getStyle() {
       (() => {
         const duplicateStyle = clone(layer);
         duplicateStyle.id = duplicateStyle.id + "_cycle-lane-casing";
-        duplicateStyle.filter.push([
-          "any",
-          ["==", "cycle", "yus"],
-          ["all", ["has", "cycleway"], ["!in", "cycleway", "no", "none", ""]],
-          [
-            "all",
-            ["has", "cycleway_left"],
-            ["!in", "cycleway_left", "no", "none", ""],
-          ],
-          [
-            "all",
-            ["has", "cycleway_right"],
-            ["!in", "cycleway_right", "no", "none", ""],
-          ],
-          [
-            "all",
-            ["has", "cycleway_both"],
-            ["!in", "cycleway_both", "no", "none", ""],
-          ],
-        ]);
+        duplicateStyle.filter.push(["in", "cycle", "yus", "kinda"]);
         const paint = duplicateStyle.paint;
-        paint["line-color"] = getCyclewayColorExpression(COLOR_CYCLEWAY_LANE);
+        paint["line-color"] = [
+          "match",
+          ["get", "cycle"],
+          "kinda",
+          COLOR_CYCLEWAY_OTHER,
+          defaultValue,
+        ];
 
         // set gap-width so the casing is drawn as 2px lines either side.
         paint["line-gap-width"] = paint["line-width"];
