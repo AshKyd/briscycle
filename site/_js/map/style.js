@@ -43,7 +43,7 @@ export function getStyle() {
           ["get", "cycle"],
           "kinda",
           COLOR_CYCLEWAY_OTHER,
-          defaultValue,
+          COLOR_CYCLEWAY_LANE,
         ];
 
         // set gap-width so the casing is drawn as 2px lines either side.
