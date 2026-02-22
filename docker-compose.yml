@@ -1,0 +1,18 @@
+services:
+  web:
+    container_name: briscycle.com
+    build: .
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.briscycle.rule=Host(`briscycle.com`)"
+      - "traefik.http.routers.briscycle.entrypoints=websecure"
+      - "traefik.http.routers.briscycle.tls.certresolver=le"
+      - "traefik.http.services.briscycle.loadbalancer.server.port=80"
+      - "traefik.docker.network=traefik_default"
+    networks:
+      - traefik_default
+
+networks:
+  traefik_default:
+    external: true
