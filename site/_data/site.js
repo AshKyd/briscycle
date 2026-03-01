@@ -7,7 +7,6 @@ export default {
     name: "Ash Kyd",
     email: "ash@kyd.com.au",
   },
-  twitter: "briscycle",
   supportEmail: "briscycle@kyd.com.au",
   copyrightYear: 2024,
 };
