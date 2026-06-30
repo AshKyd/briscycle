@@ -125,3 +125,30 @@ body.hero-menu .header {
   background-color: #242f44;
   -webkit-mask: radial-gradient(circle at 0px 2px, transparent 13px, black 14px);
 }
+
+.crackdown-banner {
+  background-color: #ffd800;
+  color: #1d1f21;
+  padding: 12px 16px;
+  font-size: 0.95em;
+  line-height: 1.4;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.crackdown-banner__content {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.crackdown-banner__link {
+  color: #003366;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.crackdown-banner__link:hover,
+.crackdown-banner__link:focus {
+  color: #000;
+  text-decoration: none;
+}
