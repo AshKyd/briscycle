@@ -1,5 +1,5 @@
 <script lang="ts">
-	import siteData from 'virtual:briscycle/site';
+	import { page } from '$app/state';
 
 	interface Props {
 		/** URL of the page being viewed, used to mark the matching menu item active. */
@@ -12,6 +12,8 @@
 	}
 
 	let { currentUrl, hasNavTarget = true }: Props = $props();
+
+	let menu = $derived(page.data.siteData?.menu ?? []);
 
 	/** A section is active when the current page sits anywhere beneath it. */
 	const isActive = (url: string) => currentUrl.startsWith(url);
@@ -26,7 +28,7 @@
 			</a>
 		</h1>
 		<ol class="header__menu">
-			{#each siteData.menu as item (item.url)}
+			{#each menu as item (item.url)}
 				<li
 					class={[
 						'header__item',

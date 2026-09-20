@@ -30,9 +30,6 @@ export function groupByTag(pages: ContentFile[]): Record<string, ContentFile[]> 
 /**
  * Build the site-wide data shared by every page: the header menu, the four footer columns and
  * the card metadata for every collection a page can point `related` at.
- *
- * This is emitted once as a shared module rather than returned from each page's load, so 47
- * pages do not each carry a copy of the same nav and card data.
  */
 export async function buildSiteData(): Promise<SiteData> {
 	const collections = groupByTag(await loadPages());

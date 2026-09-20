@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Card from '$lib/components/Card/Card.svelte';
-	import siteData from 'virtual:briscycle/site';
+	import { page } from '$app/state';
 
 	interface Props {
 		/** Name of the collection to show, from front matter `related`. */
@@ -9,7 +9,7 @@
 
 	let { collection }: Props = $props();
 
-	let cards = $derived(siteData.cards[collection] ?? []);
+	let cards = $derived(page.data.siteData?.cards?.[collection] ?? []);
 </script>
 
 {#if cards.length > 0}

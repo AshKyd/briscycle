@@ -1,6 +1,6 @@
 <script lang="ts">
-	import siteData from 'virtual:briscycle/site';
 	import { site } from '$lib/site';
+	import { page } from '$app/state';
 
 	interface Props {
 		/** GitHub URL for the current page's markdown source. */
@@ -11,12 +11,16 @@
 
 	let { editUrl, country }: Props = $props();
 
-	const columns = [
-		{ heading: 'The City', url: '/brisbane-city/', items: siteData.footer.brisbane },
-		{ heading: 'Day Trips', url: '/day-trips/', items: siteData.footer['day-trips'] },
-		{ heading: 'Moreton Bay', url: '/moreton-bay/', items: siteData.footer['moreton-bay'] },
-		{ heading: 'The Law', url: '/bicycle-regulation/', items: siteData.footer.rules }
-	];
+	let siteData = $derived(page.data.siteData);
+	let buildYear = $derived(siteData?.buildYear ?? new Date().getFullYear());
+	let legalItems = $derived(siteData?.footer?.legal ?? []);
+
+	let columns = $derived([
+		{ heading: 'The City', url: '/brisbane-city/', items: siteData?.footer?.brisbane ?? [] },
+		{ heading: 'Day Trips', url: '/day-trips/', items: siteData?.footer?.['day-trips'] ?? [] },
+		{ heading: 'Moreton Bay', url: '/moreton-bay/', items: siteData?.footer?.['moreton-bay'] ?? [] },
+		{ heading: 'The Law', url: '/bicycle-regulation/', items: siteData?.footer?.rules ?? [] }
+	]);
 </script>
 
 <footer class="footer wide-container">
@@ -59,11 +63,11 @@
 		</ul>
 	</div>
 	<div class="footer__c">
-		Copyright &copy; {siteData.buildYear} <a href="https://ashk.au/">Ash Kyd</a>.
+		Copyright &copy; {buildYear} <a href="https://ashk.au/">Ash Kyd</a>.
 	</div>
 	<div class="footer__d">
 		<ul class="inline-list footer__flexend">
-			{#each siteData.footer.legal as item (item.url)}
+			{#each legalItems as item (item.url)}
 				<li><a href={item.url}>{item.shortName}</a></li>
 			{/each}
 			<li><a href="https://qr.kyd.au/">Make a QR Code</a></li>
