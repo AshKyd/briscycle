@@ -14,11 +14,11 @@ export function renderImage(body: string, pageDirectory: string): string {
 	if (!src) throw new Error(`{% image %} with no source in ${pageDirectory}`);
 
 	const entry = getImage(src, pageDirectory);
-	const avif = derivativesOf(entry, 'avif');
+	const webp = derivativesOf(entry, 'webp');
 	const fallback = largest(derivativesOf(entry, 'jpeg'));
 	const sizes = className ? '50vw' : '100vw';
 
-	const picture = `<picture><source type="image/avif" srcset="${srcset(avif)}" sizes="${sizes}"><img src="${fallback.url}" alt="${escapeAttribute(alt)}" width="${fallback.width}" height="${fallback.height}" sizes="${sizes}" loading="lazy" decoding="async" data-zoom-src="${largest(avif).url}"${className && !caption ? ` class="${className}"` : ''}></picture>`;
+	const picture = `<picture><source type="image/webp" srcset="${srcset(webp)}" sizes="${sizes}"><img src="${fallback.url}" alt="${escapeAttribute(alt)}" width="${fallback.width}" height="${fallback.height}" sizes="${sizes}" loading="lazy" decoding="async" data-zoom-src="${largest(webp).url}"${className && !caption ? ` class="${className}"` : ''}></picture>`;
 
 	if (!caption) return picture;
 	return `<figure class="${className}">${picture}<figcaption>${caption}</figcaption></figure>`;

@@ -39,15 +39,12 @@ geojson:
           - - 153.08072803259
             - -27.26185891718
 hero:
-  type: defaultImage
+  type: autoImage
   alt: A featureless concrete bridge spanning over a vast bay, a green painted bike lane disappearing into the distance
-  variations:
-    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
-    - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=400 height=300 />'
-    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=400 height=300 />'
+  desktop: /moreton-bay/hornibrook-bridge/hero-desktop.webp
+  mobile: /moreton-bay/hornibrook-bridge/hero-mobile-1440.webp
 thumb:
-  image: /moreton-bay/hornibrook-bridge/thumb
-  format: webp
+  source: /moreton-bay/hornibrook-bridge/thumb-desktop.webp
 ---
 
 The Moreton Bay Cycleway currently crosses the vast Bramble Bay via the Ted Smout Memorial Bridge, between Brighton and Clontarf.

@@ -6,7 +6,7 @@ export interface Derivative {
 	url: string;
 	width: number;
 	height: number;
-	format: 'avif' | 'jpeg';
+	format: 'webp' | 'jpeg';
 }
 
 /** A source image and every derivative `npm run images` produced from it. */

@@ -3,16 +3,12 @@ title: Wamuran Rail Trail
 description: The Wamuran Rail Trail 10 km off-road bike trail leaving from Caboolture and following the route of the old Woodford rail line.
 country: The Caboolture area is the traditional home of the Kabi Kabi people.
 hero:
-  type: defaultImage
+  type: autoImage
   alt: The Wamuran end of the Wamuran Rail Trail. The path goes past a park into the distance while the old rails terminate at a footpath.
-  format: webp
-  variations:
-    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
-    - '<source srcset=hero-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
-    - '<source srcset="hero-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
+  desktop: /day-trips/wamuran-rail-trail/hero-desktop.webp
+  mobile: /day-trips/wamuran-rail-trail/hero-1440.webp
 thumb:
-  image: /day-trips/wamuran-rail-trail/thumb
-  format: webp
+  source: /day-trips/wamuran-rail-trail/thumb-desktop.webp
 layout: page
 related: day-trips
 geo:

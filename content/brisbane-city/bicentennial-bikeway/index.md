@@ -13,7 +13,7 @@ hero:
   desktop: /brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop.png
   mobile: /brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop.png
 thumb:
-  image: /brisbane-city/bicentennial-bikeway/bicentennial-bikeway
+  source: /brisbane-city/bicentennial-bikeway/bicentennial-bikeway-desktop.png
 geojson:
   - type: FeatureCollection
     features:

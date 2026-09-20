@@ -6,12 +6,12 @@ geo:
   googleMaps: https://www.google.com/maps/dir/-27.410679,153.0635941/-27.3712718,153.1006151/@-27.3887377,153.0644922,13.87z/data=!4m2!4m1!3e1
 fbComments: http://briscycle.com/jim-soorley-bikeway/
 thumb:
-  image: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/thumb
-  attribution: 
+  source: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/thumb-desktop.jpg
 hero:
+  type: autoImage
   alt: People riding past a grassy field along the Jim Soorley Bikeway and off into the distance past some trees.
-  image: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/hero
-  attribution: 
+  desktop: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/hero-desktop.jpg
+  mobile: /day-trips/kedron-brook-cycleway/jim-soorley-bikeway/hero-mobile.jpg
 layout: page
 related: day-trips
 tags:

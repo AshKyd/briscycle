@@ -8,10 +8,10 @@ tags:
   - rules
 related: rules
 hero:
-  type: defaultImage
-  image: /bicycle-regulation/bikes-on-public-transport/hero
+  type: autoImage
   alt: A blue bike in a mostly empty train carriage
-  format: webp
+  desktop: /bicycle-regulation/bikes-on-public-transport/hero-desktop.webp
+  mobile: /bicycle-regulation/bikes-on-public-transport/hero-mobile.webp
 ---
 
 Bikes are permitted on most forms of public transport in Brisbane.

@@ -9,17 +9,12 @@ tags:
   - separated
   - uphill
 hero:
-  type: defaultImage
+  type: autoImage
   alt: The bikeway runs alongside Lytton road. There's lots of plants and greenery, and a pedestrian crossing coming up ahead.
-  format: webp
-  variations:
-    - '<source srcset="lytton-road-bikeway-3840-hq.avif" type="image/avif" media="(min-width: 3840px), (min-resolution: 192dpi) and (min-width:1280px)" width="3840" height="1224" />'
-    - '<source srcset="lytton-road-bikeway-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1224" />'
-    - '<source srcset="lytton-road-bikeway-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
-    - '<source srcset="lytton-road-bikeway-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
+  desktop: /brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-3840-hq.avif
+  mobile: /brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale.jpg
 thumb:
-  image: /brisbane-city/east-brisbane-bikeway/lytton-road-thumb
-  format: webp
+  source: /brisbane-city/east-brisbane-bikeway/lytton-road-thumb-desktop.png
 geojson:
   - type: FeatureCollection
     features:

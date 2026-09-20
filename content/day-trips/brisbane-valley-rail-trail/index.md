@@ -4,7 +4,7 @@ shortTitle: Brisbane Valley Trail
 description: The Brisbane Valley Rail Trail (or BVRT) is a 161 km off-road bike trail following the route of the old Brisbane Valley rail line, and is the longest trail in the country.
 fbComments: http://briscycle.com/day-trips/brisbane-valley-rail-trail
 thumb:
-  image: /day-trips/brisbane-valley-rail-trail/thumb
+  source: /day-trips/brisbane-valley-rail-trail/thumb-desktop.jpg
 layout: page
 related: day-trips
 geo:

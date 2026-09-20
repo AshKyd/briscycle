@@ -11,13 +11,12 @@ tags:
   - flat
   - separated
 hero:
-  type: defaultImage
+  type: autoImage
   alt: The Riverwalk winds through Howard Smith Wharves, and out into the Brisbane River
-  image: /brisbane-city/riverwalk/riverwalk-hero
-  format: avif
+  desktop: /brisbane-city/riverwalk/riverwalk-tilt-shift-hero.png
+  mobile: /brisbane-city/riverwalk/riverwalk-tilt-shift-hero.png
 thumb:
-  image: /brisbane-city/riverwalk/howard-smith-wharves-riverwalk
-  format: webp
+  source: /brisbane-city/riverwalk/howard-smith-wharves-riverwalk-desktop.webp
 geojson:
   type: FeatureCollection
   generator: JOSM

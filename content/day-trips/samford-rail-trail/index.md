@@ -4,15 +4,12 @@ shortTitle: Samford Link
 description: Get out of the city and ride to Samford along the Samford Link Rail Trail.
 fbComments: http://briscycle.com/day-trips/brisbane-valley-rail-trail
 thumb:
-  image: /day-trips/samford-rail-trail/thumb
-  format: webp
+  source: /day-trips/samford-rail-trail/thumb-desktop.webp
 hero:
-  type: defaultImage
+  type: autoImage
   alt: A bike path stretches off into the Australian bushland
-  variations:
-    - '<source srcset="hero-4k.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="1299" />'
-    - '<source srcset="hero-mobile.webp" type="image/webp" media="(max-width: 414px)" width=828 height=466 />'
-    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=1440 height=810 />'
+  desktop: /day-trips/samford-rail-trail/hero-4k.webp
+  mobile: /day-trips/samford-rail-trail/hero-mobile-1440.webp
 layout: page
 related: day-trips
 geo:

@@ -8,11 +8,12 @@ tags:
   - bridge
   - green-bridge
 hero:
-  type: defaultImage
+  type: autoImage
   alt: Kurilpa Bridge at night, the cantilevers lit in red. GOMA is illuminated blue in the background. The footpath is brightly lit in warm light.
-  image: /brisbane-city/kurilpa-bridge/hero
+  desktop: /brisbane-city/kurilpa-bridge/hero-desktop.png
+  mobile: /brisbane-city/kurilpa-bridge/hero-mobile.png
 thumb:
-  image: /brisbane-city/kurilpa-bridge/kurilpa
+  source: /brisbane-city/kurilpa-bridge/kurilpa-desktop.png
 geojson:
   type: FeatureCollection
   features:

@@ -10,16 +10,12 @@ tags:
   - bridge
   - green-bridge
 hero:
-  type: defaultImage,
+  type: autoImage
   alt: Neville Bonner Bridge under construction from South Bank. An inverted arch reaches across the river toward the casino under construction.
-  variations:
-    - '<source srcset="hero-desktop-4k.webp" type="image/webp" media="(orientation: landscape)" width="3990" height="1702" />'
-    - '<source srcset="hero-desktop-1920.webp" type="image/webp" media="(orientation: landscape)" width="1920" height="819" />'
-    - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=519 />'
-    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=1440 height=902 />'
+  desktop: /brisbane-city/neville-bonner-bridge/hero-desktop.png
+  mobile: /brisbane-city/neville-bonner-bridge/hero-mobile.png
 thumb:
-  image: /brisbane-city/neville-bonner-bridge/thumb
-  format: webp
+  source: /brisbane-city/neville-bonner-bridge/thumb-desktop.png
 geojson:
   type: FeatureCollection
   features:

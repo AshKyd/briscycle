@@ -1,0 +1,2413 @@
+
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.88802058631,
+                        -27.04937241961
+                    ],
+                    [
+                        152.88806208631,
+                        -27.04939011961
+                    ],
+                    [
+                        152.88809848631,
+                        -27.04939831961
+                    ],
+                    [
+                        152.88818108631,
+                        -27.04939551961
+                    ],
+                    [
+                        152.88822828631,
+                        -27.04940151961
+                    ],
+                    [
+                        152.88833718631,
+                        -27.04945811961
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "bridge": "yes",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94706578631,
+                        -27.07792731955
+                    ],
+                    [
+                        152.94698168631,
+                        -27.07789711955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93516728631,
+                        -27.07365851956
+                    ],
+                    [
+                        152.93505318631,
+                        -27.07361781957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93158728631,
+                        -27.07237441956
+                    ],
+                    [
+                        152.93146828631,
+                        -27.07233051956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "traffic_calming": "table",
+                "highway": "crossing",
+                "crossing": "zebra"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.93901388631,
+                    -27.07498881956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.95014118631,
+                        -27.07901041955
+                    ],
+                    [
+                        152.94999408631,
+                        -27.07895851955
+                    ],
+                    [
+                        152.94993588631,
+                        -27.07893491955
+                    ],
+                    [
+                        152.94879478631,
+                        -27.07852811955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.94643448631,
+                    -27.07773141955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.92033408631,
+                        -27.06704291958
+                    ],
+                    [
+                        152.91554168631,
+                        -27.06465931958
+                    ],
+                    [
+                        152.91299958631,
+                        -27.06337631958
+                    ],
+                    [
+                        152.91012768631,
+                        -27.06197831959
+                    ],
+                    [
+                        152.90981158631,
+                        -27.06187081959
+                    ],
+                    [
+                        152.90902328631,
+                        -27.06167481959
+                    ],
+                    [
+                        152.90874668631,
+                        -27.06165331959
+                    ],
+                    [
+                        152.90807428631,
+                        -27.06161631958
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94698168631,
+                        -27.07789711955
+                    ],
+                    [
+                        152.94672828631,
+                        -27.07780501955
+                    ],
+                    [
+                        152.94670048631,
+                        -27.07779641955
+                    ],
+                    [
+                        152.94667498631,
+                        -27.07779841955
+                    ],
+                    [
+                        152.94659958631,
+                        -27.07781411955
+                    ],
+                    [
+                        152.94656858631,
+                        -27.07781541955
+                    ],
+                    [
+                        152.94653968631,
+                        -27.07781021955
+                    ],
+                    [
+                        152.94651448631,
+                        -27.07779821955
+                    ],
+                    [
+                        152.94647938631,
+                        -27.07776971956
+                    ],
+                    [
+                        152.94645708631,
+                        -27.07775051956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93895278631,
+                        -27.07496661956
+                    ],
+                    [
+                        152.93886308631,
+                        -27.07493311956
+                    ],
+                    [
+                        152.93882208631,
+                        -27.07492351956
+                    ],
+                    [
+                        152.93875688631,
+                        -27.07493171956
+                    ],
+                    [
+                        152.93872418631,
+                        -27.07493211956
+                    ],
+                    [
+                        152.93869248631,
+                        -27.07492421956
+                    ],
+                    [
+                        152.93854988631,
+                        -27.07487251956
+                    ],
+                    [
+                        152.93837168631,
+                        -27.07480801956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94600268631,
+                        -27.07755101956
+                    ],
+                    [
+                        152.94590648631,
+                        -27.07750631955
+                    ],
+                    [
+                        152.94552578631,
+                        -27.07737121956
+                    ],
+                    [
+                        152.94426868631,
+                        -27.07692011956
+                    ],
+                    [
+                        152.94109908631,
+                        -27.07576931955
+                    ],
+                    [
+                        152.93933638631,
+                        -27.07515011956
+                    ],
+                    [
+                        152.93931318631,
+                        -27.07514171956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.94639878631,
+                    -27.07770111955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93837168631,
+                        -27.07480801956
+                    ],
+                    [
+                        152.93712848631,
+                        -27.07436041956
+                    ],
+                    [
+                        152.93621758631,
+                        -27.07403421957
+                    ],
+                    [
+                        152.93539708631,
+                        -27.07374071957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "unmarked",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.90606018631,
+                    -27.06134191959
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93505318631,
+                        -27.07361781957
+                    ],
+                    [
+                        152.93471968631,
+                        -27.07349711956
+                    ],
+                    [
+                        152.93308498631,
+                        -27.07291241957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.92892248631,
+                        -27.07127921957
+                    ],
+                    [
+                        152.92865478631,
+                        -27.07115791957
+                    ],
+                    [
+                        152.92862778631,
+                        -27.07114551957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.90574908631,
+                        -27.06123411959
+                    ],
+                    [
+                        152.90551078631,
+                        -27.06113541959
+                    ],
+                    [
+                        152.90537948631,
+                        -27.06107681959
+                    ],
+                    [
+                        152.90518018631,
+                        -27.06097511959
+                    ],
+                    [
+                        152.90503688631,
+                        -27.06089701959
+                    ],
+                    [
+                        152.90487768631,
+                        -27.06080611958
+                    ],
+                    [
+                        152.90474258631,
+                        -27.06072011959
+                    ],
+                    [
+                        152.90446858631,
+                        -27.06052611959
+                    ],
+                    [
+                        152.90432348631,
+                        -27.06041041959
+                    ],
+                    [
+                        152.90417838631,
+                        -27.06028111959
+                    ],
+                    [
+                        152.90402528631,
+                        -27.06013851959
+                    ],
+                    [
+                        152.90392238631,
+                        -27.06003301959
+                    ],
+                    [
+                        152.90378228631,
+                        -27.05987721959
+                    ],
+                    [
+                        152.90369378631,
+                        -27.05976701959
+                    ],
+                    [
+                        152.90359638631,
+                        -27.05964441959
+                    ],
+                    [
+                        152.90342298631,
+                        -27.05940661959
+                    ],
+                    [
+                        152.90319168631,
+                        -27.05907721960
+                    ],
+                    [
+                        152.90295238631,
+                        -27.05873631959
+                    ],
+                    [
+                        152.90273588631,
+                        -27.05843391959
+                    ],
+                    [
+                        152.90251778631,
+                        -27.05812011959
+                    ],
+                    [
+                        152.90233688631,
+                        -27.05786281960
+                    ],
+                    [
+                        152.90228538631,
+                        -27.05779081959
+                    ],
+                    [
+                        152.90225958631,
+                        -27.05774801960
+                    ],
+                    [
+                        152.90223978631,
+                        -27.05770371959
+                    ],
+                    [
+                        152.90222148631,
+                        -27.05766261959
+                    ],
+                    [
+                        152.90219308631,
+                        -27.05762151959
+                    ],
+                    [
+                        152.90213358631,
+                        -27.05757261959
+                    ],
+                    [
+                        152.90201838631,
+                        -27.05748771959
+                    ],
+                    [
+                        152.90178468631,
+                        -27.05727661959
+                    ],
+                    [
+                        152.90162958631,
+                        -27.05715441960
+                    ],
+                    [
+                        152.90146588631,
+                        -27.05705391960
+                    ],
+                    [
+                        152.90130068631,
+                        -27.05694121960
+                    ],
+                    [
+                        152.90121668631,
+                        -27.05687371959
+                    ],
+                    [
+                        152.90109688631,
+                        -27.05677621959
+                    ],
+                    [
+                        152.90103878631,
+                        -27.05673021960
+                    ],
+                    [
+                        152.90095898631,
+                        -27.05667341959
+                    ],
+                    [
+                        152.90077328631,
+                        -27.05656431959
+                    ],
+                    [
+                        152.90038558631,
+                        -27.05633241960
+                    ],
+                    [
+                        152.90022348631,
+                        -27.05622871960
+                    ],
+                    [
+                        152.90011868631,
+                        -27.05615651959
+                    ],
+                    [
+                        152.89997338631,
+                        -27.05604611959
+                    ],
+                    [
+                        152.89986488631,
+                        -27.05594961959
+                    ],
+                    [
+                        152.89973858631,
+                        -27.05582811960
+                    ],
+                    [
+                        152.89958798631,
+                        -27.05567531960
+                    ],
+                    [
+                        152.89946348631,
+                        -27.05553901959
+                    ],
+                    [
+                        152.89930498631,
+                        -27.05534631959
+                    ],
+                    [
+                        152.89893888631,
+                        -27.05489111960
+                    ],
+                    [
+                        152.89860758631,
+                        -27.05449421960
+                    ],
+                    [
+                        152.89818768631,
+                        -27.05397821960
+                    ],
+                    [
+                        152.89795818631,
+                        -27.05369341960
+                    ],
+                    [
+                        152.89772968631,
+                        -27.05340571961
+                    ],
+                    [
+                        152.89741468631,
+                        -27.05302891960
+                    ],
+                    [
+                        152.89721568631,
+                        -27.05280751960
+                    ],
+                    [
+                        152.89707398631,
+                        -27.05266451960
+                    ],
+                    [
+                        152.89692448631,
+                        -27.05252291960
+                    ],
+                    [
+                        152.89675558631,
+                        -27.05238171961
+                    ],
+                    [
+                        152.89659678631,
+                        -27.05225951961
+                    ],
+                    [
+                        152.89644698631,
+                        -27.05215711961
+                    ],
+                    [
+                        152.89630948631,
+                        -27.05206891961
+                    ],
+                    [
+                        152.89614828631,
+                        -27.05197511961
+                    ],
+                    [
+                        152.89595998631,
+                        -27.05188391961
+                    ],
+                    [
+                        152.89581258631,
+                        -27.05182231960
+                    ],
+                    [
+                        152.89562878631,
+                        -27.05175631961
+                    ],
+                    [
+                        152.89539628631,
+                        -27.05168291961
+                    ],
+                    [
+                        152.89517158631,
+                        -27.05160981960
+                    ],
+                    [
+                        152.89497508631,
+                        -27.05153861961
+                    ],
+                    [
+                        152.89473908631,
+                        -27.05145911961
+                    ],
+                    [
+                        152.89449278631,
+                        -27.05138671961
+                    ],
+                    [
+                        152.89409138631,
+                        -27.05125541961
+                    ],
+                    [
+                        152.89378138631,
+                        -27.05115831961
+                    ],
+                    [
+                        152.89354118631,
+                        -27.05109221960
+                    ],
+                    [
+                        152.89332028631,
+                        -27.05103791961
+                    ],
+                    [
+                        152.89304338631,
+                        -27.05097331961
+                    ],
+                    [
+                        152.89275708631,
+                        -27.05091411961
+                    ],
+                    [
+                        152.89243558631,
+                        -27.05085661961
+                    ],
+                    [
+                        152.89214348631,
+                        -27.05081421961
+                    ],
+                    [
+                        152.89188768631,
+                        -27.05078311960
+                    ],
+                    [
+                        152.89164578631,
+                        -27.05075671961
+                    ],
+                    [
+                        152.89147828631,
+                        -27.05073301961
+                    ],
+                    [
+                        152.89129128631,
+                        -27.05069831960
+                    ],
+                    [
+                        152.89102178631,
+                        -27.05064341961
+                    ],
+                    [
+                        152.89076088631,
+                        -27.05057121961
+                    ],
+                    [
+                        152.89058898631,
+                        -27.05051661961
+                    ],
+                    [
+                        152.89041718631,
+                        -27.05045061961
+                    ],
+                    [
+                        152.89021548631,
+                        -27.05036161961
+                    ],
+                    [
+                        152.88970628631,
+                        -27.05011171961
+                    ],
+                    [
+                        152.88928788631,
+                        -27.04991781961
+                    ],
+                    [
+                        152.88833718631,
+                        -27.04945811961
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.92068708631,
+                        -27.06721851958
+                    ],
+                    [
+                        152.92033408631,
+                        -27.06704291958
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.90599458631,
+                        -27.06134631959
+                    ],
+                    [
+                        152.90597408631,
+                        -27.06134581959
+                    ],
+                    [
+                        152.90594678631,
+                        -27.06134131959
+                    ],
+                    [
+                        152.90592928631,
+                        -27.06133181958
+                    ],
+                    [
+                        152.90590468631,
+                        -27.06130851958
+                    ],
+                    [
+                        152.90588998631,
+                        -27.06129521959
+                    ],
+                    [
+                        152.90587198631,
+                        -27.06128261959
+                    ],
+                    [
+                        152.90585078631,
+                        -27.06127221959
+                    ],
+                    [
+                        152.90574908631,
+                        -27.06123411959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.86430848631,
+                        -27.03919801963
+                    ],
+                    [
+                        152.86454618631,
+                        -27.03921731963
+                    ],
+                    [
+                        152.86485528631,
+                        -27.03924231963
+                    ],
+                    [
+                        152.86494798631,
+                        -27.03925241963
+                    ],
+                    [
+                        152.86504358631,
+                        -27.03927281963
+                    ],
+                    [
+                        152.86514668631,
+                        -27.03930971963
+                    ],
+                    [
+                        152.86536978631,
+                        -27.03939681963
+                    ],
+                    [
+                        152.86563938631,
+                        -27.03952421963
+                    ],
+                    [
+                        152.86583518631,
+                        -27.03964131963
+                    ],
+                    [
+                        152.86602238631,
+                        -27.03977451963
+                    ],
+                    [
+                        152.86613758631,
+                        -27.03986481962
+                    ],
+                    [
+                        152.86624448631,
+                        -27.03995251963
+                    ],
+                    [
+                        152.86638028631,
+                        -27.04008801963
+                    ],
+                    [
+                        152.86655408631,
+                        -27.04028631963
+                    ],
+                    [
+                        152.86670558631,
+                        -27.04049441963
+                    ],
+                    [
+                        152.86680318631,
+                        -27.04065811963
+                    ],
+                    [
+                        152.86744708631,
+                        -27.04192211962
+                    ],
+                    [
+                        152.86778668631,
+                        -27.04256931963
+                    ],
+                    [
+                        152.86796748631,
+                        -27.04284731962
+                    ],
+                    [
+                        152.86820588631,
+                        -27.04316731962
+                    ],
+                    [
+                        152.86858718631,
+                        -27.04360701962
+                    ],
+                    [
+                        152.86946938631,
+                        -27.04438081962
+                    ],
+                    [
+                        152.87064898631,
+                        -27.04539271962
+                    ],
+                    [
+                        152.87122418631,
+                        -27.04588981962
+                    ],
+                    [
+                        152.87160198631,
+                        -27.04612731962
+                    ],
+                    [
+                        152.87202578631,
+                        -27.04627071962
+                    ],
+                    [
+                        152.87248708631,
+                        -27.04633281961
+                    ],
+                    [
+                        152.87314158631,
+                        -27.04624921961
+                    ],
+                    [
+                        152.87352318631,
+                        -27.04615751961
+                    ],
+                    [
+                        152.87393278631,
+                        -27.04601031962
+                    ],
+                    [
+                        152.87441828631,
+                        -27.04591951962
+                    ],
+                    [
+                        152.87514518631,
+                        -27.04590991962
+                    ],
+                    [
+                        152.87592168631,
+                        -27.04596151962
+                    ],
+                    [
+                        152.87687028631,
+                        -27.04599691962
+                    ],
+                    [
+                        152.87733018631,
+                        -27.04600751962
+                    ],
+                    [
+                        152.87772498631,
+                        -27.04600171962
+                    ],
+                    [
+                        152.87796418631,
+                        -27.04601031962
+                    ],
+                    [
+                        152.87901828631,
+                        -27.04604981961
+                    ],
+                    [
+                        152.87912768631,
+                        -27.04605171961
+                    ],
+                    [
+                        152.87928048631,
+                        -27.04605351961
+                    ],
+                    [
+                        152.87942398631,
+                        -27.04604401961
+                    ],
+                    [
+                        152.87950138631,
+                        -27.04603691961
+                    ],
+                    [
+                        152.87955708631,
+                        -27.04603981961
+                    ],
+                    [
+                        152.87960548631,
+                        -27.04605341961
+                    ],
+                    [
+                        152.87967558631,
+                        -27.04608921962
+                    ],
+                    [
+                        152.87973218631,
+                        -27.04612281962
+                    ],
+                    [
+                        152.87977898631,
+                        -27.04614031961
+                    ],
+                    [
+                        152.87983338631,
+                        -27.04614751961
+                    ],
+                    [
+                        152.87989458631,
+                        -27.04614021961
+                    ],
+                    [
+                        152.88009618631,
+                        -27.04610261962
+                    ],
+                    [
+                        152.88017448631,
+                        -27.04609381962
+                    ],
+                    [
+                        152.88027038631,
+                        -27.04609061962
+                    ],
+                    [
+                        152.88071628631,
+                        -27.04610941962
+                    ],
+                    [
+                        152.88140888631,
+                        -27.04613161961
+                    ],
+                    [
+                        152.88165828631,
+                        -27.04614361961
+                    ],
+                    [
+                        152.88195218631,
+                        -27.04618061962
+                    ],
+                    [
+                        152.88222038631,
+                        -27.04623411961
+                    ],
+                    [
+                        152.88243528631,
+                        -27.04629801962
+                    ],
+                    [
+                        152.88268508631,
+                        -27.04639291962
+                    ],
+                    [
+                        152.88301378631,
+                        -27.04655451961
+                    ],
+                    [
+                        152.88331848631,
+                        -27.04671421962
+                    ],
+                    [
+                        152.88420158631,
+                        -27.04722481962
+                    ],
+                    [
+                        152.88569868631,
+                        -27.04811961961
+                    ],
+                    [
+                        152.88609208631,
+                        -27.04834601962
+                    ],
+                    [
+                        152.88661628631,
+                        -27.04861571961
+                    ],
+                    [
+                        152.88769068631,
+                        -27.04914191961
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "bridge": "yes",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93170828631,
+                        -27.07241991957
+                    ],
+                    [
+                        152.93158728631,
+                        -27.07237441956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93308498631,
+                        -27.07291241957
+                    ],
+                    [
+                        152.93293048631,
+                        -27.07285581956
+                    ],
+                    [
+                        152.93287738631,
+                        -27.07282361957
+                    ],
+                    [
+                        152.93279478631,
+                        -27.07273571956
+                    ],
+                    [
+                        152.93275878631,
+                        -27.07271201957
+                    ],
+                    [
+                        152.93270088631,
+                        -27.07268241956
+                    ],
+                    [
+                        152.93268018631,
+                        -27.07267671956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.92993918631,
+                        -27.07172111956
+                    ],
+                    [
+                        152.92968548631,
+                        -27.07161511957
+                    ],
+                    [
+                        152.92908658631,
+                        -27.07135451957
+                    ],
+                    [
+                        152.92892248631,
+                        -27.07127921957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94774208631,
+                        -27.07815211956
+                    ],
+                    [
+                        152.94730398631,
+                        -27.07799561955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "cycleway": "crossing",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "crossing": "zebra",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93907498631,
+                        -27.07501101956
+                    ],
+                    [
+                        152.93901388631,
+                        -27.07498881956
+                    ],
+                    [
+                        152.93895278631,
+                        -27.07496661956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94637558631,
+                        -27.07768151956
+                    ],
+                    [
+                        152.94635078631,
+                        -27.07766531956
+                    ],
+                    [
+                        152.94631518631,
+                        -27.07764401956
+                    ],
+                    [
+                        152.94627198631,
+                        -27.07763111955
+                    ],
+                    [
+                        152.94620658631,
+                        -27.07763311955
+                    ],
+                    [
+                        152.94616918631,
+                        -27.07763121955
+                    ],
+                    [
+                        152.94613268631,
+                        -27.07762031955
+                    ],
+                    [
+                        152.94600268631,
+                        -27.07755101956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.88769068631,
+                        -27.04914191961
+                    ],
+                    [
+                        152.88778848631,
+                        -27.04919421961
+                    ],
+                    [
+                        152.88780718631,
+                        -27.04921041961
+                    ],
+                    [
+                        152.88787668631,
+                        -27.04929031961
+                    ],
+                    [
+                        152.88789858631,
+                        -27.04930971961
+                    ],
+                    [
+                        152.88793498631,
+                        -27.04933021961
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "bridge": "yes",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93527878631,
+                        -27.07369811956
+                    ],
+                    [
+                        152.93516728631,
+                        -27.07365851956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.90630118631,
+                        -27.06141261958
+                    ],
+                    [
+                        152.90625278631,
+                        -27.06140041959
+                    ],
+                    [
+                        152.90623358631,
+                        -27.06138681959
+                    ],
+                    [
+                        152.90619818631,
+                        -27.06135031959
+                    ],
+                    [
+                        152.90617118631,
+                        -27.06133951959
+                    ],
+                    [
+                        152.90613098631,
+                        -27.06133721959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.90786718631,
+                        -27.06160491959
+                    ],
+                    [
+                        152.90708148631,
+                        -27.06155721959
+                    ],
+                    [
+                        152.90678568631,
+                        -27.06151731958
+                    ],
+                    [
+                        152.90630118631,
+                        -27.06141261958
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94879478631,
+                        -27.07852811955
+                    ],
+                    [
+                        152.94774208631,
+                        -27.07815211956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.95136378631,
+                        -27.07950191956
+                    ],
+                    [
+                        152.95119528631,
+                        -27.07947751955
+                    ],
+                    [
+                        152.95113078631,
+                        -27.07946401955
+                    ],
+                    [
+                        152.95101468631,
+                        -27.07943981955
+                    ],
+                    [
+                        152.95080558631,
+                        -27.07936951955
+                    ],
+                    [
+                        152.95057438631,
+                        -27.07924341955
+                    ],
+                    [
+                        152.95054008631,
+                        -27.07921191955
+                    ],
+                    [
+                        152.95049118631,
+                        -27.07916701955
+                    ],
+                    [
+                        152.95039098631,
+                        -27.07909871956
+                    ],
+                    [
+                        152.95014118631,
+                        -27.07901041955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94730398631,
+                        -27.07799561955
+                    ],
+                    [
+                        152.94720628631,
+                        -27.07796391956
+                    ],
+                    [
+                        152.94712348631,
+                        -27.07794481955
+                    ],
+                    [
+                        152.94706578631,
+                        -27.07792731955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93146828631,
+                        -27.07233051956
+                    ],
+                    [
+                        152.93097708631,
+                        -27.07214101956
+                    ],
+                    [
+                        152.93048438631,
+                        -27.07194621956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93252598631,
+                        -27.07261951957
+                    ],
+                    [
+                        152.93249118631,
+                        -27.07261121957
+                    ],
+                    [
+                        152.93246718631,
+                        -27.07261421957
+                    ],
+                    [
+                        152.93244298631,
+                        -27.07262221957
+                    ],
+                    [
+                        152.93240108631,
+                        -27.07265431956
+                    ],
+                    [
+                        152.93238528631,
+                        -27.07266271956
+                    ],
+                    [
+                        152.93236878631,
+                        -27.07265961956
+                    ],
+                    [
+                        152.93170828631,
+                        -27.07241991957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93931318631,
+                        -27.07514171956
+                    ],
+                    [
+                        152.93924488631,
+                        -27.07511711956
+                    ],
+                    [
+                        152.93921158631,
+                        -27.07509591956
+                    ],
+                    [
+                        152.93918958631,
+                        -27.07507101956
+                    ],
+                    [
+                        152.93914268631,
+                        -27.07503471956
+                    ],
+                    [
+                        152.93907498631,
+                        -27.07501101956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.92862778631,
+                        -27.07114551957
+                    ],
+                    [
+                        152.92800118631,
+                        -27.07084921957
+                    ],
+                    [
+                        152.92495828631,
+                        -27.06934291957
+                    ],
+                    [
+                        152.92160878631,
+                        -27.06767821957
+                    ],
+                    [
+                        152.92144668631,
+                        -27.06759631957
+                    ],
+                    [
+                        152.92068708631,
+                        -27.06721851958
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "crossing": "traffic_signals",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "cycleway": "crossing",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93268018631,
+                        -27.07267671956
+                    ],
+                    [
+                        152.93261458631,
+                        -27.07265241956
+                    ],
+                    [
+                        152.93252598631,
+                        -27.07261951957
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "crossing": "unmarked",
+                "foot": "designated",
+                "cycleway": "crossing",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.90613098631,
+                        -27.06133721959
+                    ],
+                    [
+                        152.90606018631,
+                        -27.06134191959
+                    ],
+                    [
+                        152.90599458631,
+                        -27.06134631959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "crossing": "traffic_signals",
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.93261458631,
+                    -27.07265241956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.86382698631,
+                        -27.03911111963
+                    ],
+                    [
+                        152.86401688631,
+                        -27.03911891963
+                    ],
+                    [
+                        152.86404968631,
+                        -27.03912431963
+                    ],
+                    [
+                        152.86408678631,
+                        -27.03913411963
+                    ],
+                    [
+                        152.86412568631,
+                        -27.03914651963
+                    ],
+                    [
+                        152.86418618631,
+                        -27.03917061963
+                    ],
+                    [
+                        152.86421868631,
+                        -27.03918011963
+                    ],
+                    [
+                        152.86425378631,
+                        -27.03918981963
+                    ],
+                    [
+                        152.86430848631,
+                        -27.03919801963
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "crossing": "unmarked",
+                "foot": "designated",
+                "cycleway": "crossing",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.94645708631,
+                        -27.07775051956
+                    ],
+                    [
+                        152.94643448631,
+                        -27.07773141955
+                    ],
+                    [
+                        152.94639878631,
+                        -27.07770111955
+                    ],
+                    [
+                        152.94637558631,
+                        -27.07768151956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93048438631,
+                        -27.07194621956
+                    ],
+                    [
+                        152.93037388631,
+                        -27.07190171957
+                    ],
+                    [
+                        152.93005868631,
+                        -27.07177101957
+                    ],
+                    [
+                        152.92993918631,
+                        -27.07172111956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "surface": "concrete",
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "segregated": "no",
+                "motorcycle": "no",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.93539708631,
+                        -27.07374071957
+                    ],
+                    [
+                        152.93527878631,
+                        -27.07369811956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.87967558631,
+                    -27.04608921962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "old_name": "Kilcoy Railway Line",
+                "highway": "cycleway",
+                "layer": "-1",
+                "motor_vehicle": "no",
+                "source": "local knowledge",
+                "foot": "designated",
+                "oneway": "no",
+                "railway": "abandoned",
+                "name": "Caboolture to Wamuran Rail Trail",
+                "description": "The Caboolture to Wamuran Rail Trail and shared pedestrian/cycle pathway",
+                "surface": "asphalt",
+                "segregated": "no",
+                "motorcycle": "no",
+                "tunnel": "yes",
+                "smoothness": "excellent",
+                "bicycle": "designated"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        152.90807428631,
+                        -27.06161631958
+                    ],
+                    [
+                        152.90786718631,
+                        -27.06160491959
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "highway": "crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    152.90219308631,
+                    -27.05762151959
+                ]
+            }
+        }
+    ]
+}

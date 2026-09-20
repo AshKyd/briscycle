@@ -2,37 +2,36 @@
 export type Role = 'heroDesktop' | 'heroMobile' | 'thumb' | 'inline' | 'inlineAligned';
 
 export interface FormatSpec {
-	format: 'avif' | 'jpeg';
+	format: 'webp' | 'jpeg';
 	widths: number[];
 	quality: number;
 }
 
 /**
- * Width and quality sets per role, carried over from the legacy Eleventy image pipeline so
- * the generated derivatives stay the same size and weight as the ones the site shipped.
+ * Width and quality sets per role.
  *
  * An aligned inline image only occupies half the column, so it stops at 960px rather than
  * generating the 1024/800 steps a full-width one needs.
  */
 export const ROLE_SPECS: Record<Role, FormatSpec[]> = {
 	heroDesktop: [
-		{ format: 'avif', widths: [3840, 3000, 1920, 1366, 1080, 750], quality: 50 },
+		{ format: 'webp', widths: [3840, 3000, 1920, 1366, 1080, 750], quality: 75 },
 		{ format: 'jpeg', widths: [750], quality: 75 }
 	],
 	heroMobile: [
-		{ format: 'avif', widths: [1700, 1366, 1080, 750], quality: 50 },
+		{ format: 'webp', widths: [1700, 1366, 1080, 750], quality: 75 },
 		{ format: 'jpeg', widths: [750], quality: 75 }
 	],
 	thumb: [
-		{ format: 'avif', widths: [1320, 1206, 1000, 750, 600, 480], quality: 35 },
+		{ format: 'webp', widths: [1320, 1206, 1000, 750, 600, 480], quality: 70 },
 		{ format: 'jpeg', widths: [480], quality: 75 }
 	],
 	inline: [
-		{ format: 'avif', widths: [3353, 1920, 1440, 1024, 800], quality: 60 },
+		{ format: 'webp', widths: [3353, 1920, 1440, 1024, 800], quality: 75 },
 		{ format: 'jpeg', widths: [960], quality: 75 }
 	],
 	inlineAligned: [
-		{ format: 'avif', widths: [3353, 1920, 1440, 960], quality: 60 },
+		{ format: 'webp', widths: [3353, 1920, 1440, 960], quality: 75 },
 		{ format: 'jpeg', widths: [960], quality: 75 }
 	]
 };

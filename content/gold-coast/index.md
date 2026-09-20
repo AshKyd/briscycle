@@ -5,7 +5,7 @@ description: The Gold Coast is a great place to cycle as a commuter, and even be
 fbComments: http://briscycle.com/gold-coast/
 thumb:
   {
-    "image": "/gold-coast/thumb",
+    "source": "/gold-coast/thumb-desktop.jpg",
     "attribution":
       {
         "name": "Andrea Lai",

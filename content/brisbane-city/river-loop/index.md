@@ -12,15 +12,12 @@ tags:
 mapTitle: Map of the Brisbane Riverloop + half riverloop
 mapDescription: This map follows the most straightforward on-road route. If you're less confident with road riding there are adjacent paths you can jump onto, with the exception of some quiet back-streets in Chelmer.
 hero:
-  type: defaultImage
+  type: autoImage
   alt: A glimpse of the Eleanor Schonell Bridge, looking through Trees from the riverbank at UQ
-  variations:
-    - '<source srcset="river-loop-3840-hq.avif" type="image/avif" media="(min-width: 3840px), (min-resolution: 192dpi) and (min-width:1280px)" width="3840" height="1069" />'
-    - '<source srcset="river-loop-3840-lq.avif" type="image/avif" media="(min-width: 768px)" width="3840" height="1069" />'
-    - '<source srcset="river-loop-1440.avif" type="image/webp" media="(min-width: 415px)" width=1440 height=1084 />'
-    - '<source srcset="river-loop-828.avif" type="image/webp" media="(max-width: 414px)" width=828 height=626 />'
+  desktop: /brisbane-city/river-loop/river-loop-hero-desktop.png
+  mobile: /brisbane-city/river-loop/river-loop-hero-mobile.jpg
 thumb:
-  image: /brisbane-city/river-loop/river-loop
+  source: /brisbane-city/river-loop/river-loop-desktop.png
 geo:
   geojsonUrl: /brisbane-city/river-loop/riverloop.geo.json
   # googleMaps: https://www.google.com/maps/dir/Ipswich,+Bell+St,+Ipswich+QLD+4305/-26.8440389,152.2757427/yarraman/@-27.2225371,152.0913838,10z/data=!3m1!4b1!4m15!4m14!1m5!1m1!1s0x6b96b4463e1862c7:0x1d02a35bea338e90!2m2!1d152.7603845!2d-27.612927!1m0!1m5!1m1!1s0x6b95c84dfaba9cb9:0x400eef17f20bfd0!2m2!1d151.98132!2d-26.8411601!3e1

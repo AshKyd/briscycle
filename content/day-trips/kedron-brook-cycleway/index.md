@@ -13,8 +13,9 @@ tags:
   - day-trips
   - separated
 hero:
-  type: defaultImage
-  image: /day-trips/kedron-brook-cycleway/kedron-brook-hero
+  type: autoImage
+  desktop: /day-trips/kedron-brook-cycleway/kedron-brook-hero-desktop.png
+  mobile: /day-trips/kedron-brook-cycleway/kedron-brook-hero-mobile.png
   alt: People picnicking in Kalinga Park, along the Kedron Brook bikeway.
   attribution:
     name: Brisbane City Council
@@ -22,7 +23,7 @@ hero:
     url: https://www.flickr.com/photos/50553864@N06/10793131604
     license: https://creativecommons.org/licenses/by/2.0/
 thumb:
-  image: /day-trips/kedron-brook-cycleway/kedron-brook
+  source: /day-trips/kedron-brook-cycleway/kedron-brook-desktop.png
   attribution:
     name: Brisbane City Council
     title: Kalinga Park, Kalinga

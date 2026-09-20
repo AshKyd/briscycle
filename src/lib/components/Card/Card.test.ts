@@ -15,14 +15,14 @@ describe('Card', () => {
 			card: {
 				...base,
 				thumb: {
-					sources: [{ srcset: '/i/a-480.min.avif 480w', type: 'image/avif' }],
+					sources: [{ srcset: '/i/a-480.min.webp 480w', type: 'image/webp' }],
 					src: '/i/a-480.min.jpg',
 					width: 480,
 					height: 270
 				}
 			}
 		});
-		expect(container.querySelector('source')?.getAttribute('type')).toBe('image/avif');
+		expect(container.querySelector('source')?.getAttribute('type')).toBe('image/webp');
 		expect(container.querySelector('.card__thumbnail-image')?.getAttribute('src')).toBe(
 			'/i/a-480.min.jpg'
 		);

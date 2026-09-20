@@ -12,15 +12,12 @@ tags:
 geo:
   geojsonUrl: gateway.geo.json
 hero:
-  type: defaultImage
+  type: autoImage
   alt: A low set concrete bridge spans a vast river. A man and child stand on the jetty.
-  variations:
-    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
-    - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
-    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
+  desktop: /moreton-bay/gateway-bridge-cycleway/hero-desktop.webp
+  mobile: /moreton-bay/gateway-bridge-cycleway/hero-mobile-1440.webp
 thumb:
-  image: /moreton-bay/gateway-bridge-cycleway/thumb
-  format: webp
+  source: /moreton-bay/gateway-bridge-cycleway/thumb-desktop.webp
 ---
 
 The Gateway Bridge (Sir Leo Hielscher Bridges) forms a significant part of the new [Moreton Bay Cycleway](/moreton-bay/).

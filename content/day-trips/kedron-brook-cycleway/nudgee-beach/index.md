@@ -13,15 +13,12 @@ tags:
   - separated
   - nature
 hero:
-  type: defaultImage
+  type: autoImage
   alt: A boardwalk next to a creek, snaking through the mangroves.
-  variations:
-    - '<source srcset="hero-desktop.webp" type="image/webp" media="(orientation: landscape)" width="3353" height="897" />'
-    - '<source srcset="hero-mobile-828.webp" type="image/webp" media="(max-width: 414px)" width=828 height=486 />'
-    - '<source srcset="hero-mobile-1440.webp" type="image/webp" media="(min-width: 415px)" width=828 height=486 />'
+  desktop: /day-trips/kedron-brook-cycleway/nudgee-beach/hero-desktop.webp
+  mobile: /day-trips/kedron-brook-cycleway/nudgee-beach/hero-mobile-1440.webp
 thumb:
-  image: /day-trips/kedron-brook-cycleway/nudgee-beach/thumb
-  format: webp
+  source: /day-trips/kedron-brook-cycleway/nudgee-beach/thumb-desktop.webp
 ---
 
 Nudgee Beach is a small costal town west of Brisbane, and is a popular cycle destination on weekends.

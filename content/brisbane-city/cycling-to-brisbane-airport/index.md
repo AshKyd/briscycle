@@ -13,8 +13,9 @@ tags:
   - brisbane
   - onroad
 hero:
-  type: defaultImage
-  image: /brisbane-city/cycling-to-brisbane-airport/brisbane-airport-hero
+  type: autoImage
+  desktop: /brisbane-city/cycling-to-brisbane-airport/brisbane-airport-hero-desktop.png
+  mobile: /brisbane-city/cycling-to-brisbane-airport/brisbane-airport-hero-mobile.jpg
   alt: Brisbane International Airport parking garage and service roads
   attribution:
     name: NellCR
@@ -22,7 +23,7 @@ hero:
     url: https://www.flickr.com/photos/nellcr/7687587582/
     license: https://creativecommons.org/licenses/by-sa/2.0/
 thumb:
-  image: /brisbane-city/cycling-to-brisbane-airport/brisbane-airport
+  source: /brisbane-city/cycling-to-brisbane-airport/brisbane-airport-desktop.png
   attribution:
     name: NellCR
     title: Brisbane Airport

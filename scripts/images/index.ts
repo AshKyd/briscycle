@@ -27,7 +27,7 @@ const MANIFEST = path.resolve(import.meta.dirname, '../../src/lib/generated/imag
 /** All generated files live here, and every one of them matches `*.min.*`. */
 const OUTPUT_DIR = path.join(STATIC_ROOT, 'i');
 
-const EXTENSIONS = { avif: 'avif', jpeg: 'jpg' } as const;
+const EXTENSIONS = { webp: 'webp', jpeg: 'jpg' } as const;
 
 /** Read width and height of an image file via native vipsheader. */
 async function getImageDimensions(filePath: string): Promise<{ width: number; height: number }> {
@@ -64,8 +64,8 @@ async function renderDerivative(
 	await mkdir(path.dirname(outputPath), { recursive: true });
 
 	const formatOptions =
-		spec.format === 'avif'
-			? `[Q=${spec.quality},compression=av1,effort=9,subsample_mode=on]`
+		spec.format === 'webp'
+			? `[Q=${spec.quality}]`
 			: `[Q=${spec.quality},optimize_coding=true,interlace=true]`;
 
 	await execFileAsync('vips', [

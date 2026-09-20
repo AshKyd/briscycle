@@ -14,13 +14,12 @@ tags:
   - nature
   - separated
 hero:
-  type: defaultImage
-  image: /moreton-bay/boondall-wetlands/hero
+  type: autoImage
   alt: Boondall wetlands at sunset - the sky is orange and the wetlands are calm serene. An old bike path snakes off into the distance.
-  format: webp
+  desktop: /moreton-bay/boondall-wetlands/hero-desktop.webp
+  mobile: /moreton-bay/boondall-wetlands/hero-mobile.webp
 thumb:
-  image: /moreton-bay/boondall-wetlands/thumb
-  format: webp
+  source: /moreton-bay/boondall-wetlands/thumb-desktop.webp
 ---
 
 The Moreton Bay Cycleway runs through the Boondall Wetlands between the Entertainment Centre and Nudgee Road.

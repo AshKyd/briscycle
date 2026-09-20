@@ -29,8 +29,8 @@ function resolveThumb(thumb: Thumb, directory: string): CardThumb {
 	return {
 		sources: [
 			{
-				srcset: srcset(derivativesOf(entry, 'avif')),
-				type: 'image/avif',
+				srcset: srcset(derivativesOf(entry, 'webp')),
+				type: 'image/webp',
 				sizes: THUMB_SIZES
 			}
 		],

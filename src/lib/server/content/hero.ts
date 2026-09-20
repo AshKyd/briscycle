@@ -50,13 +50,13 @@ export function resolveHero(hero: Hero, pageUrl: string, directory: string): Her
 	return {
 		sources: [
 			{
-				srcset: srcset(derivativesOf(desktop, 'avif')),
-				type: 'image/avif',
+				srcset: srcset(derivativesOf(desktop, 'webp')),
+				type: 'image/webp',
 				media: '(orientation: landscape)'
 			},
 			{
-				srcset: srcset(derivativesOf(mobile, 'avif')),
-				type: 'image/avif',
+				srcset: srcset(derivativesOf(mobile, 'webp')),
+				type: 'image/webp',
 				media: '(orientation: portrait)'
 			}
 		],

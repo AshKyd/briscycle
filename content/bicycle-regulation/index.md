@@ -4,8 +4,9 @@ title: Bicycle Regulation in Queensland
 shortTitle: The Law
 description: Do you know the rules of the road? Check out this resource for tips and links to the information you need to know.
 hero:
-  type: defaultImage
-  image: /bicycle-regulation/hero
+  type: autoImage
+  desktop: /bicycle-regulation/hero-desktop.jpg
+  mobile: /bicycle-regulation/hero-mobile.jpg
   alt: Police on bikes outside the Gardens Point botanical gardens
   attribution:
     name: Tony Hisgett

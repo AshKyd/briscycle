@@ -8,13 +8,12 @@ tags:
   - nature
   - uphill
 hero:
-  type: defaultImage
-  image: /day-trips/lake-samsonvale/hero
+  type: autoImage
   alt: By the edge of Lake Samsonvale there are lots of eucalyptus trees and picnic tables.
-  format: webp
+  desktop: /day-trips/lake-samsonvale/hero-desktop.webp
+  mobile: /day-trips/lake-samsonvale/hero-mobile.webp
 thumb:
-  image: /day-trips/lake-samsonvale/thumb
-  format: webp
+  source: /day-trips/lake-samsonvale/thumb-desktop.webp
 geojson:
   - type: FeatureCollection
     generator: JOSM

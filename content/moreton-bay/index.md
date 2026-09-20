@@ -2,7 +2,7 @@
 title: Moreton Bay Cycleway (MBRC)
 shortTitle: Moreton Bay
 description: The Moreton Bay Regional Cycleway is loose route connecting 150 kilometres of Brisbane coastline via cycle facilities.
-thumb: { "image": "/moreton-bay/thumb" }
+thumb: { "source": "/moreton-bay/thumb-desktop.jpg" }
 layout: page
 related: moreton-bay
 tags:
