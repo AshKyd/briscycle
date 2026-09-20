@@ -25,6 +25,7 @@ vite.config.ts.timestamp-*
 # Legacy Eleventy build output and dependencies
 /briscycle.legacy/dist
 /briscycle.legacy/node_modules
+dist
 
 # Machine-readable test and typecheck reports
 /.reports
