@@ -28,7 +28,7 @@ The Wamuran Rail Trail 10 km off-road bike trail leaving from Caboolture and fol
 
 The rail trail opened in 2020 and follows the route of the old rail line, a stones throw from Caboolture Station, through a number of historic sites and all the way up to Wamuran. As it follows the rail route, it's a fairly gentle grade and being 20km round trip is suitable for beginner cyclists.
 
-There is free parking at both ends, or you can [take your bike on the train](/bicycle-regulation/bikes-on-public-transport) to start the trip from Caboolture Station.
+There is free parking at both ends, or you can [take your bike on the train](/bicycle-regulation/bikes-on-public-transport/) to start the trip from Caboolture Station.
 
 {% youtube "https://www.youtube.com/watch?v=XMLOk_1Mmlg&list=PLNAiXhy9-wI6AizT1V26NVt7vpr1mtmq1&index=4", "Riding the Wamuran Rail Trail" %}
 

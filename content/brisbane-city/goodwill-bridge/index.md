@@ -53,9 +53,9 @@ Like the Kurilpa Bridge, the Goodwill Bridge includes several seating bays, whic
 
 The Goodwill Bridge is accessible from all sides and is a great way to get to and from the city. The bikeway follows the river on both sides so it's pretty difficult to miss it.
 
-The northern landing takes you to Gardens Point where you can continue on to the QUT Gardens Point campus, turn right through the Botanic Gardens and on to the [Riverwalk](/brisbane-city/riverwalk), or left onto the [Bicentennial Bikeway](/brisbane-city/bicentennial-bikeway) to Toowong.
+The northern landing takes you to Gardens Point where you can continue on to the QUT Gardens Point campus, turn right through the Botanic Gardens and on to the [Riverwalk](/brisbane-city/riverwalk/), or left onto the [Bicentennial Bikeway](/brisbane-city/bicentennial-bikeway/) to Toowong.
 
-The southern end lands at South Bank where you can stop at the pub, or continue left or right along the river. To get to the [Southeast Bikeway](/brisbane-city/southeast-freeway-bikeway) and southern suburbs, turn left and follow the water until you see the M1 Motorway overhead.
+The southern end lands at South Bank where you can stop at the pub, or continue left or right along the river. To get to the [Southeast Bikeway](/brisbane-city/southeast-freeway-bikeway/) and southern suburbs, turn left and follow the water until you see the M1 Motorway overhead.
 
 ### Interesting Things Nearby
 

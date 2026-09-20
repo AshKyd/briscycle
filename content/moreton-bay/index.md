@@ -2229,7 +2229,7 @@ The Moreton Bay Regional Cycleway (MBRC) is collection of cycle paths and routes
 
 The cycleway spans three council areas, and while there's been programs to unify the signage for the entire length, there's still a number of areas where the signs are old or missing. If you're going to make a day trip of it, check the map of cycleways in Brisbane to find a good route.
 
-The cycleway runs on and off from [Bribie Island](bribie-island) to [Redland Bay](redland-city) via the [Gateway Bridge bikeway](gateway-bridge-cycleway).
+The cycleway runs on and off from [Bribie Island](bribie-island/) to [Redland Bay](redland-city/) via the [Gateway Bridge bikeway](gateway-bridge-cycleway/).
 
 ## Moreton Bay Cycleway Route
 
@@ -2237,6 +2237,6 @@ Below is a suggested Moreton Bay Cycleway route.
 
 Not all sections are complete, some bits involve road or footpath connections, and most bits are “shared path” for both pedestrians and bikes.
 
-Some good sections include the picturesque [Redcliffe](redcliffe) peninsula, the remote [Boondall Wetlands](boondall-wetlands), or the waterfront around [Redland Bay](redland-city).
+Some good sections include the picturesque [Redcliffe](redcliffe/) peninsula, the remote [Boondall Wetlands](boondall-wetlands/), or the waterfront around [Redland Bay](redland-city/).
 
 For this reason, the cycleway is a leisurely ride, and you're unlikely to finish it in a day. We recommend picking a section close to home and making a day out of that. There are plenty of landmarks, little shops to grab lunch, and rail connections to get you back home.

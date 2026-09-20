@@ -76,7 +76,7 @@ At the far end of the bikeway you can continue on road or footpath to the easter
 
 {% image "./site/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete.jpg", "A tunnel and bikeway connection underneath the Story Bridge", "alignright", "The tunnel connects to the Kangaroo Point Green Bridge" "alignright" %}
 
-When the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge) is finished later in 2024, you will be able to ride straight from the CBD to Norman Park via a tunnel under the Story Bridge.
+When the [Kangaroo Point](/brisbane-city/kangaroo-point-bridge/) is finished later in 2024, you will be able to ride straight from the CBD to Norman Park via a tunnel under the Story Bridge.
 
 The bikeway was planned to be built in stages. It currently runs as far east as Canning Bridge at Norman Park before reverting to a narrow footpath. The next phase of the project isn't listed on the Brisbane Council website and isn't likely any time soon.
 

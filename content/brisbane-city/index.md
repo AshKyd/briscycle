@@ -16,9 +16,9 @@ Brisbane is a fantastic place to explore by bike. With plenty of bikeways, paths
 
 Most of the Brisbane River has flat bike paths from Toowong & West End all the way through to Portside Hamilton, as well as paths through the suburbs and CBD. There's a route for everyone, no matter what your cycling ability or preference.
 
-- The best tourist route would have to be along South Bank, the [Goodwill Bridge](goodwill-bridge), then along the City Reach Boardwalk to Howard Smith Wharves.
-- Don't have your own bike? Check out our guide to [bike & scooter hire](bike-hire-in-brisbane) in brisbane and pick yourself up a sweet e-bike.
-- Or if you're looking for a challenge, check out the Brisbane [River Loop](river-loop), with a long and short version depending on your skill level.
+- The best tourist route would have to be along South Bank, the [Goodwill Bridge](goodwill-bridge/), then along the City Reach Boardwalk to Howard Smith Wharves.
+- Don't have your own bike? Check out our guide to [bike & scooter hire](bike-hire-in-brisbane/) in brisbane and pick yourself up a sweet e-bike.
+- Or if you're looking for a challenge, check out the Brisbane [River Loop](river-loop/), with a long and short version depending on your skill level.
 - More about brisbane bike paths below…
 
 ## What's it like riding in Brisbane?

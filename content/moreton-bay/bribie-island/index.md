@@ -25,7 +25,7 @@ tags:
 
 Bribie Island is a large sand island about twenty kilometres east of Caboolture, and is connected to the mainland via a vehicle and pedestrian bridge.
 
-Bribie Island serves as the northern-most endpoint for the <a href="../moreton-bay-cycleway/">Moreton Bay Cycleway</a>, but very few bicycle facilities have yet been constructed between the island and Deception Bay so it's not advised to cycle this route unless you're a confident road cyclist.
+Bribie Island serves as the northern-most endpoint for the <a href="/moreton-bay/">Moreton Bay Cycleway</a>, but very few bicycle facilities have yet been constructed between the island and Deception Bay so it's not advised to cycle this route unless you're a confident road cyclist.
 
 {% ad %}
 

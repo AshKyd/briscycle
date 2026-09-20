@@ -40,7 +40,7 @@ The KP green bridge will connect Kangaroo Point with the CBD at the north end of
 
 When it's completed, you can get from the CBD, Eagle Street/Riverside precinct, and botanical gardens directly across to the Kangaroo Point Cliffs and Captain Burke Park.
 
-A new tunnel under the Story Bridge will also link up with the [East Brisbane bikeway](/brisbane-city/east-brisbane-bikeway) along Shafston Avenue/Lytton Road for communters in East Brisbane and beyond. It's going to be great.
+A new tunnel under the Story Bridge will also link up with the [East Brisbane bikeway](/brisbane-city/east-brisbane-bikeway/) along Shafston Avenue/Lytton Road for communters in East Brisbane and beyond. It's going to be great.
 
 The bridge will be shaded by solar panels along the entire length, and have integrated vegetation to help keep things cool in the hot subtropical climate. The bridge will have a restaurant over the water, and the public viewing platforms will be a great spot to pause and enjoy the river views or snap some photos.
 

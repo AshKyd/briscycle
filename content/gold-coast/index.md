@@ -824,7 +824,7 @@ The V1 bikeway links Brisbane and the Gold Coast, allowing you to cycle nearly t
 
 The project to deliver the V1 cycleway is ongoing, with some sections in the Logan City area reverting to plain roadway, however the project is ongoing with the final stage due to start construction in 2015, subject to funding.
 
-The V1 bikeway follows <a href="../southeast-freeway-bikeway/">adjacent the M3</a> and M1 motorways between Brisbane and the Gold Coast. Toward the Brisbane end of the route is primarily off-road cycleway, and much of the Gold Coast end consists of on-road cycle lanes.
+The V1 bikeway follows <a href="/brisbane-city/southeast-freeway-bikeway/">adjacent the M3</a> and M1 motorways between Brisbane and the Gold Coast. Toward the Brisbane end of the route is primarily off-road cycleway, and much of the Gold Coast end consists of on-road cycle lanes.
 
 The V1 cycleway ends in Helensvale, however a bikeway continues along Napper Road toward the coast. Other exits to get to the Gold Coast include the Gold Coast Highway and Hope Island Road.
 

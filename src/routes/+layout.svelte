@@ -26,6 +26,6 @@
 </script>
 
 <CrackdownBanner />
-<SiteHeader currentUrl={page.url.pathname} />
+<SiteHeader currentUrl={page.url.pathname} hasNavTarget={Boolean(page.data.page?.relatedCollection)} />
 
 {@render children()}

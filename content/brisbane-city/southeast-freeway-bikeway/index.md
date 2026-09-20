@@ -309,7 +309,7 @@ geojson:
 
 The Southeast Freeway bikeway runs parallel to the Southeast Freeway (M1) from South Brisbane to Eight Mile Plains.
 
-This bikeway is a busy commuter route servicing the southern suburbs, linking up with all the back-streets truncated by the motorway itself. It connects to the CBD via the <a href="../goodwill-bridge/">Goodwill Bridge</a>. It's also a part of the V1 veloway linking Brisbane to the <a href="../gold-coast/">Gold Coast</a>.
+This bikeway is a busy commuter route servicing the southern suburbs, linking up with all the back-streets truncated by the motorway itself. It connects to the CBD via the <a href="../goodwill-bridge/">Goodwill Bridge</a>. It's also a part of the V1 veloway linking Brisbane to the <a href="/gold-coast/">Gold Coast</a>.
 
 Being off-road, the bikeway is good for all experience levels so it's a great little weekend tour or an excellent commute to work. The climb outbound from the river at the city end is the steepest section along the route, but there is also a fair climb around Mount Gravatt.
 

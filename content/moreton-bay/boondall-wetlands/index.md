@@ -38,7 +38,7 @@ Some areas are subject to flooding after heavy rains. It's best to leave a day o
 The northern end of the Cycleway continues to Boondall Railway Station and the Brisbane Entertainment Centre.
 
 <h3>What to do at Boondall Wetlands</h3>
-There's car parking available at Boondall Wetlands from 6 AM to 7 PM, so it serves as a good starting point to a day trip (north or south) on the <a href="../moreton-bay-cycleway/">Moreton Bay Cycleway</a>.
+There's car parking available at Boondall Wetlands from 6 AM to 7 PM, so it serves as a good starting point to a day trip (north or south) on the <a href="/moreton-bay/">Moreton Bay Cycleway</a>.
 
 There's cycle parking facilities as well as a <a href="http://www.brisbane.qld.gov.au/BCC:BASE::pc=PC_2786">wildlife centre</a>, picnic area and a walking trail, although you may want to bring insect repellant if you're planning to stop, because the mosquitos can be a nuisance.
 

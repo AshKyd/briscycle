@@ -30,7 +30,7 @@ thumb:
     license: https://creativecommons.org/licenses/by/2.0/
 ---
 
-The <em>Kedron Brook</em> bikeway is a major cycleway that links a number of suburbs from Mitchelton to both Gympie and Sandgate Roads. The cycleway also connects to the <a href="../jim-soorley-bikeway/">Jim Soorley Bikeway</a>, and continues to the northern section of the <a href="../moreton-bay-cycleway/">Moreton Bay Cycleway</a>.
+The <em>Kedron Brook</em> bikeway is a major cycleway that links a number of suburbs from Mitchelton to both Gympie and Sandgate Roads. The cycleway also connects to the <a href="jim-soorley-bikeway/">Jim Soorley Bikeway</a>, and continues to the northern section of the <a href="/moreton-bay/">Moreton Bay Cycleway</a>.
 
 The cycleway runs along the nature corridor stemming from Kedron Brook.
 

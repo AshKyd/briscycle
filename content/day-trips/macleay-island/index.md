@@ -104,7 +104,7 @@ If you're coming from Brisbane, you can ride from Cleveland Train Station. The m
 
 {% ad %}
 
-Redland Bay Council recommends riding the [Moreton Bay Cycleway](/moreton-bay) from the train station, which runs a much longer and more scenic route along the coast. Either way, this much cycling you might want to make it a weekend trip.
+Redland Bay Council recommends riding the [Moreton Bay Cycleway](/moreton-bay/) from the train station, which runs a much longer and more scenic route along the coast. Either way, this much cycling you might want to make it a weekend trip.
 
 ## Check out the video
 

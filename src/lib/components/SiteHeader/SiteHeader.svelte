@@ -4,9 +4,14 @@
 	interface Props {
 		/** URL of the page being viewed, used to mark the matching menu item active. */
 		currentUrl: string;
+		/**
+		 * Whether this page renders the card grid the mobile menu button jumps to. The full-page
+		 * map has no grid, so the button would link to an anchor that does not exist.
+		 */
+		hasNavTarget?: boolean;
 	}
 
-	let { currentUrl }: Props = $props();
+	let { currentUrl, hasNavTarget = true }: Props = $props();
 
 	/** A section is active when the current page sits anywhere beneath it. */
 	const isActive = (url: string) => currentUrl.startsWith(url);
@@ -32,16 +37,18 @@
 					<a href={item.url} data-umami-event="header-menu">{item.shortName}</a>
 				</li>
 			{/each}
-			<li class="header__item header__item--mobile">
-				<a href="#nav" class="header__button btn" data-umami-event="header-mobile-nav">
-					<svg viewBox="0 0 100 80" width="40" height="40" class="header__icon">
-						<rect width="100" height="20"></rect>
-						<rect y="30" width="100" height="20"></rect>
-						<rect y="60" width="100" height="20"></rect>
-					</svg>
-					Menu
-				</a>
-			</li>
+			{#if hasNavTarget}
+				<li class="header__item header__item--mobile">
+					<a href="#nav" class="header__button btn" data-umami-event="header-mobile-nav">
+						<svg viewBox="0 0 100 80" width="40" height="40" class="header__icon">
+							<rect width="100" height="20"></rect>
+							<rect y="30" width="100" height="20"></rect>
+							<rect y="60" width="100" height="20"></rect>
+						</svg>
+						Menu
+					</a>
+				</li>
+			{/if}
 		</ol>
 	</div>
 </header>

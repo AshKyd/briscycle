@@ -81,7 +81,7 @@ There are usually helmets provided on the bikes, although occasionally it may be
 
 There will usually be another bike nearby with a helmet (or occasionally left in a tree or garden), so check around. You can also buy a cheap helmet for under $25 from department stores like Big W or Target if you'd prefer to use your own.
 
-Check out more [rules on riding bikes](/bicycle-regulation).
+Check out more [rules on riding bikes](/bicycle-regulation/).
 
 ## 🚲 What happened to CityCycle
 

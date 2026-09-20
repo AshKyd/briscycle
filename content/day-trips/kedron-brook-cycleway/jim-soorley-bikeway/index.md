@@ -20,7 +20,7 @@ tags:
   - nature
 ---
 
-The Jim Soorley Bikeway currently connects the <a href="../moreton-bay-cycleway/">Moreton Bay Cycleway</a> to the <a href="../kedron-brook-cycleway/">Kedron Brook Cycleway</a> through the wetlands between the <a href="../gateway-bridge-cycleway/">Gateway Motorway</a> and Brisbane Airport.
+The Jim Soorley Bikeway currently connects the <a href="/moreton-bay/">Moreton Bay Cycleway</a> to the <a href="../">Kedron Brook Cycleway</a> through the wetlands between the <a href="/moreton-bay/gateway-bridge-cycleway/">Gateway Motorway</a> and Brisbane Airport.
 
 This is one of Brisbane's more functional cycleways, and caters more for commuters due to it's minimal chicanery. It's not uncommon for the cycleway to get busy at peak hour, and in the afternoons it's a good route for joggers as well. The cycleway is quite wide, so even when it's heavily trafficked, you're not likely to experience any traffic jams.
 

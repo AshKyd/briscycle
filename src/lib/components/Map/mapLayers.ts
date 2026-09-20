@@ -1,11 +1,10 @@
 import type { Feature, FeatureCollection, LineString, Point, Position } from 'geojson';
 import type { LineLayerSpecification, Map as MapLibreMap } from 'maplibre-gl';
+import { ON_ROAD_COLOUR, ROUTE_CASING_COLOUR } from './colours.ts';
 
 /** Highway types treated as off-road riding, drawn in the route's primary colour. */
 const OFF_ROAD_TYPES = ['path', 'cycleway', 'track'];
 
-/** Colour used for on-road sections of a route. */
-export const ON_ROAD_COLOUR = '#666';
 
 const isType = <T extends Feature['geometry']['type']>(type: T) => (feature: Feature) =>
 	feature.geometry.type === type;
@@ -60,7 +59,7 @@ export function addRouteLayers(
 	const offRoad = lines.filter((feature) => !isOnRoad(feature));
 
 	const layers = [
-		{ id: `${prefix}-casing`, data: subset(lines), style: lineStyle('#fff', 10) },
+		{ id: `${prefix}-casing`, data: subset(lines), style: lineStyle(ROUTE_CASING_COLOUR, 10) },
 		{ id: `${prefix}-onroad`, data: subset(onRoad), style: lineStyle(ON_ROAD_COLOUR, 6) },
 		{ id: `${prefix}-offroad`, data: subset(offRoad), style: lineStyle(primaryColour, 6) }
 	];

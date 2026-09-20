@@ -12,7 +12,7 @@ Like most comunities, we have a code of conduct which you must adhere to
 
 <p>Staff, contributors & community members (participants) at {{site.title}} are required to agree with the following code of conduct.</p>
 <p>Staff enforce this code at all times. We expect cooperation from all participants to help ensure a safe environment for everybody.</p>
-<p><a href="/contact/" class="btn btn-primary" style="display:inline-block;margin:4em auto;padding:1em 2em;">Report an Issue</a></p>
+<p><a href="mailto:briscycle@kyd.com.au" class="btn btn-primary" style="display:inline-block;margin:4em auto;padding:1em 2em;">Report an Issue</a></p>
   
 <h2>The Quick Version</h2>
 <p>Here at {{site.title}}, we are dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof).</p>
@@ -24,12 +24,12 @@ Like most comunities, we have a code of conduct which you must adhere to
 <p>Participants asked to stop any harassing behaviour are expected to comply immediately.</p>
 <p>Advertisers are also subject to the anti-harassment policy. In particular, advertisers should not use sexualised images, activities, or other material.</p>
 <p>If a participant engages in harassing behaviour, staff may take any action they deem appropriate, including warning the offender or expulsion from the community with no refund.</p>
-<p>If you are subject to or witness unacceptable behavior, or have any other concerns, please <a href="/contact/">notify a {{site.title}} staff member</a> as soon as possible.</p>
-<p>If you can’t find a staff member, please <a href="/contact/">Report an Issue</a>.</p>
+<p>If you are subject to or witness unacceptable behavior, or have any other concerns, please <a href="mailto:briscycle@kyd.com.au">notify a {{site.title}} staff member</a> as soon as possible.</p>
+<p>If you can’t find a staff member, please <a href="mailto:briscycle@kyd.com.au">Report an Issue</a>.</p>
 <p>
   We expect all community participants (paid or otherwise) to abide by this Code 
   of Conduct in all community venues—online and in-person—as well as in all 
   one-on-one communications pertaining to {{site.title}} business.
 </p>
 
-<p class="aligncenter" style="margin:4em auto;"><a href="/contact/" class="button a--bespoke">Report an Issue</a></p>
+<p class="aligncenter" style="margin:4em auto;"><a href="mailto:briscycle@kyd.com.au" class="button a--bespoke">Report an Issue</a></p>

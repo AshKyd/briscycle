@@ -22,7 +22,7 @@ notes: Hero images have been edited pretty heavily with Luminar Neo to replace t
 
 The Norman Creek bikeway follows Norman Creek from Norman Park to Stones Corner and on to Tarragindi.
 
-It's one of the older, more circuitous bikeways and is more of a school route than a commuter route. But it's a good trail to explore the creeks and parks in the area, stop off at Stones Corner for a meal, or as a leisurely city loop via the [East Brisbane bikeway](/brisbane-city/east-brisbane-bikeway) and the [V1 veloway](/brisbane-city/southeast-freeway-bikeway/).
+It's one of the older, more circuitous bikeways and is more of a school route than a commuter route. But it's a good trail to explore the creeks and parks in the area, stop off at Stones Corner for a meal, or as a leisurely city loop via the [East Brisbane bikeway](/brisbane-city/east-brisbane-bikeway/) and the [V1 veloway](/brisbane-city/southeast-freeway-bikeway/).
 
 The route is popular with joggers and walkers, and is fairly narrow. It's best to go at a slow pace and make sure you have a working bell.
 

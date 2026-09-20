@@ -91,7 +91,7 @@ The precinct was redeveloped in 2018 and Brisbane City Council left the develope
 
 ## What happened to the old Riverwalk?
 
-The original walkway was based on a floating design, but during the 2011 floods it became partially submerged and at risk of breaking up. While the flooding was ongoing the riverwalk was planned to be demolished to prevent any damage to property such as the [gateway bridge](/moreton-bay/gateway-bridge-cycleway) downstream. But before this could happen it broke up of its own accord, and was [escorted safely down the Brisbane River by a tug boat](http://www.brisbanetimes.com.au/environment/weather/explosives-destroy-riverwalk-20110112-19nwp.html).
+The original walkway was based on a floating design, but during the 2011 floods it became partially submerged and at risk of breaking up. While the flooding was ongoing the riverwalk was planned to be demolished to prevent any damage to property such as the [gateway bridge](/moreton-bay/gateway-bridge-cycleway/) downstream. But before this could happen it broke up of its own accord, and was [escorted safely down the Brisbane River by a tug boat](http://www.brisbanetimes.com.au/environment/weather/explosives-destroy-riverwalk-20110112-19nwp.html).
 
 ## Rebuilding the Riverwalk
 

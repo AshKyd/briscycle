@@ -1,9 +1,6 @@
 import type { StyleSpecification, LayerSpecification } from 'maplibre-gl';
 import MAP_STYLE from './map-style.json' with { type: 'json' };
-
-const COLOUR_CYCLEWAY_LANE = '#88dd88';
-/** Roads where cycling is tolerated rather than provided for; also the legend swatch. */
-export const COLOUR_CYCLEWAY_OTHER = '#ddc688ff';
+import { COLOUR_CYCLEWAY_LANE, COLOUR_CYCLEWAY_OTHER } from './colours.ts';
 
 /** How far the cycle casing extends past a path, in style units. */
 const PATH_CASE = 0.25;

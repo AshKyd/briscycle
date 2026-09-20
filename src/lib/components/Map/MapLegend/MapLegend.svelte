@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { ON_ROAD_COLOUR } from '$lib/components/Map/mapLayers';
-	import { COLOUR_CYCLEWAY_OTHER } from '$lib/components/Map/style';
+	import { COLOUR_CYCLEWAY_OTHER, ON_ROAD_COLOUR } from '../colours.ts';
 
 	interface Props {
 		/** Colour the route's off-road sections are drawn in. */
