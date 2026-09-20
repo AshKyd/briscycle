@@ -1,0 +1,12 @@
+# Installed for the host platform. Copying these over the image's own would hand Alpine a set of
+# macOS sharp binaries, so the build must always install its own.
+node_modules
+
+# Build artefacts, regenerated inside the image.
+build
+.svelte-kit
+.reports
+
+.git
+.github
+*.md
