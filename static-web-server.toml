@@ -8,6 +8,33 @@ cache-control-headers = true
 # Serve 404.html directly with true 404 HTTP status for unknown routes
 page-404 = "/var/public/404.html"
 
+# --- Cache lifetimes ---
+# Explicit rules, since the built-in cache-control-headers use a short default max-age.
+
+# Hashed build output can never change under the same URL.
+[[advanced.headers]]
+source = "/_app/immutable/**"
+[advanced.headers.headers]
+Cache-Control = "public, max-age=31536000, immutable"
+
+# Images and fonts are unhashed, so allow revalidation after a day but serve stale
+# for a year while the new copy is fetched.
+[[advanced.headers]]
+source = "**/*.{webp,jpg,jpeg,png,svg,gif,ico,avif,woff,woff2}"
+[advanced.headers.headers]
+Cache-Control = "public, max-age=86400, stale-while-revalidate=31536000"
+
+# HTML and data are rebuilt on deploy, so always revalidate.
+[[advanced.headers]]
+source = "**/*.{html,json,webmanifest,xml,txt}"
+[advanced.headers.headers]
+Cache-Control = "public, max-age=0, must-revalidate"
+
+[[advanced.headers]]
+source = "**/"
+[advanced.headers.headers]
+Cache-Control = "public, max-age=0, must-revalidate"
+
 # Legacy URL redirects from briscycle.legacy
 [[advanced.redirects]]
 source = "^/gateway-bridge-cycleway/?$"

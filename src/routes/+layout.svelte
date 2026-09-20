@@ -33,4 +33,6 @@
 <CrackdownBanner />
 <SiteHeader currentUrl={page.url.pathname} hasNavTarget={Boolean(page.data.page?.relatedCollection)} />
 
-{@render children()}
+<main id="main">
+	{@render children()}
+</main>

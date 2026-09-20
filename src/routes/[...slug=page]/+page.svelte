@@ -34,7 +34,8 @@
 {#snippet articleBody()}
 	{#each page.htmlSegments as segment, index (index)}
 		{#if index > 0}
-			<Ad />
+			<!-- The first slot carries the AdSense loader for the whole page. -->
+			<Ad loadsScript={index === 1} />
 		{/if}
 		{@html segment}
 	{/each}
