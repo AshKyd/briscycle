@@ -1,0 +1,151 @@
+[general]
+host = "::"
+port = 8787
+root = "/var/public"
+log-level = "error"
+compression = true
+cache-control-headers = true
+# SvelteKit SPA fallback: unknown paths serve 200.html so client-side routing handles them
+page-fallback = "/var/public/200.html"
+
+# Legacy URL redirects from briscycle.legacy
+[[advanced.redirects]]
+source = "^/gateway-bridge-cycleway/?$"
+destination = "/moreton-bay/gateway-bridge-cycleway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/boondall-wetlands-cycleway/?$"
+destination = "/moreton-bay/boondall-wetlands/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/moreton-bay/boondal-wetlands/?$"
+destination = "/moreton-bay/boondall-wetlands/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/bike-hire-in-brisbane/?$"
+destination = "/brisbane-city/bike-hire-in-brisbane/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/bribie-island/?$"
+destination = "/moreton-bay/bribie-island/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/redcliffe-cycleway/?$"
+destination = "/moreton-bay/redcliffe/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/jim-soorley-bikeway/?$"
+destination = "/day-trips/kedron-brook-cycleway/jim-soorley-bikeway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/cycling-to-brisbane-airport/?$"
+destination = "/brisbane-city/cycling-to-brisbane-airport/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/redland-city/?$"
+destination = "/moreton-bay/redland-city/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/southeast-freeway-bikeway/?$"
+destination = "/brisbane-city/southeast-freeway-bikeway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/river-loop/?$"
+destination = "/brisbane-city/river-loop/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/western-freeway-bikeway/?$"
+destination = "/brisbane-city/western-freeway-bikeway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/kedron-brook-cycleway/?$"
+destination = "/day-trips/kedron-brook-cycleway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/queensland-bicycle-laws-guidelines/?$"
+destination = "/bicycle-regulation/bike-laws-and-guidelines/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/riverwalk/?$"
+destination = "/brisbane-city/riverwalk/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/bicycles-alcohol-in-queensland/?$"
+destination = "/bicycle-regulation/bikes-and-alcohol/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/moreton-bay-cycleway/?$"
+destination = "/moreton-bay/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/macleay-island/?$"
+destination = "/day-trips/macleay-island/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/hornibrook-bridge-cycleway/?$"
+destination = "/moreton-bay/gateway-bridge-cycleway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/bicentennial-bikeway/?$"
+destination = "/brisbane-city/bicentennial-bikeway/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/cycle-centres/?$"
+destination = "/brisbane-city/cycle-centres/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/nudgee-beach/?$"
+destination = "/day-trips/kedron-brook-cycleway/nudgee-beach/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/goodwill-bridge/?$"
+destination = "/brisbane-city/goodwill-bridge/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/lake-samsonvale/?$"
+destination = "/day-trips/lake-samsonvale/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/bikes-on-public-transport/?$"
+destination = "/bicycle-regulation/bikes-on-public-transport/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/kurilpa-bridge/?$"
+destination = "/brisbane-city/kurilpa-bridge/"
+kind = 301
+
+[[advanced.redirects]]
+source = "^/sandgate-shorncliffe-cycleway/?$"
+destination = "/moreton-bay/sandgate-shorncliffe/"
+kind = 301
+
+# Strip trailing .html from URLs
+[[advanced.redirects]]
+source = "^/(.+)\\.html$"
+destination = "/$1/"
+kind = 301

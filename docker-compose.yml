@@ -1,0 +1,21 @@
+services:
+  static:
+    container_name: briscycle.com
+    build: .
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.briscycle.rule=Host(`briscycle.com`)"
+      - "traefik.http.routers.briscycle.entrypoints=websecure"
+      - "traefik.http.routers.briscycle.tls.certresolver=le"
+      - "traefik.http.routers.briscycle.middlewares=briscycle_compress"
+      - "traefik.http.middlewares.briscycle_compress.compress=true"
+      - "traefik.http.middlewares.briscycle_compress.compress.encodings=gzip, zstd"
+      - "traefik.http.services.briscycle.loadbalancer.server.port=8787"
+      - "traefik.docker.network=traefik_default"
+    networks:
+      - traefik_default
+
+networks:
+  traefik_default:
+    external: true
