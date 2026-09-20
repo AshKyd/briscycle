@@ -1,9 +1,9 @@
 <script lang="ts">
+	import { footer } from '$lib/content/manifest';
 	import { site } from '$lib/site';
-	import { page } from '$app/state';
 
 	interface Props {
-		/** GitHub URL for the current page's markdown source. */
+		/** GitHub URL for the current page's source. */
 		editUrl?: string;
 		/** Page-specific addition to the acknowledgement of Country. */
 		country?: string;
@@ -11,22 +11,25 @@
 
 	let { editUrl, country }: Props = $props();
 
-	let siteData = $derived(page.data.siteData);
-	let buildYear = $derived(siteData?.buildYear ?? new Date().getFullYear());
-	let legalItems = $derived(siteData?.footer?.legal ?? []);
+	const legalItems = footer.legal;
 
-	let columns = $derived([
-		{ heading: 'The City', url: '/brisbane-city/', items: siteData?.footer?.brisbane ?? [] },
-		{ heading: 'Day Trips', url: '/day-trips/', items: siteData?.footer?.['day-trips'] ?? [] },
-		{ heading: 'Moreton Bay', url: '/moreton-bay/', items: siteData?.footer?.['moreton-bay'] ?? [] },
-		{ heading: 'The Law', url: '/bicycle-regulation/', items: siteData?.footer?.rules ?? [] }
-	]);
+	const columns = [
+		{ heading: 'The City', url: '/brisbane-city/', items: footer.brisbane },
+		{ heading: 'Day Trips', url: '/day-trips/', items: footer['day-trips'] },
+		{ heading: 'Moreton Bay', url: '/moreton-bay/', items: footer['moreton-bay'] },
+		{ heading: 'The Law', url: '/bicycle-regulation/', items: footer.rules }
+	];
 </script>
 
 <footer class="footer wide-container">
 	<div class="footer__logo">
 		<div class="footer-branding">
-			<img class="footer-branding__logo" src="/images/header-logo.webp" alt="" role="presentation" />
+			<img
+				class="footer-branding__logo"
+				src="/images/header-logo.webp"
+				alt=""
+				role="presentation"
+			/>
 			<h2 class="footer-branding__text">Briscycle</h2>
 		</div>
 	</div>
@@ -63,7 +66,7 @@
 		</ul>
 	</div>
 	<div class="footer__c">
-		Copyright &copy; {buildYear} <a href="https://ashk.au/">Ash Kyd</a>.
+		Copyright &copy; {__BUILD_YEAR__} <a href="https://ashk.au/">Ash Kyd</a>.
 	</div>
 	<div class="footer__d">
 		<ul class="inline-list footer__flexend">

@@ -1,46 +1,46 @@
 .inline-map {
-  width: 100%;
-  height: 80vh;
-  background: radial-gradient(ellipse at center, #c5e8ff 0, #a0c3ff 100%);
-  border-radius: 6px;
-  box-shadow: var(--card-shadow);
+	width: 100%;
+	height: 80vh;
+	background: radial-gradient(ellipse at center, #c5e8ff 0, #a0c3ff 100%);
+	border-radius: 6px;
+	box-shadow: var(--card-shadow);
 }
 
 .map-meta {
-  margin-bottom: 10px;
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  flex-wrap: wrap;
+	margin-bottom: 10px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .map-meta__legend-list {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .map-meta__legend-item {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 .map-meta__legend-line {
-  width: 16px;
-  height: 6px;
-  border-radius: 3px;
-  float: left;
-  margin: 7px 10px 0 0;
+	width: 16px;
+	height: 6px;
+	border-radius: 3px;
+	float: left;
+	margin: 7px 10px 0 0;
 }
 
 .map-meta__external {
-  flex: 1;
-  text-align: right;
+	flex: 1;
+	text-align: right;
 }
 
 .map__wrap {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .maplibregl-ctrl-attrib-inner {
-  color: black;
+	color: black;
 }

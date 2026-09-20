@@ -5,9 +5,10 @@ import { ON_ROAD_COLOUR, ROUTE_CASING_COLOUR } from './colours.ts';
 /** Highway types treated as off-road riding, drawn in the route's primary colour. */
 const OFF_ROAD_TYPES = ['path', 'cycleway', 'track'];
 
-
-const isType = <T extends Feature['geometry']['type']>(type: T) => (feature: Feature) =>
-	feature.geometry.type === type;
+const isType =
+	<T extends Feature['geometry']['type']>(type: T) =>
+	(feature: Feature) =>
+		feature.geometry.type === type;
 
 const subset = (features: Feature[]): FeatureCollection => ({
 	type: 'FeatureCollection',
@@ -20,7 +21,10 @@ const isOnRoad = (feature: Feature): boolean => {
 	return Boolean(highway) && !OFF_ROAD_TYPES.includes(highway as string);
 };
 
-const lineStyle = (colour: string, width: number): Omit<LineLayerSpecification, 'id' | 'source'> => ({
+const lineStyle = (
+	colour: string,
+	width: number
+): Omit<LineLayerSpecification, 'id' | 'source'> => ({
 	type: 'line',
 	layout: { 'line-join': 'round', 'line-cap': 'round' },
 	paint: { 'line-color': colour, 'line-width': width },

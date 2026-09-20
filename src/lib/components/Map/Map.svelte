@@ -72,9 +72,7 @@
 				zoom,
 				bigMap,
 				colour,
-				onMoveEnd: bigMap
-					? () => fireEvent('mapMove', { loc: location.hash.slice(1) })
-					: undefined
+				onMoveEnd: bigMap ? () => fireEvent('mapMove', { loc: location.hash.slice(1) }) : undefined
 			});
 
 			instance = map;

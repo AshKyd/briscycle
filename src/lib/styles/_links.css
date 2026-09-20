@@ -1,7 +1,8 @@
 a {
-  color: var(--body-link);
-  text-decoration: none;
+	color: var(--body-link);
+	text-decoration: none;
 }
-a:hover, a:focus {
-  text-decoration: underline;
+a:hover,
+a:focus {
+	text-decoration: underline;
 }

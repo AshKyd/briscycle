@@ -1,0 +1,47 @@
+<script lang="ts">
+	import ArticlePage from '$lib/components/ArticlePage/ArticlePage.svelte';
+	import { meta } from './meta.ts';
+	import heroDesktop from './hero-desktop.jpg?w=768;1080;1366;1920;2560;3840&format=webp;jpeg&enhanced';
+	import heroMobile from './hero-mobile.jpg?w=540;768;1080;1440&format=webp;jpeg&enhanced';
+</script>
+
+<ArticlePage
+	{meta}
+	hero={{
+		desktop: heroDesktop,
+		mobile: heroMobile,
+		alt: 'People riding past a grassy field along the Jim Soorley Bikeway and off into the distance past some trees.'
+	}}
+	map={{
+		googleMaps:
+			'https://www.google.com/maps/dir/-27.410679,153.0635941/-27.3712718,153.1006151/@-27.3887377,153.0644922,13.87z/data=!4m2!4m1!3e1',
+		geojsonUrl: '/day-trips/kedron-brook-cycleway/jim-soorley-bikeway/jim-soorley-bikeway.geo.json'
+	}}
+>
+	<p>
+		The Jim Soorley Bikeway currently connects the <a href="/moreton-bay/">Moreton Bay Cycleway</a>
+		to the <a href="../">Kedron Brook Cycleway</a> through the wetlands between the
+		<a href="/moreton-bay/gateway-bridge-cycleway/">Gateway Motorway</a> and Brisbane Airport.
+	</p>
+	<p>
+		This is one of Brisbane's more functional cycleways, and caters more for commuters due to it's
+		minimal chicanery. It's not uncommon for the cycleway to get busy at peak hour, and in the
+		afternoons it's a good route for joggers as well. The cycleway is quite wide, so even when it's
+		heavily trafficked, you're not likely to experience any traffic jams.
+	</p>
+	<p>
+		The cycleway runs directly from Toombul Shopping Centre to Nudgee Road (just past the overpass
+		over the Gateway Motorway. The only road connections are Melton Road and Hadley Avenue at the
+		Toombul end, although there's a track through the grass at Albert Bishop Park which will take
+		you to Nudgee Road. Be aware of this before you set out, because it's a long way between
+		connections.
+	</p>
+	<h3>Mind your wind forecast 💨</h3>
+	The Jim Soorley Bikeway runs close to the coast, and as such your trip may be heavily influenced by
+	the wind.
+	<p>
+		There's usually a breeze in <em>some</em> direction, although it's hard to tell whether this will
+		help or hinder before you get out there. Winds are often reasonably strong, and while a tailwind will
+		get you up to an easy 30 km/hour, a headwind will make it a miserable trip indeed.
+	</p>
+</ArticlePage>

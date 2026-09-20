@@ -65,7 +65,10 @@ const ROTATION_KEY = 'fallbackRotation';
  * The index lives in session storage so that a reader who scrolls past several ad slots, or
  * moves between pages, sees a different one each time rather than the same ad repeated.
  */
-export function nextHouseAd(read: (key: string, fallback: number) => number, write: (key: string, value: number) => void): HouseAd {
+export function nextHouseAd(
+	read: (key: string, fallback: number) => number,
+	write: (key: string, value: number) => void
+): HouseAd {
 	const index = Number(read(ROTATION_KEY, 0)) % HOUSE_ADS.length;
 	write(ROTATION_KEY, (index + 1) % HOUSE_ADS.length);
 	return HOUSE_ADS[index];

@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import { render } from '@testing-library/svelte';
 import Card from './Card.svelte';
+import type { PageMeta } from '$lib/types';
 
-const base = { url: '/brisbane-city/riverwalk/', title: 'The Riverwalk' };
+const base: PageMeta = { url: '/brisbane-city/riverwalk/', title: 'The Riverwalk', tags: [] };
 
 describe('Card', () => {
 	it('links to the page', () => {
@@ -15,16 +16,15 @@ describe('Card', () => {
 			card: {
 				...base,
 				thumb: {
-					sources: [{ srcset: '/i/a-480.min.webp 480w', type: 'image/webp' }],
-					src: '/i/a-480.min.jpg',
-					width: 480,
-					height: 270
+					img: { src: '/a/thumb.jpg', w: 480, h: 270 },
+					sources: { webp: '/a/thumb.webp 480w' }
 				}
 			}
 		});
+
 		expect(container.querySelector('source')?.getAttribute('type')).toBe('image/webp');
 		expect(container.querySelector('.card__thumbnail-image')?.getAttribute('src')).toBe(
-			'/i/a-480.min.jpg'
+			'/a/thumb.jpg'
 		);
 	});
 

@@ -1,25 +1,31 @@
 <script lang="ts">
-	import { page } from '$app/state';
+	import { byUrl, menu } from '$lib/content/manifest';
 
 	interface Props {
 		/** URL of the page being viewed, used to mark the matching menu item active. */
 		currentUrl: string;
-		/**
-		 * Whether this page renders the card grid the mobile menu button jumps to. The full-page
-		 * map has no grid, so the button would link to an anchor that does not exist.
-		 */
-		hasNavTarget?: boolean;
 	}
 
-	let { currentUrl, hasNavTarget = true }: Props = $props();
+	let { currentUrl }: Props = $props();
 
-	let menu = $derived(page.data.siteData?.menu ?? []);
+	/**
+	 * The mobile menu button jumps to the page's card grid, so it is only shown where one
+	 * exists — the full-page map has none, and the anchor would go nowhere.
+	 */
+	let hasNavTarget = $derived(Boolean(byUrl.get(currentUrl)?.related));
+
+	/**
+	 * The home page draws the header over its full-bleed hero. That used to be a `hero-menu`
+	 * class on `<body>`, routed from front matter through a server hook; the route itself is the
+	 * honest source, and it stays correct across client-side navigation.
+	 */
+	let transparent = $derived(currentUrl === '/');
 
 	/** A section is active when the current page sits anywhere beneath it. */
 	const isActive = (url: string) => currentUrl.startsWith(url);
 </script>
 
-<header class="header inverse-links">
+<header class={['header', 'inverse-links', transparent && 'header--transparent']}>
 	<div class="header__flex">
 		<h1 class="header__main">
 			<a href="/">

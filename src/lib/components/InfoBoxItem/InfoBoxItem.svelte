@@ -18,7 +18,13 @@
 
 <div class="infobox__item">
 	<div class="infobox__icon">
-		<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img" width="64" aria-hidden="true">
+		<svg
+			viewBox="0 0 100 100"
+			preserveAspectRatio="xMidYMid slice"
+			role="img"
+			width="64"
+			aria-hidden="true"
+		>
 			<circle fill={colour} cx="50" cy="50" r="50"></circle>
 			<image href={iconUrl} width="80" x="10" y="10" />
 		</svg>

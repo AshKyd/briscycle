@@ -5,15 +5,15 @@
  * Eleventy `_css/index.njk` bundle, where `index.css` came last and therefore won
  * specificity ties against every partial.
  */
-@import "./_articles.css";
-@import "./_buttons.css";
-@import "./_cardify.css";
-@import "./_cards.css";
-@import "./_footer.css";
-@import "./_header.css";
-@import "./_heros.css";
-@import "./_layout.css";
-@import "./_links.css";
-@import "./_table.css";
-@import "./_metro.css";
-@import "./index.css";
+@import './_articles.css';
+@import './_buttons.css';
+@import './_cardify.css';
+@import './_cards.css';
+@import './_footer.css';
+@import './_header.css';
+@import './_heros.css';
+@import './_layout.css';
+@import './_links.css';
+@import './_table.css';
+@import './_metro.css';
+@import './index.css';

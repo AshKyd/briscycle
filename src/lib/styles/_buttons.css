@@ -1,38 +1,39 @@
 .btn {
-  color: var(--button-fg);
-  background: var(--button-bg);
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-  padding: 5px 10px;
-  text-decoration: none !important;
-  font-size: 14px;
-  text-transform: uppercase;
-  display: inline-flex;
-  align-items: center;
-  text-align: center;
+	color: var(--button-fg);
+	background: var(--button-bg);
+	border: none;
+	cursor: pointer;
+	border-radius: 6px;
+	padding: 5px 10px;
+	text-decoration: none !important;
+	font-size: 14px;
+	text-transform: uppercase;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
 }
-.btn:hover:not(:active), .btn:focus:not(:active) {
-  box-shadow: 0 0 0 2px #1261a140;
-  color: var(--button-fg-hover);
-  background: var(--button-bg-hover);
+.btn:hover:not(:active),
+.btn:focus:not(:active) {
+	box-shadow: 0 0 0 2px #1261a140;
+	color: var(--button-fg-hover);
+	background: var(--button-bg-hover);
 }
 .btn:active {
-  color: var(--button-fg-active);
-  background: var(--button-bg-active);
+	color: var(--button-fg-active);
+	background: var(--button-bg-active);
 }
 
 .btn-secondary {
-  box-shadow: 0 0px 0 2px #00000020;
-  --button-bg: white;
-  --button-fg: #666;
+	box-shadow: 0 0px 0 2px #00000020;
+	--button-bg: white;
+	--button-fg: #666;
 }
 
 .btn__icon {
-  height: 24px;
-  max-width: 24px;
-  max-height: 24px;
-  fill: #fff;
-  margin-right: 5px;
-  display: inline-block;
+	height: 24px;
+	max-width: 24px;
+	max-height: 24px;
+	fill: #fff;
+	margin-right: 5px;
+	display: inline-block;
 }

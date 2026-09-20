@@ -1,12 +1,15 @@
 <script lang="ts">
 	import Attribution from '$lib/components/Attribution/Attribution.svelte';
-	import type { CardSummary } from '$lib/types';
+	import type { PageMeta } from '$lib/types';
 
 	interface Props {
-		card: CardSummary;
+		card: PageMeta;
 	}
 
 	let { card }: Props = $props();
+
+	/** Matches the card grid's breakpoints: four across on desktop, one across on a phone. */
+	const SIZES = '(width <= 480px) 100vw,(width <= 768px) 50vw,(width <= 1366px) 33vw, 25vw';
 </script>
 
 <li class="card">
@@ -16,26 +19,15 @@
 				<img class="card__icon" src={card.icon} alt="" role="presentation" />
 			{/if}
 			{#if card.thumb}
-				<picture>
-					{#each card.thumb.sources as source, index (index)}
-						<source
-							srcset={source.srcset}
-							type={source.type}
-							media={source.media}
-							sizes={source.sizes}
-						/>
-					{/each}
-					<img
-						class="card__thumbnail-image"
-						src={card.thumb.src}
-						alt=""
-						width={card.thumb.width}
-						height={card.thumb.height}
-						role="presentation"
-						loading="lazy"
-						decoding="async"
-					/>
-				</picture>
+				<enhanced:img
+					class="card__thumbnail-image"
+					src={card.thumb}
+					alt=""
+					sizes={SIZES}
+					role="presentation"
+					loading="lazy"
+					decoding="async"
+				/>
 			{/if}
 		</div>
 		<div class="card__content">
@@ -43,7 +35,7 @@
 			<p>{card.description ?? ''}</p>
 		</div>
 	</a>
-	{#if card.attribution}
-		<Attribution attribution={card.attribution} />
+	{#if card.thumbAttribution}
+		<Attribution attribution={card.thumbAttribution} />
 	{/if}
 </li>

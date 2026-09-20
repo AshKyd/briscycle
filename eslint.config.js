@@ -34,8 +34,16 @@ export default defineConfig(
 		}
 	},
 	{
-		// Override or add rule settings here, such as:
-		// 'svelte/button-has-type': 'error'
-		rules: {}
+		/*
+			Page prose is now real markup rather than an `{@html}` blob, so the linter finally sees
+			the several hundred editorial links inside it. They are plain, static, root-relative
+			hrefs on a prerendered site with no `base` path, and a link test asserts that each one
+			resolves to a real page and carries its trailing slash. Wrapping them in `resolve()`
+			would buy nothing and would defeat that test, which rejects computed hrefs precisely so
+			a broken link cannot hide behind an expression. The rule still applies everywhere else,
+			including every `goto()`.
+		*/
+		files: ['src/routes/**/+page.svelte'],
+		rules: { 'svelte/no-navigation-without-resolve': 'off' }
 	}
 );

@@ -1,29 +1,29 @@
 body,
 html {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 .container {
-  width: 92vw;
-  max-width: 1024px;
-  margin: 0 auto;
+	width: 92vw;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 .wide-container {
-  max-width: 92vw;
-  margin: 0 auto;
-  position: relative;
+	max-width: 92vw;
+	margin: 0 auto;
+	position: relative;
 }
 
 .article-header {
-  padding-top: 1em;
-  font-size: 2em;
-  margin-bottom: 2rem;
-  text-wrap: balance;
+	padding-top: 1em;
+	font-size: 2em;
+	margin-bottom: 2rem;
+	text-wrap: balance;
 }
 .article-header--long {
-  font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .article__ad {
-  margin: 2em 0;
+	margin: 2em 0;
 }

@@ -6,6 +6,6 @@ export const site = {
 		'Briscycle is your number one destination for bike paths, maps, and cycling in Brisbane and surrounding areas.',
 	author: { name: 'Ash Kyd', email: 'ash@kyd.com.au' },
 	supportEmail: 'briscycle@kyd.com.au',
-	/** Base for the "Edit this page on Github" footer link. */
-	editBase: 'https://github.com/AshKyd/briscycle/tree/master/content'
+	/** Base for the "Edit this page on Github" footer link. A page's URL maps straight onto its route directory. */
+	editBase: 'https://github.com/AshKyd/briscycle/tree/master/src/routes'
 } as const;

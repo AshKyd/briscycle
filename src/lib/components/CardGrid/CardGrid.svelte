@@ -1,15 +1,16 @@
 <script lang="ts">
 	import Card from '$lib/components/Card/Card.svelte';
-	import { page } from '$app/state';
+	import { collections } from '$lib/content/manifest';
 
 	interface Props {
-		/** Name of the collection to show, from front matter `related`. */
+		/** Name of the collection to show, from the page's `related`. */
 		collection: string;
 	}
 
 	let { collection }: Props = $props();
 
-	let cards = $derived(page.data.siteData?.cards?.[collection] ?? []);
+	// Compile-time constant, so this is one shared chunk rather than a payload on every page.
+	let cards = $derived(collections[collection] ?? []);
 </script>
 
 {#if cards.length > 0}
