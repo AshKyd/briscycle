@@ -4,6 +4,7 @@
 	import SiteHeader from '$lib/components/SiteHeader/SiteHeader.svelte';
 	import { enhanceContent } from '$lib/client/enhance';
 	import { page } from '$app/state';
+	import { VERSION } from '@sveltejs/kit';
 
 	let { children } = $props();
 
@@ -24,6 +25,10 @@
 		return enhanceContent(document);
 	});
 </script>
+
+<svelte:head>
+	<meta name="generator" content="SvelteKit {VERSION}" />
+</svelte:head>
 
 <CrackdownBanner />
 <SiteHeader currentUrl={page.url.pathname} hasNavTarget={Boolean(page.data.page?.relatedCollection)} />

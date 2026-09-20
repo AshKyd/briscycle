@@ -5,7 +5,6 @@ import type {
 	Geo,
 	Hero,
 	Layout,
-	SourceDescriptor,
 	Thumb
 } from '../../types.ts';
 
@@ -34,36 +33,6 @@ function parseAttribution(value: unknown): Attribution | undefined {
 	return { name, title, url, license };
 }
 
-/**
- * Parse a hand-written `<source>` string from front matter `hero.variations` into a
- * structured descriptor. The legacy markup is inconsistent — some attributes are quoted,
- * some bare, and one file is missing an opening quote — so attribute matching accepts
- * quoted and bare values alike rather than assuming well-formed HTML.
- */
-export function parseSourceVariation(html: string): SourceDescriptor {
-	const attribute = (name: string): string | undefined =>
-		html.match(new RegExp(`${name}=["']?([^"'\\s>]+)`, 'i'))?.[1];
-
-	const media = html.match(/media="([^"]+)"/i)?.[1];
-	const srcset = attribute('srcset');
-	if (!srcset) throw new Error(`hero.variations entry has no srcset: ${html}`);
-
-	return {
-		srcset,
-		type: attribute('type'),
-		media,
-		width: asNumber(attribute('width')),
-		height: asNumber(attribute('height'))
-	};
-}
-
-/**
- * Normalise the six hero shapes found in the legacy content.
- *
- * Deliberately keyed off which fields are present rather than the declared `type`: one file
- * has no `type` at all and another has the string `"defaultImage,"` (a stray comma), so the
- * declared type cannot be trusted.
- */
 function parseHero(value: unknown, file: string): Hero | undefined {
 	const raw = asObject(value);
 	if (!raw) return undefined;
@@ -71,20 +40,8 @@ function parseHero(value: unknown, file: string): Hero | undefined {
 	const alt = asString(raw.alt) ?? '';
 	const attribution = parseAttribution(raw.attribution);
 
-	if (Array.isArray(raw.variations)) {
-		const sources = raw.variations
-			.filter((entry): entry is string => typeof entry === 'string')
-			.map(parseSourceVariation);
-		return { type: 'variations', alt, sources, attribution };
-	}
-
 	const [desktop, mobile] = [raw.desktop, raw.mobile].map(asString);
 	if (desktop && mobile) return { type: 'autoImage', alt, desktop, mobile, attribution };
-
-	const image = asString(raw.image);
-	if (image) {
-		return { type: 'defaultImage', image, alt, format: asString(raw.format) ?? 'jpg', attribution };
-	}
 
 	throw new Error(`Unrecognised hero shape in ${file}`);
 }
@@ -96,9 +53,6 @@ function parseThumb(value: unknown, file: string): Thumb | undefined {
 	const attribution = parseAttribution(raw.attribution);
 	const source = asString(raw.source);
 	if (source) return { type: 'generated', source, attribution };
-
-	const image = asString(raw.image);
-	if (image) return { type: 'paired', image, format: asString(raw.format) ?? 'jpg', attribution };
 
 	throw new Error(`Unrecognised thumb shape in ${file}`);
 }

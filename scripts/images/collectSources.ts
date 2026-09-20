@@ -16,10 +16,6 @@ const add = (sources: SourceRoles, path: string, role: Role) => {
 /**
  * Find every image that needs derivatives, by reading the content rather than a hand-kept
  * list — so adding a photo to a page is all it takes for `npm run images` to pick it up.
- *
- * Only the two generated pipelines are collected: `hero.desktop`/`hero.mobile`, `thumb.source`
- * and inline `{% image %}` calls. Heroes and thumbnails of the older `image` shape point at
- * pre-existing committed assets and are served as-is.
  */
 export async function collectSources(): Promise<SourceRoles> {
 	const pages = await loadContent();

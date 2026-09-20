@@ -12,7 +12,7 @@ hero:
   type: autoImage
   alt: The bikeway runs alongside Lytton road. There's lots of plants and greenery, and a pedestrian crossing coming up ahead.
   desktop: /brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-3840-hq.avif
-  mobile: /brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale.jpg
+  mobile: /brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale.jpg
 thumb:
   source: /brisbane-city/east-brisbane-bikeway/lytton-road-thumb-desktop.png
 geojson:

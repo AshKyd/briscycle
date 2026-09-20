@@ -36,7 +36,7 @@ Use my signup code to get free credit on hire bikes:
   <div class="card__link" >
     <div class="card__content" style="display:flex;">
       <div style="margin-right:10px;">
-        <img src="lime.webp" role="presentation" width=32 height=32 />
+        <img src="/brisbane-city/bike-hire-in-brisbane/lime.webp" role="presentation" width=32 height=32 />
       </div>
       <div>
         <h3>Lime signup code</h3>

@@ -674,47 +674,6 @@
 			}
 		]
 	},
-	"brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale.jpg": {
-		"mtimeMs": 1706610680140.0635,
-		"size": 69594731,
-		"optionsHash": "478a94967997",
-		"intrinsic": {
-			"width": 16320,
-			"height": 12288
-		},
-		"derivatives": [
-			{
-				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale-1700.min.webp",
-				"width": 1700,
-				"height": 1280,
-				"format": "webp"
-			},
-			{
-				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale-1366.min.webp",
-				"width": 1366,
-				"height": 1029,
-				"format": "webp"
-			},
-			{
-				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale-1080.min.webp",
-				"width": 1080,
-				"height": 813,
-				"format": "webp"
-			},
-			{
-				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale-750.min.webp",
-				"width": 750,
-				"height": 565,
-				"format": "webp"
-			},
-			{
-				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway_upscale 2_upscale-750.min.jpg",
-				"width": 750,
-				"height": 565,
-				"format": "jpeg"
-			}
-		]
-	},
 	"brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-3840-hq.avif": {
 		"mtimeMs": 1706611547617.8418,
 		"size": 656701,
@@ -764,6 +723,47 @@
 				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-3840-hq-750.min.jpg",
 				"width": 750,
 				"height": 239,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale.jpg": {
+		"mtimeMs": 1706610680140.0635,
+		"size": 69594731,
+		"optionsHash": "478a94967997",
+		"intrinsic": {
+			"width": 16320,
+			"height": 12288
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale-1700.min.webp",
+				"width": 1700,
+				"height": 1280,
+				"format": "webp"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale-1366.min.webp",
+				"width": 1366,
+				"height": 1029,
+				"format": "webp"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale-1080.min.webp",
+				"width": 1080,
+				"height": 813,
+				"format": "webp"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale-750.min.webp",
+				"width": 750,
+				"height": 565,
+				"format": "webp"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/lytton-road-bikeway-upscale-750.min.jpg",
+				"width": 750,
+				"height": 565,
 				"format": "jpeg"
 			}
 		]

@@ -14,14 +14,6 @@ const THUMB_SIZES =
  * derivatives come from `npm run images`.
  */
 function resolveThumb(thumb: Thumb, directory: string): CardThumb {
-	if (thumb.type === 'paired') {
-		return {
-			sources: [
-				{ srcset: `${thumb.image}-mobile.${thumb.format}`, media: '(max-width: 1024px)' }
-			],
-			src: `${thumb.image}-desktop.${thumb.format}`
-		};
-	}
 
 	const entry = getImage(thumb.source, directory);
 	const fallback = largest(derivativesOf(entry, 'jpeg'));
