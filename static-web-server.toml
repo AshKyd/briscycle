@@ -5,8 +5,8 @@ root = "/var/public"
 log-level = "error"
 compression = true
 cache-control-headers = true
-# SvelteKit SPA fallback: unknown paths serve 200.html so client-side routing handles them
-page-fallback = "/var/public/200.html"
+# Serve 404.html directly with true 404 HTTP status for unknown routes
+page-404 = "/var/public/404.html"
 
 # Legacy URL redirects from briscycle.legacy
 [[advanced.redirects]]
