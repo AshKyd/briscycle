@@ -1,0 +1,2290 @@
+{
+	"brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop.png": {
+		"mtimeMs": 1678695921000,
+		"size": 4758192,
+		"optionsHash": "285f497e6ae1",
+		"intrinsic": {
+			"width": 3353,
+			"height": 897
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 803,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 514,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-1700.min.avif",
+				"width": 1700,
+				"height": 455,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 365,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 289,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-750.min.avif",
+				"width": 750,
+				"height": 201,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bicentennial-bikeway/bicentennial-bikeway-hero-desktop-750.min.jpg",
+				"width": 750,
+				"height": 201,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647.jpg": {
+		"mtimeMs": 1731152258000,
+		"size": 10675932,
+		"optionsHash": "9862f4a1295d",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044607647-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop.jpg": {
+		"mtimeMs": 1731151929000,
+		"size": 9313907,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 8160,
+			"height": 3311
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1558,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 1217,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 779,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 554,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 438,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-750.min.avif",
+				"width": 750,
+				"height": 304,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/bike-hire-in-brisbane/PXL_20241109_044636213-desktop-750.min.jpg",
+				"width": 750,
+				"height": 304,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/breakfast-creek-bridge/hero-desktop.png": {
+		"mtimeMs": 1714385339456.7437,
+		"size": 11595653,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 3990,
+			"height": 1702
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1638,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 819,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 583,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 461,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-750.min.avif",
+				"width": 750,
+				"height": 320,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-desktop-750.min.jpg",
+				"width": 750,
+				"height": 320,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/breakfast-creek-bridge/hero-mobile.png": {
+		"mtimeMs": 1714385427394.4587,
+		"size": 11206705,
+		"optionsHash": "9862f4a1295d",
+		"intrinsic": {
+			"width": 3354,
+			"height": 2101
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-1700.min.avif",
+				"width": 1700,
+				"height": 1065,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-1366.min.avif",
+				"width": 1366,
+				"height": 856,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-1320.min.avif",
+				"width": 1320,
+				"height": 827,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-1206.min.avif",
+				"width": 1206,
+				"height": 755,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-1080.min.avif",
+				"width": 1080,
+				"height": 677,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-1000.min.avif",
+				"width": 1000,
+				"height": 626,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-750.min.avif",
+				"width": 750,
+				"height": 470,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-600.min.avif",
+				"width": 600,
+				"height": 376,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-480.min.avif",
+				"width": 480,
+				"height": 301,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-750.min.jpg",
+				"width": 750,
+				"height": 470,
+				"format": "jpeg"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/hero-mobile-480.min.jpg",
+				"width": 480,
+				"height": 301,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/breakfast-creek-bridge/PXL_20240313_083045287.MP.jpg": {
+		"mtimeMs": 1714388798000,
+		"size": 1518170,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/PXL_20240313_083045287.MP-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/PXL_20240313_083045287.MP-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/PXL_20240313_083045287.MP-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/PXL_20240313_083045287.MP-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/breakfast-creek-bridge/PXL_20240313_083045287.MP-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete.jpg": {
+		"mtimeMs": 1719747256294.723,
+		"size": 2575169,
+		"optionsHash": "f104cea504a0",
+		"intrinsic": {
+			"width": 3918,
+			"height": 2940
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-3353.min.avif",
+				"width": 3353,
+				"height": 2516,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-1920.min.avif",
+				"width": 1920,
+				"height": 1441,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-1440.min.avif",
+				"width": 1440,
+				"height": 1081,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-1024.min.avif",
+				"width": 1024,
+				"height": 768,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-960.min.avif",
+				"width": 960,
+				"height": 720,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-800.min.avif",
+				"width": 800,
+				"height": 600,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/east-brisbane-bikeway/kp-story-bridge-tunnel-complete-960.min.jpg",
+				"width": 960,
+				"height": 720,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/goodwill-bridge/PXL_20241107_023648510.jpg": {
+		"mtimeMs": 1731397865938.4922,
+		"size": 4409678,
+		"optionsHash": "b2a87823c055",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023648510-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop.jpg": {
+		"mtimeMs": 1731398062941.7139,
+		"size": 4486640,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 7522,
+			"height": 2481
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1267,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 989,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 633,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 450,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 356,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-750.min.avif",
+				"width": 750,
+				"height": 247,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-desktop-750.min.jpg",
+				"width": 750,
+				"height": 247,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/goodwill-bridge/PXL_20241107_023728861.jpg": {
+		"mtimeMs": 1731398011035.2983,
+		"size": 7006563,
+		"optionsHash": "960b54042ea0",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/goodwill-bridge/PXL_20241107_023728861-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/kangaroo-point-bridge/hero-desktop.jpg": {
+		"mtimeMs": 1730976114000,
+		"size": 4315810,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 8160,
+			"height": 3312
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1559,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 1218,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 779,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 554,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 438,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-750.min.avif",
+				"width": 750,
+				"height": 304,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-desktop-750.min.jpg",
+				"width": 750,
+				"height": 304,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/kangaroo-point-bridge/hero-mobile.jpg": {
+		"mtimeMs": 1730976114000,
+		"size": 6800317,
+		"optionsHash": "960b54042ea0",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-mobile-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-mobile-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-mobile-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-mobile-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/hero-mobile-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396.jpg": {
+		"mtimeMs": 1694683629474.701,
+		"size": 1550904,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 2672,
+			"height": 2012
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20230907_003618396-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322.jpg": {
+		"mtimeMs": 1731019810000,
+		"size": 12146993,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_055421322-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920.jpg": {
+		"mtimeMs": 1731019810000,
+		"size": 5121806,
+		"optionsHash": "25fac9bffaba",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			},
+			{
+				"url": "/i/brisbane-city/kangaroo-point-bridge/PXL_20241107_061405920-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/norman-creek-bikeway/norman-park-bridge.jpeg": {
+		"mtimeMs": 1706681685735.5352,
+		"size": 16177304,
+		"optionsHash": "b2a87823c055",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/norman-park-bridge-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/norman-creek-bikeway/PXL_20220913_062948842_upscale.jpg": {
+		"mtimeMs": 1706705316509.6904,
+		"size": 1004973,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 3140,
+			"height": 2364
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20220913_062948842_upscale-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20220913_062948842_upscale-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20220913_062948842_upscale-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20220913_062948842_upscale-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop.png": {
+		"mtimeMs": 1731212151000,
+		"size": 10032762,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 4080,
+			"height": 1483
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1396,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 1090,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 698,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 497,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 393,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-750.min.avif",
+				"width": 750,
+				"height": 273,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-desktop-750.min.jpg",
+				"width": 750,
+				"height": 273,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-mobile.jpg": {
+		"mtimeMs": 1731211996000,
+		"size": 1406424,
+		"optionsHash": "960b54042ea0",
+		"intrinsic": {
+			"width": 2024,
+			"height": 1524
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-mobile-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-mobile-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-mobile-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-mobile-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/norman-creek-bikeway/PXL_20240624_040527927-mobile-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20231030_070541216.jpg": {
+		"mtimeMs": 1708253310044.2297,
+		"size": 3777199,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20231030_070541216-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20231030_070541216-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20231030_070541216-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20231030_070541216-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20231030_070541216-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_060727070.jpg": {
+		"mtimeMs": 1708248279074.4817,
+		"size": 4602240,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_060727070-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_060727070-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_060727070-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_060727070-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_060727070-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_060727070-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_063152824.jpg": {
+		"mtimeMs": 1708248154565.5862,
+		"size": 2965865,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_063152824-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_063152824-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_063152824-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_063152824-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_063152824-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_063152824-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_064556646.jpg": {
+		"mtimeMs": 1708248140198.7417,
+		"size": 2563318,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_064556646-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_064556646-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_064556646-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_064556646-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_064556646-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_064556646-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_065355415.jpg": {
+		"mtimeMs": 1708248130127.288,
+		"size": 4487902,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_065355415-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_065355415-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_065355415-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_065355415-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_065355415-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_065355415-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_071521980.jpg": {
+		"mtimeMs": 1708248115166.611,
+		"size": 3429133,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_071521980-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_071521980-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_071521980-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_071521980-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_071521980-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_071521980-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_072122051.jpg": {
+		"mtimeMs": 1708247808635.475,
+		"size": 3271957,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072122051-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072122051-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072122051-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072122051-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072122051-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072122051-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_072214747.jpg": {
+		"mtimeMs": 1708247770281.5083,
+		"size": 2939913,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072214747-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072214747-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072214747-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072214747-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072214747-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_072214747-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/river-loop/photos/PXL_20240217_073203296.jpg": {
+		"mtimeMs": 1708247722432.035,
+		"size": 4695120,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_073203296-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_073203296-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_073203296-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_073203296-1024.min.avif",
+				"width": 1024,
+				"height": 771,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_073203296-800.min.avif",
+				"width": 800,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/river-loop/photos/PXL_20240217_073203296-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER.jpg": {
+		"mtimeMs": 1730630989000,
+		"size": 12154748,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/riverwalk/PXL_20241103_062001277.RAW-01.COVER-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/southeast-freeway-bikeway/hero-desktop.png": {
+		"mtimeMs": 1678701042532.0425,
+		"size": 5849231,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 3342,
+			"height": 896
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/hero-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 804,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/hero-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 515,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/hero-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 366,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/hero-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 290,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/hero-desktop-750.min.avif",
+				"width": 750,
+				"height": 201,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/hero-desktop-750.min.jpg",
+				"width": 750,
+				"height": 201,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/southeast-freeway-bikeway/original.jpg": {
+		"mtimeMs": 1678695781419.8323,
+		"size": 2658985,
+		"optionsHash": "9862f4a1295d",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			},
+			{
+				"url": "/i/brisbane-city/southeast-freeway-bikeway/original-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop.jpg": {
+		"mtimeMs": 1730107771000,
+		"size": 3204178,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 3761,
+			"height": 1604
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 1279,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 819,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 583,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 461,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop-750.min.avif",
+				"width": 750,
+				"height": 320,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-desktop-750.min.jpg",
+				"width": 750,
+				"height": 320,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/western-freeway-bikeway/PXL_20241027_032957541.jpg": {
+		"mtimeMs": 1730107771000,
+		"size": 2974283,
+		"optionsHash": "9862f4a1295d",
+		"intrinsic": {
+			"width": 3761,
+			"height": 2832
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-480.min.avif",
+				"width": 480,
+				"height": 362,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_032957541-480.min.jpg",
+				"width": 480,
+				"height": 362,
+				"format": "jpeg"
+			}
+		]
+	},
+	"brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP.jpg": {
+		"mtimeMs": 1730106586000,
+		"size": 9376169,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/brisbane-city/western-freeway-bikeway/PXL_20241027_050540334.MP-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/macleay-island/macleay-island-drone-pano.jpg": {
+		"mtimeMs": 1731213303000,
+		"size": 943802,
+		"optionsHash": "b2a87823c055",
+		"intrinsic": {
+			"width": 2446,
+			"height": 1842
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/macleay-island-drone-pano-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/macleay-island/pats-park.jpg": {
+		"mtimeMs": 1682161170725.2795,
+		"size": 5232885,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/macleay-island/pats-park-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/pats-park-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/pats-park-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/pats-park-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/pats-park-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/macleay-island/PXL_20211113_031204967.MP-desktop.png": {
+		"mtimeMs": 1731212741000,
+		"size": 8317260,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 4080,
+			"height": 1672
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1574,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 1229,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 787,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 560,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 443,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-750.min.avif",
+				"width": 750,
+				"height": 307,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-desktop-750.min.jpg",
+				"width": 750,
+				"height": 307,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/macleay-island/PXL_20211113_031204967.MP.jpg": {
+		"mtimeMs": 1731212741000,
+		"size": 1831122,
+		"optionsHash": "960b54042ea0",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/macleay-island/PXL_20211113_031204967.MP-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/samford-rail-trail/heritage-museum-desktop.webp": {
+		"mtimeMs": 1681963792927.3525,
+		"size": 272030,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 1440,
+			"height": 960
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/samford-rail-trail/heritage-museum-desktop-1440.min.avif",
+				"width": 1440,
+				"height": 960,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/samford-rail-trail/heritage-museum-desktop-960.min.avif",
+				"width": 960,
+				"height": 640,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/samford-rail-trail/heritage-museum-desktop-960.min.jpg",
+				"width": 960,
+				"height": 640,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/samford-rail-trail/samford-link-desktop.webp": {
+		"mtimeMs": 1681963478849.8396,
+		"size": 187738,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 1440,
+			"height": 1080
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/samford-rail-trail/samford-link-desktop-1440.min.avif",
+				"width": 1440,
+				"height": 1080,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/samford-rail-trail/samford-link-desktop-960.min.avif",
+				"width": 960,
+				"height": 720,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/samford-rail-trail/samford-link-desktop-960.min.jpg",
+				"width": 960,
+				"height": 720,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area.webp": {
+		"mtimeMs": 1679561986410.182,
+		"size": 5082756,
+		"optionsHash": "af895518a94e",
+		"intrinsic": {
+			"width": 5496,
+			"height": 2748
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area-3353.min.avif",
+				"width": 3353,
+				"height": 1676,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area-1920.min.avif",
+				"width": 1920,
+				"height": 960,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area-1440.min.avif",
+				"width": 1440,
+				"height": 720,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area-1024.min.avif",
+				"width": 1024,
+				"height": 512,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area-800.min.avif",
+				"width": 800,
+				"height": 400,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/rail-trail-wamuran-picnic-area-960.min.jpg",
+				"width": 960,
+				"height": 480,
+				"format": "jpeg"
+			}
+		]
+	},
+	"day-trips/wamuran-rail-trail/wamuran-station-1967.jpg": {
+		"mtimeMs": 1679289440306.454,
+		"size": 2168990,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 3526,
+			"height": 2535
+		},
+		"derivatives": [
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/wamuran-station-1967-3353.min.avif",
+				"width": 3353,
+				"height": 2411,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/wamuran-station-1967-1920.min.avif",
+				"width": 1920,
+				"height": 1380,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/wamuran-station-1967-1440.min.avif",
+				"width": 1440,
+				"height": 1035,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/wamuran-station-1967-960.min.avif",
+				"width": 960,
+				"height": 690,
+				"format": "avif"
+			},
+			{
+				"url": "/i/day-trips/wamuran-rail-trail/wamuran-station-1967-960.min.jpg",
+				"width": 960,
+				"height": 690,
+				"format": "jpeg"
+			}
+		]
+	},
+	"moreton-bay/bribie-island/PXL_20250315_043824500-desktop.jpg": {
+		"mtimeMs": 1789887319139.883,
+		"size": 8057766,
+		"optionsHash": "25b0d52e8217",
+		"intrinsic": {
+			"width": 8160,
+			"height": 2560
+		},
+		"derivatives": [
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-3840.min.avif",
+				"width": 3840,
+				"height": 1205,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-3000.min.avif",
+				"width": 3000,
+				"height": 941,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-1920.min.avif",
+				"width": 1920,
+				"height": 602,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-1366.min.avif",
+				"width": 1366,
+				"height": 429,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-1080.min.avif",
+				"width": 1080,
+				"height": 339,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-750.min.avif",
+				"width": 750,
+				"height": 235,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-desktop-750.min.jpg",
+				"width": 750,
+				"height": 235,
+				"format": "jpeg"
+			}
+		]
+	},
+	"moreton-bay/bribie-island/PXL_20250315_043824500.jpg": {
+		"mtimeMs": 1789884662842.7568,
+		"size": 16542124,
+		"optionsHash": "9862f4a1295d",
+		"intrinsic": {
+			"width": 8160,
+			"height": 6144
+		},
+		"derivatives": [
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-1700.min.avif",
+				"width": 1700,
+				"height": 1280,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-1366.min.avif",
+				"width": 1366,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-1320.min.avif",
+				"width": 1320,
+				"height": 994,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-1206.min.avif",
+				"width": 1206,
+				"height": 908,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-1080.min.avif",
+				"width": 1080,
+				"height": 813,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-1000.min.avif",
+				"width": 1000,
+				"height": 753,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-750.min.avif",
+				"width": 750,
+				"height": 565,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-600.min.avif",
+				"width": 600,
+				"height": 452,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-480.min.avif",
+				"width": 480,
+				"height": 361,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-750.min.jpg",
+				"width": 750,
+				"height": 565,
+				"format": "jpeg"
+			},
+			{
+				"url": "/i/moreton-bay/bribie-island/PXL_20250315_043824500-480.min.jpg",
+				"width": 480,
+				"height": 361,
+				"format": "jpeg"
+			}
+		]
+	},
+	"moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943.jpg": {
+		"mtimeMs": 1683429776096.1309,
+		"size": 2281259,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 4080,
+			"height": 3072
+		},
+		"derivatives": [
+			{
+				"url": "/i/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943-3353.min.avif",
+				"width": 3353,
+				"height": 2525,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943-1920.min.avif",
+				"width": 1920,
+				"height": 1446,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943-1440.min.avif",
+				"width": 1440,
+				"height": 1084,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943-960.min.avif",
+				"width": 960,
+				"height": 723,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/gateway-bridge-cycleway/PXL_20230506_044442943-960.min.jpg",
+				"width": 960,
+				"height": 723,
+				"format": "jpeg"
+			}
+		]
+	},
+	"moreton-bay/redcliffe/gayundah.jpg": {
+		"mtimeMs": 1682160955000,
+		"size": 771169,
+		"optionsHash": "74d413082f0f",
+		"intrinsic": {
+			"width": 2199,
+			"height": 1572
+		},
+		"derivatives": [
+			{
+				"url": "/i/moreton-bay/redcliffe/gayundah-1920.min.avif",
+				"width": 1920,
+				"height": 1373,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/redcliffe/gayundah-1440.min.avif",
+				"width": 1440,
+				"height": 1029,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/redcliffe/gayundah-960.min.avif",
+				"width": 960,
+				"height": 686,
+				"format": "avif"
+			},
+			{
+				"url": "/i/moreton-bay/redcliffe/gayundah-960.min.jpg",
+				"width": 960,
+				"height": 686,
+				"format": "jpeg"
+			}
+		]
+	}
+}
