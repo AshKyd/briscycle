@@ -1,4 +1,4 @@
-import thumb from './kurilpa-desktop.jpg?w=480;600;768;1080&format=webp;jpeg&enhanced';
+import thumb from './PXL_20261003_021202631-mobile-thumb.jpg?w=480;600;768;1080&format=webp;jpeg&enhanced';
 import type { PageMeta } from '$lib/types';
 
 export const meta: PageMeta = {

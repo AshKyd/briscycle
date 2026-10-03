@@ -1,8 +1,8 @@
 <script lang="ts">
 	import ArticlePage from '$lib/components/ArticlePage/ArticlePage.svelte';
 	import { meta } from './meta.ts';
-	import heroDesktop from './hero-desktop.jpg?w=768;1080;1366;1920;2560;3840&format=webp;jpeg&enhanced';
-	import heroMobile from './hero-mobile.jpg?w=540;768;1080;1440&format=webp;jpeg&enhanced';
+	import heroDesktop from './PXL_20261003_0206578360-desktop.jpg?w=768;1080;1366;1920;2560;3840&format=webp;jpeg&enhanced';
+	import heroMobile from './PXL_20261003_021202631-mobile-thumb.jpg?w=540;768;1080;1440&format=webp;jpeg&enhanced';
 </script>
 
 <ArticlePage
